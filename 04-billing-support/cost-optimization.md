@@ -1,330 +1,330 @@
-# Cost Optimization Strategies
+# Estrategias de Optimización de Costos
 
-## 🎯 Learning Objectives
-By the end of this chapter, you will be able to:
-- Understand AWS cost optimization principles and best practices
-- Implement right-sizing strategies for AWS resources
-- Utilize AWS cost optimization tools and services
-- Apply Reserved Instances and Savings Plans effectively
-- Understand storage optimization techniques
-- Implement automated cost optimization strategies
-
----
-
-## 📖 Introduction
-
-Cost optimization is a continuous process of refinement and improvement over time. It's like maintaining a garden - you need to regularly prune, water, and care for it to keep it healthy and productive.
-
-### 🧠 Memory Aid: The CROPS Framework
-- **C**hoose the right instance types
-- **R**eserve capacity for predictable workloads
-- **O**ptimize storage classes
-- **P**lan for auto scaling
-- **S**chedule resources appropriately
+## 🎯 Objetivos de Aprendizaje
+Al final de este capítulo, podrás:
+- Entender los principios y mejores prácticas de optimización de costos de AWS
+- Implementar estrategias de dimensionamiento correcto para recursos de AWS
+- Utilizar herramientas y servicios de optimización de costos de AWS
+- Aplicar Instancias Reservadas y Planes de Ahorro efectivamente
+- Entender técnicas de optimización de almacenamiento
+- Implementar estrategias automatizadas de optimización de costos
 
 ---
 
-## 💡 Core Cost Optimization Principles
+## 📖 Introducción
 
-### 1. Right-Sizing
-**Analogy**: Like buying clothes that fit perfectly - not too big (wasting money) or too small (causing problems).
+La optimización de costos es un proceso continuo de refinamiento y mejora a lo largo del tiempo. Es como mantener un jardín - necesitas podar, regar y cuidarlo regularmente para mantenerlo saludable y productivo.
 
-#### Right-Sizing Strategies:
-- **Monitor resource utilization** regularly
-- **Start small and scale up** as needed
-- **Use performance monitoring** to identify oversized resources
-- **Consider burstable instances** for variable workloads
+### 🧠 Ayuda de Memoria: El Marco CROPS
+- **C**hoose (Elegir) los tipos de instancia correctos
+- **R**eserve (Reservar) capacidad para cargas de trabajo predecibles
+- **O**ptimize (Optimizar) clases de almacenamiento
+- **P**lan (Planificar) para auto escalado
+- **S**chedule (Programar) recursos apropiadamente
 
-#### Tools for Right-Sizing:
-- **AWS Compute Optimizer**: ML-powered recommendations
-- **CloudWatch metrics**: Monitor CPU, memory, network
-- **Cost Explorer**: Analyze usage patterns
-- **Trusted Advisor**: Identify underutilized resources
+---
 
-### 2. Storage Optimization
+## 💡 Principios Fundamentales de Optimización de Costos
 
-#### Storage Class Selection:
+### 1. Dimensionamiento Correcto
+**Analogía**: Como comprar ropa que te quede perfecta - ni muy grande (desperdiciando dinero) ni muy pequeña (causando problemas).
+
+#### Estrategias de Dimensionamiento Correcto:
+- **Monitorear la utilización de recursos** regularmente
+- **Comenzar pequeño y escalar hacia arriba** según sea necesario
+- **Usar monitoreo de rendimiento** para identificar recursos sobredimensionados
+- **Considerar instancias expandibles** para cargas de trabajo variables
+
+#### Herramientas para Dimensionamiento Correcto:
+- **AWS Compute Optimizer**: Recomendaciones impulsadas por ML
+- **Métricas de CloudWatch**: Monitorear CPU, memoria, red
+- **Cost Explorer**: Analizar patrones de uso
+- **Trusted Advisor**: Identificar recursos subutilizados
+
+### 2. Optimización de Almacenamiento
+
+#### Selección de Clase de Almacenamiento:
 ```
-Frequent Access → S3 Standard
-Infrequent Access → S3 Standard-IA
-Archive (rarely accessed) → S3 Glacier
-Long-term archive → S3 Glacier Deep Archive
+Acceso Frecuente → S3 Standard
+Acceso Infrecuente → S3 Standard-IA
+Archivo (raramente accedido) → S3 Glacier
+Archivo a largo plazo → S3 Glacier Deep Archive
 ```
 
-#### Storage Best Practices:
-- **Lifecycle policies**: Automatically transition data
-- **Intelligent Tiering**: Let AWS optimize for you
-- **Delete unused data**: Regular cleanup
-- **Compress data**: Reduce storage costs
+#### Mejores Prácticas de Almacenamiento:
+- **Políticas de ciclo de vida**: Transicionar datos automáticamente
+- **Intelligent Tiering**: Dejar que AWS optimice por ti
+- **Eliminar datos no utilizados**: Limpieza regular
+- **Comprimir datos**: Reducir costos de almacenamiento
 
-### 3. Reserved Capacity
+### 3. Capacidad Reservada
 
-#### Reserved Instance Types:
-- **Standard RIs**: Up to 75% savings, highest discount
-- **Convertible RIs**: Up to 54% savings, can change instance family
-- **Scheduled RIs**: For predictable recurring schedules
+#### Tipos de Instancias Reservadas:
+- **RIs Estándar**: Hasta 75% de ahorros, mayor descuento
+- **RIs Convertibles**: Hasta 54% de ahorros, pueden cambiar familia de instancia
+- **RIs Programadas**: Para horarios recurrentes predecibles
 
-#### Savings Plans:
-- **Compute Savings Plans**: Up to 66% savings, most flexible
-- **EC2 Instance Savings Plans**: Up to 72% savings, specific to EC2
+#### Planes de Ahorro:
+- **Planes de Ahorro de Cómputo**: Hasta 66% de ahorros, más flexible
+- **Planes de Ahorro de Instancias EC2**: Hasta 72% de ahorros, específico para EC2
 
 ---
 
-## 🛠️ AWS Cost Optimization Tools
+## 🛠️ Herramientas de Optimización de Costos de AWS
 
 ### 1. AWS Cost Explorer
-**Purpose**: Visualize, understand, and manage AWS costs
+**Propósito**: Visualizar, entender y gestionar costos de AWS
 
-**Key Features**:
-- **Cost and usage reports**
-- **Forecasting capabilities**
-- **Right-sizing recommendations**
-- **Reserved Instance recommendations**
+**Características Clave**:
+- **Reportes de costo y uso**
+- **Capacidades de pronóstico**
+- **Recomendaciones de dimensionamiento correcto**
+- **Recomendaciones de Instancias Reservadas**
 
 ### 2. AWS Budgets
-**Purpose**: Set custom cost and usage budgets
+**Propósito**: Establecer presupuestos personalizados de costo y uso
 
-**Budget Types**:
-- **Cost budgets**: Track spending
-- **Usage budgets**: Monitor service usage
-- **Savings Plans budgets**: Track commitment utilization
-- **Reservation budgets**: Monitor RI utilization
+**Tipos de Presupuesto**:
+- **Presupuestos de costo**: Rastrear gastos
+- **Presupuestos de uso**: Monitorear uso de servicios
+- **Presupuestos de Planes de Ahorro**: Rastrear utilización de compromisos
+- **Presupuestos de reservación**: Monitorear utilización de RI
 
 ### 3. AWS Cost and Usage Report (CUR)
-**Purpose**: Detailed billing data for analysis
+**Propósito**: Datos detallados de facturación para análisis
 
-**Benefits**:
-- **Granular data**: Hour-by-hour usage
-- **Resource-level details**: Specific resource costs
-- **Integration**: Works with BI tools
-- **Cost allocation tags**: Track costs by project/department
+**Beneficios**:
+- **Datos granulares**: Uso hora por hora
+- **Detalles a nivel de recurso**: Costos de recursos específicos
+- **Integración**: Funciona with herramientas de BI
+- **Etiquetas de asignación de costos**: Rastrear costos por proyecto/departamento
 
 ### 4. AWS Trusted Advisor
-**Purpose**: Real-time guidance for cost optimization
+**Propósito**: Guía en tiempo real para optimización de costos
 
-**Cost Optimization Checks**:
-- Low utilization EC2 instances
-- Idle load balancers
-- Underutilized EBS volumes
-- Unassociated Elastic IP addresses
+**Verificaciones de Optimización de Costos**:
+- Instancias EC2 de baja utilización
+- Balanceadores de carga inactivos
+- Volúmenes EBS subutilizados
+- Direcciones IP Elásticas no asociadas
 
 ---
 
-## 🏗️ Implementation Strategies
+## 🏗️ Estrategias de Implementación
 
 ### 1. Auto Scaling
-**Analogy**: Like a thermostat that automatically adjusts heating/cooling based on temperature.
+**Analogía**: Como un termostato que ajusta automáticamente la calefacción/refrigeración basado en la temperatura.
 
-#### Auto Scaling Benefits:
-- **Match capacity to demand**
-- **Reduce costs during low usage**
-- **Improve performance during peak times**
-- **Automate capacity management**
+#### Beneficios del Auto Scaling:
+- **Coincidir capacidad con demanda**
+- **Reducir costos durante bajo uso**
+- **Mejorar rendimiento durante picos**
+- **Automatizar gestión de capacidad**
 
-#### Auto Scaling Types:
-- **EC2 Auto Scaling**: Scale EC2 instances
-- **Application Auto Scaling**: Scale other AWS services
-- **Predictive Scaling**: Use ML to forecast demand
+#### Tipos de Auto Scaling:
+- **EC2 Auto Scaling**: Escalar instancias EC2
+- **Application Auto Scaling**: Escalar otros servicios AWS
+- **Predictive Scaling**: Usar ML para pronosticar demanda
 
-### 2. Scheduling Resources
-**Best Practices**:
-- **Stop non-production instances** during off-hours
-- **Use AWS Instance Scheduler** for automation
-- **Schedule based on business needs**
-- **Consider time zones** for global operations
+### 2. Programación de Recursos
+**Mejores Prácticas**:
+- **Detener instancias de no-producción** durante horas no laborales
+- **Usar AWS Instance Scheduler** para automatización
+- **Programar basado en necesidades del negocio**
+- **Considerar zonas horarias** para operaciones globales
 
-### 3. Spot Instances
-**Use Cases**:
-- **Batch processing jobs**
-- **CI/CD workloads**
-- **Big data analytics**
-- **Stateless web servers**
+### 3. Instancias Spot
+**Casos de Uso**:
+- **Trabajos de procesamiento por lotes**
+- **Cargas de trabajo CI/CD**
+- **Análisis de big data**
+- **Servidores web sin estado**
 
-**Best Practices**:
-- **Use for fault-tolerant workloads**
-- **Implement graceful shutdown handling**
-- **Diversify across multiple instance types**
-- **Use Spot Fleet for better availability**
-
----
-
-## 📋 Real-World Scenarios
-
-### Scenario 1: E-commerce Website Optimization
-**Challenge**: High costs during off-peak hours
-**Solution**:
-- Implement Auto Scaling for web servers
-- Use Reserved Instances for baseline capacity
-- Spot Instances for background processing
-- S3 Intelligent Tiering for product images
-
-**Result**: 40% cost reduction while maintaining performance
-
-### Scenario 2: Data Analytics Workload
-**Challenge**: Expensive storage for large datasets
-**Solution**:
-- Use S3 Glacier for archived data
-- Implement lifecycle policies
-- Use Spot Instances for processing
-- Optimize data formats (Parquet vs JSON)
-
-**Result**: 60% storage cost reduction
-
-### Scenario 3: Development Environment
-**Challenge**: 24/7 running dev/test environments
-**Solution**:
-- Schedule instances to run only during work hours
-- Use smaller instance types for development
-- Implement auto-shutdown policies
-- Share environments across teams
-
-**Result**: 70% cost reduction for non-production workloads
+**Mejores Prácticas**:
+- **Usar para cargas de trabajo tolerantes a fallos**
+- **Implementar manejo de apagado elegante**
+- **Diversificar entre múltiples tipos de instancia**
+- **Usar Spot Fleet para mejor disponibilidad**
 
 ---
 
-## 🎯 Decision Framework: Cost Optimization Strategy
+## 📋 Escenarios del Mundo Real
 
-### Step 1: Assess Current State
+### Escenario 1: Optimización de Sitio Web E-commerce
+**Desafío**: Altos costos durante horas de bajo tráfico
+**Solución**:
+- Implementar Auto Scaling para servidores web
+- Usar Instancias Reservadas para capacidad base
+- Instancias Spot para procesamiento en segundo plano
+- S3 Intelligent Tiering para imágenes de productos
+
+**Resultado**: 40% reducción de costos manteniendo rendimiento
+
+### Escenario 2: Carga de Trabajo de Análisis de Datos
+**Desafío**: Almacenamiento costoso para grandes conjuntos de datos
+**Solución**:
+- Usar S3 Glacier para datos archivados
+- Implementar políticas de ciclo de vida
+- Usar Instancias Spot para procesamiento
+- Optimizar formatos de datos (Parquet vs JSON)
+
+**Resultado**: 60% reducción de costos de almacenamiento
+
+### Escenario 3: Entorno de Desarrollo
+**Desafío**: Entornos dev/test ejecutándose 24/7
+**Solución**:
+- Programar instancias para ejecutarse solo durante horas laborales
+- Usar tipos de instancia más pequeños para desarrollo
+- Implementar políticas de apagado automático
+- Compartir entornos entre equipos
+
+**Resultado**: 70% reducción de costos para cargas de trabajo de no-producción
+
+---
+
+## 🎯 Marco de Decisión: Estrategia de Optimización de Costos
+
+### Paso 1: Evaluar Estado Actual
 ```
-Questions to Ask:
-□ What are your top cost drivers?
-□ Which resources have low utilization?
-□ What workloads are predictable vs variable?
-□ How critical is each workload?
+Preguntas a Hacer:
+□ ¿Cuáles son tus principales impulsores de costos?
+□ ¿Qué recursos tienen baja utilización?
+□ ¿Qué cargas de trabajo son predecibles vs variables?
+□ ¿Qué tan crítica es cada carga de trabajo?
 ```
 
-### Step 2: Prioritize Opportunities
+### Paso 2: Priorizar Oportunidades
 ```
-High Impact, Low Effort:
-- Right-size oversized instances
-- Implement auto-shutdown for dev/test
-- Delete unused resources
+Alto Impacto, Bajo Esfuerzo:
+- Dimensionar correctamente instancias sobredimensionadas
+- Implementar apagado automático para dev/test
+- Eliminar recursos no utilizados
 
-Medium Impact, Medium Effort:
-- Purchase Reserved Instances
-- Implement Auto Scaling
-- Optimize storage classes
+Impacto Medio, Esfuerzo Medio:
+- Comprar Instancias Reservadas
+- Implementar Auto Scaling
+- Optimizar clases de almacenamiento
 
-High Impact, High Effort:
-- Architect for Spot Instances
-- Implement comprehensive monitoring
-- Redesign applications for cost efficiency
+Alto Impacto, Alto Esfuerzo:
+- Arquitecturar para Instancias Spot
+- Implementar monitoreo comprehensivo
+- Rediseñar aplicaciones para eficiencia de costos
 ```
 
-### Step 3: Implement and Monitor
+### Paso 3: Implementar y Monitorear
 ```
-Implementation Checklist:
-□ Set up monitoring and alerting
-□ Implement cost allocation tags
-□ Create budgets and alerts
-□ Regular review and optimization
+Lista de Verificación de Implementación:
+□ Configurar monitoreo y alertas
+□ Implementar etiquetas de asignación de costos
+□ Crear presupuestos y alertas
+□ Revisión y optimización regular
 ```
 
 ---
 
-## 🧠 Memory Aids
+## 🧠 Ayudas de Memoria
 
-### Cost Optimization Mnemonics
+### Mnemónicos de Optimización de Costos
 
-**SMART Optimization**:
-- **S**cale appropriately
-- **M**onitor continuously
-- **A**utomate where possible
-- **R**eserve for predictable workloads
-- **T**ag for visibility
+**Optimización SMART**:
+- **S**cale (Escalar) apropiadamente
+- **M**onitor (Monitorear) continuamente
+- **A**utomate (Automatizar) donde sea posible
+- **R**eserve (Reservar) para cargas de trabajo predecibles
+- **T**ag (Etiquetar) para visibilidad
 
-**The 4 Rs of Cost Optimization**:
-- **R**ight-size resources
-- **R**eserve capacity
-- **R**educe waste
-- **R**eview regularly
+**Las 4 Rs de Optimización de Costos**:
+- **R**ight-size (Dimensionar correctamente) recursos
+- **R**eserve (Reservar) capacidad
+- **R**educe (Reducir) desperdicio
+- **R**eview (Revisar) regularmente
 
-### Quick Reference: When to Use What
+### Referencia Rápida: Cuándo Usar Qué
 
-| Workload Type | Best Strategy |
-|---------------|---------------|
-| Steady, predictable | Reserved Instances |
-| Variable demand | Auto Scaling |
-| Fault-tolerant batch | Spot Instances |
-| Development/Testing | Scheduled shutdown |
-| Archive data | S3 Glacier |
-| Frequently accessed | S3 Standard |
-
----
-
-## 🔍 Best Practices Checklist
-
-### ✅ Immediate Actions (Quick Wins)
-- [ ] Review Trusted Advisor recommendations
-- [ ] Delete unused EBS volumes and snapshots
-- [ ] Release unattached Elastic IP addresses
-- [ ] Stop idle EC2 instances
-- [ ] Remove unused load balancers
-
-### ✅ Short-term Actions (1-4 weeks)
-- [ ] Implement right-sizing recommendations
-- [ ] Set up cost budgets and alerts
-- [ ] Purchase Reserved Instances for steady workloads
-- [ ] Implement S3 lifecycle policies
-- [ ] Tag resources for cost allocation
-
-### ✅ Long-term Actions (1-6 months)
-- [ ] Implement comprehensive auto scaling
-- [ ] Architect applications for Spot Instances
-- [ ] Set up automated cost optimization workflows
-- [ ] Regular cost optimization reviews
-- [ ] Train team on cost-conscious development
+| Tipo de Carga de Trabajo | Mejor Estrategia |
+|--------------------------|------------------|
+| Estable, predecible | Instancias Reservadas |
+| Demanda variable | Auto Scaling |
+| Lotes tolerantes a fallos | Instancias Spot |
+| Desarrollo/Pruebas | Apagado programado |
+| Datos de archivo | S3 Glacier |
+| Acceso frecuente | S3 Standard |
 
 ---
 
-## 💰 Cost Optimization Tools Comparison
+## 🔍 Lista de Verificación de Mejores Prácticas
 
-| Tool | Purpose | Best For | Cost |
-|------|---------|----------|------|
-| Cost Explorer | Analysis & forecasting | Understanding spending patterns | Free |
-| AWS Budgets | Budget management | Setting spending limits | First 2 budgets free |
-| Trusted Advisor | Optimization recommendations | Quick wins | Basic/Business+ support |
-| Cost and Usage Report | Detailed billing data | Advanced analysis | Free |
-| AWS Compute Optimizer | Right-sizing recommendations | Instance optimization | Free |
+### ✅ Acciones Inmediatas (Victorias Rápidas)
+- [ ] Revisar recomendaciones de Trusted Advisor
+- [ ] Eliminar volúmenes EBS y snapshots no utilizados
+- [ ] Liberar direcciones IP Elásticas no adjuntas
+- [ ] Detener instancias EC2 inactivas
+- [ ] Remover balanceadores de carga no utilizados
+
+### ✅ Acciones a Corto Plazo (1-4 semanas)
+- [ ] Implementar recomendaciones de dimensionamiento correcto
+- [ ] Configurar presupuestos de costos y alertas
+- [ ] Comprar Instancias Reservadas para cargas de trabajo estables
+- [ ] Implementar políticas de ciclo de vida S3
+- [ ] Etiquetar recursos para asignación de costos
+
+### ✅ Acciones a Largo Plazo (1-6 meses)
+- [ ] Implementar auto scaling comprehensivo
+- [ ] Arquitecturar aplicaciones para Instancias Spot
+- [ ] Configurar flujos de trabajo automatizados de optimización de costos
+- [ ] Revisiones regulares de optimización de costos
+- [ ] Entrenar al equipo en desarrollo consciente de costos
 
 ---
 
-## 🎓 Practice Questions
+## 💰 Comparación de Herramientas de Optimización de Costos
 
-### Question 1
-**A company wants to reduce costs for their development environment that runs 24/7 but is only used during business hours (8 AM - 6 PM, Monday-Friday). What is the MOST cost-effective solution?**
+| Herramienta | Propósito | Mejor Para | Costo |
+|-------------|-----------|------------|-------|
+| Cost Explorer | Análisis y pronóstico | Entender patrones de gasto | Gratis |
+| AWS Budgets | Gestión de presupuestos | Establecer límites de gasto | Primeros 2 presupuestos gratis |
+| Trusted Advisor | Recomendaciones de optimización | Victorias rápidas | Soporte Basic/Business+ |
+| Cost and Usage Report | Datos detallados de facturación | Análisis avanzado | Gratis |
+| AWS Compute Optimizer | Recomendaciones de dimensionamiento correcto | Optimización de instancias | Gratis |
 
-A) Purchase Reserved Instances for the development environment
-B) Use Spot Instances for all development resources
-C) Schedule the instances to automatically stop outside business hours
-D) Migrate to smaller instance types
+---
+
+## 🎓 Preguntas de Práctica
+
+### Pregunta 1
+**Una empresa quiere reducir costos para su entorno de desarrollo que funciona 24/7 pero solo se usa durante horas de negocio (8 AM - 6 PM, Lunes-Viernes). ¿Cuál es la solución MÁS costo-efectiva?**
+
+A) Comprar Instancias Reservadas para el entorno de desarrollo
+B) Usar Instancias Spot para todos los recursos de desarrollo
+C) Programar las instancias para detenerse automáticamente fuera de horas de negocio
+D) Migrar a tipos de instancia más pequeños
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Clic para revelar respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: Scheduling instances to automatically stop outside business hours is the most cost-effective solution for development environments. Since the environment is only used during specific hours, stopping instances when not needed can reduce costs by up to 70%. Reserved Instances wouldn't be cost-effective for part-time usage, Spot Instances might be interrupted during work hours, and smaller instances might not provide adequate performance.
+**Explicación**: Programar instancias para detenerse automáticamente fuera de horas de negocio es la solución más costo-efectiva para entornos de desarrollo. Dado que el entorno solo se usa durante horas específicas, detener instancias cuando no se necesitan puede reducir costos hasta un 70%. Las Instancias Reservadas no serían costo-efectivas para uso de medio tiempo, las Instancias Spot podrían interrumpirse durante horas de trabajo, y instancias más pequeñas podrían no proporcionar rendimiento adecuado.
 </details>
 
-### Question 2
-**A company has a predictable workload that runs consistently for 1 year. They want to reduce their EC2 costs. What should they consider first?**
+### Pregunta 2
+**Una empresa tiene una carga de trabajo predecible que funciona consistentemente por 1 año. Quieren reducir sus costos de EC2. ¿Qué deberían considerar primero?**
 
-A) Spot Instances
-B) Reserved Instances
-C) Dedicated Hosts
-D) Smaller instance types
+A) Instancias Spot
+B) Instancias Reservadas
+C) Hosts Dedicados
+D) Tipos de instancia más pequeños
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Clic para revelar respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: For predictable workloads running consistently for a known period, Reserved Instances offer the best cost savings (up to 75% compared to On-Demand). Spot Instances are for fault-tolerant workloads that can handle interruptions, Dedicated Hosts are for compliance requirements, and smaller instances should only be considered after proper right-sizing analysis.
+**Explicación**: Para cargas de trabajo predecibles que funcionan consistentemente por un período conocido, las Instancias Reservadas ofrecen los mejores ahorros de costos (hasta 75% comparado con Bajo Demanda). Las Instancias Spot son para cargas de trabajo tolerantes a fallos que pueden manejar interrupciones, los Hosts Dedicados son para requisitos de cumplimiento, y instancias más pequeñas solo deberían considerarse después de un análisis apropiado de dimensionamiento correcto.
 </details>
 
-### Question 3
-**Which AWS service provides machine learning-powered recommendations for optimizing EC2 instance types and sizes?**
+### Pregunta 3
+**¿Qué servicio de AWS proporciona recomendaciones impulsadas por aprendizaje automático para optimizar tipos y tamaños de instancias EC2?**
 
 A) AWS Cost Explorer
 B) AWS Trusted Advisor
@@ -332,31 +332,31 @@ C) AWS Compute Optimizer
 D) AWS Budgets
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Clic para revelar respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: AWS Compute Optimizer uses machine learning to analyze historical utilization metrics and provide recommendations for optimal EC2 instance types and sizes. Cost Explorer provides cost analysis, Trusted Advisor gives general recommendations, and Budgets is for setting spending limits.
+**Explicación**: AWS Compute Optimizer usa aprendizaje automático para analizar métricas históricas de utilización y proporcionar recomendaciones para tipos y tamaños óptimos de instancias EC2. Cost Explorer proporciona análisis de costos, Trusted Advisor da recomendaciones generales, y Budgets es para establecer límites de gasto.
 </details>
 
-### Question 4
-**A company wants to automatically move infrequently accessed data to cheaper storage classes. Which S3 feature should they use?**
+### Pregunta 4
+**Una empresa quiere mover automáticamente datos accedidos infrecuentemente a clases de almacenamiento más baratas. ¿Qué característica de S3 deberían usar?**
 
 A) S3 Transfer Acceleration
 B) S3 Cross-Region Replication
-C) S3 Lifecycle policies
-D) S3 Event notifications
+C) Políticas de ciclo de vida S3
+D) Notificaciones de eventos S3
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Clic para revelar respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: S3 Lifecycle policies automatically transition objects between storage classes based on age or other criteria, helping reduce storage costs. Transfer Acceleration speeds up uploads, Cross-Region Replication copies data across regions, and Event notifications trigger actions based on S3 events.
+**Explicación**: Las políticas de ciclo de vida S3 transicionan automáticamente objetos entre clases de almacenamiento basado en edad u otros criterios, ayudando a reducir costos de almacenamiento. Transfer Acceleration acelera subidas, Cross-Region Replication copia datos entre regiones, y las notificaciones de eventos disparan acciones basadas en eventos S3.
 </details>
 
-### Question 5
-**What is the maximum discount available with Standard Reserved Instances compared to On-Demand pricing?**
+### Pregunta 5
+**¿Cuál es el descuento máximo disponible con Instancias Reservadas Estándar comparado con precios Bajo Demanda?**
 
 A) 50%
 B) 66%
@@ -364,36 +364,36 @@ C) 72%
 D) 75%
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Clic para revelar respuesta</summary>
 
-**Answer: D**
+**Respuesta: D**
 
-**Explanation**: Standard Reserved Instances can provide up to 75% savings compared to On-Demand pricing. This is the highest discount available among Reserved Instance types, with Convertible RIs offering up to 54% savings and Compute Savings Plans offering up to 66% savings.
+**Explicación**: Las Instancias Reservadas Estándar pueden proporcionar hasta 75% de ahorros comparado con precios Bajo Demanda. Este es el descuento más alto disponible entre tipos de Instancias Reservadas, con RIs Convertibles ofreciendo hasta 54% de ahorros y Planes de Ahorro de Cómputo ofreciendo hasta 66% de ahorros.
 </details>
 
 ---
 
-## 🎯 Key Takeaways
+## 🎯 Puntos Clave
 
-1. **Cost optimization is continuous** - Regular monitoring and adjustment are essential
-2. **Right-sizing is fundamental** - Start with properly sized resources
-3. **Use multiple strategies** - Combine Reserved Instances, Spot Instances, and Auto Scaling
-4. **Leverage AWS tools** - Cost Explorer, Trusted Advisor, and Compute Optimizer provide valuable insights
-5. **Automate where possible** - Use scheduling and auto scaling to reduce manual effort
-6. **Tag everything** - Proper tagging enables better cost allocation and tracking
-7. **Think workload-specific** - Different optimization strategies for different workload types
-8. **Storage optimization matters** - Use appropriate storage classes and lifecycle policies
+1. **La optimización de costos es continua** - El monitoreo y ajuste regular son esenciales
+2. **El dimensionamiento correcto es fundamental** - Comenzar con recursos apropiadamente dimensionados
+3. **Usar múltiples estrategias** - Combinar Instancias Reservadas, Instancias Spot y Auto Scaling
+4. **Aprovechar herramientas de AWS** - Cost Explorer, Trusted Advisor y Compute Optimizer proporcionan perspectivas valiosas
+5. **Automatizar donde sea posible** - Usar programación y auto scaling para reducir esfuerzo manual
+6. **Etiquetar todo** - El etiquetado apropiado habilita mejor asignación y seguimiento de costos
+7. **Pensar específico por carga de trabajo** - Diferentes estrategias de optimización para diferentes tipos de carga de trabajo
+8. **La optimización de almacenamiento importa** - Usar clases de almacenamiento apropiadas y políticas de ciclo de vida
 
-Remember: The goal isn't just to reduce costs, but to optimize the value you get from your AWS spending while maintaining performance and reliability requirements.
-
----
-
-## 📚 Next Steps
-- Review [AWS Support Plans](support-plans.md) to understand how AWS can help with optimization
-- Practice implementing cost optimization strategies in your AWS account
-- Set up monitoring and alerting for cost management
-- Consider AWS Training courses on cost optimization best practices
+Recuerda: El objetivo no es solo reducir costos, sino optimizar el valor que obtienes de tu gasto en AWS mientras mantienes requisitos de rendimiento y confiabilidad.
 
 ---
 
-*🏠 [Back to Domain 4 Overview](README.md) | ⬅️ [Previous: Cost Management](cost-management.md) | ➡️ [Next: Support Plans](support-plans.md)*
+## 📚 Próximos Pasos
+- Revisar [Planes de Soporte de AWS](support-plans.md) para entender cómo AWS puede ayudar con la optimización
+- Practicar implementando estrategias de optimización de costos en tu cuenta de AWS
+- Configurar monitoreo y alertas para gestión de costos
+- Considerar cursos de Entrenamiento de AWS sobre mejores prácticas de optimización de costos
+
+---
+
+*🏠 [Volver al Resumen del Dominio 4](README.md) | ⬅️ [Anterior: Gestión de Costos](cost-management.md) | ➡️ [Siguiente: Planes de Soporte](support-plans.md)*

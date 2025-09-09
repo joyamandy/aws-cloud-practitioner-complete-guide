@@ -40,524 +40,524 @@ Al final de este capítulo, podrás:
 
 ---
 
-## 💡 Cost Management Overview
+## 💡 Resumen de Gestión de Costos
 
-### 🌟 **Why Cost Management Matters**
+### 🌟 **Por Qué Importa la Gestión de Costos**
 
-#### **📈 The Cloud Cost Challenge**
-Unlike traditional IT infrastructure where costs are largely fixed, cloud costs are **variable and can grow quickly**:
+#### **📈 El Desafío de Costos en la Nube**
+A diferencia de la infraestructura de TI tradicional donde los costos son en gran medida fijos, los costos de la nube son **variables y pueden crecer rápidamente**:
 
-- **Elastic scaling** - Resources can grow rapidly with demand
-- **Service proliferation** - Easy to spin up new services
-- **Multiple teams** - Different groups using different services
-- **Global operations** - Resources across multiple regions
-- **Complex pricing** - Different models for different services
+- **Escalado elástico** - Los recursos pueden crecer rápidamente con la demanda
+- **Proliferación de servicios** - Fácil crear nuevos servicios
+- **Múltiples equipos** - Diferentes grupos usando diferentes servicios
+- **Operaciones globales** - Recursos en múltiples regiones
+- **Precios complejos** - Diferentes modelos para diferentes servicios
 
-#### **🎯 Cost Management Goals**
-- **Visibility** - Understand where money is being spent
-- **Control** - Prevent unexpected cost overruns
-- **Optimization** - Get more value from AWS spending
-- **Accountability** - Track costs by team, project, or environment
-- **Forecasting** - Predict future spending patterns
+#### **🎯 Objetivos de Gestión de Costos**
+- **Visibilidad** - Entender dónde se está gastando el dinero
+- **Control** - Prevenir sobrecostos inesperados
+- **Optimización** - Obtener más valor del gasto en AWS
+- **Responsabilidad** - Rastrear costos por equipo, proyecto o entorno
+- **Pronóstico** - Predecir patrones de gasto futuro
 
-### 🏗️ **AWS Cost Management Philosophy**
+### 🏗️ **Filosofía de Gestión de Costos de AWS**
 
-#### **📊 Layered Approach**
+#### **📊 Enfoque por Capas**
 ```
-Strategic Level:
-├── Business alignment and cost allocation
-├── Reserved Instance and Savings Plan strategy
-└── Architectural optimization decisions
+Nivel Estratégico:
+├── Alineación empresarial y asignación de costos
+├── Estrategia de Instancias Reservadas y Planes de Ahorro
+└── Decisiones de optimización arquitectónica
 
-Tactical Level:
-├── Budget management and alerts
-├── Cost monitoring and reporting
-└── Resource optimization
+Nivel Táctico:
+├── Gestión de presupuestos y alertas
+├── Monitoreo y reporte de costos
+└── Optimización de recursos
 
-Operational Level:
-├── Daily cost monitoring
-├── Anomaly detection and response
-└── Tag enforcement and cleanup
+Nivel Operacional:
+├── Monitoreo diario de costos
+├── Detección y respuesta a anomalías
+└── Aplicación y limpieza de etiquetas
 ```
 
-#### **🔄 Continuous Process**
-Cost management isn't a one-time activity - it's an **ongoing cycle**:
-1. **Monitor** - Track current spending
-2. **Analyze** - Understand spending patterns
-3. **Optimize** - Implement cost-saving measures
-4. **Govern** - Enforce policies and controls
-5. **Repeat** - Continuous improvement
+#### **🔄 Proceso Continuo**
+La gestión de costos no es una actividad única - es un **ciclo continuo**:
+1. **Monitorear** - Rastrear el gasto actual
+2. **Analizar** - Entender patrones de gasto
+3. **Optimizar** - Implementar medidas de ahorro de costos
+4. **Gobernar** - Aplicar políticas y controles
+5. **Repetir** - Mejora continua
 
 ---
 
-## 📊 AWS Billing Dashboard
+## 📊 Panel de Facturación de AWS
 
-### 🎯 **What is the Billing Dashboard?**
+### 🎯 **¿Qué es el Panel de Facturación?**
 
-Think of the Billing Dashboard as **mission control for your AWS finances**:
-- **Single pane of glass** - All cost information in one place
-- **Real-time data** - Current month spending updates
-- **Visual insights** - Charts and graphs for quick understanding
-- **Quick actions** - Access to other cost management tools
+Piensa en el Panel de Facturación como **el centro de control de tus finanzas de AWS**:
+- **Panel único** - Toda la información de costos en un lugar
+- **Datos en tiempo real** - Actualizaciones del gasto del mes actual
+- **Perspectivas visuales** - Gráficos y tablas para comprensión rápida
+- **Acciones rápidas** - Acceso a otras herramientas de gestión de costos
 
-### 📈 **Key Dashboard Components**
+### 📈 **Componentes Clave del Panel**
 
-#### **💰 Current Month Overview**
+#### **💰 Resumen del Mes Actual**
 ```
-Month-to-Date Spending:
-├── Total charges: $1,247.83
-├── Forecasted month-end: $1,890.45
-├── Last month total: $1,156.20
-└── Change from last month: +8.2%
+Gasto del Mes Hasta la Fecha:
+├── Cargos totales: $1,247.83
+├── Pronóstico fin de mes: $1,890.45
+├── Total mes pasado: $1,156.20
+└── Cambio del mes pasado: +8.2%
 
-Service Breakdown:
+Desglose por Servicio:
 ├── EC2-Instance: $623.45 (50%)
 ├── S3: $156.78 (12%)
 ├── RDS: $234.56 (19%)
-├── Data Transfer: $89.23 (7%)
-└── Other services: $143.81 (12%)
+├── Transferencia de Datos: $89.23 (7%)
+└── Otros servicios: $143.81 (12%)
 ```
 
-#### **📊 Cost and Usage Trends**
-- **Monthly spending graph** - Visualize spending over time
-- **Service usage patterns** - See which services drive costs
-- **Regional breakdown** - Costs by AWS region
-- **Account breakdown** - For organizations with multiple accounts
+#### **📊 Tendencias de Costo y Uso**
+- **Gráfico de gasto mensual** - Visualizar el gasto a lo largo del tiempo
+- **Patrones de uso de servicios** - Ver qué servicios impulsan los costos
+- **Desglose regional** - Costos por región de AWS
+- **Desglose por cuenta** - Para organizaciones con múltiples cuentas
 
-#### **🔔 Alerts and Notifications**
-- **Budget alerts** - When spending approaches limits
-- **Billing alerts** - Simple threshold-based notifications
-- **Free tier usage** - Track free tier consumption
-- **Cost anomaly alerts** - Unusual spending patterns
+#### **🔔 Alertas y Notificaciones**
+- **Alertas de presupuesto** - Cuando el gasto se acerca a los límites
+- **Alertas de facturación** - Notificaciones simples basadas en umbrales
+- **Uso de nivel gratuito** - Rastrear el consumo del nivel gratuito
+- **Alertas de anomalías de costo** - Patrones de gasto inusuales
 
-### 🛠️ **Using the Billing Dashboard**
+### 🛠️ **Usando el Panel de Facturación**
 
-#### **📱 Quick Daily Check**
+#### **📱 Revisión Diaria Rápida**
 ```
-Daily Cost Management Routine (5 minutes):
-├── Check current month spending vs forecast
-├── Review any new alerts or anomalies
-├── Verify largest cost changes from yesterday
-├── Check Free Tier usage if applicable
-└── Note any services with unexpected growth
-```
-
-#### **📊 Weekly Deep Dive**
-```
-Weekly Cost Review (15-30 minutes):
-├── Analyze service-by-service spending trends
-├── Review cost allocation by tags/projects
-├── Check Reserved Instance utilization
-├── Identify optimization opportunities
-└── Update budgets if business needs changed
+Rutina Diaria de Gestión de Costos (5 minutos):
+├── Verificar gasto del mes actual vs pronóstico
+├── Revisar nuevas alertas o anomalías
+├── Verificar los mayores cambios de costo desde ayer
+├── Verificar uso del Nivel Gratuito si aplica
+└── Anotar servicios con crecimiento inesperado
 ```
 
-#### **📋 Monthly Analysis**
+#### **📊 Análisis Semanal Profundo**
 ```
-Monthly Cost Optimization (1-2 hours):
-├── Compare actual vs budgeted spending
-├── Analyze month-over-month changes
-├── Review and update Reserved Instance strategy
-├── Evaluate new AWS services adopted
-├── Plan optimizations for next month
-└── Update stakeholder reports
+Revisión Semanal de Costos (15-30 minutos):
+├── Analizar tendencias de gasto servicio por servicio
+├── Revisar asignación de costos por etiquetas/proyectos
+├── Verificar utilización de Instancias Reservadas
+├── Identificar oportunidades de optimización
+└── Actualizar presupuestos si las necesidades del negocio cambiaron
+```
+
+#### **📋 Análisis Mensual**
+```
+Optimización Mensual de Costos (1-2 horas):
+├── Comparar gasto real vs presupuestado
+├── Analizar cambios mes a mes
+├── Revisar y actualizar estrategia de Instancias Reservadas
+├── Evaluar nuevos servicios de AWS adoptados
+├── Planificar optimizaciones para el próximo mes
+└── Actualizar reportes para stakeholders
 ```
 
 ---
 
 ## 🔍 AWS Cost Explorer
 
-### 🚀 **What is Cost Explorer?**
+### 🚀 **¿Qué es Cost Explorer?**
 
-Think of Cost Explorer as **Google Analytics for your AWS costs**:
-- **Interactive graphs** - Visualize spending data
-- **Custom filters** - Drill down into specific costs
-- **Time range selection** - Analyze different periods
-- **Forecasting** - Predict future spending
-- **Saved reports** - Reusable analysis views
+Piensa en Cost Explorer como **Google Analytics para tus costos de AWS**:
+- **Gráficos interactivos** - Visualizar datos de gasto
+- **Filtros personalizados** - Profundizar en costos específicos
+- **Selección de rango de tiempo** - Analizar diferentes períodos
+- **Pronósticos** - Predecir gastos futuros
+- **Reportes guardados** - Vistas de análisis reutilizables
 
-### 📊 **Cost Explorer Features**
+### 📊 **Características de Cost Explorer**
 
-#### **📈 Visualization Options**
+#### **📈 Opciones de Visualización**
 ```
-Chart Types:
-├── Bar charts - Compare services or time periods
-├── Line charts - Show trends over time
-├── Stacked area - Show component breakdown
-└── Pie charts - Service/region distribution
+Tipos de Gráficos:
+├── Gráficos de barras - Comparar servicios o períodos de tiempo
+├── Gráficos de líneas - Mostrar tendencias a lo largo del tiempo
+├── Área apilada - Mostrar desglose de componentes
+└── Gráficos circulares - Distribución de servicios/regiones
 
-Time Granularity:
-├── Daily - Last 2 months of daily data
-├── Monthly - Up to 12 months of monthly data
-├── Hourly - Last 14 days of hourly data (for some services)
-└── Custom ranges - Specific date ranges
-```
-
-#### **🔍 Filtering and Grouping**
-```
-Group By Options:
-├── Service - EC2, S3, RDS, etc.
-├── Account - For Organizations with multiple accounts
-├── Instance Type - m5.large, c5.xlarge, etc.
-├── Region - us-east-1, eu-west-1, etc.
-├── Availability Zone - us-east-1a, us-east-1b, etc.
-├── Usage Type - On-Demand, Reserved, Spot
-├── Tags - Custom business dimensions
-└── Cost Category - Custom cost groupings
-
-Filter Options:
-├── Service names - Focus on specific services
-├── Regions - Analyze regional spending
-├── Accounts - Multi-account analysis
-├── Instance families - Compare instance types
-├── Purchase options - On-Demand vs Reserved
-├── Tag values - Filter by project, team, environment
-└── Linked accounts - For consolidated billing
+Granularidad de Tiempo:
+├── Diario - Últimos 2 meses de datos diarios
+├── Mensual - Hasta 12 meses de datos mensuales
+├── Por horas - Últimos 14 días de datos por horas (para algunos servicios)
+└── Rangos personalizados - Rangos de fechas específicos
 ```
 
-### 🎯 **Common Cost Explorer Use Cases**
-
-#### **💻 Service Cost Analysis**
+#### **🔍 Filtrado y Agrupación**
 ```
-Scenario: Understand which services drive costs
+Opciones de Agrupar Por:
+├── Servicio - EC2, S3, RDS, etc.
+├── Cuenta - Para Organizaciones con múltiples cuentas
+├── Tipo de Instancia - m5.large, c5.xlarge, etc.
+├── Región - us-east-1, eu-west-1, etc.
+├── Zona de Disponibilidad - us-east-1a, us-east-1b, etc.
+├── Tipo de Uso - Bajo Demanda, Reservadas, Spot
+├── Etiquetas - Dimensiones empresariales personalizadas
+└── Categoría de Costo - Agrupaciones de costo personalizadas
 
-Analysis Steps:
-├── Time range: Last 3 months
-├── Group by: Service
-├── Chart type: Stacked area chart
-└── Result: See service cost trends over time
-
-Insights:
-├── EC2 instances are 60% of total costs
-├── S3 storage growing 15% month-over-month
-├── Data transfer costs spiking on weekends
-└── RDS costs steady but could optimize with Reserved Instances
-```
-
-#### **🌍 Regional Cost Analysis**
-```
-Scenario: Optimize regional deployment strategy
-
-Analysis Steps:
-├── Time range: Last 6 months
-├── Group by: Region
-├── Filter: Specific service (e.g., EC2)
-└── Chart type: Bar chart
-
-Insights:
-├── us-east-1: 45% of costs (cheapest region)
-├── eu-west-1: 30% of costs (GDPR compliance)
-├── ap-southeast-1: 25% of costs (highest per-unit cost)
-└── Opportunity: Consolidate dev/test in us-east-1
+Opciones de Filtro:
+├── Nombres de servicios - Enfocarse en servicios específicos
+├── Regiones - Analizar gasto regional
+├── Cuentas - Análisis multi-cuenta
+├── Familias de instancias - Comparar tipos de instancias
+├── Opciones de compra - Bajo Demanda vs Reservadas
+├── Valores de etiquetas - Filtrar por proyecto, equipo, entorno
+└── Cuentas vinculadas - Para facturación consolidada
 ```
 
-#### **📊 Reserved Instance Optimization**
+### 🎯 **Casos de Uso Comunes de Cost Explorer**
+
+#### **💻 Análisis de Costos por Servicio**
 ```
-Scenario: Plan Reserved Instance purchases
+Escenario: Entender qué servicios impulsan los costos
 
-Analysis Steps:
-├── Time range: Last 12 months
-├── Group by: Instance Type
-├── Filter: On-Demand usage only
-└── Look for consistent usage patterns
+Pasos de Análisis:
+├── Rango de tiempo: Últimos 3 meses
+├── Agrupar por: Servicio
+├── Tipo de gráfico: Gráfico de área apilada
+└── Resultado: Ver tendencias de costo de servicios a lo largo del tiempo
 
-Decision Framework:
-├── Instances running >80% of time → Strong RI candidates
-├── Instances with variable usage → Consider Savings Plans
-├── Development instances → Keep On-Demand
-└── Peak-only instances → Consider Spot
+Perspectivas:
+├── Las instancias EC2 son el 60% de los costos totales
+├── El almacenamiento S3 crece 15% mes a mes
+├── Los costos de transferencia de datos aumentan los fines de semana
+└── Los costos de RDS son estables pero podrían optimizarse con Instancias Reservadas
 ```
 
-### 📈 **Cost Forecasting**
-
-#### **🔮 Forecasting Features**
-- **Machine learning-based** - AWS algorithms analyze your patterns
-- **3-month projection** - Predict next quarter spending
-- **Confidence intervals** - Range of likely outcomes
-- **Scenario planning** - What-if analysis capabilities
-
-#### **📊 Forecasting Example**
+#### **🌍 Análisis de Costos Regionales**
 ```
-Current Analysis:
-├── Last 3 months average: $2,500/month
-├── Trend: 12% monthly growth
-├── Seasonality: 20% higher in Q4
-└── Recent changes: New project launched
+Escenario: Optimizar estrategia de despliegue regional
 
-Forecast Output:
-├── Next month prediction: $2,800 ± $300
-├── 3-month total: $9,450 ± $1,200
-├── Annual projection: $36,500 ± $4,800
-└── Key drivers: EC2 growth, new S3 usage
+Pasos de Análisis:
+├── Rango de tiempo: Últimos 6 meses
+├── Agrupar por: Región
+├── Filtro: Servicio específico (ej., EC2)
+└── Tipo de gráfico: Gráfico de barras
+
+Perspectivas:
+├── us-east-1: 45% de costos (región más barata)
+├── eu-west-1: 30% de costos (cumplimiento GDPR)
+├── ap-southeast-1: 25% de costos (costo por unidad más alto)
+└── Oportunidad: Consolidar dev/test en us-east-1
+```
+
+#### **📊 Optimización de Instancias Reservadas**
+```
+Escenario: Planificar compras de Instancias Reservadas
+
+Pasos de Análisis:
+├── Rango de tiempo: Últimos 12 meses
+├── Agrupar por: Tipo de Instancia
+├── Filtro: Solo uso Bajo Demanda
+└── Buscar patrones de uso consistentes
+
+Marco de Decisión:
+├── Instancias ejecutándose >80% del tiempo → Candidatos fuertes para RI
+├── Instancias con uso variable → Considerar Planes de Ahorro
+├── Instancias de desarrollo → Mantener Bajo Demanda
+└── Instancias solo en picos → Considerar Spot
+```
+
+### 📈 **Pronóstico de Costos**
+
+#### **🔮 Características de Pronóstico**
+- **Basado en aprendizaje automático** - Los algoritmos de AWS analizan tus patrones
+- **Proyección de 3 meses** - Predecir el gasto del próximo trimestre
+- **Intervalos de confianza** - Rango de resultados probables
+- **Planificación de escenarios** - Capacidades de análisis "qué pasaría si"
+
+#### **📊 Ejemplo de Pronóstico**
+```
+Análisis Actual:
+├── Promedio últimos 3 meses: $2,500/mes
+├── Tendencia: 12% de crecimiento mensual
+├── Estacionalidad: 20% más alto en Q4
+└── Cambios recientes: Nuevo proyecto lanzado
+
+Salida del Pronóstico:
+├── Predicción próximo mes: $2,800 ± $300
+├── Total 3 meses: $9,450 ± $1,200
+├── Proyección anual: $36,500 ± $4,800
+└── Impulsores clave: Crecimiento EC2, nuevo uso S3
 ```
 
 ---
 
 ## 💰 AWS Budgets
 
-### 🎯 **What are AWS Budgets?**
+### 🎯 **¿Qué son los AWS Budgets?**
 
-Think of AWS Budgets like **setting speed limits for your spending**:
-- **Proactive alerts** - Warning before you overspend
-- **Multiple budget types** - Cost, usage, Reserved Instance coverage
-- **Flexible thresholds** - Multiple alert levels
-- **Automated actions** - Stop resources when budgets exceeded
+Piensa en AWS Budgets como **establecer límites de velocidad para tu gasto**:
+- **Alertas proactivas** - Advertencia antes de gastar de más
+- **Múltiples tipos de presupuesto** - Costo, uso, cobertura de Instancias Reservadas
+- **Umbrales flexibles** - Múltiples niveles de alerta
+- **Acciones automatizadas** - Detener recursos cuando se excedan los presupuestos
 
-### 📊 **Budget Types**
+### 📊 **Tipos de Presupuesto**
 
-#### **💰 Cost Budgets**
-**Monitor spending against dollar amounts**
-
-```
-Monthly Cost Budget Example:
-├── Budget name: "Production Environment"
-├── Budget amount: $5,000/month
-├── Alert thresholds:
-│   ├── 50% ($2,500) - Email to team lead
-│   ├── 80% ($4,000) - Email to manager
-│   ├── 100% ($5,000) - Email to finance team
-│   └── 120% ($6,000) - Stop non-critical instances
-├── Filters: Environment=Production tag
-└── Forecast alerts: Enable
-```
-
-#### **📈 Usage Budgets**
-**Monitor service usage quantities**
+#### **💰 Presupuestos de Costo**
+**Monitorear el gasto contra cantidades en dólares**
 
 ```
-S3 Storage Usage Budget:
-├── Budget name: "S3 Storage Limit"
-├── Budget amount: 10 TB/month
-├── Service: Amazon S3
-├── Usage type: Standard storage
-├── Alert thresholds:
-│   ├── 75% (7.5 TB) - Warning email
-│   └── 90% (9 TB) - Critical alert
-└── Action: Review large objects for archival
+Ejemplo de Presupuesto de Costo Mensual:
+├── Nombre del presupuesto: "Entorno de Producción"
+├── Cantidad del presupuesto: $5,000/mes
+├── Umbrales de alerta:
+│   ├── 50% ($2,500) - Email al líder del equipo
+│   ├── 80% ($4,000) - Email al gerente
+│   ├── 100% ($5,000) - Email al equipo de finanzas
+│   └── 120% ($6,000) - Detener instancias no críticas
+├── Filtros: Etiqueta Environment=Production
+└── Alertas de pronóstico: Habilitadas
 ```
 
-#### **🏦 Reserved Instance Budgets**
-**Monitor RI utilization and coverage**
+#### **📈 Presupuestos de Uso**
+**Monitorear cantidades de uso de servicios**
 
 ```
-RI Coverage Budget:
-├── Budget name: "EC2 RI Coverage"
-├── Target coverage: 80%
-├── Service: Amazon EC2
-├── Instance family: All families
-├── Alert when coverage < 70%
-└── Action: Purchase additional RIs
+Presupuesto de Uso de Almacenamiento S3:
+├── Nombre del presupuesto: "Límite de Almacenamiento S3"
+├── Cantidad del presupuesto: 10 TB/mes
+├── Servicio: Amazon S3
+├── Tipo de uso: Almacenamiento estándar
+├── Umbrales de alerta:
+│   ├── 75% (7.5 TB) - Email de advertencia
+│   └── 90% (9 TB) - Alerta crítica
+└── Acción: Revisar objetos grandes para archivo
 ```
 
-### 🔔 **Budget Alerts and Actions**
+#### **🏦 Presupuestos de Instancias Reservadas**
+**Monitorear utilización y cobertura de RI**
 
-#### **📧 Alert Types**
 ```
-Alert Configuration:
-├── Email notifications
-│   ├── Budget owner
-│   ├── Additional email addresses
-│   └── SNS topic integration
-├── Threshold types
-│   ├── Actual costs/usage
-│   ├── Forecasted costs/usage
-│   └── RI utilization/coverage
-└── Frequency
-    ├── Once per threshold breach
-    └── Daily while over threshold
+Presupuesto de Cobertura RI:
+├── Nombre del presupuesto: "Cobertura RI EC2"
+├── Cobertura objetivo: 80%
+├── Servicio: Amazon EC2
+├── Familia de instancias: Todas las familias
+├── Alerta cuando cobertura < 70%
+└── Acción: Comprar RIs adicionales
 ```
 
-#### **🤖 Automated Actions**
-```
-Budget Actions (Enterprise/Business Support):
-├── Stop EC2 instances
-├── Stop RDS instances
-├── Deny IAM policy attachments
-├── Target specific resources by tags
-└── Require approval for actions over threshold
+### 🔔 **Alertas y Acciones de Presupuesto**
 
-Example Action:
-├── When: Production budget exceeds 100%
-├── Action: Stop instances tagged Environment=Development
-├── Approval: Required from manager
-└── Notification: Send to operations team
+#### **📧 Tipos de Alerta**
 ```
-
-### 🎯 **Budget Best Practices**
-
-#### **🏗️ Budget Structure Strategy**
-```
-Hierarchical Budget Approach:
-├── Organization Total: $50,000/month
-│   ├── Production: $30,000/month
-│   │   ├── Web App: $15,000/month
-│   │   └── Database: $15,000/month
-│   ├── Development: $10,000/month
-│   └── Sandbox: $5,000/month
-└── Reserved Instance Coverage: 70% minimum
+Configuración de Alertas:
+├── Notificaciones por email
+│   ├── Propietario del presupuesto
+│   ├── Direcciones de email adicionales
+│   └── Integración con tópico SNS
+├── Tipos de umbral
+│   ├── Costos/uso reales
+│   ├── Costos/uso pronosticados
+│   └── Utilización/cobertura RI
+└── Frecuencia
+    ├── Una vez por violación de umbral
+    └── Diariamente mientras esté sobre el umbral
 ```
 
-#### **📊 Threshold Strategy**
+#### **🤖 Acciones Automatizadas**
 ```
-Progressive Alert Strategy:
-├── 50% threshold: Team notification (informational)
-├── 75% threshold: Manager notification (attention)
-├── 90% threshold: Finance notification (concern)
-├── 100% threshold: Executive notification (action required)
-└── 110% threshold: Automated resource shutdown (critical)
+Acciones de Presupuesto (Soporte Enterprise/Business):
+├── Detener instancias EC2
+├── Detener instancias RDS
+├── Denegar adjuntos de políticas IAM
+├── Dirigirse a recursos específicos por etiquetas
+└── Requerir aprobación para acciones sobre umbral
+
+Ejemplo de Acción:
+├── Cuándo: El presupuesto de producción excede 100%
+├── Acción: Detener instancias etiquetadas Environment=Development
+├── Aprobación: Requerida del gerente
+└── Notificación: Enviar al equipo de operaciones
+```
+
+### 🎯 **Mejores Prácticas de Presupuesto**
+
+#### **🏗️ Estrategia de Estructura de Presupuesto**
+```
+Enfoque de Presupuesto Jerárquico:
+├── Total Organización: $50,000/mes
+│   ├── Producción: $30,000/mes
+│   │   ├── Aplicación Web: $15,000/mes
+│   │   └── Base de Datos: $15,000/mes
+│   ├── Desarrollo: $10,000/mes
+│   └── Sandbox: $5,000/mes
+└── Cobertura Instancias Reservadas: 70% mínimo
+```
+
+#### **📊 Estrategia de Umbrales**
+```
+Estrategia de Alerta Progresiva:
+├── Umbral 50%: Notificación al equipo (informativo)
+├── Umbral 75%: Notificación al gerente (atención)
+├── Umbral 90%: Notificación a finanzas (preocupación)
+├── Umbral 100%: Notificación ejecutiva (acción requerida)
+└── Umbral 110%: Apagado automatizado de recursos (crítico)
 ```
 
 ---
 
-## 📋 Cost and Usage Reports
+## 📋 Reportes de Costo y Uso
 
-### 📊 **What are Cost and Usage Reports?**
+### 📊 **¿Qué son los Reportes de Costo y Uso?**
 
-Think of Cost and Usage Reports as **detailed bank statements** for your AWS usage:
-- **Comprehensive data** - Every charge and usage detail
-- **Hourly granularity** - Detailed timing information
-- **CSV format** - Import into any analysis tool
-- **S3 delivery** - Automated report generation and delivery
+Piensa en los Reportes de Costo y Uso como **estados de cuenta bancarios detallados** para tu uso de AWS:
+- **Datos comprehensivos** - Cada cargo y detalle de uso
+- **Granularidad por horas** - Información detallada de tiempo
+- **Formato CSV** - Importar a cualquier herramienta de análisis
+- **Entrega S3** - Generación y entrega automatizada de reportes
 
-### 🔍 **Report Contents**
+### 🔍 **Contenido de Reportes**
 
-#### **📈 Data Dimensions**
+#### **📈 Dimensiones de Datos**
 ```
-Cost Information:
-├── Unblended costs - Actual charges
-├── Blended costs - Averaged across Organization
-├── Amortized costs - Reserved Instance costs spread over time
-└── Net costs - After credits and refunds
+Información de Costos:
+├── Costos no combinados - Cargos reales
+├── Costos combinados - Promediados a través de la Organización
+├── Costos amortizados - Costos de Instancias Reservadas distribuidos en el tiempo
+└── Costos netos - Después de créditos y reembolsos
 
-Usage Information:
-├── Service usage quantities
-├── Instance hours, storage GB-hours
-├── Request counts, data transfer volumes
-└── Resource-specific metrics
+Información de Uso:
+├── Cantidades de uso de servicios
+├── Horas de instancia, GB-horas de almacenamiento
+├── Conteos de solicitudes, volúmenes de transferencia de datos
+└── Métricas específicas de recursos
 
-Metadata:
-├── Account information
-├── Service and operation details
-├── Pricing information
-├── Resource tags and identifiers
-```
-
-#### **🗂️ Report Structure**
-```
-Report Columns (100+ columns available):
-├── Identity
-│   ├── Account ID
-│   ├── User ARN
-│   └── Invoice ID
-├── Billing
-│   ├── Billing period
-│   ├── Cost categories
-│   └── Credit details
-├── Product
-│   ├── Service code
-│   ├── Operation
-│   ├── Usage type
-│   └── Resource ID
-├── Pricing
-│   ├── Rate ID
-│   ├── Currency
-│   └── Unit price
-├── Reservation
-│   ├── RI ARN
-│   ├── Utilization
-│   └── Coverage
-└── Tags
-    ├── User-defined tags
-    └── Cost allocation tags
+Metadatos:
+├── Información de cuenta
+├── Detalles de servicio y operación
+├── Información de precios
+├── Etiquetas e identificadores de recursos
 ```
 
-### 🛠️ **Setting Up Cost and Usage Reports**
-
-#### **📋 Report Configuration**
+#### **🗂️ Estructura del Reporte**
 ```
-Report Setup:
-├── Report name: "Monthly-Detailed-Usage"
-├── Time granularity: Hourly
-├── Report versioning: Overwrite existing report
-├── Data integration: Enable for Athena and QuickSight
-├── Compression: GZIP
-└── Format: CSV
-
-Delivery Options:
-├── S3 bucket: company-billing-reports
-├── Report path prefix: cost-reports/
-├── Delivery frequency: Daily
-└── Notifications: Enable S3 event notifications
-```
-
-#### **🔄 Data Processing Pipeline**
-```
-Automated Analysis Pipeline:
-├── S3 bucket receives daily reports
-├── Lambda function processes new files
-├── Data loaded into Amazon Athena
-├── QuickSight dashboards auto-refresh
-├── Automated cost anomaly detection
-└── Executive summary email generation
-```
-
-### 📊 **Advanced Analysis Use Cases**
-
-#### **💡 Custom Cost Categories**
-```
-Business Unit Allocation:
-├── Engineering: EC2, Lambda, development tools
-├── Marketing: Analytics, data storage, ML services
-├── Sales: CRM integrations, communication tools
-└── Operations: Monitoring, security, networking
-
-Cost Category Rules:
-├── Tag-based allocation: Department=Engineering
-├── Service-based allocation: All Lambda to Engineering
-├── Account-based allocation: Prod account to Operations
-└── Hybrid allocation: Split shared services proportionally
+Columnas del Reporte (100+ columnas disponibles):
+├── Identidad
+│   ├── ID de Cuenta
+│   ├── ARN de Usuario
+│   └── ID de Factura
+├── Facturación
+│   ├── Período de facturación
+│   ├── Categorías de costo
+│   └── Detalles de crédito
+├── Producto
+│   ├── Código de servicio
+│   ├── Operación
+│   ├── Tipo de uso
+│   └── ID de Recurso
+├── Precios
+│   ├── ID de Tarifa
+│   ├── Moneda
+│   └── Precio unitario
+├── Reservación
+│   ├── ARN de RI
+│   ├── Utilización
+│   └── Cobertura
+└── Etiquetas
+    ├── Etiquetas definidas por usuario
+    └── Etiquetas de asignación de costos
 ```
 
-#### **🔍 Chargeback Analysis**
-```
-Project Cost Allocation:
-├── Filter by Project=ProjectAlpha tag
-├── Include all associated resources
-├── Calculate total project costs
-├── Allocate shared service costs proportionally
-└── Generate project cost report
+### 🛠️ **Configuración de Reportes de Costo y Uso**
 
-Monthly Chargeback Report:
-├── Project Alpha: $12,450
-├── Project Beta: $8,760
-├── Shared Infrastructure: $5,230 (allocated)
+#### **📋 Configuración del Reporte**
+```
+Configuración del Reporte:
+├── Nombre del reporte: "Uso-Detallado-Mensual"
+├── Granularidad de tiempo: Por horas
+├── Versionado del reporte: Sobrescribir reporte existente
+├── Integración de datos: Habilitar para Athena y QuickSight
+├── Compresión: GZIP
+└── Formato: CSV
+
+Opciones de Entrega:
+├── Bucket S3: company-billing-reports
+├── Prefijo de ruta del reporte: cost-reports/
+├── Frecuencia de entrega: Diaria
+└── Notificaciones: Habilitar notificaciones de eventos S3
+```
+
+#### **🔄 Pipeline de Procesamiento de Datos**
+```
+Pipeline de Análisis Automatizado:
+├── El bucket S3 recibe reportes diarios
+├── Función Lambda procesa nuevos archivos
+├── Datos cargados en Amazon Athena
+├── Dashboards QuickSight se actualizan automáticamente
+├── Detección automatizada de anomalías de costo
+└── Generación de resumen ejecutivo por email
+```
+
+### 📊 **Casos de Uso de Análisis Avanzado**
+
+#### **💡 Categorías de Costo Personalizadas**
+```
+Asignación por Unidad de Negocio:
+├── Ingeniería: EC2, Lambda, herramientas de desarrollo
+├── Marketing: Analytics, almacenamiento de datos, servicios ML
+├── Ventas: Integraciones CRM, herramientas de comunicación
+└── Operaciones: Monitoreo, seguridad, redes
+
+Reglas de Categoría de Costo:
+├── Asignación basada en etiquetas: Department=Engineering
+├── Asignación basada en servicios: Todo Lambda a Ingeniería
+├── Asignación basada en cuentas: Cuenta Prod a Operaciones
+└── Asignación híbrida: Dividir servicios compartidos proporcionalmente
+```
+
+#### **🔍 Análisis de Contracargo**
+```
+Asignación de Costos de Proyecto:
+├── Filtrar por etiqueta Project=ProjectAlpha
+├── Incluir todos los recursos asociados
+├── Calcular costos totales del proyecto
+├── Asignar costos de servicios compartidos proporcionalmente
+└── Generar reporte de costos del proyecto
+
+Reporte Mensual de Contracargo:
+├── Proyecto Alpha: $12,450
+├── Proyecto Beta: $8,760
+├── Infraestructura Compartida: $5,230 (asignada)
 └── Total: $26,440
 ```
 
 ---
 
-## 🏷️ Cost Allocation Tags
+## 🏷️ Etiquetas de Asignación de Costos
 
-### 🎯 **What are Cost Allocation Tags?**
+### 🎯 **¿Qué son las Etiquetas de Asignación de Costos?**
 
-Think of cost allocation tags like **filing systems for your AWS resources**:
-- **Label everything** - Attach business context to resources
-- **Track by dimensions** - Department, project, environment, owner
-- **Enable chargeback** - Allocate costs to appropriate teams
-- **Automate governance** - Enforce tagging policies
+Piensa en las etiquetas de asignación de costos como **sistemas de archivo para tus recursos de AWS**:
+- **Etiquetar todo** - Adjuntar contexto empresarial a los recursos
+- **Rastrear por dimensiones** - Departamento, proyecto, entorno, propietario
+- **Habilitar contracargo** - Asignar costos a equipos apropiados
+- **Automatizar gobernanza** - Aplicar políticas de etiquetado
 
-### 🏗️ **Tagging Strategy**
+### 🏗️ **Estrategia de Etiquetado**
 
-#### **📊 Standard Tag Categories**
+#### **📊 Categorías de Etiquetas Estándar**
 ```
-Required Tags (Enforced by Policy):
+Etiquetas Requeridas (Aplicadas por Política):
 ├── Environment: Production, Development, Staging, Test
-├── Project: ProjectName or ProjectCode
-├── Owner: Email address of resource owner
-├── CostCenter: Finance department cost center code
-└── Application: Application or service name
+├── Project: Nombre del Proyecto o Código del Proyecto
+├── Owner: Dirección de email del propietario del recurso
+├── CostCenter: Código del centro de costos del departamento de finanzas
+└── Application: Nombre de aplicación o servicio
 
-Optional Tags (Best Practice):
+Etiquetas Opcionales (Mejores Prácticas):
 ├── Team: Engineering, Marketing, Sales, Operations
 ├── Purpose: WebServer, Database, Analytics, Backup
 ├── Schedule: 24x7, BusinessHours, Batch, OnDemand
@@ -565,53 +565,53 @@ Optional Tags (Best Practice):
 └── Compliance: HIPAA, SOX, PCI, None
 ```
 
-#### **🎯 Tag Value Standards**
+#### **🎯 Estándares de Valores de Etiquetas**
 ```
-Standardized Values:
+Valores Estandarizados:
 ├── Environment:
-│   ├── prod (not Production, PROD, or Prod)
-│   ├── dev (not Development, DEV, or Dev)
-│   ├── staging (not Staging, STAGING, or Stage)
-│   └── test (not Test, TEST, or Testing)
+│   ├── prod (no Production, PROD, o Prod)
+│   ├── dev (no Development, DEV, o Dev)
+│   ├── staging (no Staging, STAGING, o Stage)
+│   └── test (no Test, TEST, o Testing)
 ├── Schedule:
-│   ├── 24x7 - Always running
-│   ├── business-hours - 8 AM - 6 PM weekdays
-│   ├── batch - Scheduled batch processing
-│   └── on-demand - Started/stopped manually
+│   ├── 24x7 - Siempre ejecutándose
+│   ├── business-hours - 8 AM - 6 PM días de semana
+│   ├── batch - Procesamiento por lotes programado
+│   └── on-demand - Iniciado/detenido manualmente
 └── Backup:
-    ├── daily - Daily backup required
-    ├── weekly - Weekly backup sufficient
-    └── none - No backup required
+    ├── daily - Respaldo diario requerido
+    ├── weekly - Respaldo semanal suficiente
+    └── none - No se requiere respaldo
 ```
 
-### 🛠️ **Tag Implementation**
+### 🛠️ **Implementación de Etiquetas**
 
-#### **📋 Tag Activation Process**
+#### **📋 Proceso de Activación de Etiquetas**
 ```
-Cost Allocation Tag Setup:
-├── 1. Apply tags to resources
-├── 2. Activate tags in Billing console
-├── 3. Wait 24 hours for data processing
-├── 4. Tags appear in Cost Explorer and reports
-└── 5. Create cost allocation reports
+Configuración de Etiquetas de Asignación de Costos:
+├── 1. Aplicar etiquetas a recursos
+├── 2. Activar etiquetas en la consola de Facturación
+├── 3. Esperar 24 horas para el procesamiento de datos
+├── 4. Las etiquetas aparecen en Cost Explorer y reportes
+└── 5. Crear reportes de asignación de costos
 
-Activation Steps:
-├── Billing Console → Cost allocation tags
-├── Select user-defined tags to activate
-├── Enable for cost reporting
-└── Configure in Cost Explorer filters
+Pasos de Activación:
+├── Consola de Facturación → Etiquetas de asignación de costos
+├── Seleccionar etiquetas definidas por usuario para activar
+├── Habilitar para reporte de costos
+└── Configurar en filtros de Cost Explorer
 ```
 
-#### **🤖 Tag Enforcement**
+#### **🤖 Aplicación de Etiquetas**
 ```
-Automated Tag Enforcement:
-├── IAM policies require tags on resource creation
-├── Service Control Policies in Organizations
-├── AWS Config rules monitor tag compliance
-├── Lambda functions auto-tag resources
-└── Cost anomaly detection by missing tags
+Aplicación Automatizada de Etiquetas:
+├── Políticas IAM requieren etiquetas en la creación de recursos
+├── Políticas de Control de Servicios en Organizations
+├── Reglas de AWS Config monitorean cumplimiento de etiquetas
+├── Funciones Lambda auto-etiquetan recursos
+└── Detección de anomalías de costo por etiquetas faltantes
 
-Example IAM Policy:
+Ejemplo de Política IAM:
 {
   "Effect": "Deny",
   "Action": "ec2:RunInstances",
@@ -625,465 +625,465 @@ Example IAM Policy:
 }
 ```
 
-### 📊 **Tag-Based Cost Analysis**
+### 📊 **Análisis de Costos Basado en Etiquetas**
 
-#### **💰 Project Cost Tracking**
+#### **💰 Seguimiento de Costos de Proyecto**
 ```
-Project Alpha Cost Analysis:
-├── Filter: Project=ProjectAlpha
-├── Time range: Last 6 months
-├── Group by: Service
-└── Results:
+Análisis de Costos Proyecto Alpha:
+├── Filtro: Project=ProjectAlpha
+├── Rango de tiempo: Últimos 6 meses
+├── Agrupar por: Servicio
+└── Resultados:
     ├── EC2: $45,600 (60%)
     ├── RDS: $18,240 (24%)
     ├── S3: $7,600 (10%)
-    └── Other: $4,560 (6%)
+    └── Otros: $4,560 (6%)
     └── Total: $76,000
 
-Monthly Trend:
-├── Month 1: $8,500
-├── Month 2: $12,200
-├── Month 3: $15,800
-├── Month 4: $14,200
-├── Month 5: $13,100
-└── Month 6: $12,200 (optimizations applied)
+Tendencia Mensual:
+├── Mes 1: $8,500
+├── Mes 2: $12,200
+├── Mes 3: $15,800
+├── Mes 4: $14,200
+├── Mes 5: $13,100
+└── Mes 6: $12,200 (optimizaciones aplicadas)
 ```
 
-#### **🏢 Department Chargeback**
+#### **🏢 Contracargo Departamental**
 ```
-Engineering Department Costs:
-├── Direct costs (tagged resources): $125,000
-├── Shared infrastructure allocation: $25,000
-├── Support and overhead: $15,000
-└── Total chargeback: $165,000
+Costos del Departamento de Ingeniería:
+├── Costos directos (recursos etiquetados): $125,000
+├── Asignación de infraestructura compartida: $25,000
+├── Soporte y gastos generales: $15,000
+└── Contracargo total: $165,000
 
-Cost Breakdown by Team:
-├── Frontend Team: $45,000
-├── Backend Team: $68,000
-├── DevOps Team: $35,000
-└── Shared/Unallocated: $17,000
-```
-
----
-
-## ⚡ AWS Cost Anomaly Detection
-
-### 🔍 **What is Cost Anomaly Detection?**
-
-Think of Cost Anomaly Detection as a **smart security guard** for your AWS costs:
-- **Machine learning** - Learns your normal spending patterns
-- **Automatic detection** - Identifies unusual cost spikes
-- **Root cause analysis** - Pinpoints what caused the anomaly
-- **Proactive alerts** - Notification before costs spiral
-
-### 🤖 **How Anomaly Detection Works**
-
-#### **📊 Learning Phase**
-```
-ML Model Training:
-├── Analyzes 10+ days of historical cost data
-├── Identifies normal spending patterns
-├── Learns seasonal variations and trends
-├── Understands your typical usage patterns
-└── Creates baseline models for each service
-
-Pattern Recognition:
-├── Daily spending patterns
-├── Weekly seasonal variations
-├── Service-specific usage patterns
-├── Regional spending distributions
-└── Account-level anomalies
-```
-
-#### **🚨 Detection Process**
-```
-Anomaly Detection Pipeline:
-├── Real-time cost monitoring
-├── Compare current costs to ML predictions
-├── Calculate anomaly score and confidence
-├── Apply spend thresholds and filters
-├── Generate alerts for significant anomalies
-└── Provide root cause analysis
-
-Alert Criteria:
-├── Anomaly score > threshold
-├── Absolute dollar impact > minimum
-├── Confidence level > 95%
-└── Duration > specified time period
-```
-
-### 🎯 **Setting Up Anomaly Detection**
-
-#### **📋 Detection Configuration**
-```
-Cost Monitor Setup:
-├── Monitor name: "Production Environment Monitor"
-├── Monitor type: AWS Services
-├── Dimension: Service
-├── Match options: EC2-Instance, RDS, S3
-├── Threshold: $100 anomaly impact
-└── Frequency: Daily evaluation
-
-Subscription Configuration:
-├── Alert threshold: $50 impact
-├── Recipients: devops-team@company.com
-├── Frequency: Immediate
-└── Include: Root cause analysis
-```
-
-#### **🔍 Monitor Types**
-```
-Service-Level Monitors:
-├── Monitor specific AWS services
-├── Detect service-specific anomalies
-├── Granular root cause analysis
-└── Service optimization insights
-
-Account-Level Monitors:
-├── Monitor entire AWS account spending
-├── Detect account-wide cost spikes
-├── Cross-service anomaly detection
-└── Overall cost governance
-
-Dimension-Based Monitors:
-├── Monitor by specific dimensions
-├── Examples: Region, Instance Type, Usage Type
-├── Targeted anomaly detection
-└── Dimension-specific optimization
-```
-
-### 📊 **Anomaly Analysis and Response**
-
-#### **🔍 Root Cause Analysis**
-```
-Example Anomaly Alert:
-├── Anomaly detected: March 15, 2024
-├── Service: Amazon EC2
-├── Cost impact: $1,247 (340% above expected)
-├── Confidence: 98%
-└── Root cause: 15 additional m5.2xlarge instances
-
-Investigation Details:
-├── Region: us-east-1
-├── Instance type: m5.2xlarge
-├── Start time: March 15, 3:47 AM
-├── Auto Scaling group: web-app-asg
-├── Trigger: CPU alarm activated scaling
-└── Resolution: Update scaling policies
-```
-
-#### **🎯 Response Procedures**
-```
-Anomaly Response Playbook:
-├── 1. Immediate Assessment
-│   ├── Review anomaly details and root cause
-│   ├── Determine if anomaly is expected/legitimate
-│   └── Assess business impact and urgency
-├── 2. Investigation
-│   ├── Check related services and dependencies
-│   ├── Review recent changes or deployments
-│   └── Analyze usage patterns and triggers
-├── 3. Action
-│   ├── Stop unnecessary resources if appropriate
-│   ├── Adjust configurations to prevent recurrence
-│   └── Update monitoring thresholds if needed
-└── 4. Follow-up
-    ├── Document incident and resolution
-    ├── Update procedures and alerts
-    └── Review and improve detection rules
+Desglose de Costos por Equipo:
+├── Equipo Frontend: $45,000
+├── Equipo Backend: $68,000
+├── Equipo DevOps: $35,000
+└── Compartido/No asignado: $17,000
 ```
 
 ---
 
-## 🎮 Real-World Scenarios
+## ⚡ Detección de Anomalías de Costos de AWS
 
-### 🏪 **Scenario 1: E-commerce Startup Cost Management**
+### 🔍 **¿Qué es la Detección de Anomalías de Costos?**
 
-**Company Profile:**
-- **Stage:** Early-stage startup
-- **Team:** 15 engineers, growing rapidly
-- **Environment:** One production, multiple dev environments
-- **Challenge:** Unpredictable costs, limited finance oversight
+Piensa en la Detección de Anomalías de Costos como un **guardia de seguridad inteligente** para tus costos de AWS:
+- **Aprendizaje automático** - Aprende tus patrones normales de gasto
+- **Detección automática** - Identifica picos de costo inusuales
+- **Análisis de causa raíz** - Identifica qué causó la anomalía
+- **Alertas proactivas** - Notificación antes de que los costos se disparen
 
-**Cost Management Implementation:**
+### 🤖 **Cómo Funciona la Detección de Anomalías**
+
+#### **📊 Fase de Aprendizaje**
 ```
-Phase 1: Visibility (Week 1-2)
-├── Set up billing dashboard access for key stakeholders
-├── Implement tagging strategy:
+Entrenamiento del Modelo ML:
+├── Analiza 10+ días de datos históricos de costos
+├── Identifica patrones normales de gasto
+├── Aprende variaciones estacionales y tendencias
+├── Entiende tus patrones típicos de uso
+└── Crea modelos de línea base para cada servicio
+
+Reconocimiento de Patrones:
+├── Patrones de gasto diarios
+├── Variaciones estacionales semanales
+├── Patrones de uso específicos por servicio
+├── Distribuciones de gasto regionales
+└── Anomalías a nivel de cuenta
+```
+
+#### **🚨 Proceso de Detección**
+```
+Pipeline de Detección de Anomalías:
+├── Monitoreo de costos en tiempo real
+├── Comparar costos actuales con predicciones ML
+├── Calcular puntuación de anomalía y confianza
+├── Aplicar umbrales de gasto y filtros
+├── Generar alertas para anomalías significativas
+└── Proporcionar análisis de causa raíz
+
+Criterios de Alerta:
+├── Puntuación de anomalía > umbral
+├── Impacto absoluto en dólares > mínimo
+├── Nivel de confianza > 95%
+└── Duración > período de tiempo especificado
+```
+
+### 🎯 **Configuración de Detección de Anomalías**
+
+#### **📋 Configuración de Detección**
+```
+Configuración del Monitor de Costos:
+├── Nombre del monitor: "Monitor Entorno de Producción"
+├── Tipo de monitor: Servicios AWS
+├── Dimensión: Servicio
+├── Opciones de coincidencia: EC2-Instance, RDS, S3
+├── Umbral: $100 impacto de anomalía
+└── Frecuencia: Evaluación diaria
+
+Configuración de Suscripción:
+├── Umbral de alerta: $50 impacto
+├── Destinatarios: devops-team@company.com
+├── Frecuencia: Inmediata
+└── Incluir: Análisis de causa raíz
+```
+
+#### **🔍 Tipos de Monitor**
+```
+Monitores a Nivel de Servicio:
+├── Monitorear servicios específicos de AWS
+├── Detectar anomalías específicas del servicio
+├── Análisis granular de causa raíz
+└── Perspectivas de optimización del servicio
+
+Monitores a Nivel de Cuenta:
+├── Monitorear todo el gasto de la cuenta AWS
+├── Detectar picos de costo en toda la cuenta
+├── Detección de anomalías entre servicios
+└── Gobernanza general de costos
+
+Monitores Basados en Dimensiones:
+├── Monitorear por dimensiones específicas
+├── Ejemplos: Región, Tipo de Instancia, Tipo de Uso
+├── Detección dirigida de anomalías
+└── Optimización específica por dimensión
+```
+
+### 📊 **Análisis y Respuesta a Anomalías**
+
+#### **🔍 Análisis de Causa Raíz**
+```
+Ejemplo de Alerta de Anomalía:
+├── Anomalía detectada: 15 de marzo, 2024
+├── Servicio: Amazon EC2
+├── Impacto de costo: $1,247 (340% por encima de lo esperado)
+├── Confianza: 98%
+└── Causa raíz: 15 instancias m5.2xlarge adicionales
+
+Detalles de Investigación:
+├── Región: us-east-1
+├── Tipo de instancia: m5.2xlarge
+├── Hora de inicio: 15 de marzo, 3:47 AM
+├── Grupo de Auto Scaling: web-app-asg
+├── Disparador: Alarma de CPU activó escalado
+└── Resolución: Actualizar políticas de escalado
+```
+
+#### **🎯 Procedimientos de Respuesta**
+```
+Playbook de Respuesta a Anomalías:
+├── 1. Evaluación Inmediata
+│   ├── Revisar detalles de anomalía y causa raíz
+│   ├── Determinar si la anomalía es esperada/legítima
+│   └── Evaluar impacto empresarial y urgencia
+├── 2. Investigación
+│   ├── Verificar servicios relacionados y dependencias
+│   ├── Revisar cambios recientes o despliegues
+│   └── Analizar patrones de uso y disparadores
+├── 3. Acción
+│   ├── Detener recursos innecesarios si es apropiado
+│   ├── Ajustar configuraciones para prevenir recurrencia
+│   └── Actualizar umbrales de monitoreo si es necesario
+└── 4. Seguimiento
+    ├── Documentar incidente y resolución
+    ├── Actualizar procedimientos y alertas
+    └── Revisar y mejorar reglas de detección
+```
+
+---
+
+## 🎮 Escenarios del Mundo Real
+
+### 🏪 **Escenario 1: Gestión de Costos de Startup E-commerce**
+
+**Perfil de la Empresa:**
+- **Etapa:** Startup en etapa temprana
+- **Equipo:** 15 ingenieros, creciendo rápidamente
+- **Entorno:** Una producción, múltiples entornos de desarrollo
+- **Desafío:** Costos impredecibles, supervisión financiera limitada
+
+**Implementación de Gestión de Costos:**
+```
+Fase 1: Visibilidad (Semana 1-2)
+├── Configurar acceso al panel de facturación para stakeholders clave
+├── Implementar estrategia de etiquetado:
 │   ├── Environment: prod, dev, staging
 │   ├── Team: frontend, backend, devops
 │   ├── Project: website, mobile-app, analytics
 │   └── Owner: engineer-email@company.com
-├── Activate cost allocation tags
-└── Set up basic billing alerts
+├── Activar etiquetas de asignación de costos
+└── Configurar alertas básicas de facturación
 
-Phase 2: Control (Week 3-4)
-├── Create department budgets:
-│   ├── Production: $5,000/month
-│   ├── Development: $2,000/month
-│   └── Staging: $500/month
-├── Set up anomaly detection
-├── Implement basic cost optimization:
-│   ├── Schedule dev environments (shut down nights/weekends)
-│   ├── Right-size development instances
-│   └── Use S3 lifecycle policies
-└── Weekly cost review meetings
+Fase 2: Control (Semana 3-4)
+├── Crear presupuestos departamentales:
+│   ├── Producción: $5,000/mes
+│   ├── Desarrollo: $2,000/mes
+│   └── Staging: $500/mes
+├── Configurar detección de anomalías
+├── Implementar optimización básica de costos:
+│   ├── Programar entornos de dev (apagar noches/fines de semana)
+│   ├── Dimensionar correctamente instancias de desarrollo
+│   └── Usar políticas de ciclo de vida S3
+└── Reuniones semanales de revisión de costos
 
-Phase 3: Optimization (Month 2-3)
-├── Analyze 60 days of cost data
-├── Identify Reserved Instance opportunities
-├── Implement automated cost controls:
-│   ├── Budget actions to stop dev resources
-│   ├── Lambda functions for resource cleanup
-│   └── Cost optimization recommendations
-├── Set up detailed cost allocation reporting
-└── Create cost dashboards for stakeholders
+Fase 3: Optimización (Mes 2-3)
+├── Analizar 60 días de datos de costos
+├── Identificar oportunidades de Instancias Reservadas
+├── Implementar controles automatizados de costos:
+│   ├── Acciones de presupuesto para detener recursos de dev
+│   ├── Funciones Lambda para limpieza de recursos
+│   └── Recomendaciones de optimización de costos
+├── Configurar reporte detallado de asignación de costos
+└── Crear dashboards de costos para stakeholders
 ```
 
-**Results After 3 Months:**
-- **Cost reduction:** 35% without impacting performance
-- **Cost predictability:** ±10% monthly variance
-- **Team awareness:** 100% of engineers understand their cost impact
-- **Optimization:** Identified $1,200/month in additional savings
+**Resultados Después de 3 Meses:**
+- **Reducción de costos:** 35% sin impactar el rendimiento
+- **Predictibilidad de costos:** ±10% varianza mensual
+- **Conciencia del equipo:** 100% de ingenieros entienden su impacto en costos
+- **Optimización:** Identificados $1,200/mes en ahorros adicionales
 
-### 🏢 **Scenario 2: Enterprise Multi-Account Cost Governance**
+### 🏢 **Escenario 2: Gobernanza de Costos Multi-Cuenta Empresarial**
 
-**Company Profile:**
-- **Stage:** Large enterprise
-- **Structure:** 50+ AWS accounts across business units
-- **Challenge:** Complex cost allocation, lack of central visibility
-- **Requirement:** Department chargebacks and cost optimization
+**Perfil de la Empresa:**
+- **Etapa:** Gran empresa
+- **Estructura:** 50+ cuentas AWS a través de unidades de negocio
+- **Desafío:** Asignación compleja de costos, falta de visibilidad central
+- **Requerimiento:** Contracargos departamentales y optimización de costos
 
-**Multi-Account Cost Strategy:**
+**Estrategia de Costos Multi-Cuenta:**
 ```
-Account Structure:
-├── Master Account (Consolidated Billing)
-├── Security Account (Centralized logging/monitoring)
-├── Production Accounts (Per business unit)
-├── Development Accounts (Per team)
-└── Sandbox Accounts (Individual experimentation)
+Estructura de Cuentas:
+├── Cuenta Maestra (Facturación Consolidada)
+├── Cuenta de Seguridad (Logging/monitoreo centralizado)
+├── Cuentas de Producción (Por unidad de negocio)
+├── Cuentas de Desarrollo (Por equipo)
+└── Cuentas Sandbox (Experimentación individual)
 
-Cost Management Architecture:
-├── Centralized Cost Dashboard
-│   ├── Cross-account cost aggregation
-│   ├── Business unit cost allocation
-│   ├── Project-level cost tracking
-│   └── Executive summary reports
-├── Automated Governance
-│   ├── Organization-wide tagging policies
-│   ├── Service Control Policies for cost control
-│   ├── Automated resource lifecycle management
-│   └── Cost anomaly detection across all accounts
-└── Chargeback System
-    ├── Monthly department cost reports
-    ├── Project cost allocation
-    ├── Shared service cost distribution
-    └── Reserved Instance benefit sharing
-```
-
-**Implementation Results:**
-```
-Governance Improvements:
-├── 95% resource tagging compliance
-├── Automated cost allocation to 12 business units
-├── 60% reduction in cost management overhead
-└── Real-time cost visibility for 200+ stakeholders
-
-Financial Impact:
-├── $2.3M annual savings through optimization
-├── 40% reduction in manual cost reporting effort
-├── 100% automated chargeback process
-└── 25% improvement in budget accuracy
+Arquitectura de Gestión de Costos:
+├── Dashboard Centralizado de Costos
+│   ├── Agregación de costos entre cuentas
+│   ├── Asignación de costos por unidad de negocio
+│   ├── Seguimiento de costos a nivel de proyecto
+│   └── Reportes de resumen ejecutivo
+├── Gobernanza Automatizada
+│   ├── Políticas de etiquetado a nivel de organización
+│   ├── Políticas de Control de Servicios para control de costos
+│   ├── Gestión automatizada del ciclo de vida de recursos
+│   └── Detección de anomalías de costos en todas las cuentas
+└── Sistema de Contracargo
+    ├── Reportes mensuales de costos departamentales
+    ├── Asignación de costos de proyecto
+    ├── Distribución de costos de servicios compartidos
+    └── Compartir beneficios de Instancias Reservadas
 ```
 
-### 🚀 **Scenario 3: Development Team Cost Optimization**
-
-**Challenge:** Development team's AWS costs growing 20% month-over-month
-
-**Investigation Using Cost Management Tools:**
+**Resultados de Implementación:**
 ```
-Step 1: Cost Explorer Analysis
-├── Time range: Last 6 months
-├── Group by: Service
-├── Filter: Environment=development tag
-└── Finding: EC2 costs growing exponentially
+Mejoras en Gobernanza:
+├── 95% cumplimiento de etiquetado de recursos
+├── Asignación automatizada de costos a 12 unidades de negocio
+├── 60% reducción en overhead de gestión de costos
+└── Visibilidad de costos en tiempo real para 200+ stakeholders
 
-Step 2: Detailed Service Analysis
-├── Group by: Instance Type
-├── Time granularity: Daily
-└── Finding: m5.2xlarge instances running 24/7
-
-Step 3: Usage Pattern Analysis
-├── Filter: Instance Type = m5.2xlarge
-├── Group by: Tag (Owner)
-└── Finding: 15 instances, only 30% utilization during business hours
-
-Step 4: Root Cause Investigation
-├── Cost and Usage Report analysis
-├── Instance start/stop patterns
-└── Finding: Developers not shutting down instances after testing
+Impacto Financiero:
+├── $2.3M ahorros anuales a través de optimización
+├── 40% reducción en esfuerzo manual de reporte de costos
+├── 100% proceso automatizado de contracargo
+└── 25% mejora en precisión de presupuestos
 ```
 
-**Optimization Solution:**
+### 🚀 **Escenario 3: Optimización de Costos del Equipo de Desarrollo**
+
+**Desafío:** Los costos de AWS del equipo de desarrollo crecen 20% mes a mes
+
+**Investigación Usando Herramientas de Gestión de Costos:**
 ```
-Immediate Actions (Week 1):
-├── Schedule existing instances (shutdown 6 PM - 8 AM)
-├── Weekend shutdown automation
-├── Right-size instances (m5.large instead of m5.2xlarge)
-└── Set up budget alerts for development environment
+Paso 1: Análisis con Cost Explorer
+├── Rango de tiempo: Últimos 6 meses
+├── Agrupar por: Servicio
+├── Filtro: Etiqueta Environment=development
+└── Hallazgo: Costos EC2 creciendo exponencialmente
 
-Process Improvements (Week 2-4):
-├── Developer training on cost-conscious practices
-├── Cost reporting in daily standups
-├── Instance lifecycle automation
-└── Spot instance adoption for testing
+Paso 2: Análisis Detallado de Servicios
+├── Agrupar por: Tipo de Instancia
+├── Granularidad de tiempo: Diaria
+└── Hallazgo: Instancias m5.2xlarge ejecutándose 24/7
 
-Long-term Governance (Month 2+):
-├── Mandatory tags for all development resources
-├── Budget allocations per developer
-├── Automated resource cleanup (7-day lifecycle)
-└── Cost optimization KPIs for team
+Paso 3: Análisis de Patrones de Uso
+├── Filtro: Tipo de Instancia = m5.2xlarge
+├── Agrupar por: Etiqueta (Owner)
+└── Hallazgo: 15 instancias, solo 30% utilización durante horas de negocio
+
+Paso 4: Investigación de Causa Raíz
+├── Análisis de Reporte de Costo y Uso
+├── Patrones de inicio/parada de instancias
+└── Hallazgo: Desarrolladores no apagan instancias después de pruebas
 ```
 
-**Results:**
-- **Immediate savings:** 70% reduction in development costs
-- **Process improvement:** 85% reduction in forgotten instances
-- **Cultural change:** Developers actively monitor and optimize costs
-- **Scalable solution:** Framework applied to other teams
+**Solución de Optimización:**
+```
+Acciones Inmediatas (Semana 1):
+├── Programar instancias existentes (apagar 6 PM - 8 AM)
+├── Automatización de apagado de fin de semana
+├── Dimensionar correctamente instancias (m5.large en lugar de m5.2xlarge)
+└── Configurar alertas de presupuesto para entorno de desarrollo
+
+Mejoras de Proceso (Semana 2-4):
+├── Entrenamiento de desarrolladores en prácticas conscientes de costos
+├── Reporte de costos en standups diarios
+├── Automatización del ciclo de vida de instancias
+└── Adopción de instancias Spot para pruebas
+
+Gobernanza a Largo Plazo (Mes 2+):
+├── Etiquetas obligatorias para todos los recursos de desarrollo
+├── Asignaciones de presupuesto por desarrollador
+├── Limpieza automatizada de recursos (ciclo de vida de 7 días)
+└── KPIs de optimización de costos para el equipo
+```
+
+**Resultados:**
+- **Ahorros inmediatos:** 70% reducción en costos de desarrollo
+- **Mejora de procesos:** 85% reducción en instancias olvidadas
+- **Cambio cultural:** Desarrolladores monitorean y optimizan costos activamente
+- **Solución escalable:** Marco aplicado a otros equipos
 
 ---
 
-## 🧠 Memory Aids
+## 🧠 Ayudas de Memoria
 
-### 📊 **Cost Management Tools: "BCER"**
-- **B**illing Dashboard - Overview and current spending
-- **C**ost Explorer - Analysis and visualization
-- **E**xplorer Reports - Detailed cost and usage data
-- **R**eports (CUR) - Comprehensive data export
+### 📊 **Herramientas de Gestión de Costos: "BCER"**
+- **B**illing Dashboard - Resumen y gasto actual
+- **C**ost Explorer - Análisis y visualización
+- **E**xplorer Reports - Datos detallados de costo y uso
+- **R**eports (CUR) - Exportación comprehensiva de datos
 
-### 💰 **Budget Types: "CUR"**
-- **C**ost budgets - Dollar amount limits
-- **U**sage budgets - Service usage limits
-- **R**eserved Instance budgets - RI utilization and coverage
+### 💰 **Tipos de Presupuesto: "CUR"**
+- **C**ost budgets - Límites de cantidad en dólares
+- **U**sage budgets - Límites de uso de servicios
+- **R**eserved Instance budgets - Utilización y cobertura de RI
 
-### 🏷️ **Essential Tags: "EPOCH"**
+### 🏷️ **Etiquetas Esenciales: "EPOCH"**
 - **E**nvironment - prod, dev, staging, test
-- **P**roject - Project or application name
-- **O**wner - Resource owner contact
-- **C**ost Center - Financial allocation code
-- **H**andbook - Purpose or function
+- **P**roject - Nombre del proyecto o aplicación
+- **O**wner - Contacto del propietario del recurso
+- **C**ost Center - Código de asignación financiera
+- **H**andbook - Propósito o función
 
 ---
 
-## 📝 Practice Questions
+## 📝 Preguntas de Práctica
 
-### Question 1
-A company wants to track AWS costs by department and project for accurate chargeback. Which AWS feature should they implement first?
+### Pregunta 1
+Una empresa quiere rastrear los costos de AWS por departamento y proyecto para un contracargo preciso. ¿Qué característica de AWS deberían implementar primero?
 
 **A)** AWS Budgets  
-**B)** Cost allocation tags  
+**B)** Etiquetas de asignación de costos  
 **C)** AWS Cost Explorer  
-**D)** Cost and Usage Reports  
+**D)** Reportes de Costo y Uso  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: B) Cost allocation tags**
+**Respuesta: B) Etiquetas de asignación de costos**
 
-**Explanation:** Cost allocation tags are the foundation for tracking costs by business dimensions like department and project. Without proper tagging, other cost management tools cannot provide the granular visibility needed for accurate chargeback.
+**Explicación:** Las etiquetas de asignación de costos son la base para rastrear costos por dimensiones empresariales como departamento y proyecto. Sin un etiquetado adecuado, otras herramientas de gestión de costos no pueden proporcionar la visibilidad granular necesaria para un contracargo preciso.
 
 </details>
 
-### Question 2
-A startup wants to prevent unexpected AWS bills by being alerted when costs are projected to exceed their monthly budget. Which tool should they use?
+### Pregunta 2
+Una startup quiere prevenir facturas inesperadas de AWS siendo alertada cuando se proyecte que los costos excedan su presupuesto mensual. ¿Qué herramienta deberían usar?
 
 **A)** AWS Cost Explorer  
-**B)** AWS Budgets with forecasting alerts  
+**B)** AWS Budgets con alertas de pronóstico  
 **C)** AWS Cost Anomaly Detection  
-**D)** Billing Dashboard  
+**D)** Panel de Facturación  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: B) AWS Budgets with forecasting alerts**
+**Respuesta: B) AWS Budgets con alertas de pronóstico**
 
-**Explanation:** AWS Budgets can alert based on forecasted spending, providing early warning when current usage patterns indicate the monthly budget will be exceeded. This proactive approach helps prevent surprise bills.
+**Explicación:** AWS Budgets puede alertar basado en gasto pronosticado, proporcionando advertencia temprana cuando los patrones de uso actuales indican que el presupuesto mensual será excedido. Este enfoque proactivo ayuda a prevenir facturas sorpresa.
 
 </details>
 
-### Question 3
-An organization wants to analyze their AWS spending patterns over the past year and identify optimization opportunities. Which tool provides the most comprehensive analysis capabilities?
+### Pregunta 3
+Una organización quiere analizar sus patrones de gasto de AWS durante el año pasado e identificar oportunidades de optimización. ¿Qué herramienta proporciona las capacidades de análisis más comprehensivas?
 
-**A)** AWS Billing Dashboard  
+**A)** Panel de Facturación de AWS  
 **B)** AWS Cost Explorer  
 **C)** AWS Budgets  
 **D)** AWS Cost Anomaly Detection  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: B) AWS Cost Explorer**
+**Respuesta: B) AWS Cost Explorer**
 
-**Explanation:** AWS Cost Explorer provides comprehensive analysis capabilities with interactive charts, filtering options, grouping by various dimensions, and historical data analysis up to 12 months. It's specifically designed for deep cost analysis and optimization planning.
+**Explicación:** AWS Cost Explorer proporciona capacidades de análisis comprehensivas con gráficos interactivos, opciones de filtrado, agrupación por varias dimensiones, y análisis de datos históricos hasta 12 meses. Está específicamente diseñado para análisis profundo de costos y planificación de optimización.
 
 </details>
 
-### Question 4
-A company experienced an unexpected $2,000 charge last month and wants to prevent similar surprises. Which AWS service would automatically detect and alert them to unusual spending patterns?
+### Pregunta 4
+Una empresa experimentó un cargo inesperado de $2,000 el mes pasado y quiere prevenir sorpresas similares. ¿Qué servicio de AWS detectaría automáticamente y los alertaría sobre patrones de gasto inusuales?
 
 **A)** AWS Budgets  
 **B)** AWS Cost Explorer  
 **C)** AWS Cost Anomaly Detection  
-**D)** Cost and Usage Reports  
+**D)** Reportes de Costo y Uso  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: C) AWS Cost Anomaly Detection**
+**Respuesta: C) AWS Cost Anomaly Detection**
 
-**Explanation:** AWS Cost Anomaly Detection uses machine learning to learn normal spending patterns and automatically alerts when costs deviate significantly from expected patterns. This would help detect unusual spending before it becomes a major surprise.
+**Explicación:** AWS Cost Anomaly Detection usa aprendizaje automático para aprender patrones normales de gasto y automáticamente alerta cuando los costos se desvían significativamente de los patrones esperados. Esto ayudaría a detectar gasto inusual antes de que se convierta en una sorpresa mayor.
 
 </details>
 
 ---
 
-## 🎯 Key Takeaways
+## 🎯 Puntos Clave
 
-### 🌟 **The Big Picture**
-- **Cost visibility is fundamental** - You can't optimize what you can't see
-- **Proactive management beats reactive** - Budgets and alerts prevent surprises
-- **Tagging enables everything** - Good tagging strategy is the foundation
-- **Regular analysis drives optimization** - Monthly reviews identify opportunities
+### 🌟 **El Panorama General**
+- **La visibilidad de costos es fundamental** - No puedes optimizar lo que no puedes ver
+- **La gestión proactiva supera a la reactiva** - Los presupuestos y alertas previenen sorpresas
+- **El etiquetado habilita todo** - Una buena estrategia de etiquetado es la base
+- **El análisis regular impulsa la optimización** - Las revisiones mensuales identifican oportunidades
 
-### 🎯 **For the Exam**
-- **Know each tool's primary purpose** - Dashboard (overview), Explorer (analysis), Budgets (control)
-- **Understand cost allocation tags** - How they enable chargeback and tracking
-- **Remember budget types** - Cost, usage, and Reserved Instance budgets
-- **Know anomaly detection** - Machine learning-based cost spike detection
+### 🎯 **Para el Examen**
+- **Conocer el propósito principal de cada herramienta** - Dashboard (resumen), Explorer (análisis), Budgets (control)
+- **Entender las etiquetas de asignación de costos** - Cómo habilitan el contracargo y seguimiento
+- **Recordar tipos de presupuesto** - Presupuestos de costo, uso e Instancias Reservadas
+- **Conocer detección de anomalías** - Detección de picos de costo basada en aprendizaje automático
 
-### 💡 **For Real-World Application**
-- **Start with tagging strategy** - Implement before significant AWS usage
-- **Set up budgets early** - Prevention is better than cost surprises
-- **Use Cost Explorer regularly** - Monthly analysis drives optimization
-- **Enable anomaly detection** - Automated monitoring for unusual patterns
-- **Export detailed data** - Cost and Usage Reports for advanced analysis
+### 💡 **Para Aplicación en el Mundo Real**
+- **Comenzar con estrategia de etiquetado** - Implementar antes del uso significativo de AWS
+- **Configurar presupuestos temprano** - La prevención es mejor que las sorpresas de costo
+- **Usar Cost Explorer regularmente** - El análisis mensual impulsa la optimización
+- **Habilitar detección de anomalías** - Monitoreo automatizado para patrones inusuales
+- **Exportar datos detallados** - Reportes de Costo y Uso para análisis avanzado
 
-### 🚀 **Best Practices**
-- **Standardize tag values** - Consistent naming conventions
-- **Layer your budgets** - Multiple levels (account, department, project)
-- **Review alerts regularly** - Tune thresholds to reduce noise
-- **Automate where possible** - Reduce manual monitoring overhead
-- **Document your strategy** - Share cost management practices across teams
-
----
-
-## 🔗 Navigation
-
-**← Previous:** [AWS Pricing Models](./pricing-models.md)  
-**→ Next:** [Cost Optimization Strategies](./cost-optimization.md)  
-**↑ Up:** [Domain 4: Billing & Support](./README.md)  
-**🏠 Home:** [AWS Cloud Practitioner Study Guide](../README.md)
+### 🚀 **Mejores Prácticas**
+- **Estandarizar valores de etiquetas** - Convenciones de nomenclatura consistentes
+- **Estratificar tus presupuestos** - Múltiples niveles (cuenta, departamento, proyecto)
+- **Revisar alertas regularmente** - Ajustar umbrales para reducir ruido
+- **Automatizar donde sea posible** - Reducir overhead de monitoreo manual
+- **Documentar tu estrategia** - Compartir prácticas de gestión de costos entre equipos
 
 ---
 
-> 💡 **Pro Tip:** Cost management is most effective when implemented early and consistently. Don't wait until you have a cost problem - set up monitoring, budgets, and tagging from day one. The exam often focuses on proactive cost management rather than reactive cost reduction!
+## 🔗 Navegación
+
+**← Anterior:** [Modelos de Precios de AWS](./pricing-models.md)  
+**→ Siguiente:** [Estrategias de Optimización de Costos](./cost-optimization.md)  
+**↑ Arriba:** [Dominio 4: Facturación y Soporte](./README.md)  
+**🏠 Inicio:** [Guía de Estudio AWS Cloud Practitioner](../README.md)
+
+---
+
+> 💡 **Consejo Pro:** La gestión de costos es más efectiva cuando se implementa temprano y consistentemente. No esperes hasta tener un problema de costos - configura monitoreo, presupuestos y etiquetado desde el día uno. ¡El examen a menudo se enfoca en la gestión proactiva de costos en lugar de la reducción reactiva de costos!

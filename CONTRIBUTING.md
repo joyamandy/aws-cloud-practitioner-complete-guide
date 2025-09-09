@@ -58,107 +58,107 @@
 - **Explicaciones Poco Claras**: Evita jerga técnica excesivamente compleja
 - **Formato Roto**: Prueba tu markdown antes de enviar
 
-### 🐛 Reporting Issues
+### 🐛 Reportar Problemas
 
-Found a problem? Please create an issue with:
-- **Clear Title**: Describe the problem briefly
-- **Detailed Description**: What's wrong and where?
-- **Expected Behavior**: What should happen instead?
-- **Screenshots**: If applicable, show the issue
+¿Encontraste un problema? Por favor crea un issue con:
+- **Título Claro**: Describe el problema brevemente
+- **Descripción Detallada**: ¿Qué está mal y dónde?
+- **Comportamiento Esperado**: ¿Qué debería pasar en su lugar?
+- **Capturas de Pantalla**: Si aplica, muestra el problema
 
-### 💡 Suggesting Enhancements
+### 💡 Sugerir Mejoras
 
-Have ideas for improvements? We'd love to hear them!
-- **Check existing issues** first to avoid duplicates
-- **Describe your suggestion** clearly
-- **Explain the benefit** to exam candidates
-- **Consider implementation** if you can help code it
+¿Tienes ideas para mejoras? ¡Nos encantaría escucharlas!
+- **Revisa issues existentes** primero para evitar duplicados
+- **Describe tu sugerencia** claramente
+- **Explica el beneficio** para candidatos del examen
+- **Considera la implementación** si puedes ayudar a codificarla
 
-### 🏷️ Style Guide
+### 🏷️ Guía de Estilo
 
-#### Markdown Formatting
-- Use consistent heading levels (# ## ### ####)
-- Include emoji for visual appeal (but don't overuse)
-- Use tables for comparisons and structured data
-- Include code blocks for commands or examples
-- Use bold for **important terms** and *italics* for emphasis
+#### Formato Markdown
+- Usa niveles de encabezado consistentes (# ## ### ####)
+- Incluye emojis para atractivo visual (pero no abuses)
+- Usa tablas para comparaciones y datos estructurados
+- Incluye bloques de código para comandos o ejemplos
+- Usa negritas para **términos importantes** y *cursivas* para énfasis
 
-#### Content Structure
-- Start each section with learning objectives
-- Include real-world analogies when helpful
-- Add practice questions at the end of chapters
-- Use bullet points for lists and features
-- Include cross-references to related sections
+#### Estructura de Contenido
+- Comienza cada sección con objetivos de aprendizaje
+- Incluye analogías del mundo real cuando sea útil
+- Agrega preguntas de práctica al final de los capítulos
+- Usa viñetas para listas y características
+- Incluye referencias cruzadas a secciones relacionadas
 
-#### Language Style
-- Write in second person ("you will learn...")
-- Use active voice when possible
-- Keep sentences clear and concise
-- Explain technical terms when first introduced
-- Include memory aids and mnemonics
+#### Estilo de Lenguaje
+- Escribe en segunda persona ("aprenderás...")
+- Usa voz activa cuando sea posible
+- Mantén oraciones claras y concisas
+- Explica términos técnicos cuando se introduzcan por primera vez
+- Incluye ayudas de memoria y mnemónicos
 
-### 📚 Resources for Contributors
+### 📚 Recursos para Contribuyentes
 
-- [AWS Cloud Practitioner Exam Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/)
-- [AWS Documentation](https://docs.aws.amazon.com/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Guía del Examen AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/)
+- [Documentación de AWS](https://docs.aws.amazon.com/)
+- [Guía de Markdown](https://www.markdownguide.org/)
+- [Markdown de GitHub](https://guides.github.com/features/mastering-markdown/)
 
-### 🎯 Priority Areas
+### 🎯 Áreas Prioritarias
 
-We especially welcome contributions in these areas:
-- **More Practice Questions**: Expand the question banks
-- **Visual Diagrams**: Add architecture diagrams and flowcharts
-- **Study Schedules**: Additional flexible study plans
-- **Memory Techniques**: More mnemonics and memory aids
-- **Real-World Scenarios**: Practical application examples
+Especialmente damos la bienvenida a contribuciones en estas áreas:
+- **Más Preguntas de Práctica**: Expandir los bancos de preguntas
+- **Diagramas Visuales**: Agregar diagramas de arquitectura y diagramas de flujo
+- **Horarios de Estudio**: Planes de estudio flexibles adicionales
+- **Técnicas de Memoria**: Más mnemónicos y ayudas de memoria
+- **Escenarios del Mundo Real**: Ejemplos de aplicación práctica
 
-### 🙏 Recognition
+### 🙏 Reconocimiento
 
-Contributors will be recognized in:
-- The main README.md file
-- Release notes for significant contributions
-- Special thanks section for major improvements
+Los contribuyentes serán reconocidos en:
+- El archivo principal README.md
+- Notas de lanzamiento para contribuciones significativas
+- Sección de agradecimientos especiales para mejoras importantes
 
-### 📞 Questions?
+### 📞 ¿Preguntas?
 
-- **Create an Issue**: For public discussion
-- **Check Existing Issues**: Your question might be answered already
-- **Review Documentation**: Check if your question is covered in guides
+- **Crear un Issue**: Para discusión pública
+- **Revisar Issues Existentes**: Tu pregunta podría estar ya respondida
+- **Revisar Documentación**: Verifica si tu pregunta está cubierta en las guías
 
-## 📜 Code of Conduct
+## 📜 Código de Conducta
 
-### Our Pledge
+### Nuestro Compromiso
 
-We are committed to making participation in this project a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Estamos comprometidos a hacer que la participación en este proyecto sea una experiencia libre de acoso para todos, independientemente de la edad, tamaño corporal, discapacidad, etnia, identidad y expresión de género, nivel de experiencia, nacionalidad, apariencia personal, raza, religión, o identidad y orientación sexual.
 
-### Expected Behavior
+### Comportamiento Esperado
 
-- **Be Respectful**: Treat everyone with respect and kindness
-- **Be Collaborative**: Work together constructively
-- **Be Inclusive**: Welcome newcomers and help them contribute
-- **Be Patient**: Remember everyone is learning
-- **Give Credit**: Acknowledge others' contributions
+- **Ser Respetuoso**: Trata a todos con respeto y amabilidad
+- **Ser Colaborativo**: Trabaja junto constructivamente
+- **Ser Inclusivo**: Da la bienvenida a los recién llegados y ayúdalos a contribuir
+- **Ser Paciente**: Recuerda que todos están aprendiendo
+- **Dar Crédito**: Reconoce las contribuciones de otros
 
-### Unacceptable Behavior
+### Comportamiento Inaceptable
 
-- **Harassment**: No harassment, trolling, or discriminatory comments
-- **Spam**: No irrelevant or promotional content
-- **Plagiarism**: Don't copy others' work without attribution
-- **Disruption**: Don't derail discussions or waste others' time
+- **Acoso**: No acoso, trolling, o comentarios discriminatorios
+- **Spam**: No contenido irrelevante o promocional
+- **Plagio**: No copies el trabajo de otros sin atribución
+- **Disrupción**: No descarriles discusiones o desperdicies el tiempo de otros
 
-## 🚀 Getting Started
+## 🚀 Comenzando
 
-Ready to contribute? Here's how to begin:
+¿Listo para contribuir? Así es como empezar:
 
-1. **Read the study guide** to understand the content and style
-2. **Check open issues** for ways to help immediately
-3. **Start small** with typo fixes or minor improvements
-4. **Ask questions** if you're unsure about anything
-5. **Have fun** and help others succeed in their AWS journey!
+1. **Lee la guía de estudio** para entender el contenido y estilo
+2. **Revisa issues abiertos** para formas de ayudar inmediatamente
+3. **Comienza pequeño** con correcciones de errores tipográficos o mejoras menores
+4. **Haz preguntas** si no estás seguro de algo
+5. **¡Diviértete** y ayuda a otros a tener éxito en su viaje de AWS!
 
-Thank you for helping make this the best AWS Cloud Practitioner study resource available! 🌟
+¡Gracias por ayudar a hacer de este el mejor recurso de estudio de AWS Cloud Practitioner disponible! 🌟
 
 ---
 
-*By contributing, you agree that your contributions will be licensed under the same license as this project.*
+*Al contribuir, aceptas que tus contribuciones serán licenciadas bajo la misma licencia que este proyecto.*

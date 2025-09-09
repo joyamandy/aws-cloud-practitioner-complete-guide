@@ -57,903 +57,903 @@ Piénsalo como **pagar por electricidad**:
 - **Experimentación** - Prueba nuevos servicios sin compromisos importantes
 - **Flujo de caja amigable** - Gastos operativos vs gastos de capital
 
-#### **📈 Volume Discounts**
-**The more you use, the less you pay per unit:**
-- **S3 storage** - Lower per-GB costs at higher volumes
-- **EC2 instances** - Volume discounts for large deployments
-- **Data transfer** - Tiered pricing with higher volumes costing less
-- **Support plans** - Percentage-based pricing scales with usage
+#### **📈 Descuentos por Volumen**
+**Mientras más uses, menos pagas por unidad:**
+- **Almacenamiento S3** - Costos más bajos por GB en volúmenes altos
+- **Instancias EC2** - Descuentos por volumen para grandes despliegues
+- **Transferencia de datos** - Precios escalonados con volúmenes altos costando menos
+- **Planes de soporte** - Precios basados en porcentaje escalan con el uso
 
-#### **💰 No Upfront Costs (Unless You Choose Them)**
-**Default model:**
-- **Start immediately** - No procurement process
-- **Pay monthly** - Predictable billing cycles
-- **Scale organically** - Grow infrastructure with business
-- **Optional commitments** - Choose longer terms for discounts
+#### **💰 Sin Costos Iniciales (A Menos que los Elijas)**
+**Modelo predeterminado:**
+- **Comenzar inmediatamente** - Sin proceso de adquisición
+- **Pagar mensualmente** - Ciclos de facturación predecibles
+- **Escalar orgánicamente** - Hacer crecer la infraestructura con el negocio
+- **Compromisos opcionales** - Elegir términos más largos para descuentos
 
-### 🏗️ **What Drives AWS Costs**
+### 🏗️ **Qué Impulsa los Costos de AWS**
 
-#### **🖥️ Compute Costs**
-**Factors that affect compute pricing:**
-- **Instance type** - CPU, memory, network performance
-- **Instance size** - Small vs large within same family
-- **Operating system** - Linux vs Windows licensing
-- **Region** - Geographic location affects pricing
-- **Usage time** - Billed by second (minimum 1 minute)
+#### **🖥️ Costos de Cómputo**
+**Factores que afectan los precios de cómputo:**
+- **Tipo de instancia** - CPU, memoria, rendimiento de red
+- **Tamaño de instancia** - Pequeña vs grande dentro de la misma familia
+- **Sistema operativo** - Licenciamiento Linux vs Windows
+- **Región** - La ubicación geográfica afecta los precios
+- **Tiempo de uso** - Facturado por segundo (mínimo 1 minuto)
 
-#### **💾 Storage Costs**
-**Storage pricing factors:**
-- **Storage type** - SSD vs HDD, performance levels
-- **Volume** - Amount of data stored
-- **Access patterns** - Frequent vs infrequent access
-- **Duration** - How long data is stored
-- **Requests** - Number of read/write operations
+#### **💾 Costos de Almacenamiento**
+**Factores de precios de almacenamiento:**
+- **Tipo de almacenamiento** - SSD vs HDD, niveles de rendimiento
+- **Volumen** - Cantidad de datos almacenados
+- **Patrones de acceso** - Acceso frecuente vs infrecuente
+- **Duración** - Cuánto tiempo se almacenan los datos
+- **Solicitudes** - Número de operaciones de lectura/escritura
 
-#### **🌐 Network Costs**
-**Data transfer pricing:**
-- **Inbound** - Usually free (data coming to AWS)
-- **Outbound** - Charged per GB (data leaving AWS)
-- **Cross-region** - Between AWS regions
-- **Cross-AZ** - Between Availability Zones
-- **CloudFront** - Content delivery network usage
+#### **🌐 Costos de Red**
+**Precios de transferencia de datos:**
+- **Entrante** - Usualmente gratis (datos llegando a AWS)
+- **Saliente** - Cobrado por GB (datos saliendo de AWS)
+- **Entre regiones** - Entre regiones de AWS
+- **Entre AZ** - Entre Zonas de Disponibilidad
+- **CloudFront** - Uso de red de entrega de contenido
 
-#### **🔧 Additional Services**
-**Other cost factors:**
-- **Load balancers** - Per hour + data processed
-- **NAT gateways** - Per hour + data processed
-- **API calls** - Many services charge per request
-- **Support plans** - Optional paid support tiers
-
----
-
-## 💻 On-Demand Pricing
-
-### 🎯 **What is On-Demand Pricing?**
-
-Think of On-Demand like **ordering food delivery**:
-- **Pay full menu price** - No discounts, but maximum convenience
-- **Available immediately** - No waiting or planning required
-- **Pay per order** - Only pay when you actually order
-- **No minimum orders** - Order as little or as much as you want
-
-### ⚡ **On-Demand Characteristics**
-
-#### **💳 Payment Model**
-- **Pay by the hour** - Most services bill hourly
-- **Pay by the second** - EC2 and some others (minimum 1 minute)
-- **Pay per request** - Lambda, API Gateway, many managed services
-- **No upfront payment** - Start using immediately
-
-#### **🚀 Benefits**
-- **Maximum flexibility** - Start and stop anytime
-- **No planning required** - No capacity planning or forecasting
-- **Perfect for experimentation** - Try new services risk-free
-- **Ideal for unpredictable workloads** - Traffic varies significantly
-
-#### **💰 Trade-offs**
-- **Highest per-unit cost** - Most expensive pricing model
-- **No volume discounts** - Each hour costs the same
-- **Budget unpredictability** - Costs vary with usage
-
-### 🎯 **When to Use On-Demand**
-
-#### **✅ Perfect Scenarios**
-- **Development and testing** - Spin up resources as needed
-- **Short-term projects** - Projects lasting days or weeks
-- **Unpredictable workloads** - Traffic patterns vary significantly
-- **Learning and experimentation** - Exploring new AWS services
-- **Disaster recovery** - Resources needed only during emergencies
-
-#### **📊 Example Use Cases**
-
-**🔬 Development Environment**
-```
-Daily Usage Pattern:
-├── 9 AM - 6 PM: Active development (9 hours)
-├── 6 PM - 9 AM: Shut down to save costs (15 hours)
-└── Weekends: Occasional use (variable)
-
-Cost Optimization:
-- Use On-Demand for flexible schedules
-- Shut down when not needed
-- No commitment required
-```
-
-**📈 Marketing Campaign**
-```
-Campaign Duration: 2 weeks
-├── Week 1: Ramp up traffic gradually
-├── Week 2: Peak traffic, then rapid decline
-└── Post-campaign: Minimal traffic
-
-Why On-Demand:
-- Unknown traffic patterns
-- Short duration
-- Need to scale quickly
-```
+#### **🔧 Servicios Adicionales**
+**Otros factores de costo:**
+- **Balanceadores de carga** - Por hora + datos procesados
+- **Gateways NAT** - Por hora + datos procesados
+- **Llamadas API** - Muchos servicios cobran por solicitud
+- **Planes de soporte** - Niveles de soporte pagados opcionales
 
 ---
 
-## 🏦 Reserved Instances
+## 💻 Precios Bajo Demanda
 
-### 🏠 **What are Reserved Instances?**
+### 🎯 **¿Qué son los Precios Bajo Demanda?**
 
-Think of Reserved Instances like **signing a gym membership**:
-- **Pay upfront** for a 1 or 3-year membership
-- **Get significant discounts** compared to daily passes
-- **Commitment required** - Can't cancel without losing money
-- **Best value** if you use it consistently
+Piensa en Bajo Demanda como **pedir comida a domicilio**:
+- **Pagar precio completo del menú** - Sin descuentos, pero máxima conveniencia
+- **Disponible inmediatamente** - Sin espera o planificación requerida
+- **Pagar por pedido** - Solo pagas cuando realmente pides
+- **Sin pedidos mínimos** - Pide tan poco o tanto como quieras
 
-### 💰 **Reserved Instance Types**
+### ⚡ **Características de Bajo Demanda**
 
-#### **📊 Standard Reserved Instances**
-**Maximum savings, least flexibility**
+#### **💳 Modelo de Pago**
+- **Pagar por hora** - La mayoría de servicios facturan por hora
+- **Pagar por segundo** - EC2 y algunos otros (mínimo 1 minuto)
+- **Pagar por solicitud** - Lambda, API Gateway, muchos servicios administrados
+- **Sin pago inicial** - Comenzar a usar inmediatamente
 
-**Features:**
-- **Up to 75% savings** vs On-Demand
-- **1 or 3-year terms** - Longer terms = bigger discounts
-- **Regional scope** - Use anywhere in selected region
-- **Instance family locked** - Can't change instance type significantly
+#### **🚀 Beneficios**
+- **Máxima flexibilidad** - Iniciar y detener en cualquier momento
+- **Sin planificación requerida** - Sin planificación de capacidad o pronósticos
+- **Perfecto para experimentación** - Probar nuevos servicios sin riesgo
+- **Ideal para cargas de trabajo impredecibles** - El tráfico varía significativamente
 
-**Payment Options:**
-- **All Upfront** - Pay entire cost upfront (maximum discount)
-- **Partial Upfront** - Pay some upfront, rest monthly
-- **No Upfront** - Pay monthly (smallest discount)
+#### **💰 Compromisos**
+- **Costo más alto por unidad** - Modelo de precios más caro
+- **Sin descuentos por volumen** - Cada hora cuesta lo mismo
+- **Impredecibilidad presupuestaria** - Los costos varían con el uso
 
-#### **🔄 Convertible Reserved Instances**
-**Good savings, more flexibility**
+### 🎯 **Cuándo Usar Bajo Demanda**
 
-**Features:**
-- **Up to 54% savings** vs On-Demand (less than Standard)
-- **Exchange capability** - Change instance types, OS, tenancy
-- **Same payment options** - All, Partial, or No Upfront
-- **Future-proofing** - Adapt to changing needs
+#### **✅ Escenarios Perfectos**
+- **Desarrollo y pruebas** - Crear recursos según sea necesario
+- **Proyectos a corto plazo** - Proyectos que duran días o semanas
+- **Cargas de trabajo impredecibles** - Los patrones de tráfico varían significativamente
+- **Aprendizaje y experimentación** - Explorar nuevos servicios de AWS
+- **Recuperación ante desastres** - Recursos necesarios solo durante emergencias
 
-**Exchange Examples:**
+#### **📊 Casos de Uso de Ejemplo**
+
+**🔬 Entorno de Desarrollo**
 ```
-Original: m5.large Linux → m5.xlarge Linux (bigger)
-Original: m5.large Linux → c5.large Linux (different family)
-Original: m5.large Linux → m5.large Windows (different OS)
-```
+Patrón de Uso Diario:
+├── 9 AM - 6 PM: Desarrollo activo (9 horas)
+├── 6 PM - 9 AM: Apagar para ahorrar costos (15 horas)
+└── Fines de semana: Uso ocasional (variable)
 
-#### **🎯 Scheduled Reserved Instances**
-**For predictable recurring usage**
-
-**Use Cases:**
-- **Business hours only** - 9 AM - 5 PM, Monday-Friday
-- **Batch processing** - Same time every night
-- **Weekly reports** - Every Sunday for 4 hours
-- **Seasonal patterns** - Holiday processing
-
-### 📊 **Reserved Instance Savings Examples**
-
-#### **💻 Example: Web Server**
-```
-Scenario: m5.large instance running 24/7 for 1 year
-
-On-Demand Cost:
-├── $0.096 per hour × 24 hours × 365 days = $841.60/year
-
-Standard Reserved (1-year, All Upfront):
-├── $504 upfront payment = $504/year
-└── Savings: $337.60 (40% savings)
-
-Standard Reserved (3-year, All Upfront):
-├── $304 upfront payment = $304/year
-└── Savings: $537.60 (64% savings)
+Optimización de Costos:
+- Usar Bajo Demanda para horarios flexibles
+- Apagar cuando no se necesite
+- Sin compromiso requerido
 ```
 
-#### **🗄️ Example: Database Server**
+**📈 Campaña de Marketing**
 ```
-Scenario: r5.xlarge database running continuously
+Duración de Campaña: 2 semanas
+├── Semana 1: Aumentar tráfico gradualmente
+├── Semana 2: Tráfico pico, luego declive rápido
+└── Post-campaña: Tráfico mínimo
 
-On-Demand Cost: $0.252/hour × 8,760 hours = $2,207.52/year
-
-Reserved Instance Options:
-├── 1-year Standard: $1,460 (34% savings)
-├── 3-year Standard: $1,200 (46% savings)
-└── 3-year Convertible: $1,350 (39% savings)
-
-Best Choice: 3-year Standard if requirements won't change
-Alternative: 3-year Convertible for flexibility
-```
-
-### 🎯 **Reserved Instance Best Practices**
-
-#### **📊 Usage Analysis**
-**Before purchasing Reserved Instances:**
-1. **Analyze historical usage** - 3-6 months of data
-2. **Identify steady workloads** - Consistent 24/7 usage
-3. **Account for growth** - Don't over-purchase
-4. **Consider instance families** - Standard vs Convertible
-
-#### **🔄 Management Strategies**
-- **Start with 1-year terms** - Lower commitment for learning
-- **Mix payment options** - Balance savings vs cash flow
-- **Use Convertible for uncertainty** - When future needs unclear
-- **Monitor utilization** - Ensure you're getting value
-
----
-
-## ⚡ Spot Instances
-
-### 🎰 **What are Spot Instances?**
-
-Think of Spot Instances like **standby airline tickets**:
-- **Huge discounts** (up to 90% off) if you're flexible
-- **Available when there's spare capacity** 
-- **Can be taken away** with 2-minute notice
-- **Perfect for flexible, fault-tolerant workloads**
-
-### 🔧 **How Spot Instances Work**
-
-#### **💰 Spot Pricing**
-```
-Spot Price Fluctuation Example:
-├── Monday: $0.05/hour (high availability)
-├── Tuesday: $0.15/hour (moderate demand)
-├── Wednesday: $0.45/hour (high demand)
-└── Thursday: $0.08/hour (low demand again)
-
-Your Bid: $0.20/hour
-├── Monday-Tuesday: Instance runs (price below bid)
-├── Wednesday: Instance terminated (price above bid)
-└── Thursday: Instance available again
-```
-
-#### **⚡ Spot Instance Lifecycle**
-1. **Request Spot Instance** - Set maximum price you'll pay
-2. **Instance launches** - When spot price ≤ your bid
-3. **Instance runs normally** - Full EC2 functionality
-4. **Price increases** - Above your maximum bid
-5. **2-minute warning** - Spot instance interruption notice
-6. **Instance terminates** - Automatically stopped or terminated
-
-### 🎯 **Perfect Use Cases for Spot Instances**
-
-#### **✅ Ideal Workloads**
-- **Batch processing** - Jobs that can restart
-- **Data analysis** - MapReduce, analytics jobs
-- **Image/video processing** - Rendering, transcoding
-- **Web crawling** - Fault-tolerant by nature
-- **CI/CD pipelines** - Build and test environments
-- **Machine learning training** - Can checkpoint and resume
-
-#### **❌ Avoid Spot Instances For**
-- **Production web servers** - Need guaranteed availability
-- **Databases** - Risk of data loss on termination
-- **Real-time applications** - Can't tolerate interruptions
-- **Jobs without checkpointing** - Can't resume from where they left off
-
-### 🛠️ **Spot Instance Strategies**
-
-#### **🔄 Spot Fleet**
-**Mix of instance types for better availability:**
-```
-Spot Fleet Configuration:
-├── Instance Types: m5.large, m5.xlarge, c5.large, c5.xlarge
-├── Availability Zones: us-east-1a, us-east-1b, us-east-1c
-├── Allocation Strategy: Diversified
-└── Target Capacity: 10 instances
-
-Benefits:
-├── Higher availability (multiple instance types)
-├── Better pricing (can choose cheapest available)
-└── Automatic replacement (if instances terminated)
-```
-
-#### **💾 Checkpointing Strategy**
-**Save progress regularly:**
-```
-Batch Job Design:
-├── Process data in chunks
-├── Save progress every 30 minutes
-├── Store checkpoint in S3
-├── Resume from last checkpoint if interrupted
-└── Final results saved to persistent storage
-```
-
-### 📊 **Spot Instance Savings Examples**
-
-#### **🔬 Data Processing**
-```
-Workload: 100 hours of data processing per month
-Instance: c5.2xlarge
-
-On-Demand Cost:
-├── $0.34/hour × 100 hours = $34/month
-
-Spot Cost (average 70% discount):
-├── $0.10/hour × 100 hours = $10/month
-└── Savings: $24/month (70% savings)
-
-Annual Savings: $288 (significant for ongoing workloads)
-```
-
-#### **🎥 Video Processing**
-```
-Workload: Nightly video transcoding
-Duration: 4 hours/night × 30 days = 120 hours/month
-Instance: m5.4xlarge
-
-Comparison:
-├── On-Demand: $0.768/hour × 120 = $92.16/month
-├── Spot Average: $0.20/hour × 120 = $24/month
-└── Savings: $68.16/month (74% savings)
-
-Risk Mitigation:
-├── Job designed to resume from interruption
-├── Multiple instance types in Spot Fleet
-└── Fallback to On-Demand if needed
+Por qué Bajo Demanda:
+- Patrones de tráfico desconocidos
+- Duración corta
+- Necesidad de escalar rápidamente
 ```
 
 ---
 
-## 💰 Savings Plans
+## 🏦 Instancias Reservadas
 
-### 🎯 **What are Savings Plans?**
+### 🏠 **¿Qué son las Instancias Reservadas?**
 
-Think of Savings Plans like **buying bulk power** for your home:
-- **Commit to using** a certain amount of electricity per hour
-- **Get discounts** on all your electrical usage
-- **Flexibility** in how you use that electricity
-- **Automatic application** to your highest bills first
+Piensa en las Instancias Reservadas como **firmar una membresía de gimnasio**:
+- **Pagar por adelantado** por una membresía de 1 o 3 años
+- **Obtener descuentos significativos** comparado con pases diarios
+- **Compromiso requerido** - No puedes cancelar sin perder dinero
+- **Mejor valor** si lo usas consistentemente
 
-### 🔄 **Types of Savings Plans**
+### 💰 **Tipos de Instancias Reservadas**
 
-#### **💻 Compute Savings Plans**
-**Most flexible, good savings**
+#### **📊 Instancias Reservadas Estándar**
+**Máximos ahorros, menor flexibilidad**
 
-**Features:**
-- **Up to 66% savings** vs On-Demand
-- **Applies to EC2, Lambda, and Fargate** usage
-- **Instance family flexibility** - Change sizes, OS, tenancy
-- **Region flexibility** - Move workloads between regions
+**Características:**
+- **Hasta 75% de ahorros** vs Bajo Demanda
+- **Términos de 1 o 3 años** - Términos más largos = mayores descuentos
+- **Alcance regional** - Usar en cualquier lugar de la región seleccionada
+- **Familia de instancia bloqueada** - No puedes cambiar el tipo de instancia significativamente
 
-**Best For:**
-- **Mixed workloads** - EC2 + serverless
-- **Dynamic environments** - Changing requirements
-- **Multi-region deployments**
+**Opciones de Pago:**
+- **Todo por Adelantado** - Pagar todo el costo por adelantado (máximo descuento)
+- **Parcial por Adelantado** - Pagar algo por adelantado, resto mensual
+- **Sin Adelanto** - Pagar mensualmente (menor descuento)
 
-#### **🖥️ EC2 Instance Savings Plans**
-**Highest savings, EC2 focused**
+#### **🔄 Instancias Reservadas Convertibles**
+**Buenos ahorros, más flexibilidad**
 
-**Features:**
-- **Up to 72% savings** vs On-Demand (highest savings)
-- **EC2 instances only** - Doesn't apply to Lambda/Fargate
-- **Instance family commitment** - Locked to specific family
-- **Size and OS flexibility** - Can change within family
+**Características:**
+- **Hasta 54% de ahorros** vs Bajo Demanda (menos que Estándar)
+- **Capacidad de intercambio** - Cambiar tipos de instancia, SO, tenencia
+- **Mismas opciones de pago** - Todo, Parcial, o Sin Adelanto
+- **Preparación para el futuro** - Adaptarse a necesidades cambiantes
 
-**Best For:**
-- **Steady EC2 workloads** - Predictable compute needs
-- **Standardized environments** - Consistent instance families
-- **Maximum savings** - When flexibility isn't needed
-
-### 📊 **Savings Plans vs Reserved Instances**
-
-| **Feature** | **Savings Plans** | **Reserved Instances** |
-|-------------|-------------------|------------------------|
-| **Flexibility** | High | Medium (Convertible) / Low (Standard) |
-| **Services** | EC2, Lambda, Fargate | EC2 only |
-| **Commitment** | $/hour usage | Specific instance type |
-| **Savings** | Up to 72% | Up to 75% |
-| **Management** | Automatic application | Manual instance matching |
-| **Best For** | Mixed/dynamic workloads | Stable, predictable workloads |
-
-### 🎯 **Savings Plans Examples**
-
-#### **💡 Compute Savings Plan**
+**Ejemplos de Intercambio:**
 ```
-Commitment: $10/hour for 1 year
-
-Usage Scenario:
-├── EC2 instances: $6/hour usage
-├── Lambda functions: $2/hour usage
-├── Fargate containers: $1/hour usage
-└── Total covered: $9/hour
-
-Benefits:
-├── All usage gets Savings Plan rates
-├── Remaining $1/hour commitment unused
-├── On-Demand rates apply to usage above $10/hour
-└── Flexibility to change service mix
+Original: m5.large Linux → m5.xlarge Linux (más grande)
+Original: m5.large Linux → c5.large Linux (familia diferente)
+Original: m5.large Linux → m5.large Windows (SO diferente)
 ```
 
-#### **🖥️ EC2 Instance Savings Plan**
+#### **🎯 Instancias Reservadas Programadas**
+**Para uso recurrente predecible**
+
+**Casos de Uso:**
+- **Solo horas de negocio** - 9 AM - 5 PM, Lunes-Viernes
+- **Procesamiento por lotes** - Misma hora cada noche
+- **Reportes semanales** - Cada domingo por 4 horas
+- **Patrones estacionales** - Procesamiento de días festivos
+
+### 📊 **Ejemplos de Ahorros de Instancias Reservadas**
+
+#### **💻 Ejemplo: Servidor Web**
 ```
-Current Usage: 10 × m5.large instances (24/7)
-Monthly On-Demand Cost: $691.20
+Escenario: instancia m5.large funcionando 24/7 por 1 año
 
-Savings Plan Analysis:
-├── Commitment: $0.062/hour per instance
-├── Monthly Savings Plan Cost: $446.40
-├── Monthly Savings: $244.80 (35% savings)
-└── Annual Savings: $2,937.60
+Costo Bajo Demanda:
+├── $0.096 por hora × 24 horas × 365 días = $841.60/año
 
-Flexibility Benefits:
-├── Can change to m5.xlarge (fewer instances)
-├── Can switch to Windows if needed
-├── Can move between AZs in same region
-└── Automatic application to highest costs
+Reservada Estándar (1 año, Todo por Adelantado):
+├── $504 pago por adelantado = $504/año
+└── Ahorros: $337.60 (40% de ahorros)
+
+Reservada Estándar (3 años, Todo por Adelantado):
+├── $304 pago por adelantado = $304/año
+└── Ahorros: $537.60 (64% de ahorros)
+```
+
+#### **🗄️ Ejemplo: Servidor de Base de Datos**
+```
+Escenario: base de datos r5.xlarge funcionando continuamente
+
+Costo Bajo Demanda: $0.252/hora × 8,760 horas = $2,207.52/año
+
+Opciones de Instancia Reservada:
+├── 1 año Estándar: $1,460 (34% de ahorros)
+├── 3 años Estándar: $1,200 (46% de ahorros)
+└── 3 años Convertible: $1,350 (39% de ahorros)
+
+Mejor Opción: 3 años Estándar si los requisitos no cambiarán
+Alternativa: 3 años Convertible para flexibilidad
+```
+
+### 🎯 **Mejores Prácticas de Instancias Reservadas**
+
+#### **📊 Análisis de Uso**
+**Antes de comprar Instancias Reservadas:**
+1. **Analizar uso histórico** - 3-6 meses de datos
+2. **Identificar cargas de trabajo estables** - Uso consistente 24/7
+3. **Considerar crecimiento** - No comprar en exceso
+4. **Considerar familias de instancias** - Estándar vs Convertible
+
+#### **🔄 Estrategias de Gestión**
+- **Comenzar con términos de 1 año** - Menor compromiso para aprender
+- **Mezclar opciones de pago** - Equilibrar ahorros vs flujo de caja
+- **Usar Convertible para incertidumbre** - Cuando las necesidades futuras no están claras
+- **Monitorear utilización** - Asegurar que obtienes valor
+
+---
+
+## ⚡ Instancias Spot
+
+### 🎰 **¿Qué son las Instancias Spot?**
+
+Piensa en las Instancias Spot como **boletos de avión en lista de espera**:
+- **Descuentos enormes** (hasta 90% de descuento) si eres flexible
+- **Disponibles cuando hay capacidad de sobra**
+- **Pueden ser retiradas** con aviso de 2 minutos
+- **Perfectas para cargas de trabajo flexibles y tolerantes a fallos**
+
+### 🔧 **Cómo Funcionan las Instancias Spot**
+
+#### **💰 Precios Spot**
+```
+Ejemplo de Fluctuación de Precio Spot:
+├── Lunes: $0.05/hora (alta disponibilidad)
+├── Martes: $0.15/hora (demanda moderada)
+├── Miércoles: $0.45/hora (alta demanda)
+└── Jueves: $0.08/hora (baja demanda otra vez)
+
+Tu Oferta: $0.20/hora
+├── Lunes-Martes: Instancia funciona (precio debajo de oferta)
+├── Miércoles: Instancia terminada (precio arriba de oferta)
+└── Jueves: Instancia disponible otra vez
+```
+
+#### **⚡ Ciclo de Vida de Instancia Spot**
+1. **Solicitar Instancia Spot** - Establecer precio máximo que pagarás
+2. **Instancia se lanza** - Cuando precio spot ≤ tu oferta
+3. **Instancia funciona normalmente** - Funcionalidad completa de EC2
+4. **Precio aumenta** - Arriba de tu oferta máxima
+5. **Aviso de 2 minutos** - Notificación de interrupción de instancia spot
+6. **Instancia termina** - Automáticamente detenida o terminada
+
+### 🎯 **Casos de Uso Perfectos para Instancias Spot**
+
+#### **✅ Cargas de Trabajo Ideales**
+- **Procesamiento por lotes** - Trabajos que pueden reiniciar
+- **Análisis de datos** - Trabajos MapReduce, analíticos
+- **Procesamiento de imagen/video** - Renderizado, transcodificación
+- **Rastreo web** - Tolerante a fallos por naturaleza
+- **Pipelines CI/CD** - Entornos de construcción y prueba
+- **Entrenamiento de aprendizaje automático** - Puede hacer checkpoint y reanudar
+
+#### **❌ Evitar Instancias Spot Para**
+- **Servidores web de producción** - Necesitan disponibilidad garantizada
+- **Bases de datos** - Riesgo de pérdida de datos en terminación
+- **Aplicaciones en tiempo real** - No pueden tolerar interrupciones
+- **Trabajos sin checkpointing** - No pueden reanudar desde donde se quedaron
+
+### 🛠️ **Estrategias de Instancias Spot**
+
+#### **🔄 Flota Spot**
+**Mezcla de tipos de instancia para mejor disponibilidad:**
+```
+Configuración de Flota Spot:
+├── Tipos de Instancia: m5.large, m5.xlarge, c5.large, c5.xlarge
+├── Zonas de Disponibilidad: us-east-1a, us-east-1b, us-east-1c
+├── Estrategia de Asignación: Diversificada
+└── Capacidad Objetivo: 10 instancias
+
+Beneficios:
+├── Mayor disponibilidad (múltiples tipos de instancia)
+├── Mejor precio (puede elegir el más barato disponible)
+└── Reemplazo automático (si las instancias son terminadas)
+```
+
+#### **💾 Estrategia de Checkpointing**
+**Guardar progreso regularmente:**
+```
+Diseño de Trabajo por Lotes:
+├── Procesar datos en fragmentos
+├── Guardar progreso cada 30 minutos
+├── Almacenar checkpoint en S3
+├── Reanudar desde último checkpoint si se interrumpe
+└── Resultados finales guardados en almacenamiento persistente
+```
+
+### 📊 **Ejemplos de Ahorros de Instancias Spot**
+
+#### **🔬 Procesamiento de Datos**
+```
+Carga de Trabajo: 100 horas de procesamiento de datos por mes
+Instancia: c5.2xlarge
+
+Costo Bajo Demanda:
+├── $0.34/hora × 100 horas = $34/mes
+
+Costo Spot (promedio 70% descuento):
+├── $0.10/hora × 100 horas = $10/mes
+└── Ahorros: $24/mes (70% de ahorros)
+
+Ahorros Anuales: $288 (significativo para cargas de trabajo continuas)
+```
+
+#### **🎥 Procesamiento de Video**
+```
+Carga de Trabajo: Transcodificación nocturna de video
+Duración: 4 horas/noche × 30 días = 120 horas/mes
+Instancia: m5.4xlarge
+
+Comparación:
+├── Bajo Demanda: $0.768/hora × 120 = $92.16/mes
+├── Promedio Spot: $0.20/hora × 120 = $24/mes
+└── Ahorros: $68.16/mes (74% de ahorros)
+
+Mitigación de Riesgo:
+├── Trabajo diseñado para reanudar desde interrupción
+├── Múltiples tipos de instancia en Flota Spot
+└── Respaldo a Bajo Demanda si es necesario
 ```
 
 ---
 
-## 🆓 AWS Free Tier
+## 💰 Planes de Ahorro
 
-### 🎁 **What is the AWS Free Tier?**
+### 🎯 **¿Qué son los Planes de Ahorro?**
 
-Think of the AWS Free Tier like **free samples at a store**:
-- **Try before you buy** - Experience AWS services at no cost
-- **Limited quantities** - Specific amounts of each service
-- **Time limits** - Most benefits last 12 months
-- **No credit card tricks** - Truly free with usage monitoring
+Piensa en los Planes de Ahorro como **comprar energía al por mayor** para tu hogar:
+- **Comprometerse a usar** cierta cantidad de electricidad por hora
+- **Obtener descuentos** en todo tu uso eléctrico
+- **Flexibilidad** en cómo usas esa electricidad
+- **Aplicación automática** a tus facturas más altas primero
 
-### 📅 **Free Tier Categories**
+### 🔄 **Tipos de Planes de Ahorro**
 
-#### **🗓️ 12-Month Free Tier**
-**Starts from your AWS account creation date**
+#### **💻 Planes de Ahorro de Cómputo**
+**Más flexibles, buenos ahorros**
 
-**Key Services:**
+**Características:**
+- **Hasta 66% de ahorros** vs Bajo Demanda
+- **Se aplica a uso de EC2, Lambda y Fargate**
+- **Flexibilidad de familia de instancia** - Cambiar tamaños, SO, tenencia
+- **Flexibilidad de región** - Mover cargas de trabajo entre regiones
+
+**Mejor Para:**
+- **Cargas de trabajo mixtas** - EC2 + serverless
+- **Entornos dinámicos** - Requisitos cambiantes
+- **Despliegues multi-región**
+
+#### **🖥️ Planes de Ahorro de Instancias EC2**
+**Máximos ahorros, enfocado en EC2**
+
+**Características:**
+- **Hasta 72% de ahorros** vs Bajo Demanda (máximos ahorros)
+- **Solo instancias EC2** - No se aplica a Lambda/Fargate
+- **Compromiso de familia de instancia** - Bloqueado a familia específica
+- **Flexibilidad de tamaño y SO** - Puede cambiar dentro de la familia
+
+**Mejor Para:**
+- **Cargas de trabajo EC2 estables** - Necesidades de cómputo predecibles
+- **Entornos estandarizados** - Familias de instancia consistentes
+- **Máximos ahorros** - Cuando no se necesita flexibilidad
+
+### 📊 **Planes de Ahorro vs Instancias Reservadas**
+
+| **Característica** | **Planes de Ahorro** | **Instancias Reservadas** |
+|--------------------|----------------------|---------------------------|
+| **Flexibilidad** | Alta | Media (Convertible) / Baja (Estándar) |
+| **Servicios** | EC2, Lambda, Fargate | Solo EC2 |
+| **Compromiso** | Uso $/hora | Tipo de instancia específico |
+| **Ahorros** | Hasta 72% | Hasta 75% |
+| **Gestión** | Aplicación automática | Coincidencia manual de instancia |
+| **Mejor Para** | Cargas mixtas/dinámicas | Cargas estables, predecibles |
+
+### 🎯 **Ejemplos de Planes de Ahorro**
+
+#### **💡 Plan de Ahorro de Cómputo**
+```
+Compromiso: $10/hora por 1 año
+
+Escenario de Uso:
+├── Instancias EC2: $6/hora de uso
+├── Funciones Lambda: $2/hora de uso
+├── Contenedores Fargate: $1/hora de uso
+└── Total cubierto: $9/hora
+
+Beneficios:
+├── Todo el uso obtiene tarifas de Plan de Ahorro
+├── $1/hora de compromiso restante sin usar
+├── Tarifas Bajo Demanda se aplican a uso arriba de $10/hora
+└── Flexibilidad para cambiar mezcla de servicios
+```
+
+#### **🖥️ Plan de Ahorro de Instancias EC2**
+```
+Uso Actual: 10 × instancias m5.large (24/7)
+Costo Mensual Bajo Demanda: $691.20
+
+Análisis de Plan de Ahorro:
+├── Compromiso: $0.062/hora por instancia
+├── Costo Mensual Plan de Ahorro: $446.40
+├── Ahorros Mensuales: $244.80 (35% de ahorros)
+└── Ahorros Anuales: $2,937.60
+
+Beneficios de Flexibilidad:
+├── Puede cambiar a m5.xlarge (menos instancias)
+├── Puede cambiar a Windows si es necesario
+├── Puede moverse entre AZs en la misma región
+└── Aplicación automática a costos más altos
+```
+
+---
+
+## 🆓 Nivel Gratuito de AWS
+
+### 🎁 **¿Qué es el Nivel Gratuito de AWS?**
+
+Piensa en el Nivel Gratuito de AWS como **muestras gratis en una tienda**:
+- **Probar antes de comprar** - Experimentar servicios de AWS sin costo
+- **Cantidades limitadas** - Cantidades específicas de cada servicio
+- **Límites de tiempo** - La mayoría de beneficios duran 12 meses
+- **Sin trucos de tarjeta de crédito** - Verdaderamente gratis con monitoreo de uso
+
+### 📅 **Categorías del Nivel Gratuito**
+
+#### **🗓️ Nivel Gratuito de 12 Meses**
+**Comienza desde la fecha de creación de tu cuenta AWS**
+
+**Servicios Clave:**
 ```
 Amazon EC2:
-├── 750 hours/month of t2.micro or t3.micro instances
-├── Linux and Windows covered
-└── Enough for 1 instance running 24/7
+├── 750 horas/mes de instancias t2.micro o t3.micro
+├── Linux y Windows cubiertos
+└── Suficiente para 1 instancia funcionando 24/7
 
 Amazon S3:
-├── 5 GB of standard storage
-├── 20,000 GET requests
-├── 2,000 PUT requests
-└── 15 GB of data transfer out
+├── 5 GB de almacenamiento estándar
+├── 20,000 solicitudes GET
+├── 2,000 solicitudes PUT
+└── 15 GB de transferencia de datos saliente
 
 Amazon RDS:
-├── 750 hours/month of db.t2.micro instance
-├── 20 GB of database storage
-├── 20 GB of backup storage
-└── MySQL, PostgreSQL, MariaDB covered
+├── 750 horas/mes de instancia db.t2.micro
+├── 20 GB de almacenamiento de base de datos
+├── 20 GB de almacenamiento de respaldo
+└── MySQL, PostgreSQL, MariaDB cubiertos
 
 Amazon CloudFront:
-├── 50 GB data transfer out
-├── 2,000,000 HTTP/HTTPS requests
-└── Global edge locations included
+├── 50 GB transferencia de datos saliente
+├── 2,000,000 solicitudes HTTP/HTTPS
+└── Ubicaciones de borde globales incluidas
 ```
 
-#### **♾️ Always Free**
-**No expiration - free forever**
+#### **♾️ Siempre Gratis**
+**Sin expiración - gratis para siempre**
 
-**Key Services:**
+**Servicios Clave:**
 ```
 AWS Lambda:
-├── 1 million requests per month
-├── 400,000 GB-seconds of compute time
-└── Perfect for small applications
+├── 1 millón de solicitudes por mes
+├── 400,000 GB-segundos de tiempo de cómputo
+└── Perfecto para aplicaciones pequeñas
 
 Amazon DynamoDB:
-├── 25 GB of storage
-├── 2.5 million read requests
-├── 1 million write requests
-└── Enough for small applications
+├── 25 GB de almacenamiento
+├── 2.5 millones de solicitudes de lectura
+├── 1 millón de solicitudes de escritura
+└── Suficiente para aplicaciones pequeñas
 
 Amazon SNS:
-├── 1 million publishes
-├── 100,000 HTTP/S deliveries
-├── 1,000 email deliveries
-└── Basic notification needs
+├── 1 millón de publicaciones
+├── 100,000 entregas HTTP/S
+├── 1,000 entregas de email
+└── Necesidades básicas de notificación
 
 AWS CloudFormation:
-├── 1,000 stack operations per month
-└── Infrastructure as Code basics
+├── 1,000 operaciones de stack por mes
+└── Fundamentos de Infraestructura como Código
 ```
 
-#### **🧪 Trial Offers**
-**Short-term trials for specific services**
+#### **🧪 Ofertas de Prueba**
+**Pruebas a corto plazo para servicios específicos**
 
-**Examples:**
+**Ejemplos:**
 ```
 Amazon Elasticsearch:
-├── 750 hours/month for 1 month
-├── t2.small.elasticsearch instance
-└── Good for testing search functionality
+├── 750 horas/mes por 1 mes
+├── instancia t2.small.elasticsearch
+└── Bueno para probar funcionalidad de búsqueda
 
 Amazon Inspector:
-├── 90-day free trial
-├── Security assessment service
-└── Evaluate security compliance
+├── Prueba gratuita de 90 días
+├── Servicio de evaluación de seguridad
+└── Evaluar cumplimiento de seguridad
 
 Amazon GuardDuty:
-├── 30-day free trial
-├── Threat detection service
-└── Monitor for malicious activity
+├── Prueba gratuita de 30 días
+├── Servicio de detección de amenazas
+└── Monitorear actividad maliciosa
 ```
 
-### 🚨 **Free Tier Monitoring and Alerts**
+### 🚨 **Monitoreo y Alertas del Nivel Gratuito**
 
-#### **📊 Usage Tracking**
-- **Free Tier Dashboard** - Monitor usage across all services
-- **Usage alerts** - Email notifications at 85% of limits
-- **Detailed breakdown** - Service-by-service usage tracking
-- **Historical data** - Track usage patterns over time
+#### **📊 Seguimiento de Uso**
+- **Panel del Nivel Gratuito** - Monitorear uso en todos los servicios
+- **Alertas de uso** - Notificaciones por email al 85% de los límites
+- **Desglose detallado** - Seguimiento de uso servicio por servicio
+- **Datos históricos** - Rastrear patrones de uso a lo largo del tiempo
 
-#### **⚠️ Avoiding Unexpected Charges**
+#### **⚠️ Evitar Cargos Inesperados**
 ```
-Best Practices:
-├── Set up billing alerts at $1, $5, $10
-├── Monitor Free Tier dashboard weekly
-├── Use AWS Budgets for proactive monitoring
-├── Tag resources for easy identification
-├── Stop/terminate unused resources promptly
-└── Understand what's NOT covered by Free Tier
+Mejores Prácticas:
+├── Configurar alertas de facturación en $1, $5, $10
+├── Monitorear panel del Nivel Gratuito semanalmente
+├── Usar AWS Budgets para monitoreo proactivo
+├── Etiquetar recursos para identificación fácil
+├── Detener/terminar recursos no usados rápidamente
+└── Entender qué NO está cubierto por el Nivel Gratuito
 ```
 
-### 🎯 **Free Tier Learning Strategy**
+### 🎯 **Estrategia de Aprendizaje del Nivel Gratuito**
 
-#### **🌟 Recommended Learning Path**
+#### **🌟 Ruta de Aprendizaje Recomendada**
 ```
-Month 1-2: Basic Services
-├── EC2: Launch and manage virtual servers
-├── S3: Store and retrieve files
-├── RDS: Set up managed databases
-└── VPC: Create isolated networks
+Mes 1-2: Servicios Básicos
+├── EC2: Lanzar y gestionar servidores virtuales
+├── S3: Almacenar y recuperar archivos
+├── RDS: Configurar bases de datos administradas
+└── VPC: Crear redes aisladas
 
-Month 3-4: Advanced Services
-├── Lambda: Serverless computing
-├── CloudFormation: Infrastructure as Code
-├── CloudWatch: Monitoring and alerting
-└── IAM: Identity and access management
+Mes 3-4: Servicios Avanzados
+├── Lambda: Cómputo sin servidor
+├── CloudFormation: Infraestructura como Código
+├── CloudWatch: Monitoreo y alertas
+└── IAM: Gestión de identidad y acceso
 
-Month 5-6: Integration & Optimization
-├── API Gateway: Create APIs
-├── DynamoDB: NoSQL database
-├── SNS/SQS: Messaging services
-└── Cost optimization techniques
+Mes 5-6: Integración y Optimización
+├── API Gateway: Crear APIs
+├── DynamoDB: Base de datos NoSQL
+├── SNS/SQS: Servicios de mensajería
+└── Técnicas de optimización de costos
 ```
 
 ---
 
-## 📊 Service-Specific Pricing
+## 📊 Precios Específicos por Servicio
 
-### 🖥️ **Amazon EC2 Pricing Deep Dive**
+### 🖥️ **Profundización en Precios de Amazon EC2**
 
-#### **🔧 Instance Types and Families**
+#### **🔧 Tipos y Familias de Instancias**
 ```
-General Purpose (M5):
-├── m5.large: $0.096/hour (2 vCPU, 8 GB RAM)
-├── m5.xlarge: $0.192/hour (4 vCPU, 16 GB RAM)
-└── m5.2xlarge: $0.384/hour (8 vCPU, 32 GB RAM)
+Propósito General (M5):
+├── m5.large: $0.096/hora (2 vCPU, 8 GB RAM)
+├── m5.xlarge: $0.192/hora (4 vCPU, 16 GB RAM)
+└── m5.2xlarge: $0.384/hora (8 vCPU, 32 GB RAM)
 
-Compute Optimized (C5):
-├── c5.large: $0.085/hour (2 vCPU, 4 GB RAM)
-├── c5.xlarge: $0.17/hour (4 vCPU, 8 GB RAM)
-└── c5.2xlarge: $0.34/hour (8 vCPU, 16 GB RAM)
+Optimizado para Cómputo (C5):
+├── c5.large: $0.085/hora (2 vCPU, 4 GB RAM)
+├── c5.xlarge: $0.17/hora (4 vCPU, 8 GB RAM)
+└── c5.2xlarge: $0.34/hora (8 vCPU, 16 GB RAM)
 
-Memory Optimized (R5):
-├── r5.large: $0.126/hour (2 vCPU, 16 GB RAM)
-├── r5.xlarge: $0.252/hour (4 vCPU, 32 GB RAM)
-└── r5.2xlarge: $0.504/hour (8 vCPU, 64 GB RAM)
-```
-
-#### **💾 Storage Pricing**
-```
-EBS Volume Types:
-├── General Purpose SSD (gp3): $0.08/GB/month
-├── Provisioned IOPS SSD (io2): $0.125/GB/month + $0.065/IOPS
-├── Throughput Optimized HDD (st1): $0.045/GB/month
-└── Cold HDD (sc1): $0.025/GB/month
-
-Additional Costs:
-├── EBS Snapshots: $0.05/GB/month
-├── Data transfer between AZs: $0.01/GB each direction
-└── Elastic IP addresses: Free if attached, $0.005/hour if unused
+Optimizado para Memoria (R5):
+├── r5.large: $0.126/hora (2 vCPU, 16 GB RAM)
+├── r5.xlarge: $0.252/hora (4 vCPU, 32 GB RAM)
+└── r5.2xlarge: $0.504/hora (8 vCPU, 64 GB RAM)
 ```
 
-### 💾 **Amazon S3 Pricing**
-
-#### **🗂️ Storage Classes**
+#### **💾 Precios de Almacenamiento**
 ```
-S3 Standard:
-├── First 50 TB: $0.023/GB/month
-├── Next 450 TB: $0.022/GB/month
-└── Over 500 TB: $0.021/GB/month
+Tipos de Volúmenes EBS:
+├── SSD de Propósito General (gp3): $0.08/GB/mes
+├── SSD de IOPS Provisionadas (io2): $0.125/GB/mes + $0.065/IOPS
+├── HDD Optimizado para Rendimiento (st1): $0.045/GB/mes
+└── HDD Frío (sc1): $0.025/GB/mes
+
+Costos Adicionales:
+├── Instantáneas EBS: $0.05/GB/mes
+├── Transferencia de datos entre AZs: $0.01/GB cada dirección
+└── Direcciones IP Elásticas: Gratis si está adjunta, $0.005/hora si no se usa
+```
+
+### 💾 **Precios de Amazon S3**
+
+#### **🗂️ Clases de Almacenamiento**
+```
+S3 Estándar:
+├── Primeros 50 TB: $0.023/GB/mes
+├── Siguientes 450 TB: $0.022/GB/mes
+└── Más de 500 TB: $0.021/GB/mes
 
 S3 Intelligent-Tiering:
-├── Monitoring: $0.0025 per 1,000 objects
-├── Frequent Access: Same as S3 Standard
-└── Infrequent Access: $0.0125/GB/month
+├── Monitoreo: $0.0025 por 1,000 objetos
+├── Acceso Frecuente: Igual que S3 Estándar
+└── Acceso Infrecuente: $0.0125/GB/mes
 
 S3 Glacier:
-├── Storage: $0.004/GB/month
-├── Retrieval: $0.01/GB (standard)
-└── Minimum duration: 90 days
+├── Almacenamiento: $0.004/GB/mes
+├── Recuperación: $0.01/GB (estándar)
+└── Duración mínima: 90 días
 
 S3 Glacier Deep Archive:
-├── Storage: $0.00099/GB/month
-├── Retrieval: $0.02/GB (standard)
-└── Minimum duration: 180 days
+├── Almacenamiento: $0.00099/GB/mes
+├── Recuperación: $0.02/GB (estándar)
+└── Duración mínima: 180 días
 ```
 
-#### **🔄 Request Pricing**
+#### **🔄 Precios de Solicitudes**
 ```
-S3 Standard Requests:
-├── PUT, COPY, POST, LIST: $0.0005 per 1,000 requests
-├── GET, SELECT: $0.0004 per 1,000 requests
-└── DELETE: Free
+Solicitudes S3 Estándar:
+├── PUT, COPY, POST, LIST: $0.0005 por 1,000 solicitudes
+├── GET, SELECT: $0.0004 por 1,000 solicitudes
+└── DELETE: Gratis
 
-Data Transfer:
-├── Data transfer IN: Free
-├── Data transfer OUT: $0.09/GB (first 1 GB free)
-└── Transfer to CloudFront: Free
+Transferencia de Datos:
+├── Transferencia de datos ENTRANTE: Gratis
+├── Transferencia de datos SALIENTE: $0.09/GB (primer 1 GB gratis)
+└── Transferencia a CloudFront: Gratis
 ```
 
-### 🗄️ **Amazon RDS Pricing**
+### 🗄️ **Precios de Amazon RDS**
 
-#### **💻 Instance Pricing**
+#### **💻 Precios de Instancias**
 ```
-MySQL db.t3.micro (Free Tier):
-├── vCPU: 2 (burstable)
-├── Memory: 1 GB
-└── Cost: Free for 750 hours/month
+MySQL db.t3.micro (Nivel Gratuito):
+├── vCPU: 2 (expandible)
+├── Memoria: 1 GB
+└── Costo: Gratis por 750 horas/mes
 
 MySQL db.t3.small:
-├── vCPU: 2 (burstable)
-├── Memory: 2 GB
-└── Cost: $0.017/hour
+├── vCPU: 2 (expandible)
+├── Memoria: 2 GB
+└── Costo: $0.017/hora
 
 MySQL db.m5.large:
 ├── vCPU: 2
-├── Memory: 8 GB
-└── Cost: $0.096/hour
+├── Memoria: 8 GB
+└── Costo: $0.096/hora
 ```
 
-#### **💾 Storage and Features**
+#### **💾 Almacenamiento y Características**
 ```
-Storage Options:
-├── General Purpose SSD: $0.115/GB/month
-├── Provisioned IOPS SSD: $0.125/GB/month + $0.10/IOPS
-└── Magnetic: $0.10/GB/month
+Opciones de Almacenamiento:
+├── SSD de Propósito General: $0.115/GB/mes
+├── SSD de IOPS Provisionadas: $0.125/GB/mes + $0.10/IOPS
+└── Magnético: $0.10/GB/mes
 
-Additional Features:
-├── Multi-AZ deployment: 2x instance cost
-├── Read replicas: Additional instance costs
-├── Automated backups: Free (up to DB size)
-├── Manual snapshots: $0.095/GB/month
-└── Data transfer: Standard AWS rates
+Características Adicionales:
+├── Despliegue Multi-AZ: 2x costo de instancia
+├── Réplicas de lectura: Costos de instancia adicionales
+├── Respaldos automatizados: Gratis (hasta tamaño de BD)
+├── Instantáneas manuales: $0.095/GB/mes
+└── Transferencia de datos: Tarifas estándar de AWS
 ```
 
 ---
 
-## 🧮 Cost Estimation
+## 🧮 Estimación de Costos
 
-### 🛠️ **AWS Pricing Calculator**
+### 🛠️ **Calculadora de Precios de AWS**
 
-#### **🎯 What is the AWS Pricing Calculator?**
-**Free tool for estimating AWS costs:**
-- **Service-specific estimates** - Detailed cost breakdowns
-- **Multiple scenarios** - Compare different architectures
-- **Export functionality** - Save and share estimates
-- **Regular updates** - Always current with latest pricing
+#### **🎯 ¿Qué es la Calculadora de Precios de AWS?**
+**Herramienta gratuita para estimar costos de AWS:**
+- **Estimaciones específicas por servicio** - Desgloses detallados de costos
+- **Múltiples escenarios** - Comparar diferentes arquitecturas
+- **Funcionalidad de exportación** - Guardar y compartir estimaciones
+- **Actualizaciones regulares** - Siempre actualizada con los últimos precios
 
-#### **📊 How to Use the Calculator**
+#### **📊 Cómo Usar la Calculadora**
 ```
-Step-by-Step Process:
-├── 1. Select services you plan to use
-├── 2. Configure each service (instance types, storage, etc.)
-├── 3. Specify usage patterns (hours/month, data transfer)
-├── 4. Choose pricing model (On-Demand, Reserved, etc.)
-├── 5. Review total monthly/annual costs
-└── 6. Export estimate for documentation
-```
-
-### 💡 **Cost Estimation Examples**
-
-#### **🏪 Small E-commerce Website**
-```
-Architecture Requirements:
-├── Web servers: 2 × t3.medium instances
-├── Database: 1 × db.t3.small RDS instance
-├── Storage: 100 GB for product images
-├── CDN: CloudFront for global delivery
-└── Load balancer: Application Load Balancer
-
-Monthly Cost Estimate:
-├── EC2 instances: $60.32 (2 × $30.16)
-├── RDS database: $24.82
-├── S3 storage: $2.30
-├── CloudFront: $8.50 (estimated)
-├── Load balancer: $22.27
-└── Total: ~$118/month
+Proceso Paso a Paso:
+├── 1. Seleccionar servicios que planeas usar
+├── 2. Configurar cada servicio (tipos de instancia, almacenamiento, etc.)
+├── 3. Especificar patrones de uso (horas/mes, transferencia de datos)
+├── 4. Elegir modelo de precios (Bajo Demanda, Reservado, etc.)
+├── 5. Revisar costos totales mensuales/anuales
+└── 6. Exportar estimación para documentación
 ```
 
-#### **📊 Data Analytics Platform**
-```
-Architecture Requirements:
-├── Processing: 10 × c5.xlarge Spot instances (8 hours/day)
-├── Storage: 1 TB S3 Standard, 5 TB S3 Glacier
-├── Database: r5.large RDS instance
-├── Networking: Minimal data transfer
-└── Additional: Lambda for automation
+### 💡 **Ejemplos de Estimación de Costos**
 
-Monthly Cost Estimate:
-├── Spot instances: $408 (70% discount applied)
-├── S3 Standard: $23
+#### **🏪 Sitio Web de E-commerce Pequeño**
+```
+Requisitos de Arquitectura:
+├── Servidores web: 2 × instancias t3.medium
+├── Base de datos: 1 × instancia RDS db.t3.small
+├── Almacenamiento: 100 GB para imágenes de productos
+├── CDN: CloudFront para entrega global
+└── Balanceador de carga: Application Load Balancer
+
+Estimación de Costo Mensual:
+├── Instancias EC2: $60.32 (2 × $30.16)
+├── Base de datos RDS: $24.82
+├── Almacenamiento S3: $2.30
+├── CloudFront: $8.50 (estimado)
+├── Balanceador de carga: $22.27
+└── Total: ~$118/mes
+```
+
+#### **📊 Plataforma de Análisis de Datos**
+```
+Requisitos de Arquitectura:
+├── Procesamiento: 10 × instancias Spot c5.xlarge (8 horas/día)
+├── Almacenamiento: 1 TB S3 Estándar, 5 TB S3 Glacier
+├── Base de datos: instancia RDS r5.large
+├── Red: Transferencia de datos mínima
+└── Adicional: Lambda para automatización
+
+Estimación de Costo Mensual:
+├── Instancias Spot: $408 (70% descuento aplicado)
+├── S3 Estándar: $23
 ├── S3 Glacier: $20
 ├── RDS: $90.72
-├── Lambda: $5 (estimated)
-└── Total: ~$547/month
+├── Lambda: $5 (estimado)
+└── Total: ~$547/mes
 
-Comparison with On-Demand:
-├── On-Demand instances: $1,360
-├── Total with On-Demand: $1,499/month
-└── Savings with Spot: $952/month (63% reduction)
+Comparación con Bajo Demanda:
+├── Instancias Bajo Demanda: $1,360
+├── Total con Bajo Demanda: $1,499/mes
+└── Ahorros con Spot: $952/mes (63% reducción)
 ```
 
-### 🎯 **Cost Optimization During Planning**
+### 🎯 **Optimización de Costos Durante la Planificación**
 
-#### **💰 Pre-Deployment Optimization**
+#### **💰 Optimización Pre-Despliegue**
 ```
-Right-Sizing Strategy:
-├── Start with smaller instances
-├── Monitor performance after deployment
-├── Scale up only when needed
-├── Use Auto Scaling for variable workloads
-└── Plan for Reserved Instance purchases
+Estrategia de Dimensionamiento Correcto:
+├── Comenzar con instancias más pequeñas
+├── Monitorear rendimiento después del despliegue
+├── Escalar hacia arriba solo cuando sea necesario
+├── Usar Auto Scaling para cargas de trabajo variables
+└── Planificar compras de Instancias Reservadas
 
-Storage Optimization:
-├── Use appropriate S3 storage classes
-├── Implement lifecycle policies
-├── Consider compression for archives
-├── Use CloudFront for static content
-└── Plan data transfer patterns
+Optimización de Almacenamiento:
+├── Usar clases de almacenamiento S3 apropiadas
+├── Implementar políticas de ciclo de vida
+├── Considerar compresión para archivos
+├── Usar CloudFront para contenido estático
+└── Planificar patrones de transferencia de datos
 ```
 
-#### **📊 Scenario Planning**
+#### **📊 Planificación de Escenarios**
 ```
-Create Multiple Estimates:
-├── Minimum viable product (MVP)
-├── Expected growth scenario
-├── Peak load scenario
-├── Cost-optimized scenario
-└── High-availability scenario
+Crear Múltiples Estimaciones:
+├── Producto mínimo viable (MVP)
+├── Escenario de crecimiento esperado
+├── Escenario de carga pico
+├── Escenario optimizado para costos
+└── Escenario de alta disponibilidad
 
-Compare Options:
-├── Different instance sizes
-├── Reserved vs On-Demand vs Spot
-├── Different architectures
-├── Regional pricing differences
-└── Support plan impacts
+Comparar Opciones:
+├── Diferentes tamaños de instancia
+├── Reservado vs Bajo Demanda vs Spot
+├── Diferentes arquitecturas
+├── Diferencias de precios regionales
+└── Impactos de planes de soporte
 ```
 
 ---
 
-## 🧠 Memory Aids
+## 🧠 Ayudas de Memoria
 
-### 💰 **Pricing Model Mnemonic: "ROSS"**
-- **R**eserved - Long-term commitment, big savings
-- **O**n-Demand - Pay as you go, maximum flexibility
-- **S**pot - Bid on spare capacity, huge discounts
-- **S**avings Plans - Flexible commitment, good savings
+### 💰 **Mnemónico de Modelos de Precios: "ROSS"**
+- **R**eservado - Compromiso a largo plazo, grandes ahorros
+- **O**n-Demand (Bajo Demanda) - Pagar según uses, máxima flexibilidad
+- **S**pot - Ofertar en capacidad de sobra, descuentos enormes
+- **S**avings Plans (Planes de Ahorro) - Compromiso flexible, buenos ahorros
 
-### 🎯 **When to Use Each Model: "SURE"**
-- **S**pot - Fault-tolerant, flexible workloads
-- **U**npredictable - On-Demand for variable usage
-- **R**egular - Reserved for steady, predictable workloads
-- **E**verything - Savings Plans for mixed workloads
+### 🎯 **Cuándo Usar Cada Modelo: "SURE"**
+- **S**pot - Cargas de trabajo tolerantes a fallos, flexibles
+- **U**npredictable (Impredecible) - Bajo Demanda para uso variable
+- **R**egular - Reservado para cargas de trabajo estables, predecibles
+- **E**verything (Todo) - Planes de Ahorro para cargas de trabajo mixtas
 
-### 🆓 **Free Tier Memory: "12-Always-Trial"**
-- **12** months - Most services free for first year
-- **Always** - Some services free forever
-- **Trial** - Short-term trials for specialized services
+### 🆓 **Memoria del Nivel Gratuito: "12-Siempre-Prueba"**
+- **12** meses - La mayoría de servicios gratis el primer año
+- **Siempre** - Algunos servicios gratis para siempre
+- **Prueba** - Pruebas a corto plazo para servicios especializados
 
 ---
 
-## 📝 Practice Questions
+## 📝 Preguntas de Práctica
 
-### Question 1
-A company has a web application with predictable traffic that runs 24/7 throughout the year. They want to minimize costs while maintaining reliability. Which pricing model would provide the most cost savings?
+### Pregunta 1
+Una empresa tiene una aplicación web con tráfico predecible que funciona 24/7 durante todo el año. Quieren minimizar costos mientras mantienen confiabilidad. ¿Qué modelo de precios proporcionaría los mayores ahorros de costos?
 
-**A)** On-Demand Instances  
-**B)** Spot Instances  
-**C)** Reserved Instances  
-**D)** Savings Plans  
+**A)** Instancias Bajo Demanda  
+**B)** Instancias Spot  
+**C)** Instancias Reservadas  
+**D)** Planes de Ahorro  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: C) Reserved Instances**
+**Respuesta: C) Instancias Reservadas**
 
-**Explanation:** For predictable, steady workloads running 24/7, Reserved Instances provide the maximum savings (up to 75%) compared to On-Demand pricing. The workload characteristics make it perfect for a long-term commitment.
+**Explicación:** Para cargas de trabajo predecibles y estables que funcionan 24/7, las Instancias Reservadas proporcionan los máximos ahorros (hasta 75%) comparado con precios Bajo Demanda. Las características de la carga de trabajo la hacen perfecta para un compromiso a largo plazo.
 
 </details>
 
-### Question 2
-A startup wants to run batch processing jobs that can be interrupted and restarted without data loss. The jobs run for several hours at unpredictable times. Which pricing model would be most cost-effective?
+### Pregunta 2
+Una startup quiere ejecutar trabajos de procesamiento por lotes que pueden ser interrumpidos y reiniciados sin pérdida de datos. Los trabajos funcionan por varias horas en momentos impredecibles. ¿Qué modelo de precios sería más costo-efectivo?
 
-**A)** On-Demand Instances  
-**B)** Reserved Instances  
-**C)** Spot Instances  
-**D)** Dedicated Hosts  
+**A)** Instancias Bajo Demanda  
+**B)** Instancias Reservadas  
+**C)** Instancias Spot  
+**D)** Hosts Dedicados  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: C) Spot Instances**
+**Respuesta: C) Instancias Spot**
 
-**Explanation:** Spot Instances are perfect for fault-tolerant, interruptible workloads like batch processing. They can provide up to 90% savings compared to On-Demand, and since the jobs can handle interruptions, the startup can take advantage of the significant cost savings.
+**Explicación:** Las Instancias Spot son perfectas para cargas de trabajo tolerantes a fallos e interrumpibles como procesamiento por lotes. Pueden proporcionar hasta 90% de ahorros comparado con Bajo Demanda, y dado que los trabajos pueden manejar interrupciones, la startup puede aprovechar los ahorros significativos de costos.
 
 </details>
 
-### Question 3
-What is included in the AWS Free Tier for Amazon EC2?
+### Pregunta 3
+¿Qué está incluido en el Nivel Gratuito de AWS para Amazon EC2?
 
-**A)** Unlimited usage of t2.nano instances  
-**B)** 750 hours per month of t2.micro or t3.micro instances for 12 months  
-**C)** 1,000 hours per month of any instance type for 6 months  
-**D)** One m5.large instance running 24/7 for 12 months  
+**A)** Uso ilimitado de instancias t2.nano  
+**B)** 750 horas por mes de instancias t2.micro o t3.micro por 12 meses  
+**C)** 1,000 horas por mes de cualquier tipo de instancia por 6 meses  
+**D)** Una instancia m5.large funcionando 24/7 por 12 meses  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: B) 750 hours per month of t2.micro or t3.micro instances for 12 months**
+**Respuesta: B) 750 horas por mes de instancias t2.micro o t3.micro por 12 meses**
 
-**Explanation:** The AWS Free Tier includes 750 hours per month of t2.micro or t3.micro instances for the first 12 months after account creation. This is enough to run one small instance 24/7 for the entire month.
+**Explicación:** El Nivel Gratuito de AWS incluye 750 horas por mes de instancias t2.micro o t3.micro durante los primeros 12 meses después de la creación de la cuenta. Esto es suficiente para ejecutar una instancia pequeña 24/7 durante todo el mes.
 
 </details>
 
-### Question 4
-A company has mixed workloads including EC2 instances, Lambda functions, and Fargate containers. They want to commit to a certain level of usage for cost savings but need flexibility to change their service mix. Which option is most appropriate?
+### Pregunta 4
+Una empresa tiene cargas de trabajo mixtas incluyendo instancias EC2, funciones Lambda y contenedores Fargate. Quieren comprometerse a cierto nivel de uso para ahorros de costos pero necesitan flexibilidad para cambiar su mezcla de servicios. ¿Qué opción es más apropiada?
 
-**A)** Standard Reserved Instances  
-**B)** Convertible Reserved Instances  
-**C)** Compute Savings Plans  
-**D)** EC2 Instance Savings Plans  
+**A)** Instancias Reservadas Estándar  
+**B)** Instancias Reservadas Convertibles  
+**C)** Planes de Ahorro de Cómputo  
+**D)** Planes de Ahorro de Instancias EC2  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Respuesta</summary>
 
-**Answer: C) Compute Savings Plans**
+**Respuesta: C) Planes de Ahorro de Cómputo**
 
-**Explanation:** Compute Savings Plans provide flexibility across EC2, Lambda, and Fargate services while offering significant savings (up to 66%). They allow changing the service mix while maintaining the cost benefits of a usage commitment.
+**Explicación:** Los Planes de Ahorro de Cómputo proporcionan flexibilidad a través de servicios EC2, Lambda y Fargate mientras ofrecen ahorros significativos (hasta 66%). Permiten cambiar la mezcla de servicios mientras mantienen los beneficios de costo de un compromiso de uso.
 
 </details>
 
 ---
 
-## 🎯 Key Takeaways
+## 🎯 Puntos Clave
 
-### 🌟 **The Big Picture**
-- **AWS pricing is flexible** - Multiple models to fit different needs
-- **Pay only for what you use** - No upfront costs unless you choose them
-- **Commitment brings savings** - Longer commitments = bigger discounts
-- **Free tier enables learning** - Try AWS services at no cost
+### 🌟 **El Panorama General**
+- **Los precios de AWS son flexibles** - Múltiples modelos para diferentes necesidades
+- **Pagar solo por lo que uses** - Sin costos iniciales a menos que los elijas
+- **El compromiso trae ahorros** - Compromisos más largos = mayores descuentos
+- **El nivel gratuito habilita aprendizaje** - Probar servicios de AWS sin costo
 
-### 🎯 **For the Exam**
-- **Know when to use each pricing model** - Based on workload characteristics
-- **Understand Free Tier limits** - What's included and for how long
-- **Remember savings percentages** - Reserved (up to 75%), Spot (up to 90%)
-- **Pricing factors** - Instance type, region, OS, usage patterns
+### 🎯 **Para el Examen**
+- **Saber cuándo usar cada modelo de precios** - Basado en características de carga de trabajo
+- **Entender límites del Nivel Gratuito** - Qué está incluido y por cuánto tiempo
+- **Recordar porcentajes de ahorros** - Reservado (hasta 75%), Spot (hasta 90%)
+- **Factores de precios** - Tipo de instancia, región, SO, patrones de uso
 
-### 💡 **For Real-World Application**
-- **Start with On-Demand** - Learn your usage patterns first
-- **Use Free Tier for learning** - Experiment without cost concerns
-- **Plan for Reserved Instances** - Once you understand steady workloads
-- **Consider Spot for appropriate workloads** - Batch processing, development
+### 💡 **Para Aplicación del Mundo Real**
+- **Comenzar con Bajo Demanda** - Aprender tus patrones de uso primero
+- **Usar Nivel Gratuito para aprender** - Experimentar sin preocupaciones de costo
+- **Planificar para Instancias Reservadas** - Una vez que entiendas cargas de trabajo estables
+- **Considerar Spot para cargas de trabajo apropiadas** - Procesamiento por lotes, desarrollo
 
-### 🚀 **Best Practices**
-- **Monitor usage patterns** - Understand before committing
-- **Mix pricing models** - Use the right model for each workload
-- **Use the pricing calculator** - Estimate costs before deployment
-- **Set up billing alerts** - Avoid surprise charges
-- **Regular cost reviews** - Optimize pricing models as needs change
-
----
-
-## 🔗 Navigation
-
-**← Previous:** [Domain 4: Billing & Support](./README.md)  
-**→ Next:** [Billing & Cost Management Tools](./cost-management.md)  
-**↑ Up:** [Domain 4: Billing & Support](./README.md)  
-**🏠 Home:** [AWS Cloud Practitioner Study Guide](../README.md)
+### 🚀 **Mejores Prácticas**
+- **Monitorear patrones de uso** - Entender antes de comprometerse
+- **Mezclar modelos de precios** - Usar el modelo correcto para cada carga de trabajo
+- **Usar la calculadora de precios** - Estimar costos antes del despliegue
+- **Configurar alertas de facturación** - Evitar cargos sorpresa
+- **Revisiones regulares de costos** - Optimizar modelos de precios según cambien las necesidades
 
 ---
 
-> 💡 **Pro Tip:** The exam often asks about choosing the right pricing model for specific scenarios. Focus on understanding the characteristics of each workload (predictable vs. unpredictable, fault-tolerant vs. critical, short-term vs. long-term) rather than memorizing exact pricing numbers!
+## 🔗 Navegación
+
+**← Anterior:** [Dominio 4: Facturación y Soporte](./README.md)  
+**→ Siguiente:** [Herramientas de Gestión de Facturación y Costos](./cost-management.md)  
+**↑ Arriba:** [Dominio 4: Facturación y Soporte](./README.md)  
+**🏠 Inicio:** [Guía de Estudio AWS Cloud Practitioner](../README.md)
+
+---
+
+> 💡 **Consejo Pro:** El examen frecuentemente pregunta sobre elegir el modelo de precios correcto para escenarios específicos. Enfócate en entender las características de cada carga de trabajo (predecible vs. impredecible, tolerante a fallos vs. crítica, corto plazo vs. largo plazo) en lugar de memorizar números exactos de precios!
