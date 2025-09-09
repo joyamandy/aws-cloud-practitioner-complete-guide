@@ -48,720 +48,719 @@ AWS identifica seis ventajas clave que las organizaciones obtienen al mudarse a 
 
 ### 1. 💸 **Intercambiar Gastos de Capital por Gastos Variables**
 
-#### 🤔 **What This Means**
-Instead of paying large upfront costs for infrastructure you might not fully use, pay only for what you consume when you consume it.
+#### 🤔 **Qué Significa Esto**
+En lugar de pagar grandes costos iniciales por infraestructura que podrías no usar completamente, paga solo por lo que consumes cuando lo consumes.
 
-#### 🏠 **Real-World Analogy**
-**Traditional IT = Buying a House:**
-- 💰 Large down payment ($100,000+)
-- 🏠 Fixed size (can't easily expand)
-- 🔧 Maintenance costs (repairs, taxes)
-- 📍 Stuck in one location
+#### 🏠 **Analogía del Mundo Real**
+**TI Tradicional = Comprar una Casa:**
+- 💰 Gran pago inicial ($100,000+)
+- 🏠 Tamaño fijo (no se puede expandir fácilmente)
+- 🔧 Costos de mantenimiento (reparaciones, impuestos)
+- 📍 Atascado en una ubicación
 
-**Cloud Computing = Renting/Hotels:**
-- 💳 Pay monthly/nightly
-- 🏠 Change size as needed
-- 🔧 Maintenance included
-- 🌍 Move anywhere anytime
+**Computación en la Nube = Rentar/Hoteles:**
+- 💳 Pagar mensual/por noche
+- 🏠 Cambiar tamaño según necesidad
+- 🔧 Mantenimiento incluido
+- 🌍 Mudarse a cualquier lugar en cualquier momento
 
-#### 📊 **Business Impact Example**
+#### 📆 **Ejemplo de Impacto Empresarial**
 
-**Startup E-commerce Company:**
+**Empresa Startup de E-commerce:**
 
-**Traditional Approach:**
+**Enfoque Tradicional:**
 ```
-Initial Investment:
-- Servers: $50,000
-- Networking: $20,000
-- Storage: $15,000
-- Data Center: $25,000
-- Total: $110,000 upfront
+Inversión Inicial:
+- Servidores: $50,000
+- Redes: $20,000
+- Almacenamiento: $15,000
+- Centro de Datos: $25,000
+- Total: $110,000 inicial
 
-Monthly Costs:
-- Power/Cooling: $2,000
-- Maintenance: $1,500
-- Staff: $8,000
-- Total: $11,500/month
-```
-
-**Cloud Approach:**
-```
-Initial Investment: $0
-
-Monthly Costs (starting):
-- Compute: $200
-- Storage: $50
-- Networking: $100
-- Total: $350/month
-
-As business grows:
-- Month 6: $1,200
-- Month 12: $3,500
-- Month 24: $8,000
+Costos Mensuales:
+- Energía/Enfriamiento: $2,000
+- Mantenimiento: $1,500
+- Personal: $8,000
+- Total: $11,500/mes
 ```
 
-#### 🎯 **Key Benefits**
-- 🚀 **Lower barrier to entry** - Startups can compete with enterprises
-- 📈 **Costs grow with revenue** - Expenses scale with business success
-- 💰 **Better cash flow** - Preserve capital for core business activities
-- 🔄 **Financial flexibility** - Adjust spending based on business needs
+**Enfoque en la Nube:**
+```
+Inversión Inicial: $0
+
+Costos Mensuales (inicio):
+- Cómputo: $200
+- Almacenamiento: $50
+- Redes: $100
+- Total: $350/mes
+
+Conforme crece el negocio:
+- Mes 6: $1,200
+- Mes 12: $3,500
+- Mes 24: $8,000
+```
+
+#### 🎯 **Beneficios Clave**
+- 🚀 **Menor barrera de entrada** - Las startups pueden competir con empresas
+- 📈 **Costos crecen con ingresos** - Gastos escalan con éxito empresarial
+- 💰 **Mejor flujo de efectivo** - Preservar capital para actividades centrales del negocio
+- 🔄 **Flexibilidad financiera** - Ajustar gastos basado en necesidades del negocio
 
 ---
 
-### 2. 📈 **Benefit from Massive Economies of Scale**
+### 2. 📈 **Beneficiarse de Economías de Escala Masivas**
 
-#### 🤔 **What This Means**
-AWS serves millions of customers, so they can achieve much lower costs than any individual organization could on their own.
+#### 🤔 **Qué Significa Esto**
+AWS sirve a millones de clientes, por lo que pueden lograr costos mucho más bajos de los que cualquier organización individual podría conseguir por sí sola.
 
-#### 🏭 **Real-World Analogy**
-**Individual Purchase = Buying One Pizza:**
-- 🍕 $20 for a large pizza
-- 💰 $20 per pizza
+#### 🏭 **Analogía del Mundo Real**
+**Compra Individual = Comprar Una Pizza:**
+- 🍕 $20 por una pizza grande
 
-**Bulk Purchase = Ordering 1000 Pizzas:**
-- 🍕 $8 per pizza
-- 💰 60% cost savings
+**Compra al Por Mayor = Ordenar 1000 Pizzas:**
+- 🍕 $8 por pizza
+- 💰 60% de ahorro en costos
 
-#### 📊 **How AWS Achieves This**
+#### 📆 **Cómo AWS Logra Esto**
 
-**Massive Scale:**
-- 🏢 **Millions of customers** sharing infrastructure costs
-- 🌍 **Global presence** - 100+ data centers worldwide
-- ⚡ **Huge power contracts** - Negotiated rates impossible for individuals
-- 🔧 **Specialized staff** - World-class experts across all domains
+**Escala Masiva:**
+- 🏢 **Millones de clientes** compartiendo costos de infraestructura
+- 🌍 **Presencia global** - 100+ centros de datos mundialmente
+- ⚡ **Contratos de energía enormes** - Tarifas negociadas imposibles para individuos
+- 🔧 **Personal especializado** - Expertos de clase mundial en todos los dominios
 
-**Your Benefits:**
-- 💰 **Lower costs** - Pay $0.10/hour for computing that would cost you $1.00/hour to self-host
-- 🔒 **Better security** - Access to security measures you couldn't afford alone
-- 🌍 **Global infrastructure** - Worldwide presence without building data centers
-- 🚀 **Latest technology** - Access to cutting-edge services immediately
+**Tus Beneficios:**
+- 💰 **Costos más bajos** - Pagar $0.10/hora por computación que te costaría $1.00/hora auto-hospedar
+- 🔒 **Mejor seguridad** - Acceso a medidas de seguridad que no podrías costear solo
+- 🌍 **Infraestructura global** - Presencia mundial sin construir centros de datos
+- 🚀 **Última tecnología** - Acceso a servicios de vanguardia inmediatamente
 
-#### 📊 **Real Example: Storage Costs**
+#### 📊 **Ejemplo Real: Costos de Almacenamiento**
 
-| **Option** | **Cost per GB/Month** | **Setup Cost** | **Maintenance** |
+| **Opción** | **Costo por GB/Mes** | **Costo de Configuración** | **Mantenimiento** |
 |------------|----------------------|----------------|-----------------|
-| **Your own SAN** | $5.00 | $100,000+ | High |
-| **AWS S3 Standard** | $0.023 | $0 | None |
-| **Savings** | **99.5%** | **100%** | **100%** |
+| **Tu propio SAN** | $5.00 | $100,000+ | Alto |
+| **AWS S3 Standard** | $0.023 | $0 | Ninguno |
+| **Ahorros** | **99.5%** | **100%** | **100%** |
 
 ---
 
-### 3. 🔮 **Stop Guessing About Capacity**
+### 3. 🔮 **Dejar de Adivinar sobre Capacidad**
 
-#### 🤔 **What This Means**
-Eliminate the guessing game of how much infrastructure you need. Scale up or down based on actual demand.
+#### 🤔 **Qué Significa Esto**
+Elimina el juego de adivinanza de cuánta infraestructura necesitas. Escala hacia arriba o hacia abajo según la demanda real.
 
-#### 🎯 **The Traditional Problem**
-**The Capacity Planning Nightmare:**
-- 📊 **Under-provision:** Website crashes during traffic spikes
-- 📊 **Over-provision:** Waste money on unused servers
-- 🔮 **Guessing game:** Predict usage 3-5 years in advance
-- 💰 **Expensive mistakes:** Wrong guess = lost money or lost customers
+#### 🎯 **El Problema Tradicional**
+**La Pesadilla de Planificación de Capacidad:**
+- 📊 **Sub-provisión:** El sitio web se cae durante picos de tráfico
+- 📊 **Sobre-provisión:** Desperdiciar dinero en servidores no utilizados
+- 🔮 **Juego de adivinanzas:** Predecir uso 3-5 años por adelantado
+- 💰 **Errores costosos:** Adivinanza incorrecta = dinero perdido o clientes perdidos
 
-#### ✅ **The Cloud Solution**
-**Perfect Right-Sizing:**
-- 📈 **Scale up instantly** when traffic increases
-- 📉 **Scale down immediately** when traffic decreases
-- 💰 **Pay for actual usage** not predicted usage
-- 📊 **Data-driven decisions** based on real metrics
+#### ✅ **La Solución en la Nube**
+**Dimensionamiento Perfecto:**
+- 📈 **Escalar instantáneamente** cuando el tráfico aumenta
+- 📉 **Reducir inmediatamente** cuando el tráfico disminuye
+- 💰 **Pagar por uso real** no por uso predicho
+- 📊 **Decisiones basadas en datos** basadas en métricas reales
 
-#### 📊 **Real-World Example: News Website**
+#### 📊 **Ejemplo del Mundo Real: Sitio Web de Noticias**
 
-**Traditional Approach:**
+**Enfoque Tradicional:**
 ```
-Normal Traffic: 1,000 visitors/hour
-Breaking News Traffic: 50,000 visitors/hour
+Tráfico Normal: 1,000 visitantes/hora
+Tráfico de Noticias de Última Hora: 50,000 visitantes/hora
 
-Capacity Planning:
-- Option A: Size for normal traffic
-  Result: Site crashes during breaking news
-- Option B: Size for peak traffic
-  Result: 98% of servers idle 99% of time
-```
-
-**Cloud Approach:**
-```
-Auto Scaling Configuration:
-- Normal times: 2 servers ($10/day)
-- Breaking news: 100 servers ($500/day)
-- Result: Perfect performance + optimal costs
-
-Daily Cost Examples:
-- Normal news day: $10
-- Breaking news day: $500
-- Average monthly cost: $450
-- Traditional (sized for peak): $15,000/month
+Planificación de Capacidad:
+- Opción A: Dimensionar para tráfico normal
+  Resultado: Sitio se cae durante noticias de última hora
+- Opción B: Dimensionar para tráfico pico
+  Resultado: 98% de servidores inactivos 99% del tiempo
 ```
 
-#### 🎯 **Business Benefits**
-- 💰 **Cost optimization** - Pay for what you actually need
-- 🚀 **Performance guarantee** - Never run out of capacity
-- 😴 **Peace of mind** - No more 3 AM server crashes
-- 📊 **Better planning** - Make decisions based on data, not guesses
+**Enfoque en la Nube:**
+```
+Configuración de Auto Scaling:
+- Tiempos normales: 2 servidores ($10/día)
+- Noticias de última hora: 100 servidores ($500/día)
+- Resultado: Rendimiento perfecto + costos óptimos
+
+Ejemplos de Costos Diarios:
+- Día de noticias normal: $10
+- Día de noticias de última hora: $500
+- Costo mensual promedio: $450
+- Tradicional (dimensionado para pico): $15,000/mes
+```
+
+#### 🎯 **Beneficios Empresariales**
+- 💰 **Optimización de costos** - Pagar por lo que realmente necesitas
+- 🚀 **Garantía de rendimiento** - Nunca quedarse sin capacidad
+- 😴 **Tranquilidad** - No más caídas de servidor a las 3 AM
+- 📊 **Mejor planificación** - Tomar decisiones basadas en datos, no adivinanzas
 
 ---
 
-### 4. ⚡ **Increase Speed and Agility**
+### 4. ⚡ **Aumentar Velocidad y Agilidad**
 
-#### 🤔 **What This Means**
-Reduce the time from "idea to implementation" from months to minutes. Launch new services and features faster than ever before.
+#### 🤔 **Qué Significa Esto**
+Reducir el tiempo de "idea a implementación" de meses a minutos. Lanzar nuevos servicios y características más rápido que nunca.
 
-#### 🏃‍♂️ **Speed Comparison**
+#### 🏃‍♂️ **Comparación de Velocidad**
 
-**Traditional IT Timeline:**
+**Cronograma de TI Tradicional:**
 ```
-Week 1-2: Submit hardware request
-Week 3-4: Approval process
-Week 5-8: Order hardware
-Week 9-12: Hardware delivery
-Week 13-14: Data center installation
-Week 15-16: OS installation and configuration
-Week 17: Application deployment
-Total: 17 WEEKS
-```
-
-**Cloud Timeline:**
-```
-Minute 1: Log into AWS console
-Minute 2: Click "Launch Instance"
-Minute 3: Select configuration
-Minute 4: Application running
-Total: 4 MINUTES
+Semana 1-2: Enviar solicitud de hardware
+Semana 3-4: Proceso de aprobación
+Semana 5-8: Ordenar hardware
+Semana 9-12: Entrega de hardware
+Semana 13-14: Instalación en centro de datos
+Semana 15-16: Instalación y configuración de SO
+Semana 17: Despliegue de aplicación
+Total: 17 SEMANAS
 ```
 
-#### 🚀 **Real-World Impact Stories**
+**Cronograma en la Nube:**
+```
+Minuto 1: Iniciar sesión en consola AWS
+Minuto 2: Hacer clic en "Launch Instance"
+Minuto 3: Seleccionar configuración
+Minuto 4: Aplicación ejecutándose
+Total: 4 MINUTOS
+```
 
-**Netflix Story:**
-- 🎬 **Challenge:** Scale streaming service globally
-- ⚡ **Cloud solution:** Deploy in new countries in weeks, not years
-- 📈 **Result:** Global expansion at unprecedented speed
+#### 🚀 **Historias de Impacto del Mundo Real**
 
-**Airbnb Story:**
-- 🏠 **Challenge:** Handle massive traffic growth
-- ⚡ **Cloud solution:** Scale from thousands to millions of users
-- 📈 **Result:** Focus on product, not infrastructure
+**Historia de Netflix:**
+- 🎬 **Desafío:** Escalar servicio de streaming globalmente
+- ⚡ **Solución en la nube:** Desplegar en nuevos países en semanas, no años
+- 📈 **Resultado:** Expansión global a velocidad sin precedentes
 
-**Capital One Story:**
-- 🏦 **Challenge:** Modernize banking infrastructure
-- ⚡ **Cloud solution:** Launch new features weekly instead of yearly
-- 📈 **Result:** Transformed from traditional bank to tech company
+**Historia de Airbnb:**
+- 🏠 **Desafío:** Manejar crecimiento masivo de tráfico
+- ⚡ **Solución en la nube:** Escalar de miles a millones de usuarios
+- 📈 **Resultado:** Enfocarse en producto, no en infraestructura
 
-#### 📊 **Agility Metrics**
+**Historia de Capital One:**
+- 🏦 **Desafío:** Modernizar infraestructura bancaria
+- ⚡ **Solución en la nube:** Lanzar nuevas características semanalmente en lugar de anualmente
+- 📈 **Resultado:** Transformación de banco tradicional a empresa tecnológica
 
-| **Metric** | **Traditional IT** | **Cloud Computing** | **Improvement** |
-|------------|-------------------|-------------------|-----------------|
-| **Time to provision** | 2-8 weeks | 2-5 minutes | **99.9% faster** |
-| **Time to market** | 6-18 months | 1-3 months | **80% faster** |
-| **Deployment frequency** | Monthly/Quarterly | Daily/Hourly | **1000x more** |
-| **Recovery time** | Hours/Days | Minutes | **95% faster** |
+#### 📊 **Métricas de Agilidad**
 
-#### 🎯 **What This Enables**
-- 🧪 **Experimentation** - Try new ideas without big commitments
-- 🔄 **Rapid iteration** - Fail fast, learn quickly
-- 🌍 **Global launches** - Deploy worldwide instantly
-- 💡 **Innovation** - Focus on ideas, not infrastructure
+| **Métrica** | **TI Tradicional** | **Computación en la Nube** | **Mejora** |
+|------------|-------------------|----------------------------|-------------|
+| **Tiempo para provisionar** | 2-8 semanas | 2-5 minutos | **99.9% más rápido** |
+| **Tiempo al mercado** | 6-18 meses | 1-3 meses | **80% más rápido** |
+| **Frecuencia de despliegue** | Mensual/Trimestral | Diario/Por hora | **1000x más** |
+| **Tiempo de recuperación** | Horas/Días | Minutos | **95% más rápido** |
+
+#### 🎯 **Qué Esto Permite**
+- 🧪 **Experimentación** - Probar nuevas ideas sin grandes compromisos
+- 🔄 **Iteración rápida** - Fallar rápido, aprender rápidamente
+- 🌍 **Lanzamientos globales** - Desplegar mundialmente al instante
+- 💡 **Innovación** - Enfocarse en ideas, no en infraestructura
 
 ---
 
-### 5. 🔧 **Stop Spending Money on Running and Maintaining Data Centers**
+### 5. 🔧 **Dejar de Gastar Dinero en Ejecutar y Mantener Centros de Datos**
 
-#### 🤔 **What This Means**
-Eliminate the overhead of managing physical infrastructure. Let AWS handle the "heavy lifting" while you focus on your business.
+#### 🤔 **Qué Significa Esto**
+Elimina el gasto de mantener centros de datos físicos. Deja que AWS maneje el "trabajo pesado" mientras te enfocas en tu negocio.
 
-#### 🏢 **The Hidden Costs of Data Centers**
+#### 🏢 **Los Costos Ocultos de los Centros de Datos**
 
-**Obvious Costs:**
-- 💰 **Hardware:** Servers, storage, networking ($500K+)
-- ⚡ **Power:** Electricity and cooling ($50K/year)
-- 🏢 **Real estate:** Data center space ($100K/year)
-- 🛡️ **Security:** Physical security systems ($75K+)
+**Costos Obvios:**
+- 💰 **Hardware:** Servidores, almacenamiento, redes ($500K+)
+- ⚡ **Energía:** Electricidad y enfriamiento ($50K/año)
+- 🏢 **Bienes raíces:** Espacio de centro de datos ($100K/año)
+- 🛡️ **Seguridad:** Sistemas de seguridad física ($75K+)
 
-**Hidden Costs:**
-- 👨‍💻 **Specialized staff:** Data center engineers ($150K/year each)
-- 🔧 **Maintenance contracts:** 24/7 support ($100K/year)
-- 🔄 **Hardware refresh:** Replace every 3-5 years ($500K+)
-- 📋 **Compliance:** Audits, certifications ($50K/year)
-- ⏰ **Opportunity cost:** Time spent on infrastructure vs. core business
+**Costos Ocultos:**
+- 👨‍💻 **Personal especializado:** Ingenieros de centro de datos ($150K/año cada uno)
+- 🔧 **Contratos de mantenimiento:** Soporte 24/7 ($100K/año)
+- 🔄 **Renovación de hardware:** Reemplazar cada 3-5 años ($500K+)
+- 📋 **Cumplimiento:** Auditorías, certificaciones ($50K/año)
+- ⏰ **Costo de oportunidad:** Tiempo gastado en infraestructura vs. negocio central
 
-#### 💰 **Total Cost of Ownership Example**
+#### 💰 **Ejemplo de Costo Total de Propiedad**
 
-**Medium-sized Company (100 servers):**
+**Empresa de Tamaño Mediano (100 servidores):**
 
-**On-Premises Costs (Annual):**
+**Costos On-Premises (Anuales):**
 ```
-Hardware amortization: $200,000
-Data center lease: $120,000
-Power and cooling: $80,000
-Internet connectivity: $60,000
-Staff (3 engineers): $450,000
-Maintenance contracts: $150,000
-Security and compliance: $100,000
-TOTAL: $1,160,000/year
-```
-
-**AWS Equivalent:**
-```
-EC2 instances: $200,000
-Storage: $50,000
-Data transfer: $30,000
-Support plan: $20,000
-Staff (1 cloud engineer): $150,000
-TOTAL: $450,000/year
-SAVINGS: $710,000/year (61%)
+Amortización de hardware: $200,000
+Arrendamiento de centro de datos: $120,000
+Energía y enfriamiento: $80,000
+Conectividad a internet: $60,000
+Personal (3 ingenieros): $450,000
+Contratos de mantenimiento: $150,000
+Seguridad y cumplimiento: $100,000
+TOTAL: $1,160,000/año
 ```
 
-#### 🎯 **What You Get Instead**
-- 🧠 **Focus on core business** - Build products, not data centers
-- 💡 **Innovation time** - Staff works on business value, not maintenance
-- 😴 **Peace of mind** - Someone else handles infrastructure problems
-- 🌍 **Global reach** - Instantly available worldwide
-- 🔒 **Enterprise security** - Security measures you couldn't afford alone
+**Equivalente AWS:**
+```
+Instancias EC2: $200,000
+Almacenamiento: $50,000
+Transferencia de datos: $30,000
+Plan de soporte: $20,000
+Personal (1 ingeniero de nube): $150,000
+TOTAL: $450,000/año
+AHORROS: $710,000/año (61%)
+```
+
+#### 🎯 **Qué Obtienes en Su Lugar**
+- 🧠 **Enfoque en negocio central** - Construir productos, no centros de datos
+- 💡 **Tiempo de innovación** - Personal trabaja en valor empresarial, no mantenimiento
+- 😴 **Tranquilidad** - Alguien más maneja problemas de infraestructura
+- 🌍 **Alcance global** - Disponible instantáneamente mundialmente
+- 🔒 **Seguridad empresarial** - Medidas de seguridad que no podrías costear solo
 
 ---
 
-### 6. 🌍 **Go Global in Minutes**
+### 6. 🌍 **Volverse Global en Minutos**
 
-#### 🤔 **What This Means**
-Deploy your applications worldwide instantly. Serve customers globally with the same performance as if you had data centers everywhere.
+#### 🤔 **Qué Significa Esto**
+Desplegar tus aplicaciones mundialmente al instante. Servir clientes globalmente con el mismo rendimiento como si tuvieras centros de datos en todas partes.
 
-#### 🌐 **The Traditional Challenge**
+#### 🌐 **El Desafío Tradicional**
 
-**Global Expansion (Traditional Way):**
+**Expansión Global (Forma Tradicional):**
 ```
-Year 1: Decide to expand to Europe
-Year 2: Find data center partners in London
-Year 3: Negotiate contracts and compliance
-Year 4: Install hardware and connectivity
-Year 5: Launch European service
-Cost: $2-5 million
-Time: 5 years
-Risk: High
-```
-
-**Global Expansion (Cloud Way):**
-```
-Minute 1: Choose AWS region in London
-Minute 5: Deploy application
-Minute 10: Configure DNS routing
-Minute 15: European customers served
-Cost: $0 upfront
-Time: 15 minutes
-Risk: Minimal
+Año 1: Decidir expandirse a Europa
+Año 2: Encontrar socios de centro de datos en Londres
+Año 3: Negociar contratos y cumplimiento
+Año 4: Instalar hardware y conectividad
+Año 5: Lanzar servicio europeo
+Costo: $2-5 millones
+Tiempo: 5 años
+Riesgo: Alto
 ```
 
-#### 🗺️ **AWS Global Infrastructure**
+**Expansión Global (Forma en la Nube):**
+```
+Minuto 1: Elegir región AWS en Londres
+Minuto 5: Desplegar aplicación
+Minuto 10: Configurar enrutamiento DNS
+Minuto 15: Clientes europeos servidos
+Costo: $0 inicial
+Tiempo: 15 minutos
+Riesgo: Mínimo
+```
 
-**Available Worldwide:**
-- 🌍 **33+ Regions** across 6 continents
-- 🏢 **100+ Availability Zones** for redundancy
-- 🚀 **400+ Edge Locations** for content delivery
-- 🌐 **Instant access** to any region
+#### 🗺️ **Infraestructura Global de AWS**
 
-#### 📊 **Real-World Success Stories**
+**Disponible Mundialmente:**
+- 🌍 **33+ Regiones** a través de 6 continentes
+- 🏢 **100+ Zonas de Disponibilidad** para redundancia
+- 🚀 **400+ Edge Locations** para entrega de contenido
+- 🌐 **Acceso instantáneo** a cualquier región
 
-**Pokemon GO Launch:**
-- 🎮 **Challenge:** Game became globally viral overnight
-- 🌍 **Solution:** Scaled from US to global in days using AWS
-- 📈 **Result:** Handled 50x expected traffic without issues
+#### 📊 **Historias de Éxito del Mundo Real**
 
-**Spotify Global Expansion:**
-- 🎵 **Challenge:** Expand music service to new countries
-- 🌍 **Solution:** Launch in new regions within weeks
-- 📈 **Result:** Now serves 400+ million users globally
+**Lanzamiento de Pokemon GO:**
+- 🎮 **Desafío:** El juego se volvió viral globalmente de la noche a la mañana
+- 🌍 **Solución:** Escaló de EE.UU. a global en días usando AWS
+- 📈 **Resultado:** Manejó 50x el tráfico esperado sin problemas
 
-**Slack's Rapid Growth:**
-- 💬 **Challenge:** Support enterprise customers worldwide
-- 🌍 **Solution:** Deploy in multiple regions for compliance
-- 📈 **Result:** Global enterprise adoption at unprecedented speed
+**Expansión Global de Spotify:**
+- 🎵 **Desafío:** Expandir servicio de música a nuevos países
+- 🌍 **Solución:** Lanzar en nuevas regiones en semanas
+- 📈 **Resultado:** Ahora sirve a 400+ millones de usuarios globalmente
 
-#### 🎯 **Business Benefits**
-- 🚀 **Faster market entry** - Beat competitors to new markets
-- 🌍 **Global customer base** - Serve customers everywhere with low latency
-- 💰 **Revenue opportunities** - Access new markets without huge investments
-- 🔄 **Risk mitigation** - Test markets quickly and cheaply
-- 📊 **Data sovereignty** - Meet local compliance requirements
+**Crecimiento Rápido de Slack:**
+- 💬 **Desafío:** Soportar clientes empresariales mundialmente
+- 🌍 **Solución:** Desplegar en múltiples regiones para cumplimiento
+- 📈 **Resultado:** Adopción empresarial global a velocidad sin precedentes
+
+#### 🎯 **Beneficios Empresariales**
+- 🚀 **Entrada más rápida al mercado** - Ganar a competidores en nuevos mercados
+- 🌍 **Base de clientes global** - Servir clientes en todas partes con baja latencia
+- 💰 **Oportunidades de ingresos** - Acceder a nuevos mercados sin inversiones enormes
+- 🔄 **Mitigación de riesgos** - Probar mercados rápida y económicamente
+- 📊 **Soberanía de datos** - Cumplir requisitos de cumplimiento locales
 
 ---
 
-## 📊 Real-World Case Studies
+## 📊 Casos de Estudio del Mundo Real
 
-### 🎬 **Case Study 1: Netflix - The Ultimate Cloud Success Story**
+### 🎬 **Caso de Estudio 1: Netflix - La Historia de Éxito en la Nube Definitiva**
 
-**The Challenge:**
-- 📺 Streaming video to millions of users globally
-- 🌍 Handling massive traffic spikes during popular show releases
-- 💰 Competing with traditional media companies
-- 🔄 Need to innovate constantly
+**El Desafío:**
+- 📺 Transmitir video a millones de usuarios globalmente
+- 🌍 Manejar picos masivos de tráfico durante lanzamientos de shows populares
+- 💰 Competir con compañías de medios tradicionales
+- 🔄 Necesidad de innovar constantemente
 
-**Traditional Approach Would Have Required:**
-- 🏢 Data centers in every major city ($billions)
-- 🔧 Thousands of infrastructure engineers
-- ⏰ Years to expand to new countries
-- 💰 Massive upfront capital investment
+**El Enfoque Tradicional Habría Requerido:**
+- 🏢 Centros de datos en cada ciudad principal ($miles de millones)
+- 🔧 Miles de ingenieros de infraestructura
+- ⏰ Años para expandirse a nuevos países
+- 💰 Inversión de capital inicial masiva
 
-**Cloud Solution:**
-- ☁️ **AWS Infrastructure:** Serves 200+ million subscribers
-- 🌍 **Global presence:** Available in 190+ countries
-- 📈 **Auto-scaling:** Handles traffic spikes automatically
-- 💰 **Cost efficiency:** Pay only for actual usage
+**Solución en la Nube:**
+- ☁️ **Infraestructura AWS:** Sirve a 200+ millones de suscriptores
+- 🌍 **Presencia global:** Disponible en 190+ países
+- 📈 **Auto-escalado:** Maneja picos de tráfico automáticamente
+- 💰 **Eficiencia de costos:** Pagar solo por uso real
 
-**Results:**
-- 📈 **Revenue growth:** From $1B to $30B+ in revenue
-- 🌍 **Global reach:** Became worldwide entertainment platform
-- 🎯 **Innovation focus:** Spends time on content, not infrastructure
-- 💰 **Cost savings:** Estimated $1B+ saved vs. traditional approach
+**Resultados:**
+- 📈 **Crecimiento de ingresos:** De $1B a $30B+ en ingresos
+- 🌍 **Alcance global:** Se convirtió en plataforma de entretenimiento mundial
+- 🎯 **Enfoque en innovación:** Gasta tiempo en contenido, no infraestructura
+- 💰 **Ahorro de costos:** Estimado $1B+ ahorrado vs. enfoque tradicional
 
-**Cloud Advantages Demonstrated:**
-1. ✅ Variable expense vs. capital expense
-2. ✅ Economies of scale
-3. ✅ No capacity guessing
-4. ✅ Speed and agility
-5. ✅ No data center maintenance
-6. ✅ Global in minutes
-
----
-
-### 🏦 **Case Study 2: Capital One - Banking Transformation**
-
-**The Challenge:**
-- 🏦 Traditional bank competing with fintech startups
-- 🔒 Strict regulatory and security requirements
-- 🐌 Legacy systems limiting innovation
-- 💰 High infrastructure costs
-
-**The Transformation:**
-- ☁️ **Complete cloud migration:** First major bank to go "all-in" on cloud
-- 🔒 **Security enhancement:** Better security than on-premises
-- 🚀 **Innovation acceleration:** New features weekly instead of yearly
-- 💰 **Cost optimization:** Significant infrastructure savings
-
-**Results:**
-- 🚀 **Development speed:** 10x faster application deployment
-- 🔒 **Security improvement:** Better compliance and security posture
-- 💰 **Cost reduction:** 40% reduction in infrastructure costs
-- 🏆 **Market position:** Recognized as most innovative bank
-
-**Business Impact:**
-- 📱 Mobile banking innovation leader
-- 🤖 AI-powered customer service
-- 📊 Real-time fraud detection
-- 🌍 Ability to scale globally
+**Ventajas de la Nube Demostradas:**
+1. ✅ Gasto variable vs. gasto de capital
+2. ✅ Economías de escala
+3. ✅ No adivinar capacidad
+4. ✅ Velocidad y agilidad
+5. ✅ No mantenimiento de centro de datos
+6. ✅ Global en minutos
 
 ---
 
-### 🛒 **Case Study 3: Shopify - E-commerce Platform**
+### 🏦 **Caso de Estudio 2: Capital One - Transformación Bancaria**
 
-**The Challenge:**
-- 🛒 Support millions of online stores
-- 📈 Handle Black Friday traffic spikes (1000x normal traffic)
-- 🌍 Serve customers globally
-- 💰 Keep costs reasonable for small businesses
+**El Desafío:**
+- 🏦 Banco tradicional compitiendo con startups fintech
+- 🔒 Requisitos regulatorios y de seguridad estrictos
+- 🐌 Sistemas legados limitando innovación
+- 💰 Altos costos de infraestructura
 
-**Cloud Solution:**
-- ☁️ **Auto-scaling architecture:** Handles massive traffic spikes
-- 🌍 **Global deployment:** Stores perform well worldwide
-- 💰 **Cost efficiency:** Pass savings to small business customers
-- 🔄 **Rapid innovation:** Launch new features continuously
+**La Transformación:**
+- ☁️ **Migración completa a la nube:** Primer banco importante en apostar "todo" a la nube
+- 🔒 **Mejora de seguridad:** Mejor seguridad que on-premises
+- 🚀 **Aceleración de innovación:** Nuevas características semanalmente en lugar de anualmente
+- 💰 **Optimización de costos:** Ahorros significativos de infraestructura
 
-**Results:**
-- 📊 **Scale:** Supports 1.7+ million businesses
-- 💰 **Revenue:** Processes $150+ billion in sales annually
-- 🌍 **Global reach:** Available in 175+ countries
-- 🚀 **Performance:** 99.99% uptime during peak shopping events
+**Resultados:**
+- 🚀 **Velocidad de desarrollo:** 10x más rápido despliegue de aplicaciones
+- 🔒 **Mejora de seguridad:** Mejor cumplimiento y postura de seguridad
+- 💰 **Reducción de costos:** 40% de reducción en costos de infraestructura
+- 🏆 **Posición en el mercado:** Reconocido como el banco más innovador
 
----
-
-## 🔍 Detailed Analysis
-
-### 💰 **Financial Impact Deep Dive**
-
-#### **Cost Structure Transformation**
-
-**Traditional IT Costs (Fixed):**
-```
-70% = Capital expenditure (hardware, facilities)
-30% = Operational expenditure (staff, maintenance)
-Problem: High fixed costs regardless of usage
-```
-
-**Cloud Computing Costs (Variable):**
-```
-10% = Fixed costs (minimal staff, basic services)
-90% = Variable costs (pay for actual usage)
-Benefit: Costs align with business value
-```
-
-#### **ROI Timeline Comparison**
-
-| **Metric** | **Traditional IT** | **Cloud Computing** |
-|------------|-------------------|-------------------|
-| **Time to ROI** | 3-5 years | 3-6 months |
-| **Break-even point** | 24-36 months | 6-12 months |
-| **Risk of over-investment** | High | Low |
-| **Flexibility to pivot** | Low | High |
-
-### 🚀 **Innovation Impact**
-
-#### **Time Allocation Change**
-
-**Traditional IT Team Time:**
-```
-60% = Infrastructure maintenance
-25% = Firefighting and troubleshooting
-10% = Compliance and security
-5% = Innovation and new features
-```
-
-**Cloud-First Team Time:**
-```
-20% = Cloud resource management
-10% = Monitoring and optimization
-15% = Security and compliance
-55% = Innovation and new features
-```
-
-**Result:** 11x more time spent on business value creation!
+**Impacto Empresarial:**
+- 📱 Líder en innovación de banca móvil
+- 🤖 Servicio al cliente impulsado por IA
+- 📊 Detección de fraude en tiempo real
+- 🌍 Capacidad de escalar globalmente
 
 ---
 
-## ⚖️ Trade-offs and Considerations
+### 🛍️ **Caso de Estudio 3: Shopify - Plataforma de E-commerce**
 
-### 🤔 **When Cloud Might Not Be the Best Choice**
+**El Desafío:**
+- 🛍️ Soportar millones de tiendas en línea
+- 📈 Manejar picos de tráfico del Black Friday (1000x tráfico normal)
+- 🌍 Servir clientes globalmente
+- 💰 Mantener costos razonables para pequeños negocios
 
-#### **Highly Predictable, Stable Workloads**
-- 📊 **Example:** Mainframe running same process for 20 years
-- 💰 **Consideration:** Fixed costs might be lower than variable costs
-- 🎯 **Solution:** Reserved instances or hybrid approach
+**Solución en la Nube:**
+- ☁️ **Arquitectura de auto-escalado:** Maneja picos masivos de tráfico
+- 🌍 **Despliegue global:** Las tiendas funcionan bien mundialmente
+- 💰 **Eficiencia de costos:** Pasar ahorros a clientes de pequeños negocios
+- 🔄 **Innovación rápida:** Lanzar nuevas características continuamente
 
-#### **Extremely Sensitive Data**
-- 🔒 **Example:** Top-secret government applications
-- 🛡️ **Consideration:** Regulatory requirements for on-premises
-- 🎯 **Solution:** Private cloud or government cloud regions
-
-#### **Applications with Specific Hardware Requirements**
-- 🔧 **Example:** Scientific computing with specialized processors
-- ⚙️ **Consideration:** Cloud might not have exact hardware needed
-- 🎯 **Solution:** Dedicated hosts or hybrid approach
-
-### 🎯 **Making the Right Choice**
-
-#### **Cloud is Great For:**
-- 📈 **Variable workloads** - Traffic fluctuates
-- 🚀 **New applications** - Starting fresh
-- 🌍 **Global applications** - Serving worldwide users
-- 🧪 **Experimental projects** - Testing new ideas
-- 💼 **Small to medium businesses** - Limited IT resources
-
-#### **Hybrid Might Be Better For:**
-- 🏢 **Large enterprises** - Complex existing systems
-- 🔒 **Regulated industries** - Specific compliance requirements
-- 💰 **Predictable workloads** - Stable, consistent usage
-- 🔧 **Legacy applications** - Hard to modify existing systems
+**Resultados:**
+- 📊 **Escala:** Soporta 1.7+ millones de negocios
+- 💰 **Ingresos:** Procesa $150+ mil millones en ventas anualmente
+- 🌍 **Alcance global:** Disponible en 175+ países
+- 🚀 **Rendimiento:** 99.99% tiempo activo durante eventos de compras pico
 
 ---
 
-## 📝 Practice Scenarios
+## 🔍 Análisis Detallado
 
-### 🎮 **Scenario 1: Mobile Game Startup**
+### 💰 **Profundización del Impacto Financiero**
 
-**Situation:** 
-You're launching a mobile game. You expect:
-- First month: 10,000 users
-- If successful: 1 million users by month 6
-- If very successful: 10 million users by year 1
-- If unsuccessful: Shut down by month 3
+#### **Transformación de Estructura de Costos**
 
-**Traditional Approach:**
-- Buy servers for 10 million users: $5 million upfront
-- Risk: Waste $5 million if game fails
-- Problem: Can't handle success if you underestimate
+**Costos de TI Tradicional (Fijos):**
+```
+70% = Gasto de capital (hardware, instalaciones)
+30% = Gasto operacional (personal, mantenimiento)
+Problema: Altos costos fijos independientemente del uso
+```
 
-**Questions:**
-1. Which cloud advantages apply to this scenario?
-2. How would cloud computing change the risk profile?
-3. What would be the financial impact?
+**Costos de Computación en la Nube (Variables):**
+```
+10% = Costos fijos (personal mínimo, servicios básicos)
+90% = Costos variables (pagar por uso real)
+Beneficio: Los costos se alinean con el valor empresarial
+```
+
+#### **Comparación de Cronograma de ROI**
+
+| **Métrica** | **TI Tradicional** | **Computación en la Nube** |
+|------------|-------------------|----------------------------|
+| **Tiempo al ROI** | 3-5 años | 3-6 meses |
+| **Punto de equilibrio** | 24-36 meses | 6-12 meses |
+| **Riesgo de sobre-inversión** | Alto | Bajo |
+| **Flexibilidad para pivotar** | Baja | Alta |
+
+### 🚀 **Impacto en Innovación**
+
+#### **Cambio en Asignación de Tiempo**
+
+**Tiempo del Equipo de TI Tradicional:**
+```
+60% = Mantenimiento de infraestructura
+25% = Apagar incendios y solución de problemas
+10% = Cumplimiento y seguridad
+5% = Innovación y nuevas características
+```
+
+**Tiempo del Equipo Cloud-First:**
+```
+20% = Gestión de recursos en la nube
+10% = Monitoreo y optimización
+15% = Seguridad y cumplimiento
+55% = Innovación y nuevas características
+```
+
+**Resultado:** ¡11x más tiempo gastado en creación de valor empresarial!
+
+---
+
+## ⚖️ Compensaciones y Consideraciones
+
+### 🤔 **Cuándo la Nube Podría No Ser la Mejor Opción**
+
+#### **Cargas de Trabajo Altamente Predecibles y Estables**
+- 📊 **Ejemplo:** Mainframe ejecutando el mismo proceso por 20 años
+- 💰 **Consideración:** Los costos fijos podrían ser menores que los costos variables
+- 🎯 **Solución:** Instancias reservadas o enfoque híbrido
+
+#### **Datos Extremadamente Sensibles**
+- 🔒 **Ejemplo:** Aplicaciones gubernamentales ultra-secretas
+- 🛡️ **Consideración:** Requisitos regulatorios para on-premises
+- 🎯 **Solución:** Nube privada o regiones de nube gubernamental
+
+#### **Aplicaciones con Requisitos de Hardware Específicos**
+- 🔧 **Ejemplo:** Computación científica con procesadores especializados
+- ⚙️ **Consideración:** La nube podría no tener el hardware exacto necesario
+- 🎯 **Solución:** Hosts dedicados o enfoque híbrido
+
+### 🎯 **Tomar la Decisión Correcta**
+
+#### **La Nube es Excelente Para:**
+- 📈 **Cargas de trabajo variables** - El tráfico fluctúa
+- 🚀 **Aplicaciones nuevas** - Empezar desde cero
+- 🌍 **Aplicaciones globales** - Servir usuarios mundiales
+- 🧪 **Proyectos experimentales** - Probar nuevas ideas
+- 💼 **Pequeñas a medianas empresas** - Recursos de TI limitados
+
+#### **Híbrido Podría Ser Mejor Para:**
+- 🏢 **Grandes empresas** - Sistemas existentes complejos
+- 🔒 **Industrias reguladas** - Requisitos de cumplimiento específicos
+- 💰 **Cargas de trabajo predecibles** - Uso estable y consistente
+- 🔧 **Aplicaciones legadas** - Difícil modificar sistemas existentes
+
+---
+
+## 📝 Escenarios de Práctica
+
+### 🎮 **Escenario 1: Startup de Juego Móvil**
+
+**Situación:** 
+Estás lanzando un juego móvil. Esperas:
+- Primer mes: 10,000 usuarios
+- Si es exitoso: 1 millón de usuarios para el mes 6
+- Si es muy exitoso: 10 millones de usuarios para el año 1
+- Si no es exitoso: Cerrar para el mes 3
+
+**Enfoque Tradicional:**
+- Comprar servidores para 10 millones de usuarios: $5 millones inicial
+- Riesgo: Desperdiciar $5 millones si el juego falla
+- Problema: No puede manejar el éxito si subestimas
+
+**Preguntas:**
+1. ¿Qué ventajas de la nube aplican a este escenario?
+2. ¿Cómo cambiaría la computación en la nube el perfil de riesgo?
+3. ¿Cuál sería el impacto financiero?
 
 <details>
-<summary>💡 Click for Detailed Answer</summary>
+<summary>💡 Clic para Respuesta Detallada</summary>
 
-**Cloud Advantages Applied:**
-1. **✅ Variable vs. Capital Expense:** Pay $100/month initially vs. $5M upfront
-2. **✅ Stop Guessing Capacity:** Scale based on actual users, not predictions
-3. **✅ Speed and Agility:** Launch quickly, iterate based on user feedback
-4. **✅ Go Global:** If successful, launch worldwide instantly
+**Ventajas de la Nube Aplicadas:**
+1. **✅ Gasto Variable vs. Gasto de Capital:** Pagar $100/mes inicialmente vs. $5M inicial
+2. **✅ Dejar de Adivinar Capacidad:** Escalar basado en usuarios reales, no predicciones
+3. **✅ Velocidad y Agilidad:** Lanzar rápidamente, iterar basado en retroalimentación de usuarios
+4. **✅ Volverse Global:** Si es exitoso, lanzar mundialmente al instante
 
-**Risk Profile Change:**
-- **Traditional:** High upfront risk ($5M), limited upside flexibility
-- **Cloud:** Low initial risk ($100), unlimited upside potential
+**Cambio en Perfil de Riesgo:**
+- **Tradicional:** Alto riesgo inicial ($5M), flexibilidad de crecimiento limitada
+- **Nube:** Bajo riesgo inicial ($100), potencial de crecimiento ilimitado
 
-**Financial Impact:**
-- **Failure scenario:** Lose $300 vs. $5M
-- **Success scenario:** Scale costs with revenue, much better cash flow
-- **Super success:** Handle 10M users without additional planning
+**Impacto Financiero:**
+- **Escenario de falla:** Perder $300 vs. $5M
+- **Escenario de éxito:** Escalar costos con ingresos, mucho mejor flujo de efectivo
+- **Super éxito:** Manejar 10M usuarios sin planificación adicional
 </details>
 
-### 🏥 **Scenario 2: Healthcare Startup**
+### 🏥 **Escenario 2: Startup de Salud**
 
-**Situation:**
-Telemedicine platform connecting patients with doctors:
-- Need to comply with healthcare regulations
-- Must be available 24/7
-- Usage varies by season (flu season = 10x traffic)
-- Planning to expand internationally
+**Situación:**
+Plataforma de telemedicina conectando pacientes con doctores:
+- Necesidad de cumplir con regulaciones de salud
+- Debe estar disponible 24/7
+- El uso varía por temporada (temporada de gripe = 10x tráfico)
+- Planificando expandirse internacionalmente
 
-**Questions:**
-1. How do the 6 advantages apply to healthcare?
-2. What are the compliance considerations?
-3. How does global expansion work?
+**Preguntas:**
+1. ¿Cómo aplican las 6 ventajas a la salud?
+2. ¿Cuáles son las consideraciones de cumplimiento?
+3. ¿Cómo funciona la expansión global?
 
 <details>
-<summary>💡 Click for Detailed Answer</summary>
+<summary>💡 Clic para Respuesta Detallada</summary>
 
-**Cloud Advantages for Healthcare:**
-1. **✅ Economies of Scale:** Access enterprise-grade security/compliance
-2. **✅ No Capacity Guessing:** Handle flu season spikes automatically
-3. **✅ No Data Center Maintenance:** Focus on healthcare, not IT
-4. **✅ Go Global:** Expand to new countries for medical tourism
+**Ventajas de la Nube para Salud:**
+1. **✅ Economías de Escala:** Acceso a seguridad/cumplimiento de nivel empresarial
+2. **✅ No Adivinar Capacidad:** Manejar picos de temporada de gripe automáticamente
+3. **✅ No Mantenimiento de Centro de Datos:** Enfocarse en salud, no TI
+4. **✅ Volverse Global:** Expandirse a nuevos países para turismo médico
 
-**Compliance Benefits:**
-- HIPAA compliance built into AWS services
-- Audit trails and encryption automatically
-- Disaster recovery and backup included
-- Security measures beyond what most hospitals can afford
+**Beneficios de Cumplimiento:**
+- Cumplimiento HIPAA integrado en servicios AWS
+- Rastros de auditoría y encriptación automáticamente
+- Recuperación ante desastres y respaldo incluidos
+- Medidas de seguridad más allá de lo que la mayoría de hospitales pueden costear
 
-**Global Expansion:**
-- Deploy in regions close to patients for low latency
-- Meet local data sovereignty requirements
-- Launch in new countries in days, not years
+**Expansión Global:**
+- Desplegar en regiones cerca de pacientes para baja latencia
+- Cumplir requisitos locales de soberanía de datos
+- Lanzar en nuevos países en días, no años
 </details>
 
-### 🛒 **Scenario 3: E-commerce Black Friday**
+### 🛒 **Escenario 3: E-commerce Black Friday**
 
-**Situation:**
-Online retailer preparing for Black Friday:
-- Normal traffic: 1,000 visitors/hour
-- Black Friday traffic: 100,000 visitors/hour
-- Sales window: 24 hours
-- Failure = lost revenue and reputation
+**Situación:**
+Minorista en línea preparándose para Black Friday:
+- Tráfico normal: 1,000 visitantes/hora
+- Tráfico Black Friday: 100,000 visitantes/hora
+- Ventana de ventas: 24 horas
+- Falla = pérdida de ingresos y reputación
 
-**Traditional Challenges:**
-- Size for peak: Waste money 364 days/year
-- Size for normal: Crash during Black Friday
-- Can't predict exact traffic levels
+**Desafíos Tradicionales:**
+- Dimensionar para pico: Desperdiciar dinero 364 días/año
+- Dimensionar para normal: Colapsar durante Black Friday
+- No se puede predecir niveles exactos de tráfico
 
-**Questions:**
-1. How does cloud solve the Black Friday problem?
-2. What's the cost comparison?
-3. What are the business benefits?
-
-<details>
-<summary>💡 Click for Detailed Answer</summary>
-
-**Cloud Solution:**
-1. **Auto-scaling:** Automatically scale from 10 to 1,000 servers
-2. **Global distribution:** Serve customers from nearest location
-3. **Pay-per-use:** Pay for peak traffic only during peak time
-
-**Cost Comparison:**
-- **Traditional (sized for peak):** $50,000/month year-round = $600,000/year
-- **Cloud (auto-scaling):** $1,000 normal days + $10,000 Black Friday = $375,000/year
-- **Savings:** $225,000/year (37.5%)
-
-**Business Benefits:**
-- **Revenue protection:** Never lose sales due to crashes
-- **Customer satisfaction:** Fast performance during peak times
-- **Competitive advantage:** Handle traffic that competitors can't
-- **Global reach:** Serve international customers during their peak times
-</details>
-
----
-
-## 🧠 Key Terms to Remember
-
-| **Term** | **Definition** | **Real-World Example** |
-|----------|---------------|----------------------|
-| **CapEx** | Capital Expenditure - Large upfront costs | Buying servers for $100K |
-| **OpEx** | Operational Expenditure - Ongoing costs | Monthly cloud bill of $1K |
-| **Economies of Scale** | Cost advantages from large-scale operations | AWS's bulk purchasing power |
-| **Elasticity** | Automatic scaling based on demand | Website auto-scales during traffic spikes |
-| **Agility** | Speed of implementing new ideas | Launch new feature in hours vs. months |
-| **TCO** | Total Cost of Ownership | All costs over 5 years, not just initial |
-
----
-
-## ✅ Chapter Checklist
-
-Before moving on, ensure you can:
-
-- [ ] Explain all 6 cloud advantages with real examples
-- [ ] Calculate cost comparisons between traditional IT and cloud
-- [ ] Identify which advantages apply to different business scenarios
-- [ ] Understand the trade-offs and when cloud might not be best
-- [ ] Give specific examples of how companies have benefited
-
----
-
-## 🎯 Quick Quiz
-
-### Question 1
-A startup wants to launch a new mobile app but has limited budget. Which cloud advantage is MOST relevant?
-A) Go global in minutes
-B) Stop spending money on data centers
-C) Trade capital expense for variable expense
-D) Benefit from economies of scale
+**Preguntas:**
+1. ¿Cómo resuelve la nube el problema del Black Friday?
+2. ¿Cuál es la comparación de costos?
+3. ¿Cuáles son los beneficios empresariales?
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Clic para Respuesta Detallada</summary>
 
-**Answer: C) Trade capital expense for variable expense**
+**Solución en la Nube:**
+1. **Auto-escalado:** Escalar automáticamente de 10 a 1,000 servidores
+2. **Distribución global:** Servir clientes desde la ubicación más cercana
+3. **Pago por uso:** Pagar por tráfico pico solo durante tiempo pico
 
-**Explanation:** For a startup with limited budget, the ability to avoid large upfront costs and pay only for what they use as they grow is the most important advantage. This allows them to start small and scale with their success.
-</details>
+**Comparación de Costos:**
+- **Tradicional (dimensionado para pico):** $50,000/mes todo el año = $600,000/año
+- **Nube (auto-escalado):** $1,000 días normales + $10,000 Black Friday = $375,000/año
+- **Ahorros:** $225,000/año (37.5%)
 
-### Question 2
-A news website experiences massive traffic spikes during breaking news events. Which advantage helps them most?
-A) Trade capital expense for variable expense
-B) Stop guessing about capacity
-C) Benefit from massive economies of scale
-D) Stop spending money on data centers
-
-<details>
-<summary>💡 Click for Answer</summary>
-
-**Answer: B) Stop guessing about capacity**
-
-**Explanation:** The ability to scale automatically based on actual demand (rather than guessing peak capacity) is crucial for handling unpredictable traffic spikes during breaking news events.
-</details>
-
-### Question 3
-Which scenario best demonstrates "Go global in minutes"?
-A) A company reduces their IT staff
-B) A startup launches without buying servers
-C) An app deploys to 5 new countries in one day
-D) A website handles traffic spikes automatically
-
-<details>
-<summary>💡 Click for Answer</summary>
-
-**Answer: C) An app deploys to 5 new countries in one day**
-
-**Explanation:** "Go global in minutes" specifically refers to the ability to deploy applications worldwide quickly, serving customers in multiple countries/regions almost instantly.
+**Beneficios Empresariales:**
+- **Protección de ingresos:** Nunca perder ventas por colapsos
+- **Satisfacción del cliente:** Rendimiento rápido durante tiempos pico
+- **Ventaja competitiva:** Manejar tráfico que los competidores no pueden
+- **Alcance global:** Servir clientes internacionales durante sus tiempos pico
 </details>
 
 ---
 
-## 🗺️ What's Next?
+## 🧠 Términos Clave para Recordar
 
-Now that you understand **why** organizations move to the cloud, let's explore the **different ways** to implement cloud computing.
-
-**🎯 Next Chapter:** [Cloud Deployment Models](./deployment-models.md)
-
-Learn about Public, Private, Hybrid, and Multi-Cloud strategies - and when to use each approach!
+| **Término** | **Definición** | **Ejemplo del Mundo Real** |
+|-------------|----------------|---------------------------|
+| **CapEx** | Gasto de Capital - Grandes costos iniciales | Comprar servidores por $100K |
+| **OpEx** | Gasto Operacional - Costos continuos | Factura mensual de nube de $1K |
+| **Economías de Escala** | Ventajas de costos de operaciones a gran escala | Poder de compra al por mayor de AWS |
+| **Elasticidad** | Escalado automático basado en demanda | Sitio web auto-escala durante picos de tráfico |
+| **Agilidad** | Velocidad de implementar nuevas ideas | Lanzar nueva característica en horas vs. meses |
+| **TCO** | Costo Total de Propiedad | Todos los costos en 5 años, no solo inicial |
 
 ---
 
-**🎉 Great job!** You now understand the compelling business case for cloud computing. These advantages drive the trillion-dollar cloud transformation happening worldwide!
+## ✅ Lista de Verificación del Capítulo
+
+Antes de continuar, asegúrate de poder:
+
+- [ ] Explicar todas las 6 ventajas de la nube con ejemplos reales
+- [ ] Calcular comparaciones de costos entre TI tradicional y nube
+- [ ] Identificar qué ventajas aplican a diferentes escenarios empresariales
+- [ ] Entender las compensaciones y cuándo la nube podría no ser lo mejor
+- [ ] Dar ejemplos específicos de cómo las empresas se han beneficiado
 
 ---
 
-**← [Back to Domain 1 Overview](./README.md)**
+## 🎯 Quiz Rápido
+
+### Pregunta 1
+Una startup quiere lanzar una nueva app móvil pero tiene presupuesto limitado. ¿Qué ventaja de la nube es MÁS relevante?
+A) Volverse global en minutos
+B) Dejar de gastar dinero en centros de datos
+C) Intercambiar gasto de capital por gasto variable
+D) Beneficiarse de economías de escala
+
+<details>
+<summary>💡 Clic para Respuesta</summary>
+
+**Respuesta: C) Intercambiar gasto de capital por gasto variable**
+
+**Explicación:** Para una startup con presupuesto limitado, la capacidad de evitar grandes costos iniciales y pagar solo por lo que usan mientras crecen es la ventaja más importante. Esto les permite empezar pequeño y escalar con su éxito.
+</details>
+
+### Pregunta 2
+Un sitio web de noticias experimenta picos masivos de tráfico durante eventos de noticias de última hora. ¿Qué ventaja les ayuda más?
+A) Intercambiar gasto de capital por gasto variable
+B) Dejar de adivinar sobre capacidad
+C) Beneficiarse de economías masivas de escala
+D) Dejar de gastar dinero en centros de datos
+
+<details>
+<summary>💡 Clic para Respuesta</summary>
+
+**Respuesta: B) Dejar de adivinar sobre capacidad**
+
+**Explicación:** La capacidad de escalar automáticamente basado en demanda real (en lugar de adivinar capacidad pico) es crucial para manejar picos de tráfico impredecibles durante eventos de noticias de última hora.
+</details>
+
+### Pregunta 3
+¿Qué escenario demuestra mejor "Volverse global en minutos"?
+A) Una empresa reduce su personal de TI
+B) Una startup lanza sin comprar servidores
+C) Una app se despliega a 5 nuevos países en un día
+D) Un sitio web maneja picos de tráfico automáticamente
+
+<details>
+<summary>💡 Clic para Respuesta</summary>
+
+**Respuesta: C) Una app se despliega a 5 nuevos países en un día**
+
+**Explicación:** "Volverse global en minutos" se refiere específicamente a la capacidad de desplegar aplicaciones mundialmente rápidamente, sirviendo clientes en múltiples países/regiones casi instantáneamente.
+</details>
+
+---
+
+## 🗺️ ¿Qué Sigue?
+
+Ahora que entiendes **por qué** las organizaciones se mueven a la nube, exploremos las **diferentes formas** de implementar computación en la nube.
+
+**🎯 Próximo Capítulo:** [Modelos de Despliegue en la Nube](./deployment-models.md)
+
+¡Aprende sobre estrategias Públicas, Privadas, Híbridas y Multi-Nube - y cuándo usar cada enfoque!
+
+---
+
+**🎉 ¡Excelente trabajo!** Ahora entiendes el caso de negocio convincente para la computación en la nube. ¡Estas ventajas impulsan la transformación de nube de billones de dólares que está ocurriendo mundialmente!
+
+---
+
+**← [Volver a Resumen del Dominio 1](./README.md)**

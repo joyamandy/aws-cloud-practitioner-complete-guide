@@ -72,32 +72,32 @@ A partir de 2024, AWS tiene **30+ regiones** en todo el mundo, incluyendo:
 - **ap-south-1** (Mumbai) - Mercado creciente de India
 - **ap-northeast-2** (Seúl) - Cobertura de Corea del Sur
 
-### 🔧 **Region Characteristics**
+### 🔧 **Características de las Regiones**
 
-#### **🏗️ Infrastructure Independence**
-- **Separate physical infrastructure** in each region
-- **Independent power grids** and internet connections
-- **Isolated failure domains** - problems in one region don't affect others
-- **Regional service teams** for local support
+#### **🏗️ Independencia de Infraestructura**
+- **Infraestructura física separada** en cada región
+- **Redes eléctricas independientes** y conexiones de internet
+- **Dominios de falla aislados** - problemas en una región no afectan a otras
+- **Equipos de servicio regionales** para soporte local
 
-#### **🌐 Service Availability**
-- **Not all services available** in all regions initially
-- **Newest services** typically launch in us-east-1 first
-- **Gradual rollout** to other regions based on demand
-- **Some services are global** by nature (IAM, CloudFront)
+#### **🌐 Disponibilidad de Servicios**
+- **No todos los servicios están disponibles** en todas las regiones inicialmente
+- **Los servicios más nuevos** típicamente se lanzan primero en us-east-1
+- **Despliegue gradual** a otras regiones basado en la demanda
+- **Algunos servicios son globales** por naturaleza (IAM, CloudFront)
 
-#### **💰 Pricing Variations**
-- **Different pricing** in different regions
-- **us-east-1** typically has the lowest prices
-- **Newer regions** may have higher costs initially
-- **Data transfer costs** vary between regions
+#### **💰 Variaciones de Precios**
+- **Precios diferentes** en diferentes regiones
+- **us-east-1** típicamente tiene los precios más bajos
+- **Regiones más nuevas** pueden tener costos iniciales más altos
+- **Costos de transferencia de datos** varían entre regiones
 
 ### 🎯 **Regional Services vs Global Services**
 
-#### **🏢 Regional Services (Most AWS Services)**
-- **EC2** instances run in specific regions
-- **S3** buckets are created in specific regions
-- **RDS** databases exist in chosen regions
+#### **🏢 Servicios Regionales (La Mayoría de Servicios AWS)**
+- **EC2** las instancias se ejecutan en regiones específicas
+- **S3** los buckets se crean en regiones específicas
+- **RDS** las bases de datos existen en regiones elegidas
 - **VPCs** son específicas de región
 
 #### **🌍 Servicios Globales**
@@ -195,7 +195,7 @@ Piensa en las Edge Locations como **centros de distribución locales**:
 - **Carga reducida del origen** - Menos tráfico a servidores principales
 - **Alcance global** - Servir usuarios mundialmente de manera eficiente
 
-### 🔧 **AWS Services Using Edge Locations**
+### 🔧 **Servicios de AWS que Usan Edge Locations**
 
 #### **🌟 Amazon CloudFront**
 - **Servicio CDN principal** usando edge locations
@@ -298,336 +298,334 @@ Piensa en las Edge Locations como **centros de distribución locales**:
 **📊 Patrones Generales de Precios:**
 - **us-east-1** (N. Virginia) - Usualmente más barato
 - **Regiones establecidas** - Generalmente costos más bajos
-- **Newer regions** - Often higher initial pricing
-- **Remote regions** - May have premium pricing
+- **Regiones más nuevas** - A menudo precios iniciales más altos
+- **Regiones remotas** - Pueden tener precios premium
 
-**💡 Cost Optimization Tips:**
-- **Compare pricing** across suitable regions
-- **Consider data transfer costs** between regions
-- **Factor in operational costs** (support, expertise)
+**💡 Consejos de Optimización de Costos:**
+- **Comparar precios** entre regiones adecuadas
+- **Considerar costos de transferencia de datos** entre regiones
+- **Factorizar costos operacionales** (soporte, experiencia)
 
-#### **4. 🚀 Service Availability**
+#### **4. 🚀 Disponibilidad de Servicios**
 
-**Not all AWS services are available in all regions**
+**No todos los servicios de AWS están disponibles en todas las regiones**
 
-**📈 Service Rollout Pattern:**
-1. **us-east-1** - New services launch here first
-2. **Major regions** - us-west-2, eu-west-1, ap-northeast-1
-3. **Secondary regions** - Gradual rollout based on demand
-4. **Specialized regions** - May have limited service sets
+**📈 Patrón de Despliegue de Servicios:**
+1. **us-east-1** - Los nuevos servicios se lanzan aquí primero
+2. **Regiones principales** - us-west-2, eu-west-1, ap-northeast-1
+3. **Regiones secundarias** - Despliegue gradual basado en la demanda
+4. **Regiones especializadas** - Pueden tener conjuntos de servicios limitados
 
-**🔍 How to Check Service Availability:**
-- **AWS Regional Services List** - Official documentation
-- **AWS Service Health Dashboard** - Real-time status
-- **AWS CLI/Console** - Region-specific service menus
+**🔍 Cómo Verificar Disponibilidad de Servicios:**
+- **Lista de Servicios Regionales de AWS** - Documentación oficial
+- **Panel de Salud de Servicios de AWS** - Estado en tiempo real
+- **AWS CLI/Console** - Menús de servicios específicos por región
 
-### 🎯 **Decision Framework**
+### 🎯 **Marco de Decisión**
 
-#### **🥇 Step 1: Must-Have Requirements**
-- **Compliance** requirements (non-negotiable)
-- **Data sovereignty** laws
-- **Specific service** availability
+#### **🥇 Paso 1: Requisitos Obligatorios**
+- Requisitos de **cumplimiento** (no negociables)
+- Leyes de **soberanía de datos**
+- Disponibilidad de **servicios específicos**
 
-#### **🥈 Step 2: Performance Requirements**
-- **User location** and latency needs
-- **Integration** with existing systems
-- **Disaster recovery** requirements
+#### **🥈 Paso 2: Requisitos de Rendimiento**
+- **Ubicación de usuarios** y necesidades de latencia
+- **Integración** con sistemas existentes
+- Requisitos de **recuperación ante desastres**
 
-#### **🥉 Step 3: Cost Optimization**
-- **Compare pricing** across eligible regions
-- **Calculate total cost** including data transfer
-- **Consider operational** efficiencies
-
----
-
-## 🏗️ High Availability Design
-
-### 🎯 **Multi-AZ Design Patterns**
-
-#### **Pattern 1: Active-Passive**
-```
-AZ-A: [Primary Application] [Primary Database]
-AZ-B: [Standby Application] [Standby Database]
-
-- Failover when primary fails
-- RDS Multi-AZ deployments
-- Good for traditional applications
-```
-
-#### **Pattern 2: Active-Active**
-```
-AZ-A: [Application Instance] [Database Read Replica]
-AZ-B: [Application Instance] [Database Read Replica]
-Load Balancer: Distributes traffic
-
-- Both AZs serve traffic
-- Better resource utilization
-- Horizontal scaling capability
-```
-
-#### **Pattern 3: Auto Scaling Groups**
-```
-AZ-A: [Instance 1] [Instance 3]
-AZ-B: [Instance 2] [Instance 4]
-AZ-C: [Instance 5]
-
-- Automatically replaces failed instances
-- Scales based on demand
-- Maintains desired capacity across AZs
-```
-
-### 🎯 **Multi-Region Design Patterns**
-
-#### **Pattern 1: Disaster Recovery**
-```
-Primary Region (us-east-1):
-  - Production applications
-  - Primary databases
-  - Real-time operations
-
-DR Region (us-west-2):
-  - Standby applications
-  - Database backups/replicas
-  - Activated during disasters
-```
-
-#### **Pattern 2: Global Application**
-```
-US Region (us-east-1):
-  - Serves North American users
-  - Regional databases
-  - CloudFront integration
-
-EU Region (eu-west-1):
-  - Serves European users
-  - GDPR-compliant data storage
-  - Regional CloudFront POPs
-```
+#### **🥉 Paso 3: Optimización de Costos**
+- **Comparar precios** entre regiones elegibles
+- **Calcular costo total** incluyendo transferencia de datos
+- **Considerar eficiencias** operacionales
 
 ---
 
-## 🎮 Real-World Scenarios
+## 🏗️ Diseño de Alta Disponibilidad
 
-### 🏪 **Scenario 1: E-commerce Platform**
+### 🎯 **Patrones de Diseño Multi-AZ**
 
-**Requirements:**
-- **Global customer base**
-- **High availability** (99.99% uptime)
-- **Fast page load times** worldwide
-- **Compliance** with local regulations
-
-**Solution Design:**
+#### **Patrón 1: Activo-Pasivo**
 ```
-Primary Region: us-east-1
-├── Multi-AZ Application Deployment
-├── RDS Multi-AZ Database
-└── S3 with Cross-Region Replication
+AZ-A: [Aplicación Primaria] [Base de Datos Primaria]
+AZ-B: [Aplicación Standby] [Base de Datos Standby]
 
-Secondary Region: eu-west-1
-├── Disaster Recovery Environment
-├── GDPR-compliant Data Processing
-└── European Customer Data
+- Failover cuando falla el primario
+- Implementaciones Multi-AZ de RDS
+- Bueno para aplicaciones tradicionales
+```
 
-Edge Network:
-├── CloudFront Distribution
+#### **Patrón 2: Activo-Activo**
+```
+AZ-A: [Instancia de Aplicación] [Réplica de Lectura BD]
+AZ-B: [Instancia de Aplicación] [Réplica de Lectura BD]
+Balanceador de Carga: Distribuye tráfico
+
+- Ambas AZs sirven tráfico
+- Mejor utilización de recursos
+- Capacidad de escalado horizontal
+```
+
+#### **Patrón 3: Grupos de Auto Scaling**
+```
+AZ-A: [Instancia 1] [Instancia 3]
+AZ-B: [Instancia 2] [Instancia 4]
+AZ-C: [Instancia 5]
+
+- Reemplaza automáticamente instancias fallidas
+- Escala basado en la demanda
+- Mantiene capacidad deseada a través de AZs
+```
+
+### 🎯 **Patrones de Diseño Multi-Región**
+
+#### **Patrón 1: Recuperación ante Desastres**
+```
+Región Primaria (us-east-1):
+  - Aplicaciones de producción
+  - Bases de datos primarias
+  - Operaciones en tiempo real
+
+Región DR (us-west-2):
+  - Aplicaciones standby
+  - Respaldos/réplicas de base de datos
+  - Activadas durante desastres
+```
+
+#### **Patrón 2: Aplicación Global**
+```
+Región US (us-east-1):
+  - Sirve a usuarios de Norteamérica
+  - Bases de datos regionales
+  - Integración CloudFront
+
+Región EU (eu-west-1):
+  - Sirve a usuarios europeos
+  - Almacenamiento de datos compatible con GDPR
+  - POPs regionales de CloudFront
+```
+
+---
+
+## 🎮 Escenarios del Mundo Real
+
+### 🏪 **Escenario 1: Plataforma de E-commerce**
+
+**Requisitos:**
+- **Base de clientes global**
+- **Alta disponibilidad** (99.99% tiempo activo)
+- **Tiempos de carga rápidos** mundialmente
+- **Cumplimiento** con regulaciones locales
+
+**Diseño de Solución:**
+```
+Región Primaria: us-east-1
+├── Implementación de Aplicación Multi-AZ
+├── Base de Datos RDS Multi-AZ
+└── S3 con Replicación Cross-Region
+
+Región Secundaria: eu-west-1
+├── Ambiente de Recuperación ante Desastres
+├── Procesamiento de Datos Compatible con GDPR
+└── Datos de Clientes Europeos
+
+Red Edge:
+├── Distribución CloudFront
 ├── 400+ Edge Locations
-└── Route 53 for DNS
+└── Route 53 para DNS
 ```
 
-**Benefits:**
-- **Sub-second page loads** globally via CloudFront
-- **Zero downtime** during AZ failures
-- **Compliance** with EU data regulations
-- **Disaster recovery** across regions
+**Beneficios:**
+- **Cargas de página sub-segundo** globalmente vía CloudFront
+- **Cero tiempo de inactividad** durante fallas de AZ
+- **Cumplimiento** con regulaciones de datos de la UE
+- **Recuperación ante desastres** entre regiones
 
-### 🏥 **Scenario 2: Healthcare Application**
+### 🏥 **Escenario 2: Aplicación de Salud**
 
-**Requirements:**
-- **Patient data** must stay in specific countries
-- **Ultra-high availability** for critical systems
-- **Low latency** for real-time monitoring
-- **Disaster recovery** within same country
+**Requisitos:**
+- **Datos de pacientes** deben permanecer en países específicos
+- **Disponibilidad ultra-alta** para sistemas críticos
+- **Baja latencia** para monitoreo en tiempo real
+- **Recuperación ante desastres** dentro del mismo país
 
-**Solution Design:**
+**Diseño de Solución:**
 ```
-Primary: us-east-1 (3 AZs)
-├── AZ-1a: Application + Database Primary
-├── AZ-1b: Application + Database Standby
-└── AZ-1c: Monitoring + Backup Systems
+Primaria: us-east-1 (3 AZs)
+├── AZ-1a: Aplicación + Base de Datos Primaria
+├── AZ-1b: Aplicación + Base de Datos Standby
+└── AZ-1c: Sistemas de Monitoreo + Respaldo
 
-Secondary: us-west-2 (Disaster Recovery)
-├── Automated backups
-├── Cross-region replication
-└── Cold standby environment
-
-Edge: Local Zones
-├── Boston Local Zone (Hospital 1)
-├── Chicago Local Zone (Hospital 2)
-└── Ultra-low latency monitoring
+Secundaria: us-west-2 (Recuperación ante Desastres)
+├── Ambiente standby frío
+├── Capacidades de failover automatizado
+└── Replicación de datos con encriptación
 ```
 
-### 🎮 **Scenario 3: Gaming Application**
+**Beneficios:**
+- **Soberanía de datos** mantenida
+- **99.999% disponibilidad** a través de diseño multi-AZ
+- **< 10ms latencia** para operaciones críticas
+- **Recuperación ante desastres automatizada**
 
-**Requirements:**
-- **Global player base**
-- **Real-time multiplayer** gaming
-- **Low latency** critical (< 50ms)
-- **Scalable** for traffic spikes
+### 🎮 **Escenario 3: Aplicación de Juegos**
+- **Juegos multijugador en tiempo real**
+- **Baja latencia** crítica (< 50ms)
+- **Escalable** para picos de tráfico
 
-**Solution Design:**
+**Diseño de Solución:**
 ```
-Multi-Region Active-Active:
-├── us-east-1: North American players
-├── eu-west-1: European players
-├── ap-northeast-1: Asian players
-└── Game state synchronization
+Multi-Región Activo-Activo:
+├── us-east-1: Jugadores de Norteamérica
+├── eu-west-1: Jugadores europeos
+├── ap-northeast-1: Jugadores asiáticos
+└── Sincronización de estado del juego
 
-Edge Computing:
-├── AWS Wavelength: 5G optimization
-├── Local Zones: Major cities
-└── CloudFront: Game assets
+Computación Edge:
+├── AWS Wavelength: Optimización 5G
+├── Local Zones: Ciudades principales
+└── CloudFront: Assets del juego
 
 Auto Scaling:
-├── Predictive scaling for peak hours
-├── Cross-AZ load balancing
-└── Spot instances for cost optimization
+├── Escalado predictivo para horas pico
+├── Balanceo de carga Cross-AZ
+└── Instancias Spot para optimización de costos
 ```
 
 ---
 
-## 🧠 Memory Aids
+## 🧠 Ayudas de Memoria
 
-### 🎯 **Region Selection Mnemonic: "LCSC"**
-- **L**atency - Where are your users?
-- **C**ompliance - Legal requirements?
-- **S**ervices - Are needed services available?
-- **C**ost - What's the total cost?
+### 🎯 **Mnemónico de Selección de Región: "LCSC"**
+- **L**atencia - ¿Dónde están tus usuarios?
+- **C**umplimiento - ¿Requisitos legales?
+- **S**ervicios - ¿Están disponibles los servicios necesarios?
+- **C**osto - ¿Cuál es el costo total?
 
-### 🏢 **AZ Best Practices: "3-2-1 Rule"**
-- **3** AZs minimum for production
-- **2** AZs minimum for high availability
-- **1** AZ only for development/testing
+### 🏢 **Mejores Prácticas de AZ: Regla "3-2-1"**
+- **3** AZs mínimo para producción
+- **2** AZs mínimo para alta disponibilidad
+- **1** AZ solo para desarrollo/pruebas
 
-### 🌍 **Infrastructure Hierarchy**
+### 🌍 **Jerarquía de Infraestructura**
 ```
 🌍 Global
-├── 🏙️ Regions (30+)
-│   ├── 🏢 Availability Zones (3-6 per region)
-│   │   └── 🏗️ Data Centers (1+ per AZ)
+├── 🏙️ Regiones (30+)
+│   ├── 🏢 Zonas de Disponibilidad (3-6 por región)
+│   │   └── 🏗️ Centros de Datos (1+ por AZ)
 ├── 📡 Edge Locations (400+)
-├── 🏠 Local Zones (Select metro areas)
-└── 📱 Wavelength Zones (5G networks)
+├── 🏠 Zonas Locales (Áreas metropolitanas selectas)
+└── 📱 Zonas Wavelength (Redes 5G)
 ```
 
 ---
 
-## 📝 Practice Questions
+## 📝 Preguntas de Práctica
 
-### Question 1
-A company needs to deploy an application that serves users in both the US and Europe, with data sovereignty requirements in the EU. What's the best architecture approach?
+### Pregunta 1
+Una empresa necesita implementar una aplicación que sirva a usuarios tanto en EE.UU. como en Europa, con requisitos de soberanía de datos en la UE. ¿Cuál es el mejor enfoque de arquitectura?
 
-**A)** Single region deployment in us-east-1 with CloudFront  
-**B)** Multi-AZ deployment in eu-west-1 only  
-**C)** Multi-region deployment with us-east-1 and eu-west-1  
-**D)** Single AZ deployment in multiple regions  
+**A)** Implementación de una sola región en us-east-1 con CloudFront  
+**B)** Implementación Multi-AZ solo en eu-west-1  
+**C)** Implementación multi-región con us-east-1 y eu-west-1  
+**D)** Implementación de una sola AZ en múltiples regiones  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Ver Respuesta</summary>
 
-**Answer: C) Multi-region deployment with us-east-1 and eu-west-1**
+**Respuesta: C) Implementación multi-región con us-east-1 y eu-west-1**
 
-**Explanation:** EU data sovereignty requirements mean European user data must stay in EU regions. A multi-region deployment allows serving US users from us-east-1 and EU users from eu-west-1, meeting both performance and compliance requirements.
+**Explicación:** Los requisitos de soberanía de datos de la UE significan que los datos de usuarios europeos deben permanecer en regiones de la UE. Una implementación multi-región permite servir a usuarios de EE.UU. desde us-east-1 y a usuarios de la UE desde eu-west-1, cumpliendo tanto con requisitos de rendimiento como de cumplimiento.
 
 </details>
 
-### Question 2
-What is the primary purpose of AWS Availability Zones?
+### Pregunta 2
+¿Cuál es el propósito principal de las Zonas de Disponibilidad de AWS?
 
-**A)** Reduce latency for global users  
-**B)** Provide fault tolerance within a region  
-**C)** Enable content caching  
-**D)** Support compliance requirements  
+**A)** Reducir latencia para usuarios globales  
+**B)** Proporcionar tolerancia a fallos dentro de una región  
+**C)** Habilitar caché de contenido  
+**D)** Soportar requisitos de cumplimiento  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Ver Respuesta</summary>
 
-**Answer: B) Provide fault tolerance within a region**
+**Respuesta: B) Proporcionar tolerancia a fallos dentro de una región**
 
-**Explanation:** AZs are designed to be isolated failure domains within a region. By deploying across multiple AZs, applications can survive the failure of any single AZ while maintaining operations.
+**Explicación:** Las AZs están diseñadas para ser dominios de falla aislados dentro de una región. Al implementar a través de múltiples AZs, las aplicaciones pueden sobrevivir a la falla de cualquier AZ individual mientras mantienen las operaciones.
 
 </details>
 
-### Question 3
-Which AWS infrastructure component would be most appropriate for delivering streaming video content to global users with minimal latency?
+### Pregunta 3
+¿Qué componente de infraestructura de AWS sería más apropiado para entregar contenido de video en streaming a usuarios globales con latencia mínima?
 
-**A)** AWS Regions  
-**B)** Availability Zones  
+**A)** Regiones de AWS  
+**B)** Zonas de Disponibilidad  
 **C)** Edge Locations  
-**D)** Local Zones  
+**D)** Zonas Locales  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Ver Respuesta</summary>
 
-**Answer: C) Edge Locations**
+**Respuesta: C) Edge Locations**
 
-**Explanation:** Edge Locations are specifically designed for content delivery. They cache content close to users worldwide, providing the lowest latency for streaming video through CloudFront CDN.
+**Explicación:** Las Edge Locations están específicamente diseñadas para entrega de contenido. Cachean contenido cerca de usuarios mundialmente, proporcionando la latencia más baja para video en streaming a través de CloudFront CDN.
 
 </details>
 
-### Question 4
-A financial services company needs to process real-time trading data with sub-millisecond latency. Which AWS infrastructure component would be most suitable?
+### Pregunta 4
+Una empresa de servicios financieros necesita procesar datos de trading en tiempo real con latencia sub-milisegundo. ¿Qué componente de infraestructura de AWS sería más adecuado?
 
-**A)** Standard AWS Regions  
+**A)** Regiones estándar de AWS  
 **B)** Edge Locations  
-**C)** Local Zones  
-**D)** Wavelength Zones  
+**C)** Zonas Locales  
+**D)** Zonas Wavelength  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Clic para Ver Respuesta</summary>
 
-**Answer: C) Local Zones**
+**Respuesta: C) Zonas Locales**
 
-**Explanation:** Local Zones provide single-digit millisecond latency by placing AWS infrastructure very close to major metropolitan areas. This is perfect for ultra-low latency applications like high-frequency trading.
+**Explicación:** Las Zonas Locales proporcionan latencia de milisegundos de un solo dígito al colocar infraestructura de AWS muy cerca de áreas metropolitanas principales. Esto es perfecto para aplicaciones de ultra-baja latencia como trading de alta frecuencia.
 
 </details>
 
 ---
 
-## 🎯 Key Takeaways
+## 🎯 Puntos Clave
 
-### 🌟 **The Big Picture**
-- **AWS Global Infrastructure** is the foundation that makes everything else possible
-- **Regions** provide isolation and compliance boundaries
-- **AZs** enable high availability within regions
-- **Edge Locations** optimize global content delivery
+### 🌟 **El Panorama General**
+- **La Infraestructura Global de AWS** es la base que hace posible todo lo demás
+- **Las Regiones** proporcionan aislamiento y límites de cumplimiento
+- **Las AZs** habilitan alta disponibilidad dentro de regiones
+- **Las Edge Locations** optimizan la entrega global de contenido
 
-### 🎯 **For the Exam**
-- **Memorize region selection criteria** (Latency, Compliance, Services, Cost)
-- **Understand AZ best practices** (always use multiple AZs for production)
-- **Know the difference** between Regional and Global services
-- **Remember edge location benefits** for content delivery
+### 🎯 **Para el Examen**
+- **Memorizar criterios de selección de región** (Latencia, Cumplimiento, Servicios, Costo)
+- **Entender mejores prácticas de AZ** (siempre usar múltiples AZs para producción)
+- **Conocer la diferencia** entre servicios Regionales y Globales
+- **Recordar beneficios de edge locations** para entrega de contenido
 
-### 💡 **For Real-World Application**
-- **Always design for multiple AZs** in production
-- **Choose regions based on requirements**, not convenience
-- **Use CloudFront** for global content delivery
-- **Consider compliance requirements** from the beginning
+### 💡 **Para Aplicación del Mundo Real**
+- **Siempre diseñar para múltiples AZs** en producción
+- **Elegir regiones basado en requisitos**, no conveniencia
+- **Usar CloudFront** para entrega global de contenido
+- **Considerar requisitos de cumplimiento** desde el principio
 
-### 🚀 **Architecture Principles**
-- **Design for failure** - assume components will fail
-- **Implement defense in depth** - multiple layers of redundancy
-- **Optimize for your users** - deploy close to where they are
-- **Plan for growth** - design for scale from day one
-
----
-
-## 🔗 Navigation
-
-**← Previous:** [Cloud Service Models](./service-models.md)  
-**→ Next:** [Domain 2: Security & Compliance](../02-security-compliance/README.md)  
-**↑ Up:** [Domain 1: Cloud Concepts](./README.md)  
-**🏠 Home:** [AWS Cloud Practitioner Study Guide](../README.md)
+### 🚀 **Principios de Arquitectura**
+- **Diseñar para fallas** - asumir que los componentes fallarán
+- **Implementar defensa en profundidad** - múltiples capas de redundancia
+- **Optimizar para tus usuarios** - implementar cerca de donde están
+- **Planificar para crecimiento** - diseñar para escala desde el día uno
 
 ---
 
-> 💡 **Pro Tip:** The AWS infrastructure questions often involve scenarios. Practice thinking about latency, compliance, availability, and cost trade-offs. Remember: there's rarely one "perfect" answer - it depends on the specific requirements!
+## 🔗 Navegación
+
+**← Anterior:** [Modelos de Servicio en la Nube](./service-models.md)  
+**→ Siguiente:** [Dominio 2: Seguridad y Cumplimiento](../02-security-compliance/README.md)  
+**↑ Arriba:** [Dominio 1: Conceptos de la Nube](./README.md)  
+**🏠 Inicio:** [Guía de Estudio AWS Cloud Practitioner](../README.md)
+
+---
+
+> 💡 **Consejo Pro:** Las preguntas de infraestructura de AWS a menudo involucran escenarios. Practica pensar en compensaciones de latencia, cumplimiento, disponibilidad y costo. Recuerda: rara vez hay una respuesta "perfecta" - depende de los requisitos específicos!

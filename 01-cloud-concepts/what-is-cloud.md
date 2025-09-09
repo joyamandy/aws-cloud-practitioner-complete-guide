@@ -45,229 +45,236 @@ Según NIST (Instituto Nacional de Estándares y Tecnología):
 
 ---
 
-## 💡 Real-World Analogies
+## 💡 Analogías del Mundo Real
 
-### 🏠 **Electricity Analogy** (The Classic!)
-**Traditional IT is like having your own power generator:**
-- 🔧 You buy the generator
-- 🏗️ You install and maintain it
-- ⚡ You produce your own electricity
-- 💰 High upfront cost, ongoing maintenance
-- 📊 You estimate your power needs and hope you're right
+### 🏠 **Analogía de la Electricidad** (¡La Clásica!)
+**TI Tradicional es como tener tu propio generador de energía:**
+- 🔧 Compras el generador
+- 🏗️ Lo instalas y mantienes
+- ⚡ Produces tu propia electricidad
+- 💰 Alto costo inicial, mantenimiento continuo
+- 📊 Estimas tus necesidades de energía y esperas acertar
 
-**Cloud Computing is like using the electrical grid:**
-- 🔌 Plug into the wall and get power instantly
-- 💡 Pay only for the electricity you use
-- 🏭 Power company handles generation and maintenance
-- 📈 Scale up or down automatically
-- 🌍 Available almost everywhere
+**Computación en la Nube es como usar la red eléctrica:**
+- 🔌 Te conectas a la pared y obtienes energía instantáneamente
+- 💡 Pagas solo por la electricidad que usas
+- 🏭 La compañía eléctrica maneja la generación y mantenimiento
+- 📈 Escalas hacia arriba o abajo automáticamente
+- 🌍 Disponible en casi todas partes
 
-### 🚗 **Transportation Analogy**
-**Traditional IT = Owning a Car:**
-- 💰 Large upfront purchase
-- 🔧 Regular maintenance required
-- 🅿️ Need parking space
-- 🚗 Fixed capacity (5 seats)
-- 📅 Available 24/7 (but costly when not used)
+### 🚗 **Analogía del Transporte**
+**TI Tradicional = Poseer un Auto:**
+- 💰 Gran compra inicial
+- 🔧 Mantenimiento regular requerido
+- 🅿️ Necesitas espacio de estacionamiento
+- 🚗 Capacidad fija (5 asientos)
+- 📅 Disponible 24/7 (pero costoso cuando no se usa)
 
-**Cloud Computing = Ride Sharing:**
-- 💳 Pay per ride
-- 🔧 No maintenance headaches
-- 🅿️ No parking needed
-- 🚙 Right-sized vehicle for each trip
-- 📱 Available on-demand
+**Computación en la Nube = Viajes Compartidos:**
+- 💳 Pagas por viaje
+- 🔧 Sin dolores de cabeza de mantenimiento
+- 🅿️ No necesitas estacionamiento
+- 🚙 Vehículo del tamaño adecuado para cada viaje
+- 📱 Disponible bajo demanda
 
-### 🏨 **Hotel Analogy**
-**Traditional IT = Owning a House:**
-- 🏠 Buy the entire house
-- 🧹 Clean and maintain everything yourself
-- 🔒 Complete control and privacy
-- 💰 Pay whether you're there or not
+### 🏨 **Analogía del Hotel**
+**TI Tradicional = Poseer una Casa:**
+- 🏠 Compras toda la casa
+- 🧩 Limpias y mantienes todo tú mismo
+- 🔒 Control completo y privacidad
+- 💰 Pagas estés ahí o no
 
-**Cloud Computing = Staying at Hotels:**
-- 🛏️ Rent just the room you need
-- 🧹 Housekeeping included
-- 🔐 Shared facilities but secure rooms
-- 💳 Pay only for nights you stay
-
----
-
-## 🏢 Traditional IT vs Cloud
-
-### 🏗️ **Traditional IT Infrastructure (On-Premises)**
-
-**How it works:**
-1. 📊 **Plan** - Estimate computing needs for next 3-5 years
-2. 💰 **Purchase** - Buy servers, storage, networking equipment
-3. 🏗️ **Install** - Set up data center, cooling, power, security
-4. ⚙️ **Configure** - Install operating systems, software, updates
-5. 🔧 **Maintain** - 24/7 monitoring, repairs, upgrades
-6. 🔄 **Refresh** - Replace equipment every 3-5 years
-
-**Challenges:**
-- 💸 **High upfront costs** - Hundreds of thousands or millions
-- ⏰ **Long lead times** - Weeks or months to get new capacity
-- 📈 **Capacity planning nightmares** - Over-provision (waste money) or under-provision (poor performance)
-- 🔧 **Maintenance burden** - Need specialized IT staff
-- 🏢 **Physical space requirements** - Data centers, cooling, power
-- 🔒 **Security responsibility** - Everything from physical to digital
-
-### ☁️ **Cloud Computing**
-
-**How it works:**
-1. 💳 **Sign up** - Create account with cloud provider
-2. 🖱️ **Click** - Launch resources through web interface
-3. ⚡ **Instant access** - Resources available in minutes
-4. 📊 **Monitor** - Use built-in tools to track usage
-5. 📈 **Scale** - Add or remove resources as needed
-6. 💰 **Pay** - Only for what you actually use
-
-**Benefits:**
-- 💳 **Pay-as-you-go** - Start small, grow as needed
-- ⚡ **Instant provisioning** - Resources in minutes, not months
-- 📈 **Perfect scaling** - Match capacity to actual demand
-- 🔧 **Managed infrastructure** - Provider handles maintenance
-- 🌍 **Global reach** - Deploy worldwide instantly
-- 🔒 **Shared security** - Benefit from provider's expertise
+**Computación en la Nube = Hospedarse en Hoteles:**
+- 🛏️ Alquilas solo la habitación que necesitas
+- 🧩 Servicio de limpieza incluido
+- 🔐 Instalaciones compartidas pero habitaciones seguras
+- 💳 Pagas solo por las noches que te hospedas
 
 ---
 
-## 🌟 Essential Characteristics
+## 🏢 TI Tradicional vs Nube
 
-The cloud isn't just "someone else's computer" - it has specific characteristics that make it powerful:
+### 🏗️ **Infraestructura de TI Tradicional (On-Premises)**
 
-### 1. 🖱️ **On-Demand Self-Service**
-**What it means:** Get computing resources instantly without human interaction.
+**Cómo funciona:**
+1. 📊 **Planificar** - Estimar necesidades de cómputo para los próximos 3-5 años
+2. 💰 **Comprar** - Adquirir servidores, almacenamiento, equipo de red
+3. 🏗️ **Instalar** - Configurar centro de datos, enfriamiento, energía, seguridad
+4. ⚙️ **Configurar** - Instalar sistemas operativos, software, actualizaciones
+5. 🔧 **Mantener** - Monitoreo 24/7, reparaciones, actualizaciones
+6. 🔄 **Renovar** - Reemplazar equipo cada 3-5 años
 
-**Real-world example:**
-- ❌ **Traditional:** Call IT, submit ticket, wait days for new server
-- ✅ **Cloud:** Click button, get server in 2 minutes
+**Desafíos:**
+- 💸 **Altos costos iniciales** - Cientos de miles o millones
+- ⏰ **Largos tiempos de espera** - Semanas o meses para obtener nueva capacidad
+- 📈 **Pesadillas de planificación de capacidad** - Sobre-aprovisionar (desperdiciar dinero) o sub-aprovisionar (mal rendimiento)
+- 🔧 **Carga de mantenimiento** - Necesitas personal de TI especializado
+- 🏢 **Requisitos de espacio físico** - Centros de datos, enfriamiento, energía
+- 🔒 **Responsabilidad de seguridad** - Todo desde físico hasta digital
 
-**Why it matters:** Speed and autonomy for developers and businesses.
+### ☁️ **Computación en la Nube**
 
-### 2. 🌐 **Broad Network Access**
-**What it means:** Access services over the internet from any device, anywhere.
+**Cómo funciona:**
+1. 💳 **Registrarse** - Crear cuenta con proveedor de nube
+2. 🖱️ **Hacer clic** - Lanzar recursos a través de interfaz web
+3. ⚡ **Acceso instantáneo** - Recursos disponibles en minutos
+4. 📊 **Monitorear** - Usar herramientas integradas para rastrear uso
+5. 📈 **Escalar** - Agregar o remover recursos según necesidad
+6. 💰 **Pagar** - Solo por lo que realmente usas
 
-**Real-world example:**
-- 📱 Access your applications from phone, laptop, tablet
-- 🌍 Team members work from different countries
-- 🏠 Work from home with same access as office
-
-**Why it matters:** Enables remote work and global collaboration.
-
-### 3. 🏊‍♂️ **Resource Pooling**
-**What it means:** Provider's resources are shared among multiple customers.
-
-**Think of it like:**
-- 🏊‍♂️ **Public swimming pool** - Shared among many users, but everyone gets to swim
-- 🏨 **Hotel** - Shared building, but private rooms
-- ✈️ **Airlines** - Shared plane, individual seats
-
-**Why it matters:** Much more cost-effective than dedicated resources.
-
-### 4. 🔄 **Rapid Elasticity**
-**What it means:** Automatically scale resources up or down based on demand.
-
-**Real-world example:**
-- 🛒 **E-commerce site during Black Friday:**
-  - Normal day: 100 users → Use 2 servers
-  - Black Friday: 10,000 users → Automatically scale to 20 servers
-  - After sale: Back to 100 users → Automatically scale down to 2 servers
-
-**Why it matters:** Handle traffic spikes without manual intervention.
-
-### 5. 📊 **Measured Service**
-**What it means:** Pay only for what you actually use, with detailed monitoring.
-
-**Examples:**
-- 💾 **Storage:** Pay per GB stored
-- 🖥️ **Compute:** Pay per hour of server usage
-- 🌐 **Bandwidth:** Pay per GB transferred
-- 🔍 **API calls:** Pay per request
-
-**Why it matters:** Perfect cost control and transparency.
+**Beneficios:**
+- 💳 **Pago por uso** - Comienza pequeño, crece según necesidad
+- ⚡ **Aprovisionamiento instantáneo** - Recursos en minutos, no meses
+- 📈 **Escalado perfecto** - Igualar capacidad a demanda real
+- 🔧 **Infraestructura gestionada** - El proveedor maneja el mantenimiento
+- 🌍 **Alcance global** - Desplegar mundialmente al instante
+- 🔒 **Seguridad compartida** - Beneficiarse de la experiencia del proveedor
 
 ---
 
-## ❌ Common Misconceptions
+## 🌟 Características Esenciales
 
-### 🤨 **"The Cloud is Just Someone Else's Computer"**
-**Why this is wrong:**
-- Yes, it uses physical servers, BUT...
-- The magic is in the **software layer** that provides:
-  - Instant provisioning
-  - Automatic scaling
-  - Self-healing
-  - Global distribution
-  - Pay-per-use billing
+La nube no es solo "la computadora de alguien más" - tiene características específicas que la hacen poderosa:
 
-**Better way to think about it:** The cloud is a **service delivery model**, not just hardware.
+### 1. 🖱️ **Autoservicio Bajo Demanda**
+**Qué significa:** Obtener recursos de cómputo instantáneamente sin interacción humana.
 
-### 🔒 **"The Cloud is Less Secure"**
-**Why this is wrong:**
-- Cloud providers invest **billions** in security
-- They have **dedicated security teams** (most companies don't)
-- **Shared responsibility model** means better security when done right
-- **Compliance certifications** that most companies can't achieve alone
+**Ejemplo del mundo real:**
+- ❌ **Tradicional:** Llamar a TI, enviar ticket, esperar días por nuevo servidor
+- ✅ **Nube:** Hacer clic en botón, obtener servidor en 2 minutos
 
-**Reality:** Cloud can be more secure than traditional IT when properly configured.
+**Por qué importa:** Velocidad y autonomía para desarrolladores y empresas.
 
-### 💸 **"The Cloud is Always Cheaper"**
-**Why this is nuanced:**
-- ✅ **Often cheaper** for variable workloads
-- ✅ **Always cheaper** when you factor in operational costs
-- ❌ **Might be more expensive** for steady, predictable workloads
-- 🎯 **Key insight:** Cost structure is different, not necessarily lower
+### 2. 🌐 **Acceso Amplio de Red**
+**Qué significa:** Acceder servicios a través de internet desde cualquier dispositivo, en cualquier lugar.
 
-### 🌐 **"You Need Internet for Everything"**
-**Why this is partially wrong:**
-- ✅ You need internet to **manage** cloud resources
-- ❌ Applications can work **offline** once deployed
-- 🔄 **Hybrid solutions** keep critical functions local
-- 📱 **Edge computing** brings cloud closer to users
+**Ejemplo del mundo real:**
+- 📱 Acceder a tus aplicaciones desde teléfono, laptop, tablet
+- 🌍 Miembros del equipo trabajan desde diferentes países
+- 🏠 Trabajar desde casa con el mismo acceso que en la oficina
 
----
+**Por qué importa:** Habilita trabajo remoto y colaboración global.
 
-## 🎯 Why This Matters
+### 3. 🏊‍♂️ **Agrupación de Recursos**
+**Qué significa:** Los recursos del proveedor son compartidos entre múltiples clientes.
 
-### 💼 **For Your Career**
-Understanding cloud fundamentals is like understanding how the internet works in the 1990s - it's going to be **everywhere**.
+**Piénsalo como:**
+- 🏊‍♂️ **Piscina pública** - Compartida entre muchos usuarios, pero todos pueden nadar
+- 🏨 **Hotel** - Edificio compartido, pero habitaciones privadas
+- ✈️ **Aerolíneas** - Avión compartido, asientos individuales
 
-**Career opportunities:**
-- ☁️ **Cloud Architect** - Design cloud solutions
-- 🔒 **Cloud Security Specialist** - Secure cloud environments
-- 💰 **Cloud Financial Manager** - Optimize cloud costs
-- 🔧 **DevOps Engineer** - Automate cloud deployments
-- 📊 **Data Engineer** - Build cloud data pipelines
+**Por qué importa:** Mucho más costo-efectivo que recursos dedicados.
 
-### 🏢 **For Your Organization**
-Every company is becoming a **technology company**, and cloud is the foundation.
+### 4. 🔄 **Elasticidad Rápida**
+**Qué significa:** Escalar recursos automáticamente hacia arriba o abajo basado en la demanda.
 
-**Business benefits:**
-- 🚀 **Innovation speed** - Launch new products faster
-- 🌍 **Global reach** - Serve customers worldwide
-- 💰 **Cost optimization** - Pay for what you use
-- 🔄 **Business agility** - Adapt quickly to market changes
-- 🛡️ **Risk reduction** - Disaster recovery and backup
+**Ejemplo del mundo real:**
+- 🛒 **Sitio de e-commerce durante Black Friday:**
+  - Día normal: 100 usuarios → Usar 2 servidores
+  - Black Friday: 10,000 usuarios → Escalar automáticamente a 20 servidores
+  - Después de la venta: Volver a 100 usuarios → Escalar automáticamente a 2 servidores
 
-### 📈 **For the Industry**
-Cloud computing is enabling **digital transformation** across all industries:
+**Por qué importa:** Manejar picos de tráfico sin intervención manual.
 
-- 🏥 **Healthcare:** Telemedicine, AI diagnostics
-- 🏦 **Finance:** Mobile banking, fraud detection
-- 🛒 **Retail:** E-commerce, inventory management
-- 🚗 **Automotive:** Connected cars, autonomous vehicles
-- 🎓 **Education:** Online learning, virtual classrooms
+### 5. 📊 **Servicio Medido**
+**Qué significa:** Pagar solo por lo que realmente usas, con monitoreo detallado.
+
+**Ejemplos:**
+- 💾 **Almacenamiento:** Pagar por GB almacenado
+- 🖥️ **Cómputo:** Pagar por hora de uso del servidor
+- 🌐 **Ancho de banda:** Pagar por GB transferido
+- 🔍 **Llamadas API:** Pagar por solicitud
+
+**Por qué importa:** Control perfecto de costos y transparencia.
 
 ---
 
-## 📝 Practice Scenarios
+## ❌ Conceptos Erróneos Comunes
 
-### 🎮 **Scenario 1: Gaming Company**
-**Situation:** A mobile game company expects their new game to have variable usage:
-- Launch week: 1 million players
-- Normal times: 100,000 players
-- Special events: 2 million players
+### 🤨 **"La Nube es Solo la Computadora de Alguien Más"**
+**Por qué esto está mal:**
+- Sí, usa servidores físicos, PERO...
+- La magia está en la **capa de software** que proporciona:
+  - Aprovisionamiento instantáneo
+  - Escalado automático
+  - Auto-reparación
+  - Distribución global
+  - Facturación por uso
+
+**Mejor forma de pensarlo:** La nube es un **modelo de entrega de servicios**, no solo hardware.
+
+### 🔒 **"La Nube es Menos Segura"**
+**Por qué esto está mal:**
+- Los proveedores de nube invierten **miles de millones** en seguridad
+- Tienen **equipos de seguridad dedicados** (la mayoría de empresas no)
+- **Modelo de responsabilidad compartida** significa mejor seguridad cuando se hace bien
+- **Certificaciones de cumplimiento** que la mayoría de empresas no pueden lograr solas
+
+**Realidad:** La nube puede ser más segura que TI tradicional cuando se configura apropiadamente.
+
+### 💸 **"La Nube Siempre es Más Barata"**
+**Por qué esto es matizado:**
+- ✅ **A menudo más barata** para cargas de trabajo variables
+- ✅ **Siempre más barata** cuando consideras costos operacionales
+- ❌ **Podría ser más cara** para cargas de trabajo estables y predecibles
+- 🎯 **Insight clave:** La estructura de costos es diferente, no necesariamente menor
+
+### 🌐 **"Necesitas Internet para Todo"**
+**Por qué esto está parcialmente mal:**
+- ✅ Necesitas internet para **gestionar** recursos de nube
+- ❌ Las aplicaciones pueden funcionar **offline** una vez desplegadas
+- 🔄 **Soluciones híbridas** mantienen funciones críticas locales
+- 📱 **Edge computing** acerca la nube a los usuarios
+
+---
+
+## 🎯 Por Qué Esto Importa
+
+### 💼 **Para Tu Carrera**
+Entender los fundamentos de la nube es como entender cómo funciona internet en los 1990s - va a estar **en todas partes**.
+
+**Oportunidades de carrera:**
+- ☁️ **Arquitecto de Nube** - Diseñar soluciones de nube
+- 🔧 **Ingeniero DevOps** - Automatizar despliegues en la nube
+- 🛡️ **Especialista en Seguridad de Nube** - Asegurar entornos de nube
+- 💰 **Optimización de Costos de Nube** - Ayudar a empresas a ahorrar dinero
+- 📊 **Ingeniero de Datos** - Construir pipelines de datos en la nube
+
+### 🏢 **Para Tu Negocio**
+- 🚀 **Tiempo más rápido al mercado** - Lanzar productos en semanas, no meses
+- 💰 **Mejor control de costos** - Pagar por lo que usas
+- 🌍 **Alcance global** - Servir clientes mundialmente
+- 🔄 **Enfoque en innovación** - Pasar tiempo en lógica de negocio, no infraestructura
+- 🛡️ **Mejor recuperación ante desastres** - Respaldo y redundancia integrados
+
+### 🎓 **Para Este Examen**
+- 📝 **40% de las preguntas del examen** se relacionan con conceptos de nube
+- 🎯 **Conocimiento fundamental** para todos los otros servicios de AWS
+- 💡 **Escenarios del mundo real** - No solo memorización
+
+---
+
+## 🌍 Impacto en la Industria
+
+### 📈 **Por los Números**
+- 💰 **$500+ mil millones** - Tamaño del mercado global de nube (2023)
+- 📊 **30%+ crecimiento anual** - Sector tecnológico de más rápido crecimiento
+- 🏢 **90%+ de empresas** usan alguna forma de nube
+- ⚡ **50%+ más rápido** despliegue comparado con TI tradicional
+
+### 🏭 **Industrias Transformadas**
+- 🎬 **Entretenimiento:** Netflix transmite a 200M+ usuarios globalmente
+- 🏦 **Banca:** Capital One se fue "all-in" en AWS
+- 🛒 **Retail:** Target maneja picos de tráfico de Black Friday
+- 🏥 **Salud:** Plataformas de telemedicina escalan instantáneamente
+- 🎓 **Educación:** Aprendizaje remoto para millones durante COVID-19
+
+### 🚀 **Habilitadores de Innovación**
+- 🤖 **AI/ML:** Entrenar modelos sin comprar GPUs caros
+- 📱 **Apps móviles:** Servicios backend que escalan automáticamente
+- 🎮 **Gaming:** Juegos multijugador con alcance global
+- 🏠 **IoT:** Conectar millones de dispositivos mundialmente
+- 🚗 **Vehículos autónomos:** Procesar cantidades masivas de datos de sensores
 
 **Question:** Why would cloud computing be beneficial for this company?
 
@@ -278,115 +285,134 @@ Cloud elasticity allows them to:
 - Pay only for actual usage
 - Avoid buying servers for peak capacity that sit idle most of the time
 
-### 🛒 **Scenario 2: E-commerce Startup**
-**Situation:** A startup wants to launch an online store but has limited budget.
+---
 
-**Traditional IT approach:**
-- Buy servers: $50,000
-- Data center setup: $20,000
-- IT staff: $100,000/year
-- Total first year: $170,000
+## 📝 Escenarios de Práctica
 
-**Cloud approach:**
-- Start with $100/month
-- Scale based on sales
-- No upfront costs
-- No IT staff needed initially
+### 🎮 **Escenario 1: Compañía de Gaming**
+**Situación:** Una compañía de juegos móviles espera que su nuevo juego tenga uso variable:
+- Semana de lanzamiento: 1 millón de jugadores
+- Tiempos normales: 100,000 jugadores
+- Eventos especiales: 2 millones de jugadores
 
-**Question:** What cloud characteristics make this possible?
+**Pregunta:** ¿Por qué sería beneficiosa la computación en la nube para esta compañía?
 
-**💡 Answer:**
-- **On-demand self-service:** No need to buy hardware
-- **Pay-per-use:** Start small, grow with business
-- **Managed service:** Provider handles infrastructure
-- **Rapid elasticity:** Scale up as business grows
+**💡 Respuesta:** 
+La elasticidad de la nube les permite:
+- Escalar hacia arriba durante lanzamientos y eventos
+- Escalar hacia abajo durante tiempos normales
+- Pagar solo por el uso real
+- Evitar comprar servidores para capacidad pico que permanecen inactivos la mayor parte del tiempo
 
-### 🏥 **Scenario 3: Healthcare Provider**
-**Situation:** A hospital needs to store patient records securely and access them from multiple locations.
+### 🛒 **Escenario 2: Startup de E-commerce**
+**Situación:** Una startup quiere lanzar una tienda en línea pero tiene presupuesto limitado.
 
-**Requirements:**
-- High security and compliance
-- Access from multiple hospitals
-- Backup and disaster recovery
-- 24/7 availability
+**Enfoque de TI tradicional:**
+- Comprar servidores: $50,000
+- Configuración de centro de datos: $20,000
+- Personal de TI: $100,000/año
+- Total primer año: $170,000
 
-**Question:** How do cloud characteristics address these requirements?
+**Enfoque de nube:**
+- Comenzar con $100/mes
+- Escalar basado en ventas
+- Sin costos iniciales
+- Sin personal de TI necesario inicialmente
 
-**💡 Answer:**
-- **Broad network access:** Secure access from any location
-- **Resource pooling:** Shared security infrastructure
-- **Measured service:** Pay only for storage used
-- **Provider expertise:** Compliance certifications
-- **Built-in redundancy:** Automatic backup and recovery
+**Pregunta:** ¿Qué características de la nube hacen esto posible?
+
+**💡 Respuesta:**
+- **Autoservicio bajo demanda:** No necesidad de comprar hardware
+- **Pago por uso:** Comenzar pequeño, crecer con el negocio
+- **Servicio gestionado:** El proveedor maneja la infraestructura
+- **Elasticidad rápida:** Escalar hacia arriba conforme crece el negocio
+
+### 🏥 **Escenario 3: Proveedor de Salud**
+**Situación:** Un hospital necesita almacenar registros de pacientes de forma segura y acceder a ellos desde múltiples ubicaciones.
+
+**Requisitos:**
+- Alta seguridad y cumplimiento
+- Acceso desde múltiples hospitales
+- Respaldo y recuperación ante desastres
+- Disponibilidad 24/7
+
+**Pregunta:** ¿Cómo abordan las características de la nube estos requisitos?
+
+**💡 Respuesta:**
+- **Acceso amplio de red:** Acceso seguro desde cualquier ubicación
+- **Agrupación de recursos:** Infraestructura de seguridad compartida
+- **Servicio medido:** Pagar solo por almacenamiento usado
+- **Experiencia del proveedor:** Certificaciones de cumplimiento
+- **Redundancia integrada:** Respaldo y recuperación automáticos
 
 ---
 
-## 🧠 Key Terms to Remember
+## 🧠 Términos Clave para Recordar
 
-| **Term** | **Simple Definition** | **Example** |
+| **Término** | **Definición Simple** | **Ejemplo** |
 |----------|----------------------|-------------|
-| **On-Premises** | Your own data center | Company owns servers in their building |
-| **Public Cloud** | Shared cloud infrastructure | AWS, Microsoft Azure, Google Cloud |
-| **Private Cloud** | Dedicated cloud infrastructure | Cloud setup just for your company |
-| **Hybrid Cloud** | Mix of on-premises and cloud | Some apps in cloud, some on-premises |
-| **Scalability** | Ability to handle growth | Add more servers when traffic increases |
-| **Elasticity** | Automatic scaling | Servers automatically added/removed |
-| **Provisioning** | Setting up resources | Creating a new virtual server |
-| **Multi-tenancy** | Shared infrastructure | Multiple customers on same physical server |
+| **On-Premises** | Tu propio centro de datos | Empresa posee servidores en su edificio |
+| **Nube Pública** | Infraestructura de nube compartida | AWS, Microsoft Azure, Google Cloud |
+| **Nube Privada** | Infraestructura de nube dedicada | Configuración de nube solo para tu empresa |
+| **Nube Híbrida** | Mezcla de on-premises y nube | Algunas apps en nube, algunas on-premises |
+| **Escalabilidad** | Capacidad de manejar crecimiento | Agregar más servidores cuando aumenta tráfico |
+| **Elasticidad** | Escalado automático | Servidores agregados/removidos automáticamente |
+| **Aprovisionamiento** | Configurar recursos | Crear un nuevo servidor virtual |
+| **Multi-tenancy** | Infraestructura compartida | Múltiples clientes en mismo servidor físico |
 
 ---
 
-## ✅ Chapter Checklist
+## ✅ Lista de Verificación del Capítulo
 
-Before moving to the next chapter, make sure you can:
+Antes de pasar al siguiente capítulo, asegúrate de poder:
 
-- [ ] Explain cloud computing to a non-technical person
-- [ ] Compare traditional IT with cloud computing
-- [ ] List and explain the 5 essential characteristics
-- [ ] Give real-world examples of each characteristic
-- [ ] Debunk common cloud misconceptions
-- [ ] Identify scenarios where cloud computing provides value
+- [ ] Explicar computación en la nube a una persona no técnica
+- [ ] Comparar TI tradicional con computación en la nube
+- [ ] Listar y explicar las 5 características esenciales
+- [ ] Dar ejemplos del mundo real de cada característica
+- [ ] Desmentir conceptos erróneos comunes sobre la nube
+- [ ] Identificar escenarios donde la computación en la nube proporciona valor
 
 ---
 
-## 🎯 Quick Quiz
+## 🎯 Quiz Rápido
 
-### Question 1
-Which of the following is NOT an essential characteristic of cloud computing?
-A) On-demand self-service
-B) Broad network access
-C) Dedicated hardware for each customer
-D) Rapid elasticity
-
-<details>
-<summary>💡 Click for Answer</summary>
-
-**Answer: C) Dedicated hardware for each customer**
-
-**Explanation:** Cloud computing uses **resource pooling**, which means hardware is shared among multiple customers. Dedicated hardware would eliminate the cost benefits and scalability of cloud computing.
-</details>
-
-### Question 2
-A company wants to handle varying traffic loads automatically without manual intervention. Which cloud characteristic addresses this need?
-A) On-demand self-service
-B) Rapid elasticity
-C) Measured service
-D) Broad network access
+### Pregunta 1
+¿Cuál de las siguientes NO es una característica esencial de la computación en la nube?
+A) Autoservicio bajo demanda
+B) Acceso amplio de red
+C) Hardware dedicado para cada cliente
+D) Elasticidad rápida
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: B) Rapid elasticity**
+**Respuesta: C) Hardware dedicado para cada cliente**
 
-**Explanation:** Rapid elasticity allows resources to scale up and down automatically based on demand, handling varying traffic loads without manual intervention.
+**Explicación:** La computación en la nube usa **agrupación de recursos**, lo que significa que el hardware es compartido entre múltiples clientes. El hardware dedicado eliminaría los beneficios de costo y escalabilidad de la computación en la nube.
 </details>
 
-### Question 3
-What is the main difference between scalability and elasticity?
-A) They are the same thing
-B) Scalability is manual, elasticity is automatic
-C) Scalability is for storage, elasticity is for compute
-D) Scalability is cheaper than elasticity
+### Pregunta 2
+Una empresa quiere manejar cargas de tráfico variables automáticamente sin intervención manual. ¿Qué característica de la nube aborda esta necesidad?
+A) Autoservicio bajo demanda
+B) Elasticidad rápida
+C) Servicio medido
+D) Acceso amplio de red
+
+<details>
+<summary>💡 Haz clic para la Respuesta</summary>
+
+**Respuesta: B) Elasticidad rápida**
+
+**Explicación:** La elasticidad rápida permite que los recursos escalen hacia arriba y abajo automáticamente basado en la demanda, manejando cargas de tráfico variables sin intervención manual.
+</details>
+
+### Pregunta 3
+¿Cuál es la principal diferencia entre escalabilidad y elasticidad?
+A) Son la misma cosa
+B) Escalabilidad es manual, elasticidad es automática
+C) Escalabilidad es para almacenamiento, elasticidad es para cómputo
+D) Escalabilidad es más barata que elasticidad
 
 <details>
 <summary>💡 Click for Answer</summary>
@@ -413,3 +439,36 @@ Learn about the famous "6 Advantages of Cloud Computing" and discover why busine
 ---
 
 **← [Back to Domain 1 Overview](./README.md)**
+
+---
+
+## 🎯 Puntos Clave
+
+### 🧠 **Recuerda Esto:**
+- La computación en la nube es un **modelo de entrega de servicios**, no solo hardware
+- Las **5 características esenciales** definen qué hace algo "nube"
+- **Elasticidad** = escalado automático (diferenciador clave)
+- El modelo de **pago por uso** cambia cómo pensamos sobre costos de TI
+- La nube habilita **innovación** al remover barreras de infraestructura
+
+### 📚 **Para el Examen:**
+- Enfócate en **escenarios** - ¿cuándo usarías la nube?
+- Entiende la **diferencia** entre escalabilidad y elasticidad
+- Conoce las **5 características esenciales** de memoria
+- Sé capaz de **desmentir conceptos erróneos**
+
+### 🚀 **Para Tu Carrera:**
+- Las habilidades de nube están **en alta demanda**
+- Entender fundamentos abre puertas a **roles especializados**
+- La **práctica práctica** es crucial - ¡comienza a experimentar!
+
+---
+
+## 🔗 Navegación
+
+**Anterior:** [📖 Tabla de Contenidos](../README.md)
+**Siguiente:** [🏗️ Infraestructura de AWS](./aws-infrastructure.md)
+
+---
+
+*💡 **Consejo Pro:** Antes de continuar, trata de explicar computación en la nube a un amigo o familiar. Si puedes hacer que lo entiendan, realmente has comprendido los conceptos.**
