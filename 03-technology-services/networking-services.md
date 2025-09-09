@@ -835,8 +835,8 @@ What is the difference between Security Groups and Network ACLs?
 **← Previous:** [Storage Services](./storage-services.md)  
 **→ Next:** [Database Services](./database-services.md)  
 **↑ Up:** [Domain 3: Technology & Services](./README.md)  
-**🏠 Home:** [AWS Cloud Practitioner Study Guide](../README.md)
+**🏠 Inicio:** [Guía de Estudio AWS Cloud Practitioner](../README.md)
 
 ---
 
-> 💡 **Pro Tip:** Network architecture questions often involve scenarios with specific requirements (security, performance, compliance). Practice identifying the right combination of services based on requirements rather than memorizing individual service features!
+> 💡 **Consejo Pro:** Las preguntas de arquitectura de red a menudo involucran escenarios con requisitos específicos (seguridad, rendimiento, cumplimiento). ¡Practica identificar la combinación correcta de servicios basada en requisitos en lugar de memorizar características individuales de servicios!

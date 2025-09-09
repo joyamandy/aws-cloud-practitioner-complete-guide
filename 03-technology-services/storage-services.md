@@ -856,40 +856,40 @@ Standard = IA = One Zone-IA > Glacier Instant > Glacier > Deep Archive
 
 ---
 
-## ✅ Chapter Checklist
+## ✅ Lista de Verificación del Capítulo
 
-Before proceeding, ensure you can:
+Antes de proceder, asegúrate de poder:
 
-- [ ] Explain the differences between object, block, and file storage
-- [ ] Choose appropriate S3 storage classes based on access patterns
-- [ ] Understand EBS volume types and their use cases
-- [ ] Know when to use EFS for shared file storage
-- [ ] Identify hybrid storage solutions with Storage Gateway
-- [ ] Design storage architectures for different scenarios
-- [ ] Understand cost optimization strategies for storage
+- [ ] Explicar las diferencias entre almacenamiento de objetos, bloques y archivos
+- [ ] Elegir clases de almacenamiento S3 apropiadas basadas en patrones de acceso
+- [ ] Entender tipos de volúmenes EBS y sus casos de uso
+- [ ] Saber cuándo usar EFS para almacenamiento de archivos compartido
+- [ ] Identificar soluciones de almacenamiento híbrido con Storage Gateway
+- [ ] Diseñar arquitecturas de almacenamiento para diferentes escenarios
+- [ ] Entender estrategias de optimización de costos para almacenamiento
 
 ---
 
-## 🎯 Practice Questions
+## 🎯 Preguntas de Práctica
 
-### Question 1
-A company needs to store application logs that are accessed frequently for the first month, then rarely accessed for compliance purposes for 7 years. What's the most cost-effective S3 storage strategy?
+### Pregunta 1
+Una empresa necesita almacenar logs de aplicación que se acceden frecuentemente durante el primer mes, luego raramente se acceden por propósitos de cumplimiento durante 7 años. ¿Cuál es la estrategia de almacenamiento S3 más costo-efectiva?
 
-A) Store everything in S3 Standard
-B) Use S3 Intelligent-Tiering
-C) Use S3 lifecycle policies to transition data
-D) Store everything in S3 Glacier Deep Archive
+A) Almacenar todo en S3 Standard
+B) Usar S3 Intelligent-Tiering
+C) Usar políticas de ciclo de vida de S3 para hacer transición de datos
+D) Almacenar todo en S3 Glacier Deep Archive
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para ver la Respuesta</summary>
 
-**Answer: C) Use S3 lifecycle policies to transition data**
+**Respuesta: C) Usar políticas de ciclo de vida de S3 para hacer transición de datos**
 
-**Explanation:** Lifecycle policies can automatically transition objects from S3 Standard (first 30 days) to S3 Standard-IA (less frequent access) and eventually to S3 Glacier or Deep Archive for long-term retention. This provides the optimal cost structure for the described access pattern.
+**Explicación:** Las políticas de ciclo de vida pueden hacer transición automáticamente de objetos desde S3 Standard (primeros 30 días) a S3 Standard-IA (acceso menos frecuente) y eventualmente a S3 Glacier o Deep Archive para retención a largo plazo. Esto proporciona la estructura de costos óptima para el patrón de acceso descrito.
 </details>
 
-### Question 2
-A web application running on multiple EC2 instances needs shared storage for configuration files that all instances must access. Which storage service is most appropriate?
+### Pregunta 2
+Una aplicación web ejecutándose en múltiples instancias EC2 necesita almacenamiento compartido para archivos de configuración que todas las instancias deben acceder. ¿Qué servicio de almacenamiento es más apropiado?
 
 A) Amazon S3
 B) Amazon EBS
@@ -897,43 +897,43 @@ C) Amazon EFS
 D) AWS Storage Gateway
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para ver la Respuesta</summary>
 
-**Answer: C) Amazon EFS**
+**Respuesta: C) Amazon EFS**
 
-**Explanation:** EFS provides a shared file system that can be mounted by multiple EC2 instances simultaneously. EBS can only be attached to one instance at a time, while S3 would require application changes to use object storage APIs instead of file system operations.
+**Explicación:** EFS proporciona un sistema de archivos compartido que puede ser montado por múltiples instancias EC2 simultáneamente. EBS solo puede ser adjuntado a una instancia a la vez, mientras que S3 requeriría cambios en la aplicación para usar APIs de almacenamiento de objetos en lugar de operaciones de sistema de archivos.
 </details>
 
-### Question 3
-Which EBS volume type provides the highest IOPS performance for a mission-critical database?
+### Pregunta 3
+¿Qué tipo de volumen EBS proporciona el mayor rendimiento IOPS para una base de datos crítica?
 
-A) General Purpose SSD (gp3)
-B) Provisioned IOPS SSD (io2)
-C) Throughput Optimized HDD (st1)
-D) Cold HDD (sc1)
+A) SSD de Propósito General (gp3)
+B) SSD de IOPS Aprovisionadas (io2)
+C) HDD Optimizado para Rendimiento (st1)
+D) HDD Frío (sc1)
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Provisioned IOPS SSD (io2)**
+**Respuesta: B) SSD de IOPS Aprovisionadas (io2)**
 
-**Explanation:** Provisioned IOPS SSD (io2) is designed for I/O intensive applications like databases and can provide up to 64,000 IOPS per volume with high durability, making it the best choice for mission-critical database workloads.
+**Explicación:** El SSD de IOPS Aprovisionadas (io2) está diseñado para aplicaciones intensivas en E/S como bases de datos y puede proporcionar hasta 64,000 IOPS por volumen con alta durabilidad, convirtiéndolo en la mejor opción para cargas de trabajo de bases de datos críticas.
 </details>
 
 ---
 
-## 🗺️ What's Next?
+## 🗺️ ¿Qué Sigue?
 
-Now that you understand where to store your data, let's explore how to connect your services and deliver content to users around the world.
+Ahora que entiendes dónde almacenar tus datos, exploremos cómo conectar tus servicios y entregar contenido a usuarios alrededor del mundo.
 
-**🎯 Next Chapter:** [Networking Services](./networking-services.md)
+**🎯 Siguiente Capítulo:** [Servicios de Red](./networking-services.md)
 
-Learn about VPCs, load balancers, CDNs, and how to build secure, scalable network architectures!
-
----
-
-**🎉 Great progress!** You now understand the foundation of data storage in AWS. Next, we'll explore how all these services connect and communicate.
+¡Aprende sobre VPCs, balanceadores de carga, CDNs y cómo construir arquitecturas de red seguras y escalables!
 
 ---
 
-**← [Back to Domain 3 Overview](./README.md)**
+**🎉 ¡Excelente progreso!** Ahora entiendes la base del almacenamiento de datos en AWS. A continuación, exploraremos cómo todos estos servicios se conectan y comunican.
+
+---
+
+**← [Volver a la Visión General del Dominio 3](./README.md)**
