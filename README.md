@@ -1,5 +1,7 @@
 # 🚀 AWS Certified Cloud Practitioner - Guía de Estudio Completa
 
+![](./00-docs/banner.png)
+
 [![GitHub stars](https://img.shields.io/github/stars/roxsross/aws-cloud-practitioner-complete-guide?style=flat-square)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/roxsross/aws-cloud-practitioner-complete-guide?style=flat-square)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide/network)
 [![GitHub issues](https://img.shields.io/github/issues/roxsross/aws-cloud-practitioner-complete-guide?style=flat-square)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide/issues)
