@@ -2,10 +2,10 @@
 
 ![](./00-docs/banner.png)
 
-[![GitHub stars](https://img.shields.io/github/stars/roxsross/aws-cloud-practitioner-complete-guide?style=flat-square)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/roxsross/aws-cloud-practitioner-complete-guide?style=flat-square)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide/network)
-[![GitHub issues](https://img.shields.io/github/issues/roxsross/aws-cloud-practitioner-complete-guide?style=flat-square)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner-orange?style=flat-square&logo=amazon-aws)](https://aws.amazon.com/certification/certified-cloud-practitioner/)
+[![Study Guide](https://img.shields.io/badge/Study-Guide-blue?style=flat-square&logo=book)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide)
+[![Spanish](https://img.shields.io/badge/Language-Spanish-green?style=flat-square&logo=google-translate)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 > ¡Tu recurso integral completo para dominar el examen de certificación AWS Cloud Practitioner!
 
