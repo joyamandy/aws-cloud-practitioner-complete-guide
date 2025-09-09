@@ -59,790 +59,790 @@ Piensa en esta elección como **organizar una biblioteca**:
 - **Varios formatos** - Documentos, clave-valor, grafos
 - **Ejemplos:** Perfiles de usuario, catálogos de productos, datos de sensores IoT
 
-### 🎯 **When to Choose What**
+### 🎯 **Cuándo Elegir Qué**
 
-#### **✅ Choose Relational (RDS) When:**
-- **Complex relationships** between data entities
-- **ACID transactions** are required
-- **Existing SQL knowledge** in your team
-- **Reporting and analytics** needs
-- **Compliance requirements** for data consistency
+#### **✅ Elegir Relacional (RDS) Cuando:**
+- **Relaciones complejas** entre entidades de datos
+- **Transacciones ACID** son requeridas
+- **Conocimiento SQL existente** en tu equipo
+- **Necesidades de reportes y analítica**
+- **Requisitos de cumplimiento** para consistencia de datos
 
-#### **✅ Choose NoSQL (DynamoDB) When:**
-- **Massive scale** requirements (millions of requests)
-- **Flexible schema** needs
-- **High performance** is critical
-- **Simple access patterns** (key-based lookups)
-- **Serverless architectures**
+#### **✅ Elegir NoSQL (DynamoDB) Cuando:**
+- **Requisitos de escala masiva** (millones de solicitudes)
+- **Necesidades de esquema flexible**
+- **Alto rendimiento** es crítico
+- **Patrones de acceso simples** (búsquedas basadas en clave)
+- **Arquitecturas serverless**
 
-### 💰 **Database Pricing Models**
+### 💰 **Modelos de Precios de Bases de Datos**
 
-#### **🏗️ Traditional (Self-Managed)**
-- **You manage:** Servers, OS, database software, backups
-- **You pay for:** EC2 instances, storage, data transfer
-- **Benefits:** Full control, potentially lower cost
-- **Drawbacks:** High operational overhead
+#### **🏗️ Tradicional (Auto-Administrado)**
+- **Tú administras:** Servidores, SO, software de base de datos, respaldos
+- **Tú pagas por:** Instancias EC2, almacenamiento, transferencia de datos
+- **Beneficios:** Control total, potencialmente menor costo
+- **Desventajas:** Alta sobrecarga operacional
 
-#### **🛠️ Managed Services (RDS, DynamoDB)**
-- **AWS manages:** Infrastructure, patches, backups, scaling
-- **You pay for:** Database capacity, storage, requests
-- **Benefits:** Reduced operational overhead, built-in best practices
-- **Drawbacks:** Higher cost per unit, less control
+#### **🛠️ Servicios Administrados (RDS, DynamoDB)**
+- **AWS administra:** Infraestructura, parches, respaldos, escalado
+- **Tú pagas por:** Capacidad de base de datos, almacenamiento, solicitudes
+- **Beneficios:** Sobrecarga operacional reducida, mejores prácticas integradas
+- **Desventajas:** Mayor costo por unidad, menos control
 
 ---
 
 ## 🏢 Amazon RDS (Relational Database Service)
 
-### 🏗️ **What is Amazon RDS?**
+### 🏗️ **¿Qué es Amazon RDS?**
 
-Think of RDS as **hiring a database administrator in the cloud**:
-- **You focus on your application** - RDS handles the database infrastructure
-- **Automated maintenance** - Patches, backups, monitoring handled automatically
-- **Multi-AZ deployment** - Built-in high availability
-- **Read replicas** - Scale read performance globally
+Piensa en RDS como **contratar un administrador de base de datos en la nube**:
+- **Te enfocas en tu aplicación** - RDS maneja la infraestructura de base de datos
+- **Mantenimiento automatizado** - Parches, respaldos, monitoreo manejados automáticamente
+- **Despliegue Multi-AZ** - Alta disponibilidad integrada
+- **Réplicas de lectura** - Escalar rendimiento de lectura globalmente
 
-### 🎯 **Supported Database Engines**
+### 🎯 **Motores de Base de Datos Soportados**
 
 #### **🔷 Amazon Aurora**
-**AWS's cloud-native database engine**
+**Motor de base de datos nativo de la nube de AWS**
 
-**Key Features:**
-- **MySQL and PostgreSQL compatible** - Easy migration
-- **5x faster than MySQL** - Performance optimized for cloud
-- **15 low-latency read replicas** - Scale read workloads
-- **Continuous backup** to S3 - Point-in-time recovery
-- **Global database** - Multi-region replication
+**Características Clave:**
+- **Compatible con MySQL y PostgreSQL** - Migración fácil
+- **5x más rápido que MySQL** - Rendimiento optimizado para la nube
+- **15 réplicas de lectura de baja latencia** - Escalar cargas de trabajo de lectura
+- **Respaldo continuo** a S3 - Recuperación punto en el tiempo
+- **Base de datos global** - Replicación multi-región
 
-**Perfect For:**
-- High-performance applications
-- Global applications
-- Mission-critical workloads
-- Applications requiring high availability
+**Perfecto Para:**
+- Aplicaciones de alto rendimiento
+- Aplicaciones globales
+- Cargas de trabajo críticas
+- Aplicaciones que requieren alta disponibilidad
 
 #### **🐬 MySQL**
-**Popular open-source relational database**
+**Base de datos relacional de código abierto popular**
 
-**Strengths:**
-- **Widely adopted** - Large community and ecosystem
-- **Web applications** - Perfect for LAMP/LEMP stacks
-- **Cost-effective** - Open source licensing
-- **Easy to learn** - Simple syntax and concepts
+**Fortalezas:**
+- **Ampliamente adoptado** - Gran comunidad y ecosistema
+- **Aplicaciones web** - Perfecto para stacks LAMP/LEMP
+- **Costo-efectivo** - Licenciamiento de código abierto
+- **Fácil de aprender** - Sintaxis y conceptos simples
 
-**Common Use Cases:**
-- E-commerce platforms
-- Content management systems
-- Web applications
-- Data warehousing (smaller scale)
+**Casos de Uso Comunes:**
+- Plataformas de e-commerce
+- Sistemas de gestión de contenido
+- Aplicaciones web
+- Almacenamiento de datos (escala menor)
 
 #### **🐘 PostgreSQL**
-**Advanced open-source relational database**
+**Base de datos relacional avanzada de código abierto**
 
-**Strengths:**
-- **ACID compliance** - Strong data consistency
-- **Advanced features** - JSON support, full-text search
-- **Extensibility** - Custom data types and functions
-- **Standards compliant** - Follows SQL standards closely
+**Fortalezas:**
+- **Cumplimiento ACID** - Consistencia de datos fuerte
+- **Características avanzadas** - Soporte JSON, búsqueda de texto completo
+- **Extensibilidad** - Tipos de datos y funciones personalizadas
+- **Cumple estándares** - Sigue estándares SQL de cerca
 
-**Common Use Cases:**
-- Financial applications
-- Geospatial applications
-- Data analytics
-- Complex web applications
+**Casos de Uso Comunes:**
+- Aplicaciones financieras
+- Aplicaciones geoespaciales
+- Analítica de datos
+- Aplicaciones web complejas
 
-#### **🏢 Commercial Engines**
-- **Oracle** - Enterprise features, legacy application support
-- **SQL Server** - Microsoft ecosystem integration
-- **MariaDB** - MySQL-compatible with additional features
+#### **🏢 Motores Comerciales**
+- **Oracle** - Características empresariales, soporte de aplicaciones legacy
+- **SQL Server** - Integración con ecosistema Microsoft
+- **MariaDB** - Compatible con MySQL con características adicionales
 
-### 🏗️ **RDS Deployment Options**
+### 🏗️ **Opciones de Despliegue RDS**
 
-#### **🏠 Single-AZ Deployment**
+#### **🏠 Despliegue Single-AZ**
 ```
-Single Availability Zone
-├── Primary Database Instance
-├── Automated Backups
-└── Maintenance Windows
-```
-
-**Characteristics:**
-- **Lower cost** - Single instance pricing
-- **Development/testing** - Good for non-production
-- **Planned downtime** - During maintenance windows
-- **RTO:** Minutes to hours
-
-#### **🏢 Multi-AZ Deployment**
-```
-Primary AZ              Standby AZ
-├── Primary Instance ←→ Standby Instance
-├── Synchronous Repl.   (Automatic Failover)
-└── Same endpoint URL
+Zona de Disponibilidad Única
+├── Instancia de Base de Datos Primaria
+├── Respaldos Automatizados
+└── Ventanas de Mantenimiento
 ```
 
-**Characteristics:**
-- **High availability** - Automatic failover
-- **No data loss** - Synchronous replication
-- **Same endpoint** - Applications don't need changes
-- **RTO:** 1-2 minutes
-- **Higher cost** - Two instances
+**Características:**
+- **Menor costo** - Precios de instancia única
+- **Desarrollo/pruebas** - Bueno para no-producción
+- **Tiempo de inactividad planificado** - Durante ventanas de mantenimiento
+- **RTO:** Minutos a horas
 
-#### **📖 Read Replicas**
+#### **🏢 Despliegue Multi-AZ**
 ```
-Primary Database
+AZ Primaria              AZ de Respaldo
+├── Instancia Primaria ←→ Instancia de Respaldo
+├── Replicación Síncrona   (Failover Automático)
+└── Misma URL de endpoint
+```
+
+**Características:**
+- **Alta disponibilidad** - Failover automático
+- **Sin pérdida de datos** - Replicación síncrona
+- **Mismo endpoint** - Las aplicaciones no necesitan cambios
+- **RTO:** 1-2 minutos
+- **Mayor costo** - Dos instancias
+
+#### **📖 Réplicas de Lectura**
+```
+Base de Datos Primaria
     ↓
-┌── Read Replica 1 (Same Region)
-├── Read Replica 2 (Different Region)
-└── Read Replica 3 (Different Region)
+┌── Réplica de Lectura 1 (Misma Región)
+├── Réplica de Lectura 2 (Región Diferente)
+└── Réplica de Lectura 3 (Región Diferente)
 ```
 
-**Benefits:**
-- **Scale read workloads** - Distribute query load
-- **Cross-region** - Global read performance
-- **Disaster recovery** - Can be promoted to primary
-- **Reporting** - Offload analytics queries
+**Beneficios:**
+- **Escalar cargas de trabajo de lectura** - Distribuir carga de consultas
+- **Cross-region** - Rendimiento de lectura global
+- **Recuperación ante desastres** - Puede ser promovida a primaria
+- **Reportes** - Descargar consultas de analítica
 
-**Use Cases:**
-- Read-heavy applications
-- Global applications
-- Business intelligence
-- Disaster recovery
+**Casos de Uso:**
+- Aplicaciones con mucha lectura
+- Aplicaciones globales
+- Inteligencia de negocios
+- Recuperación ante desastres
 
-### 🔧 **RDS Features**
+### 🔧 **Características de RDS**
 
-#### **🔄 Automated Backups**
-**What happens automatically:**
-- **Daily snapshots** - Complete database backup
-- **Transaction log backups** - Point-in-time recovery
-- **1-35 day retention** - Configurable backup window
-- **Cross-region copying** - Disaster recovery
+#### **🔄 Respaldos Automatizados**
+**Lo que sucede automáticamente:**
+- **Instantáneas diarias** - Respaldo completo de base de datos
+- **Respaldos de log de transacciones** - Recuperación punto en el tiempo
+- **Retención de 1-35 días** - Ventana de respaldo configurable
+- **Copiado cross-region** - Recuperación ante desastres
 
-**Point-in-Time Recovery:**
-- **Restore to any second** within retention period
-- **New database instance** - Original remains unchanged
-- **Test recoveries** - Validate backup integrity
+**Recuperación Punto en el Tiempo:**
+- **Restaurar a cualquier segundo** dentro del período de retención
+- **Nueva instancia de base de datos** - La original permanece sin cambios
+- **Probar recuperaciones** - Validar integridad del respaldo
 
-#### **📊 Performance Monitoring**
+#### **📊 Monitoreo de Rendimiento**
 **Amazon RDS Performance Insights:**
-- **Database performance dashboard**
-- **Top SQL statements** - Identify slow queries
-- **Wait events analysis** - Understand bottlenecks
-- **Historical performance** - Track trends over time
+- **Panel de rendimiento de base de datos**
+- **Declaraciones SQL principales** - Identificar consultas lentas
+- **Análisis de eventos de espera** - Entender cuellos de botella
+- **Rendimiento histórico** - Rastrear tendencias a lo largo del tiempo
 
-**CloudWatch Integration:**
-- **CPU utilization** - Instance performance
-- **Database connections** - Connection pool monitoring
-- **Read/write IOPS** - Storage performance
-- **Custom alarms** - Proactive monitoring
+**Integración CloudWatch:**
+- **Utilización de CPU** - Rendimiento de instancia
+- **Conexiones de base de datos** - Monitoreo de pool de conexiones
+- **IOPS de lectura/escritura** - Rendimiento de almacenamiento
+- **Alarmas personalizadas** - Monitoreo proactivo
 
-#### **🔒 Security Features**
-- **Encryption at rest** - AWS KMS integration
-- **Encryption in transit** - SSL/TLS connections
-- **Network isolation** - VPC deployment
-- **IAM authentication** - Database user management
-- **Automated patching** - Security updates
+#### **🔒 Características de Seguridad**
+- **Cifrado en reposo** - Integración AWS KMS
+- **Cifrado en tránsito** - Conexiones SSL/TLS
+- **Aislamiento de red** - Despliegue VPC
+- **Autenticación IAM** - Gestión de usuarios de base de datos
+- **Parcheo automatizado** - Actualizaciones de seguridad
 
-### 💰 **RDS Pricing Models**
+### 💰 **Modelos de Precios RDS**
 
-#### **💻 On-Demand Instances**
-- **Pay by the hour** - No upfront costs
-- **Start/stop anytime** - Flexible usage
-- **Perfect for:** Development, testing, unpredictable workloads
+#### **💻 Instancias Bajo Demanda**
+- **Pago por hora** - Sin costos iniciales
+- **Iniciar/detener en cualquier momento** - Uso flexible
+- **Perfecto para:** Desarrollo, pruebas, cargas de trabajo impredecibles
 
-#### **💰 Reserved Instances**
-- **1 or 3-year commitment** - Significant discounts
-- **Up to 60% savings** - Compared to On-Demand
-- **Perfect for:** Production workloads, predictable usage
+#### **💰 Instancias Reservadas**
+- **Compromiso de 1 o 3 años** - Descuentos significativos
+- **Hasta 60% de ahorros** - Comparado con Bajo Demanda
+- **Perfecto para:** Cargas de trabajo de producción, uso predecible
 
-#### **📊 Storage Pricing**
-- **General Purpose SSD** - Baseline performance, cost-effective
-- **Provisioned IOPS SSD** - High performance, consistent IOPS
-- **Magnetic storage** - Lowest cost (legacy)
+#### **📊 Precios de Almacenamiento**
+- **SSD de Propósito General** - Rendimiento base, costo-efectivo
+- **SSD IOPS Aprovisionado** - Alto rendimiento, IOPS consistente
+- **Almacenamiento magnético** - Menor costo (legacy)
 
 ---
 
 ## ⚡ Amazon DynamoDB
 
-### 🚀 **What is DynamoDB?**
+### 🚀 **¿Qué es DynamoDB?**
 
-Think of DynamoDB as a **super-fast, magical filing system**:
-- **No servers to manage** - Completely serverless
-- **Automatic scaling** - Handles any amount of traffic
-- **Single-digit millisecond latency** - Lightning fast
-- **Global replication** - Data available worldwide instantly
+Piensa en DynamoDB como un **sistema de archivo mágico súper rápido**:
+- **Sin servidores que administrar** - Completamente serverless
+- **Escalado automático** - Maneja cualquier cantidad de tráfico
+- **Latencia de milisegundos de un dígito** - Extremadamente rápido
+- **Replicación global** - Datos disponibles mundialmente al instante
 
-### 🏗️ **DynamoDB Core Concepts**
+### 🏗️ **Conceptos Fundamentales de DynamoDB**
 
-#### **📊 Tables, Items, and Attributes**
+#### **📊 Tablas, Ítems y Atributos**
 ```
-Table: "Users"
-├── Item 1: {UserID: "123", Name: "Alice", Email: "alice@example.com"}
-├── Item 2: {UserID: "456", Name: "Bob", City: "New York"}
-└── Item 3: {UserID: "789", Name: "Carol", Age: 25, Premium: true}
-```
-
-**Key Concepts:**
-- **Tables** - Collections of related data (like spreadsheets)
-- **Items** - Individual records (like spreadsheet rows)
-- **Attributes** - Data fields (like spreadsheet columns)
-- **Flexible schema** - Items can have different attributes
-
-#### **🔑 Primary Keys**
-
-**🎯 Partition Key (Simple Primary Key)**
-```
-Table: "Products"
-Primary Key: ProductID
-├── Item: {ProductID: "ABC123", Name: "Laptop", Price: 999}
-├── Item: {ProductID: "DEF456", Name: "Mouse", Price: 25}
-└── Item: {ProductID: "GHI789", Name: "Keyboard", Price: 75}
+Tabla: "Users"
+├── Ítem 1: {UserID: "123", Name: "Alice", Email: "alice@example.com"}
+├── Ítem 2: {UserID: "456", Name: "Bob", City: "New York"}
+└── Ítem 3: {UserID: "789", Name: "Carol", Age: 25, Premium: true}
 ```
 
-**🎯 Composite Primary Key (Partition Key + Sort Key)**
+**Conceptos Clave:**
+- **Tablas** - Colecciones de datos relacionados (como hojas de cálculo)
+- **Ítems** - Registros individuales (como filas de hoja de cálculo)
+- **Atributos** - Campos de datos (como columnas de hoja de cálculo)
+- **Esquema flexible** - Los ítems pueden tener diferentes atributos
+
+#### **🔑 Claves Primarias**
+
+**🎯 Clave de Partición (Clave Primaria Simple)**
 ```
-Table: "Orders"
-Primary Key: CustomerID (Partition) + OrderDate (Sort)
-├── Item: {CustomerID: "CUST001", OrderDate: "2024-01-15", Total: 150}
-├── Item: {CustomerID: "CUST001", OrderDate: "2024-02-20", Total: 75}
-└── Item: {CustomerID: "CUST002", OrderDate: "2024-01-10", Total: 200}
+Tabla: "Products"
+Clave Primaria: ProductID
+├── Ítem: {ProductID: "ABC123", Name: "Laptop", Price: 999}
+├── Ítem: {ProductID: "DEF456", Name: "Mouse", Price: 25}
+└── Ítem: {ProductID: "GHI789", Name: "Keyboard", Price: 75}
 ```
 
-### 🎯 **DynamoDB Features**
+**🎯 Clave Primaria Compuesta (Clave de Partición + Clave de Ordenamiento)**
+```
+Tabla: "Orders"
+Clave Primaria: CustomerID (Partición) + OrderDate (Ordenamiento)
+├── Ítem: {CustomerID: "CUST001", OrderDate: "2024-01-15", Total: 150}
+├── Ítem: {CustomerID: "CUST001", OrderDate: "2024-02-20", Total: 75}
+└── Ítem: {CustomerID: "CUST002", OrderDate: "2024-01-10", Total: 200}
+```
 
-#### **⚡ Performance**
-- **Single-digit millisecond latency** - Consistent fast performance
-- **Automatic scaling** - Handles traffic spikes automatically
-- **On-demand mode** - Pay per request, no capacity planning
-- **Provisioned mode** - Predictable performance and cost
+### 🎯 **Características de DynamoDB**
 
-#### **🌍 Global Tables**
-**Multi-region, active-active replication**
+#### **⚡ Rendimiento**
+- **Latencia de milisegundos de un dígito** - Rendimiento rápido consistente
+- **Escalado automático** - Maneja picos de tráfico automáticamente
+- **Modo bajo demanda** - Pago por solicitud, sin planificación de capacidad
+- **Modo aprovisionado** - Rendimiento y costo predecibles
 
-**Benefits:**
-- **Global applications** - Data close to users worldwide
-- **Disaster recovery** - Multiple region availability
-- **Local performance** - Low latency everywhere
-- **Automatic conflict resolution** - Last writer wins
+#### **🌍 Tablas Globales**
+**Replicación multi-región, activo-activo**
 
-**Use Cases:**
-- Global gaming leaderboards
-- User profile synchronization
-- Multi-region applications
-- Disaster recovery
+**Beneficios:**
+- **Aplicaciones globales** - Datos cerca de usuarios mundialmente
+- **Recuperación ante desastres** - Disponibilidad en múltiples regiones
+- **Rendimiento local** - Baja latencia en todas partes
+- **Resolución automática de conflictos** - El último escritor gana
+
+**Casos de Uso:**
+- Tablas de clasificación de juegos globales
+- Sincronización de perfiles de usuario
+- Aplicaciones multi-región
+- Recuperación ante desastres
 
 #### **📱 DynamoDB Streams**
-**Real-time data change capture**
+**Captura de cambios de datos en tiempo real**
 
-**How it works:**
-1. **Item changes** - Create, update, delete operations
-2. **Stream record created** - Contains before/after values
-3. **Lambda triggers** - Process changes in real-time
-4. **Applications react** - Update search indexes, send notifications
+**Cómo funciona:**
+1. **Cambios de ítems** - Operaciones de crear, actualizar, eliminar
+2. **Registro de stream creado** - Contiene valores antes/después
+3. **Activadores Lambda** - Procesar cambios en tiempo real
+4. **Aplicaciones reaccionan** - Actualizar índices de búsqueda, enviar notificaciones
 
-**Use Cases:**
-- Real-time analytics
-- Search index updates
-- Cross-region replication
-- Audit logging
+**Casos de Uso:**
+- Analítica en tiempo real
+- Actualizaciones de índices de búsqueda
+- Replicación cross-region
+- Registro de auditoría
 
-### 💰 **DynamoDB Pricing Models**
+### 💰 **Modelos de Precios de DynamoDB**
 
-#### **📊 On-Demand Mode**
-- **Pay per request** - No capacity planning needed
-- **Automatic scaling** - Handles any traffic level
-- **Perfect for:** Unpredictable workloads, new applications
-- **Cost:** Higher per request, but no idle capacity costs
+#### **📊 Modo Bajo Demanda**
+- **Pago por solicitud** - No se necesita planificación de capacidad
+- **Escalado automático** - Maneja cualquier nivel de tráfico
+- **Perfecto para:** Cargas de trabajo impredecibles, aplicaciones nuevas
+- **Costo:** Mayor por solicitud, pero sin costos de capacidad inactiva
 
-#### **⚖️ Provisioned Mode**
-- **Capacity planning** - Specify read/write capacity units
-- **Auto scaling available** - Adjust capacity automatically
-- **Perfect for:** Predictable workloads, cost optimization
-- **Cost:** Lower per request, but pay for reserved capacity
+#### **⚖️ Modo Aprovisionado**
+- **Planificación de capacidad** - Especificar unidades de capacidad de lectura/escritura
+- **Auto scaling disponible** - Ajustar capacidad automáticamente
+- **Perfecto para:** Cargas de trabajo predecibles, optimización de costos
+- **Costo:** Menor por solicitud, pero pagar por capacidad reservada
 
-#### **💾 Storage Costs**
-- **Standard storage** - Frequently accessed data
-- **Infrequent Access (IA)** - 60% cost reduction for rarely accessed data
-- **Automatic tiering** - DynamoDB manages data placement
+#### **💾 Costos de Almacenamiento**
+- **Almacenamiento estándar** - Datos accedidos frecuentemente
+- **Acceso Infrecuente (IA)** - 60% de reducción de costo para datos raramente accedidos
+- **Organización automática** - DynamoDB administra la colocación de datos
 
 ---
 
 ## 🚀 Amazon ElastiCache
 
-### ⚡ **What is ElastiCache?**
+### ⚡ **¿Qué es ElastiCache?**
 
-Think of ElastiCache as **hiring a speed-reading assistant**:
-- **Keeps frequently used information** in fast memory
-- **Instant access** to popular data
-- **Reduces load** on your main database
-- **Dramatically improves performance**
+Piensa en ElastiCache como **contratar un asistente de lectura rápida**:
+- **Mantiene información usada frecuentemente** en memoria rápida
+- **Acceso instantáneo** a datos populares
+- **Reduce la carga** en tu base de datos principal
+- **Mejora dramáticamente el rendimiento**
 
-### 🎯 **ElastiCache Engines**
+### 🎯 **Motores de ElastiCache**
 
 #### **🔴 Redis**
-**Advanced in-memory data structure store**
+**Almacén avanzado de estructuras de datos en memoria**
 
-**Key Features:**
-- **Data persistence** - Survives restarts
-- **Complex data types** - Lists, sets, sorted sets, hashes
-- **Pub/Sub messaging** - Real-time communication
-- **Lua scripting** - Server-side computation
-- **High availability** - Multi-AZ with automatic failover
+**Características Clave:**
+- **Persistencia de datos** - Sobrevive reinicios
+- **Tipos de datos complejos** - Listas, conjuntos, conjuntos ordenados, hashes
+- **Mensajería Pub/Sub** - Comunicación en tiempo real
+- **Scripting Lua** - Computación del lado del servidor
+- **Alta disponibilidad** - Multi-AZ con failover automático
 
-**Perfect For:**
-- Session storage
-- Real-time analytics
-- Gaming leaderboards
-- Chat applications
-- Complex caching scenarios
+**Perfecto Para:**
+- Almacenamiento de sesiones
+- Analítica en tiempo real
+- Tablas de clasificación de juegos
+- Aplicaciones de chat
+- Escenarios de caché complejos
 
 #### **⚪ Memcached**
-**Simple, high-performance memory caching**
+**Caché de memoria simple y de alto rendimiento**
 
-**Key Features:**
-- **Simple key-value** - Basic caching
-- **Multi-threaded** - Utilizes multiple CPU cores
-- **Horizontal scaling** - Add more nodes easily
-- **No persistence** - Data lost on restart
+**Características Clave:**
+- **Clave-valor simple** - Caché básico
+- **Multi-hilo** - Utiliza múltiples núcleos de CPU
+- **Escalado horizontal** - Agregar más nodos fácilmente
+- **Sin persistencia** - Datos perdidos al reiniciar
 
-**Perfect For:**
-- Simple web application caching
-- Database query result caching
-- Session storage (if loss acceptable)
-- High-throughput scenarios
+**Perfecto Para:**
+- Caché simple de aplicaciones web
+- Caché de resultados de consultas de base de datos
+- Almacenamiento de sesiones (si la pérdida es aceptable)
+- Escenarios de alto rendimiento
 
-### 🏗️ **Caching Strategies**
+### 🏗️ **Estrategias de Caché**
 
-#### **📖 Lazy Loading (Cache-Aside)**
+#### **📖 Carga Perezosa (Cache-Aside)**
 ```
-1. Application requests data
-2. Check cache first
-3. If cache miss → Query database
-4. Store result in cache
-5. Return data to application
+1. La aplicación solicita datos
+2. Verificar caché primero
+3. Si falla el caché → Consultar base de datos
+4. Almacenar resultado en caché
+5. Devolver datos a la aplicación
 ```
 
-**Benefits:**
-- **Only cache what's needed** - No wasted memory
-- **Fault tolerant** - Application works if cache fails
-- **Simple to implement**
+**Beneficios:**
+- **Solo cachear lo necesario** - Sin memoria desperdiciada
+- **Tolerante a fallos** - La aplicación funciona si el caché falla
+- **Simple de implementar**
 
-**Drawbacks:**
-- **Cache miss penalty** - First request is slow
-- **Stale data possible** - Cache may be outdated
+**Desventajas:**
+- **Penalización por fallo de caché** - La primera solicitud es lenta
+- **Datos obsoletos posibles** - El caché puede estar desactualizado
 
 #### **✍️ Write-Through**
 ```
-1. Application writes data
-2. Write to cache first
-3. Cache writes to database
-4. Confirm write completion
+1. La aplicación escribe datos
+2. Escribir al caché primero
+3. El caché escribe a la base de datos
+4. Confirmar completación de escritura
 ```
 
-**Benefits:**
-- **Always fresh data** - Cache is never stale
-- **No cache miss penalty** - Data always in cache
+**Beneficios:**
+- **Datos siempre frescos** - El caché nunca está obsoleto
+- **Sin penalización por fallo de caché** - Los datos siempre están en caché
 
-**Drawbacks:**
-- **Write penalty** - Every write hits cache
-- **Wasted memory** - Cache data that's never read
+**Desventajas:**
+- **Penalización de escritura** - Cada escritura afecta el caché
+- **Memoria desperdiciada** - Cachear datos que nunca se leen
 
 #### **📝 Write-Behind (Write-Back)**
 ```
-1. Application writes to cache
-2. Cache acknowledges immediately  
-3. Cache writes to database asynchronously
+1. La aplicación escribe al caché
+2. El caché confirma inmediatamente  
+3. El caché escribe a la base de datos asíncronamente
 ```
 
-**Benefits:**
-- **Fast writes** - No database write latency
-- **Batch writes** - Can optimize database operations
+**Beneficios:**
+- **Escrituras rápidas** - Sin latencia de escritura de base de datos
+- **Escrituras por lotes** - Puede optimizar operaciones de base de datos
 
-**Drawbacks:**
-- **Data loss risk** - If cache fails before DB write
-- **Complex implementation**
+**Desventajas:**
+- **Riesgo de pérdida de datos** - Si el caché falla antes de escribir a BD
+- **Implementación compleja**
 
-### 🎯 **ElastiCache Use Cases**
+### 🎯 **Casos de Uso de ElastiCache**
 
-#### **🌐 Web Session Storage**
-**Store user session data in memory**
+#### **🌐 Almacenamiento de Sesiones Web**
+**Almacenar datos de sesión de usuario en memoria**
 
-**Benefits:**
-- **Fast session access** - No database queries
-- **Shared sessions** - Multiple web servers access same sessions
-- **Automatic expiration** - Sessions timeout automatically
+**Beneficios:**
+- **Acceso rápido a sesiones** - Sin consultas a base de datos
+- **Sesiones compartidas** - Múltiples servidores web acceden a las mismas sesiones
+- **Expiración automática** - Las sesiones expiran automáticamente
 
-#### **📊 Database Query Caching**
-**Cache frequently executed database queries**
+#### **📊 Caché de Consultas de Base de Datos**
+**Cachear consultas de base de datos ejecutadas frecuentemente**
 
-**Implementation:**
+**Implementación:**
 ```
-Query: "SELECT * FROM products WHERE category='electronics'"
-├── Check cache with query as key
-├── If miss: Execute query, cache result
-└── If hit: Return cached result (milliseconds vs seconds)
+Consulta: "SELECT * FROM products WHERE category='electronics'"
+├── Verificar caché con consulta como clave
+├── Si falla: Ejecutar consulta, cachear resultado
+└── Si acierta: Devolver resultado cacheado (milisegundos vs segundos)
 ```
 
-#### **🎮 Real-Time Analytics**
-**Store and process real-time data**
+#### **🎮 Analítica en Tiempo Real**
+**Almacenar y procesar datos en tiempo real**
 
-**Examples:**
-- Gaming leaderboards
-- Live voting/polling results
-- Real-time counters
-- Social media trending topics
+**Ejemplos:**
+- Tablas de clasificación de juegos
+- Resultados de votación/encuestas en vivo
+- Contadores en tiempo real
+- Temas trending de redes sociales
 
 ---
 
-## 🎯 Specialized Database Services
+## 🎯 Servicios de Base de Datos Especializados
 
 ### 📄 **Amazon DocumentDB**
-**MongoDB-compatible document database**
+**Base de datos de documentos compatible con MongoDB**
 
-**What it is:**
-- **Document-oriented** - Store JSON-like documents
-- **MongoDB compatible** - Use existing MongoDB applications
-- **Fully managed** - AWS handles operations
-- **Scalable** - Up to 15 read replicas
+**Lo que es:**
+- **Orientado a documentos** - Almacenar documentos tipo JSON
+- **Compatible con MongoDB** - Usar aplicaciones MongoDB existentes
+- **Completamente administrado** - AWS maneja las operaciones
+- **Escalable** - Hasta 15 réplicas de lectura
 
-**Perfect For:**
-- Content management
-- Catalogs and inventories
-- User profiles and preferences
-- Mobile and web applications
+**Perfecto Para:**
+- Gestión de contenido
+- Catálogos e inventarios
+- Perfiles y preferencias de usuario
+- Aplicaciones móviles y web
 
 ### 🕸️ **Amazon Neptune**
-**Fully managed graph database**
+**Base de datos de grafos completamente administrada**
 
-**What it is:**
-- **Graph relationships** - Model connected data
-- **Property graph** and **RDF support**
-- **SPARQL** and **Gremlin** query languages
-- **High availability** - Multi-AZ deployments
+**Lo que es:**
+- **Relaciones de grafos** - Modelar datos conectados
+- **Soporte de grafos de propiedades** y **RDF**
+- **Lenguajes de consulta SPARQL** y **Gremlin**
+- **Alta disponibilidad** - Despliegues Multi-AZ
 
-**Perfect For:**
-- Social networking applications
-- Recommendation engines
-- Fraud detection
-- Knowledge graphs
-- Network analysis
+**Perfecto Para:**
+- Aplicaciones de redes sociales
+- Motores de recomendación
+- Detección de fraude
+- Grafos de conocimiento
+- Análisis de redes
 
 ### 🔍 **Amazon Elasticsearch Service (OpenSearch)**
-**Search and analytics engine**
+**Motor de búsqueda y analítica**
 
-**What it is:**
-- **Full-text search** - Search through large text datasets
-- **Log analytics** - Analyze application and system logs
-- **Real-time analytics** - Process streaming data
-- **Kibana integration** - Data visualization
+**Lo que es:**
+- **Búsqueda de texto completo** - Buscar a través de grandes conjuntos de datos de texto
+- **Analítica de logs** - Analizar logs de aplicaciones y sistemas
+- **Analítica en tiempo real** - Procesar datos de streaming
+- **Integración Kibana** - Visualización de datos
 
-**Perfect For:**
-- Application search features
-- Log analysis and monitoring
-- Business intelligence
-- Security analytics
+**Perfecto Para:**
+- Características de búsqueda de aplicaciones
+- Análisis y monitoreo de logs
+- Inteligencia de negocios
+- Analítica de seguridad
 
 ### ⏰ **Amazon Timestream**
-**Time series database**
+**Base de datos de series temporales**
 
-**What it is:**
-- **Time series data** - Data points indexed by time
-- **IoT optimized** - Handle billions of events per day
-- **Automatic scaling** - Adapt to data volume
-- **Cost optimized** - Separate storage tiers
+**Lo que es:**
+- **Datos de series temporales** - Puntos de datos indexados por tiempo
+- **Optimizado para IoT** - Manejar miles de millones de eventos por día
+- **Escalado automático** - Adaptarse al volumen de datos
+- **Optimizado en costos** - Niveles de almacenamiento separados
 
-**Perfect For:**
-- IoT sensor data
-- Application metrics
-- Industrial telemetry
-- Financial market data
+**Perfecto Para:**
+- Datos de sensores IoT
+- Métricas de aplicaciones
+- Telemetría industrial
+- Datos de mercados financieros
 
 ### 📊 **Amazon Quantum Ledger Database (QLDB)**
-**Immutable, cryptographically verifiable ledger**
+**Libro mayor inmutable y criptográficamente verificable**
 
-**What it is:**
-- **Immutable journal** - Cannot be changed or deleted
-- **Cryptographic verification** - Prove data integrity
-- **SQL-like queries** - Familiar query interface
-- **Serverless** - No infrastructure management
+**Lo que es:**
+- **Diario inmutable** - No puede ser cambiado o eliminado
+- **Verificación criptográfica** - Probar integridad de datos
+- **Consultas tipo SQL** - Interfaz de consulta familiar
+- **Serverless** - Sin gestión de infraestructura
 
-**Perfect For:**
-- Financial transaction systems
-- Supply chain tracking
-- Regulatory compliance
-- Audit trails
+**Perfecto Para:**
+- Sistemas de transacciones financieras
+- Seguimiento de cadena de suministro
+- Cumplimiento regulatorio
+- Pistas de auditoría
 
 ---
 
-## 🔄 Database Migration Services
+## 🔄 Servicios de Migración de Bases de Datos
 
 ### 🚛 **AWS Database Migration Service (DMS)**
 
-#### **🎯 What is DMS?**
-Think of DMS as **professional movers for your data**:
-- **Migrate databases** with minimal downtime
-- **Source and target** can be different database types
-- **Continuous replication** - Keep source and target in sync
-- **Schema conversion** - Transform data structures
+#### **🎯 ¿Qué es DMS?**
+Piensa en DMS como **mudadores profesionales para tus datos**:
+- **Migrar bases de datos** con tiempo de inactividad mínimo
+- **Origen y destino** pueden ser diferentes tipos de bases de datos
+- **Replicación continua** - Mantener origen y destino sincronizados
+- **Conversión de esquema** - Transformar estructuras de datos
 
-#### **🔄 Migration Types**
+#### **🔄 Tipos de Migración**
 
-**📊 Homogeneous Migrations**
+**📊 Migraciones Homogéneas**
 ```
 Oracle → Amazon RDS for Oracle
 MySQL → Amazon RDS for MySQL
 PostgreSQL → Amazon Aurora PostgreSQL
 ```
-- **Same database engine** - Straightforward migration
-- **Schema compatible** - Minimal changes needed
-- **Faster migration** - Less transformation required
+- **Mismo motor de base de datos** - Migración directa
+- **Esquema compatible** - Cambios mínimos necesarios
+- **Migración más rápida** - Menos transformación requerida
 
-**🔄 Heterogeneous Migrations**
+**🔄 Migraciones Heterogéneas**
 ```
 Oracle → Amazon Aurora PostgreSQL
 SQL Server → Amazon RDS for MySQL
 On-premises → DynamoDB
 ```
-- **Different database engines** - More complex migration
-- **Schema conversion required** - Use Schema Conversion Tool
-- **Application changes** - May need code updates
+- **Diferentes motores de base de datos** - Migración más compleja
+- **Conversión de esquema requerida** - Usar Schema Conversion Tool
+- **Cambios de aplicación** - Puede necesitar actualizaciones de código
 
 #### **🛠️ AWS Schema Conversion Tool (SCT)**
-**Converts database schemas between different engines**
+**Convierte esquemas de base de datos entre diferentes motores**
 
-**What it does:**
-- **Analyzes source schema** - Identifies conversion challenges
-- **Converts schema objects** - Tables, views, procedures, functions
-- **Generates reports** - Shows conversion complexity
-- **Provides recommendations** - Best practices for target platform
+**Lo que hace:**
+- **Analiza esquema origen** - Identifica desafíos de conversión
+- **Convierte objetos de esquema** - Tablas, vistas, procedimientos, funciones
+- **Genera reportes** - Muestra complejidad de conversión
+- **Proporciona recomendaciones** - Mejores prácticas para plataforma destino
 
-**Conversion Examples:**
+**Ejemplos de Conversión:**
 ```
 Oracle PL/SQL → PostgreSQL PL/pgSQL
 SQL Server T-SQL → MySQL SQL
 Oracle packages → Aurora PostgreSQL functions
 ```
 
-### 🔄 **Migration Strategies**
+### 🔄 **Estrategias de Migración**
 
-#### **🎯 One-Time Migration**
-**Full database copy to AWS**
+#### **🎯 Migración de Una Sola Vez**
+**Copia completa de base de datos a AWS**
 
-**Process:**
-1. **Create target database** - Set up AWS database
-2. **Export/import data** - Transfer all data at once
-3. **Switch applications** - Point to new database
-4. **Validate and test** - Ensure everything works
+**Proceso:**
+1. **Crear base de datos destino** - Configurar base de datos AWS
+2. **Exportar/importar datos** - Transferir todos los datos de una vez
+3. **Cambiar aplicaciones** - Apuntar a nueva base de datos
+4. **Validar y probar** - Asegurar que todo funcione
 
-**Best for:**
-- Small databases
-- Applications that can tolerate downtime
-- Development/testing environments
+**Mejor para:**
+- Bases de datos pequeñas
+- Aplicaciones que pueden tolerar tiempo de inactividad
+- Entornos de desarrollo/pruebas
 
-#### **🔄 Continuous Replication**
-**Ongoing synchronization between source and target**
+#### **🔄 Replicación Continua**
+**Sincronización continua entre origen y destino**
 
-**Process:**
-1. **Initial load** - Copy existing data
-2. **Change data capture** - Track ongoing changes
-3. **Apply changes** - Keep target in sync
-4. **Cutover** - Switch when ready
+**Proceso:**
+1. **Carga inicial** - Copiar datos existentes
+2. **Captura de cambios de datos** - Rastrear cambios en curso
+3. **Aplicar cambios** - Mantener destino sincronizado
+4. **Cutover** - Cambiar cuando esté listo
 
-**Best for:**
-- Large databases
-- Mission-critical applications
-- Zero-downtime requirements
+**Mejor para:**
+- Bases de datos grandes
+- Aplicaciones críticas
+- Requisitos de cero tiempo de inactividad
 
 ---
 
 ## 🎮 Real-World Scenarios
 
-### 🏪 **Scenario 1: E-commerce Platform**
+### 🏦 **Escenario 1: Plataforma de E-commerce**
 
-**Requirements:**
-- **Product catalog** - Complex relationships, search capabilities
-- **User sessions** - Fast access, temporary storage
-- **Order processing** - ACID transactions required
-- **Analytics** - Real-time and historical analysis
+**Requisitos:**
+- **Catálogo de productos** - Relaciones complejas, capacidades de búsqueda
+- **Sesiones de usuario** - Acceso rápido, almacenamiento temporal
+- **Procesamiento de órdenes** - Transacciones ACID requeridas
+- **Analítica** - Análisis en tiempo real e histórico
 
-**Database Architecture:**
+**Arquitectura de Base de Datos:**
 ```
-Application Layer
-├── Product Catalog: Amazon OpenSearch
-│   ├── Full-text search capabilities
-│   ├── Faceted search and filtering
-│   └── Real-time indexing
-├── User Sessions: ElastiCache (Redis)
-│   ├── Fast session storage
-│   ├── Shopping cart persistence
-│   └── User preferences caching
-├── Orders & Inventory: Amazon RDS (PostgreSQL)
-│   ├── ACID transactions
-│   ├── Complex relationships
-│   ├── Multi-AZ for high availability
-│   └── Read replicas for reporting
-└── Analytics: Amazon Timestream
-    ├── Real-time metrics
-    ├── User behavior tracking
-    └── Performance monitoring
-```
-
-**Data Flow:**
-1. **Product search** → OpenSearch for fast, relevant results
-2. **Add to cart** → Redis for instant cart updates
-3. **Checkout** → PostgreSQL for transactional integrity
-4. **Analytics** → Timestream for real-time insights
-
-### 🎮 **Scenario 2: Gaming Platform**
-
-**Requirements:**
-- **Player profiles** - Flexible, scalable storage
-- **Game sessions** - Ultra-fast access
-- **Leaderboards** - Real-time rankings
-- **Chat system** - Pub/sub messaging
-
-**Database Architecture:**
-```
-Gaming Platform
-├── Player Profiles: DynamoDB
-│   ├── Global tables for worldwide access
-│   ├── Flexible schema for different games
-│   ├── Auto-scaling for traffic spikes
-│   └── Single-digit millisecond latency
-├── Game Sessions: ElastiCache (Redis)
-│   ├── In-memory game state
-│   ├── Session persistence
-│   ├── Pub/sub for real-time features
-│   └── Lua scripting for game logic
-├── Leaderboards: DynamoDB + ElastiCache
-│   ├── DynamoDB for persistence
-│   ├── Redis for real-time updates
-│   ├── Sorted sets for rankings
-│   └── Global synchronization
-└── Social Features: Amazon Neptune
-    ├── Friend relationships
-    ├── Guild/team connections
-    ├── Social recommendations
-    └── Graph-based matchmaking
+Capa de Aplicación
+├── Catálogo de Productos: Amazon OpenSearch
+│   ├── Capacidades de búsqueda de texto completo
+│   ├── Búsqueda facetada y filtrado
+│   └── Indexación en tiempo real
+├── Sesiones de Usuario: ElastiCache (Redis)
+│   ├── Almacenamiento rápido de sesiones
+│   ├── Persistencia de carrito de compras
+│   └── Caché de preferencias de usuario
+├── Órdenes e Inventario: Amazon RDS (PostgreSQL)
+│   ├── Transacciones ACID
+│   ├── Relaciones complejas
+│   ├── Multi-AZ para alta disponibilidad
+│   └── Réplicas de lectura para reportes
+└── Analítica: Amazon Timestream
+    ├── Métricas en tiempo real
+    ├── Seguimiento de comportamiento de usuario
+    └── Monitoreo de rendimiento
 ```
 
-### 🏥 **Scenario 3: Healthcare System Migration**
+**Flujo de Datos:**
+1. **Búsqueda de productos** → OpenSearch para resultados rápidos y relevantes
+2. **Agregar al carrito** → Redis para actualizaciones instantáneas del carrito
+3. **Checkout** → PostgreSQL para integridad transaccional
+4. **Analítica** → Timestream para insights en tiempo real
 
-**Requirements:**
-- **Legacy Oracle system** - Need to modernize
-- **HIPAA compliance** - Data security critical
-- **Minimal downtime** - Critical patient systems
-- **Cost optimization** - Reduce licensing costs
+### 🎮 **Escenario 2: Plataforma de Gaming**
 
-**Migration Strategy:**
+**Requisitos:**
+- **Perfiles de jugadores** - Almacenamiento flexible y escalable
+- **Sesiones de juego** - Acceso ultra-rápido
+- **Tablas de clasificación** - Rankings en tiempo real
+- **Sistema de chat** - Mensajería pub/sub
+
+**Arquitectura de Base de Datos:**
 ```
-Migration Plan
-├── Phase 1: Assessment
-│   ├── Schema Conversion Tool analysis
-│   ├── Application compatibility review
-│   ├── Performance requirements analysis
-│   └── Compliance requirements mapping
-├── Phase 2: Setup Target Environment
-│   ├── Amazon Aurora PostgreSQL setup
-│   ├── Multi-AZ deployment for HA
-│   ├── Encryption at rest and transit
-│   ├── VPC security configuration
-│   └── IAM roles and policies
-├── Phase 3: Schema Conversion
-│   ├── Convert Oracle schema to PostgreSQL
-│   ├── Migrate stored procedures to functions
-│   ├── Update application connection strings
-│   └── Test application compatibility
-└── Phase 4: Data Migration
-    ├── DMS continuous replication setup
-    ├── Initial data load (off-hours)
-    ├── Monitor replication lag
-    ├── Planned cutover window
-    └── Post-migration validation
+Plataforma de Gaming
+├── Perfiles de Jugadores: DynamoDB
+│   ├── Tablas globales para acceso mundial
+│   ├── Esquema flexible para diferentes juegos
+│   ├── Auto-escalado para picos de tráfico
+│   └── Latencia de milisegundos de un dígito
+├── Sesiones de Juego: ElastiCache (Redis)
+│   ├── Estado de juego en memoria
+│   ├── Persistencia de sesión
+│   ├── Pub/sub para características en tiempo real
+│   └── Scripting Lua para lógica de juego
+├── Tablas de Clasificación: DynamoDB + ElastiCache
+│   ├── DynamoDB para persistencia
+│   ├── Redis para actualizaciones en tiempo real
+│   ├── Conjuntos ordenados para rankings
+│   └── Sincronización global
+└── Características Sociales: Amazon Neptune
+    ├── Relaciones de amistad
+    ├── Conexiones de gremios/equipos
+    ├── Recomendaciones sociales
+    └── Matchmaking basado en grafos
 ```
 
-**Benefits Achieved:**
-- **60% cost reduction** - No Oracle licensing
-- **Improved performance** - Aurora optimizations
-- **Enhanced security** - AWS security features
-- **Better scalability** - Read replicas and auto-scaling
+### 🏥 **Escenario 3: Migración de Sistema de Salud**
+
+**Requisitos:**
+- **Sistema Oracle legacy** - Necesidad de modernizar
+- **Cumplimiento HIPAA** - Seguridad de datos crítica
+- **Tiempo de inactividad mínimo** - Sistemas críticos de pacientes
+- **Optimización de costos** - Reducir costos de licenciamiento
+
+**Estrategia de Migración:**
+```
+Plan de Migración
+├── Fase 1: Evaluación
+│   ├── Análisis de Schema Conversion Tool
+│   ├── Revisión de compatibilidad de aplicaciones
+│   ├── Análisis de requisitos de rendimiento
+│   └── Mapeo de requisitos de cumplimiento
+├── Fase 2: Configurar Entorno Destino
+│   ├── Configuración de Amazon Aurora PostgreSQL
+│   ├── Despliegue Multi-AZ para HA
+│   ├── Cifrado en reposo y tránsito
+│   ├── Configuración de seguridad VPC
+│   └── Roles y políticas IAM
+├── Fase 3: Conversión de Esquema
+│   ├── Convertir esquema Oracle a PostgreSQL
+│   ├── Migrar procedimientos almacenados a funciones
+│   ├── Actualizar cadenas de conexión de aplicación
+│   └── Probar compatibilidad de aplicación
+└── Fase 4: Migración de Datos
+    ├── Configuración de replicación continua DMS
+    ├── Carga inicial de datos (fuera de horas)
+    ├── Monitorear retraso de replicación
+    ├── Ventana de cutover planificada
+    └── Validación post-migración
+```
+
+**Beneficios Logrados:**
+- **60% de reducción de costos** - Sin licenciamiento Oracle
+- **Rendimiento mejorado** - Optimizaciones Aurora
+- **Seguridad mejorada** - Características de seguridad AWS
+- **Mejor escalabilidad** - Réplicas de lectura y auto-escalado
 
 ---
 
-## 🧠 Memory Aids
+## 🧠 Ayudas de Memoria
 
-### 🎯 **Database Selection Framework: "SCALE"**
-- **S**tructure - Relational (RDS) vs Flexible (DynamoDB)
-- **C**onsistency - ACID (RDS) vs Eventual (DynamoDB)
-- **A**ccess patterns - Complex queries (RDS) vs Key-value (DynamoDB)
-- **L**atency - Sub-second (DynamoDB) vs Variable (RDS)
-- **E**lasticity - Manual (RDS) vs Automatic (DynamoDB)
+### 🎯 **Marco de Selección de Base de Datos: "SCALE"**
+- **S**tructure (Estructura) - Relacional (RDS) vs Flexible (DynamoDB)
+- **C**onsistency (Consistencia) - ACID (RDS) vs Eventual (DynamoDB)
+- **A**ccess patterns (Patrones de acceso) - Consultas complejas (RDS) vs Clave-valor (DynamoDB)
+- **L**atency (Latencia) - Sub-segundo (DynamoDB) vs Variable (RDS)
+- **E**lasticity (Elasticidad) - Manual (RDS) vs Automático (DynamoDB)
 
-### 🚀 **ElastiCache Engine Selection: "RAMP"**
-- **R**edis - Rich data types, persistence, high availability
-- **A**dvanced features - Pub/sub, scripting, clustering
-- **M**emcached - Simple key-value, multi-threaded
-- **P**erformance - High throughput, no persistence
+### 🚀 **Selección de Motor ElastiCache: "RAMP"**
+- **R**edis - Tipos de datos ricos, persistencia, alta disponibilidad
+- **A**dvanced features (Características avanzadas) - Pub/sub, scripting, clustering
+- **M**emcached - Clave-valor simple, multi-hilo
+- **P**erformance (Rendimiento) - Alto rendimiento, sin persistencia
 
-### 🔄 **Caching Strategy Selection: "WLT"**
-- **W**rite-through - Always fresh, write penalty
-- **L**azy loading - Only cache what's needed, cache miss penalty
-- **T**ime-based expiration - Good for all strategies
+### 🔄 **Selección de Estrategia de Caché: "WLT"**
+- **W**rite-through - Siempre fresco, penalización de escritura
+- **L**azy loading (Carga perezosa) - Solo cachear lo necesario, penalización por fallo de caché
+- **T**ime-based expiration (Expiración basada en tiempo) - Bueno para todas las estrategias
 
 ---
 
-## 📝 Practice Questions
+## 📝 Preguntas de Práctica
 
-### Question 1
-A social media application needs to store user profiles with varying attributes (some users have photos, others don't, some have location data, etc.) and requires single-digit millisecond response times. Which database service is most appropriate?
+### Pregunta 1
+Una aplicación de redes sociales necesita almacenar perfiles de usuario con atributos variables (algunos usuarios tienen fotos, otros no, algunos tienen datos de ubicación, etc.) y requiere tiempos de respuesta de milisegundos de un dígito. ¿Qué servicio de base de datos es más apropiado?
 
-**A)** Amazon RDS with MySQL  
+**A)** Amazon RDS con MySQL  
 **B)** Amazon DynamoDB  
 **C)** Amazon DocumentDB  
 **D)** Amazon Neptune  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Amazon DynamoDB**
+**Respuesta: B) Amazon DynamoDB**
 
-**Explanation:** DynamoDB's flexible schema allows different items to have different attributes, perfect for varying user profile data. Its single-digit millisecond latency meets the performance requirement, and it scales automatically for social media traffic patterns.
+**Explicación:** El esquema flexible de DynamoDB permite que diferentes ítems tengan diferentes atributos, perfecto para datos de perfiles de usuario variables. Su latencia de milisegundos de un dígito cumple con el requisito de rendimiento, y escala automáticamente para patrones de tráfico de redes sociales.
 
 </details>
 
-### Question 2
-A company wants to improve their web application's performance by caching frequently accessed database query results. They need the cache to survive server restarts and want to use advanced data structures. Which caching solution should they choose?
+### Pregunta 2
+Una empresa quiere mejorar el rendimiento de su aplicación web cacheando resultados de consultas de base de datos accedidas frecuentemente. Necesitan que el caché sobreviva reinicios del servidor y quieren usar estructuras de datos avanzadas. ¿Qué solución de caché deberían elegir?
 
-**A)** Amazon ElastiCache for Memcached  
-**B)** Amazon ElastiCache for Redis  
+**A)** Amazon ElastiCache para Memcached  
+**B)** Amazon ElastiCache para Redis  
 **C)** Amazon DynamoDB Accelerator (DAX)  
 **D)** Amazon CloudFront  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Amazon ElastiCache for Redis**
+**Respuesta: B) Amazon ElastiCache para Redis**
 
-**Explanation:** Redis provides persistence (survives restarts) and supports advanced data structures like lists, sets, and sorted sets. Memcached is volatile and only supports simple key-value pairs. DAX is specifically for DynamoDB, and CloudFront is for content delivery, not database caching.
+**Explicación:** Redis proporciona persistencia (sobrevive reinicios) y soporta estructuras de datos avanzadas como listas, conjuntos y conjuntos ordenados. Memcached es volátil y solo soporta pares clave-valor simples. DAX es específicamente para DynamoDB, y CloudFront es para entrega de contenido, no para caché de base de datos.
 
 </details>
 
-### Question 3
-A financial services company needs to migrate their Oracle database to AWS with minimal downtime. The target should be cost-effective and provide better performance. What's the best approach?
+### Pregunta 3
+Una empresa de servicios financieros necesita migrar su base de datos Oracle a AWS con tiempo de inactividad mínimo. El destino debe ser costo-efectivo y proporcionar mejor rendimiento. ¿Cuál es el mejor enfoque?
 
-**A)** Migrate to Amazon RDS for Oracle  
-**B)** Use AWS DMS to migrate to Amazon Aurora PostgreSQL  
-**C)** Export/import to Amazon DynamoDB  
-**D)** Replicate to Amazon DocumentDB  
+**A)** Migrar a Amazon RDS para Oracle  
+**B)** Usar AWS DMS para migrar a Amazon Aurora PostgreSQL  
+**C)** Exportar/importar a Amazon DynamoDB  
+**D)** Replicar a Amazon DocumentDB  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Use AWS DMS to migrate to Amazon Aurora PostgreSQL**
+**Respuesta: B) Usar AWS DMS para migrar a Amazon Aurora PostgreSQL**
 
-**Explanation:** DMS enables minimal downtime migration through continuous replication. Aurora PostgreSQL is cost-effective (no Oracle licensing), provides better performance than traditional databases, and supports the relational features needed for financial applications.
+**Explicación:** DMS permite migración con tiempo de inactividad mínimo a través de replicación continua. Aurora PostgreSQL es costo-efectivo (sin licenciamiento Oracle), proporciona mejor rendimiento que bases de datos tradicionales, y soporta las características relacionales necesarias para aplicaciones financieras.
 
 </details>
 
-### Question 4
-An IoT application collects millions of sensor readings per day with timestamps and needs to analyze trends over time. Which database service is most suitable?
+### Pregunta 4
+Una aplicación IoT recolecta millones de lecturas de sensores por día con timestamps y necesita analizar tendencias a lo largo del tiempo. ¿Qué servicio de base de datos es más adecuado?
 
 **A)** Amazon RDS  
 **B)** Amazon DynamoDB  
@@ -850,53 +850,53 @@ An IoT application collects millions of sensor readings per day with timestamps 
 **D)** Amazon Neptune  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Haz clic para ver la Respuesta</summary>
 
-**Answer: C) Amazon Timestream**
+**Respuesta: C) Amazon Timestream**
 
-**Explanation:** Timestream is specifically designed for time-series data like IoT sensor readings. It's optimized for storing and analyzing time-stamped data, handles massive scale efficiently, and provides built-in functions for time-based analysis and trends.
+**Explicación:** Timestream está específicamente diseñado para datos de series temporales como lecturas de sensores IoT. Está optimizado para almacenar y analizar datos con timestamp, maneja escala masiva eficientemente, y proporciona funciones integradas para análisis y tendencias basadas en tiempo.
 
 </details>
 
 ---
 
-## 🎯 Key Takeaways
+## 🎯 Puntos Clave
 
-### 🌟 **The Big Picture**
-- **Different databases for different needs** - No one-size-fits-all solution
-- **Managed services reduce overhead** - Focus on applications, not infrastructure
-- **Performance requirements drive selection** - Latency vs consistency trade-offs
-- **Migration is possible** - Move existing databases to AWS with minimal downtime
+### 🌟 **El Panorama General**
+- **Diferentes bases de datos para diferentes necesidades** - No hay solución única para todo
+- **Los servicios administrados reducen la sobrecarga** - Enfócate en aplicaciones, no en infraestructura
+- **Los requisitos de rendimiento impulsan la selección** - Compensaciones entre latencia vs consistencia
+- **La migración es posible** - Mover bases de datos existentes a AWS con tiempo de inactividad mínimo
 
-### 🎯 **For the Exam**
-- **Know when to use RDS vs DynamoDB** - Structured vs flexible data
-- **Understand ElastiCache engines** - Redis vs Memcached features
-- **Remember specialized databases** - DocumentDB, Neptune, Timestream use cases
-- **Know migration options** - DMS for database migrations
+### 🎯 **Para el Examen**
+- **Saber cuándo usar RDS vs DynamoDB** - Datos estructurados vs flexibles
+- **Entender motores de ElastiCache** - Características de Redis vs Memcached
+- **Recordar bases de datos especializadas** - Casos de uso de DocumentDB, Neptune, Timestream
+- **Conocer opciones de migración** - DMS para migraciones de bases de datos
 
-### 💡 **For Real-World Application**
-- **Start with use case requirements** - Let needs drive technology choice
-- **Consider operational overhead** - Managed services vs self-managed
-- **Plan for scale** - Design databases that can grow
-- **Implement caching strategically** - Improve performance cost-effectively
-- **Test migration strategies** - Validate approaches before production
+### 💡 **Para Aplicación en el Mundo Real**
+- **Empezar con requisitos de caso de uso** - Que las necesidades impulsen la elección de tecnología
+- **Considerar sobrecarga operacional** - Servicios administrados vs auto-administrados
+- **Planificar para escala** - Diseñar bases de datos que puedan crecer
+- **Implementar caché estratégicamente** - Mejorar rendimiento de manera costo-efectiva
+- **Probar estrategias de migración** - Validar enfoques antes de producción
 
-### 🚀 **Best Practices**
-- **Use Multi-AZ for production** - High availability is critical
-- **Implement backup strategies** - Automated backups and testing
-- **Monitor performance** - Use CloudWatch and Performance Insights
-- **Security first** - Encryption, VPC, IAM integration
-- **Cost optimization** - Right-size instances, use read replicas
-
----
-
-## 🔗 Navigation
-
-**← Previous:** [Networking Services](./networking-services.md)  
-**→ Next:** [Integration & Additional Services](./additional-services.md)  
-**↑ Up:** [Domain 3: Technology & Services](./README.md)  
-**🏠 Home:** [AWS Cloud Practitioner Study Guide](../README.md)
+### 🚀 **Mejores Prácticas**
+- **Usar Multi-AZ para producción** - La alta disponibilidad es crítica
+- **Implementar estrategias de respaldo** - Respaldos automatizados y pruebas
+- **Monitorear rendimiento** - Usar CloudWatch y Performance Insights
+- **Seguridad primero** - Cifrado, VPC, integración IAM
+- **Optimización de costos** - Dimensionar instancias correctamente, usar réplicas de lectura
 
 ---
 
-> 💡 **Pro Tip:** Database questions often involve scenarios with specific requirements (performance, consistency, scalability). Focus on understanding the trade-offs between different database types rather than memorizing specific features. Think about the data access patterns and requirements!
+## 🔗 Navegación
+
+**← Anterior:** [Servicios de Red](./networking-services.md)  
+**→ Siguiente:** [Servicios de Integración y Adicionales](./additional-services.md)  
+**↑ Arriba:** [Dominio 3: Tecnología y Servicios](./README.md)  
+**🏠 Inicio:** [Guía de Estudio AWS Cloud Practitioner](../README.md)
+
+---
+
+> 💡 **Consejo Pro:** Las preguntas de bases de datos a menudo involucran escenarios con requisitos específicos (rendimiento, consistencia, escalabilidad). Enfócate en entender las compensaciones entre diferentes tipos de bases de datos en lugar de memorizar características específicas. ¡Piensa en los patrones de acceso a datos y los requisitos!
