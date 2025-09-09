@@ -91,552 +91,552 @@ Todo lo que pones en la nube y cómo lo configuras
 └─────────────────────────────────────────────────────────┘
 ```
 
-### 🛡️ **AWS Secures (Security OF the Cloud)**
+### 🛡️ **AWS Asegura (Seguridad DE la Nube)**
 
-#### 🏗️ **Physical Infrastructure**
-- **Data centers** - Physical security, access controls, environmental controls
-- **Hardware** - Servers, storage devices, networking equipment
-- **Facilities** - Power, cooling, fire suppression, physical monitoring
-- **Geographic security** - Multiple regions and availability zones
+#### 🏗️ **Infraestructura Física**
+- **Centros de datos** - Seguridad física, controles de acceso, controles ambientales
+- **Hardware** - Servidores, dispositivos de almacenamiento, equipo de red
+- **Instalaciones** - Energía, refrigeración, supresión de incendios, monitoreo físico
+- **Seguridad geográfica** - Múltiples regiones y zonas de disponibilidad
 
-#### 💻 **Foundational Services**
-- **Compute services** - EC2 hypervisor, Lambda runtime environment
-- **Storage services** - S3 infrastructure, EBS backend systems
-- **Database services** - RDS underlying infrastructure, DynamoDB platform
-- **Networking** - VPC infrastructure, load balancer platforms
+#### 💻 **Servicios Fundamentales**
+- **Servicios de cómputo** - Hipervisor EC2, entorno de ejecución Lambda
+- **Servicios de almacenamiento** - Infraestructura S3, sistemas backend EBS
+- **Servicios de base de datos** - Infraestructura subyacente RDS, plataforma DynamoDB
+- **Redes** - Infraestructura VPC, plataformas de balanceadores de carga
 
-#### 🔧 **Service Operations**
-- **Patch management** - AWS service updates and security patches
-- **Configuration management** - Default security configurations
-- **Monitoring systems** - Infrastructure monitoring and alerting
-- **Incident response** - AWS-level security incident management
+#### 🔧 **Operaciones de Servicios**
+- **Gestión de parches** - Actualizaciones de servicios AWS y parches de seguridad
+- **Gestión de configuración** - Configuraciones de seguridad por defecto
+- **Sistemas de monitoreo** - Monitoreo de infraestructura y alertas
+- **Respuesta a incidentes** - Gestión de incidentes de seguridad a nivel AWS
 
-### 👤 **Customer Secures (Security IN the Cloud)**
+### 👤 **Cliente Asegura (Seguridad EN la Nube)**
 
-#### 📊 **Data Protection**
-- **Data classification** - Identifying sensitive data
-- **Data encryption** - Choosing and implementing encryption
-- **Data access controls** - Who can access what data
-- **Data backup and recovery** - Ensuring data availability and integrity
+#### 📊 **Protección de Datos**
+- **Clasificación de datos** - Identificar datos sensibles
+- **Cifrado de datos** - Elegir e implementar cifrado
+- **Controles de acceso a datos** - Quién puede acceder a qué datos
+- **Respaldo y recuperación de datos** - Asegurar disponibilidad e integridad de datos
 
-#### 👥 **Identity and Access Management**
-- **User management** - Creating and managing user accounts
-- **Permission assignment** - Granting appropriate access levels
-- **Multi-factor authentication** - Adding extra security layers
-- **Access monitoring** - Tracking who accesses what
+#### 👥 **Gestión de Identidad y Acceso**
+- **Gestión de usuarios** - Crear y gestionar cuentas de usuario
+- **Asignación de permisos** - Otorgar niveles de acceso apropiados
+- **Autenticación multifactor** - Agregar capas extra de seguridad
+- **Monitoreo de acceso** - Rastrear quién accede a qué
 
-#### ⚙️ **Application and OS Security**
-- **Operating system** - Patching, hardening, configuration
-- **Applications** - Code security, vulnerability management
-- **Network configuration** - Security groups, network ACLs
-- **Firewall rules** - Controlling network traffic
+#### ⚙️ **Seguridad de Aplicaciones y SO**
+- **Sistema operativo** - Parches, endurecimiento, configuración
+- **Aplicaciones** - Seguridad de código, gestión de vulnerabilidades
+- **Configuración de red** - Security groups, ACLs de red
+- **Reglas de firewall** - Controlar tráfico de red
 
-#### 🔐 **Encryption and Key Management**
-- **Encryption choices** - Deciding what to encrypt and how
-- **Key management** - Creating, rotating, and protecting encryption keys
-- **Certificate management** - SSL/TLS certificates for applications
-- **Credential management** - API keys, passwords, access tokens
-
----
-
-## ⚙️ Service-Specific Responsibilities
-
-The shared responsibility model varies depending on the **type of service** you're using:
-
-### 🖥️ **Infrastructure as a Service (IaaS) - Example: EC2**
-
-**AWS Manages:**
-```
-✅ Physical hardware and hypervisor
-✅ Network infrastructure
-✅ Physical security of data centers
-✅ Host operating system patches (hypervisor level)
-```
-
-**Customer Manages:**
-```
-🔧 Guest operating system (including updates and patches)
-🔧 Applications and their configurations
-🔧 Security groups and firewall configuration
-🔧 Identity and access management
-🔧 Data encryption and key management
-🔧 Network traffic protection
-```
-
-**Real Example: Web Server on EC2**
-- **AWS handles:** The physical server, hypervisor, data center security
-- **You handle:** Windows/Linux OS, web server software, SSL certificates, user accounts
-
-### 🔗 **Platform as a Service (PaaS) - Example: RDS**
-
-**AWS Manages:**
-```
-✅ Operating system and database engine patches
-✅ Database software installation and configuration
-✅ Backup automation (when enabled)
-✅ High availability setup
-✅ Physical infrastructure
-```
-
-**Customer Manages:**
-```
-🔧 Database user accounts and permissions
-🔧 Database-level firewall rules (security groups)
-🔧 Data encryption settings
-🔧 Network configuration (VPC, subnets)
-🔧 Application code that connects to database
-```
-
-**Real Example: MySQL Database in RDS**
-- **AWS handles:** MySQL software, OS patches, backup infrastructure
-- **You handle:** Database users, table permissions, connection security
-
-### 📱 **Software as a Service (SaaS) - Example: WorkMail**
-
-**AWS Manages:**
-```
-✅ Application software and its configuration
-✅ Operating system and runtime environment
-✅ Physical infrastructure
-✅ Most security configurations
-✅ Data center security
-```
-
-**Customer Manages:**
-```
-🔧 User access and identity management
-🔧 Data classification and handling
-🔧 Client-side security (endpoint protection)
-🔧 Usage monitoring and compliance
-```
-
-**Real Example: Amazon WorkMail**
-- **AWS handles:** Email server software, spam filtering, infrastructure
-- **You handle:** User accounts, email policies, client device security
-
-### 📊 **Responsibility Comparison Table**
-
-| **Aspect** | **EC2 (IaaS)** | **RDS (PaaS)** | **WorkMail (SaaS)** |
-|------------|-----------------|-----------------|---------------------|
-| **Physical Infrastructure** | AWS | AWS | AWS |
-| **Operating System** | Customer | AWS | AWS |
-| **Applications** | Customer | AWS | AWS |
-| **Data** | Customer | Customer | Customer |
-| **Access Management** | Customer | Customer | Customer |
-| **Network Controls** | Customer | Customer | AWS |
+#### 🔐 **Cifrado y Gestión de Claves**
+- **Opciones de cifrado** - Decidir qué cifrar y cómo
+- **Gestión de claves** - Crear, rotar y proteger claves de cifrado
+- **Gestión de certificados** - Certificados SSL/TLS para aplicaciones
+- **Gestión de credenciales** - Claves API, contraseñas, tokens de acceso
 
 ---
 
-## 🛡️ Security Controls Categories
+## ⚙️ Responsabilidades Específicas por Servicio
 
-AWS organizes security controls into three categories that help clarify the shared responsibility model:
+El modelo de responsabilidad compartida varía dependiendo del **tipo de servicio** que estés usando:
 
-### 🏢 **Inherited Controls**
-**Definition:** Controls that the customer fully inherits from AWS.
+### 🖥️ **Infraestructura como Servicio (IaaS) - Ejemplo: EC2**
 
-**Examples:**
-- **Physical security** - Data center access, environmental controls
-- **Hardware disposal** - Secure destruction of storage devices
-- **Power and cooling** - Uninterruptible power, temperature control
-- **Network infrastructure** - Backbone network security
+**AWS Gestiona:**
+```
+✅ Hardware físico e hipervisor
+✅ Infraestructura de red
+✅ Seguridad física de centros de datos
+✅ Parches del sistema operativo host (nivel hipervisor)
+```
 
-**Customer Action:** **None required** - AWS handles completely
+**Cliente Gestiona:**
+```
+🔧 Sistema operativo invitado (incluyendo actualizaciones y parches)
+🔧 Aplicaciones y sus configuraciones
+🔧 Configuración de security groups y firewall
+🔧 Gestión de identidad y acceso
+🔧 Cifrado de datos y gestión de claves
+🔧 Protección del tráfico de red
+```
 
-### 🤝 **Shared Controls**
-**Definition:** Controls where both AWS and customer have responsibilities.
+**Ejemplo Real: Servidor Web en EC2**
+- **AWS maneja:** El servidor físico, hipervisor, seguridad del centro de datos
+- **Tú manejas:** SO Windows/Linux, software del servidor web, certificados SSL, cuentas de usuario
 
-**Examples:**
+### 🔗 **Plataforma como Servicio (PaaS) - Ejemplo: RDS**
 
-#### 🔄 **Patch Management**
-- **AWS responsibility:** Patch infrastructure and services
-- **Customer responsibility:** Patch guest OS and applications
+**AWS Gestiona:**
+```
+✅ Parches del sistema operativo y motor de base de datos
+✅ Instalación y configuración del software de base de datos
+✅ Automatización de respaldos (cuando está habilitada)
+✅ Configuración de alta disponibilidad
+✅ Infraestructura física
+```
 
-#### 🎓 **Configuration Management**
-- **AWS responsibility:** Configure infrastructure devices
-- **Customer responsibility:** Configure operating systems, databases, applications
+**Cliente Gestiona:**
+```
+🔧 Cuentas de usuario de base de datos y permisos
+🔧 Reglas de firewall a nivel de base de datos (security groups)
+🔧 Configuraciones de cifrado de datos
+🔧 Configuración de red (VPC, subredes)
+🔧 Código de aplicación que se conecta a la base de datos
+```
 
-#### 🧠 **Awareness & Training**
-- **AWS responsibility:** Train AWS employees
-- **Customer responsibility:** Train your employees
+**Ejemplo Real: Base de Datos MySQL en RDS**
+- **AWS maneja:** Software MySQL, parches del SO, infraestructura de respaldos
+- **Tú manejas:** Usuarios de base de datos, permisos de tablas, seguridad de conexión
 
-### 👤 **Customer Specific Controls**
-**Definition:** Controls that are solely the customer's responsibility.
+### 📱 **Software como Servicio (SaaS) - Ejemplo: WorkMail**
 
-**Examples:**
-- **Zone security** - Which AWS zones/regions to use
-- **Network traffic protection** - VPC design, security groups
-- **Operating system security** - User access, patches, hardening
-- **Server-side encryption** - Choosing encryption methods and keys
-- **Client-side data encryption** - Encrypting data before sending to AWS
+**AWS Gestiona:**
+```
+✅ Software de aplicación y su configuración
+✅ Sistema operativo y entorno de ejecución
+✅ Infraestructura física
+✅ La mayoría de configuraciones de seguridad
+✅ Seguridad del centro de datos
+```
+
+**Cliente Gestiona:**
+```
+🔧 Acceso de usuarios y gestión de identidad
+🔧 Clasificación y manejo de datos
+🔧 Seguridad del lado del cliente (protección de endpoints)
+🔧 Monitoreo de uso y cumplimiento
+```
+
+**Ejemplo Real: Amazon WorkMail**
+- **AWS maneja:** Software del servidor de correo, filtrado de spam, infraestructura
+- **Tú manejas:** Cuentas de usuario, políticas de correo, seguridad de dispositivos cliente
+
+### 📊 **Tabla de Comparación de Responsabilidades**
+
+| **Aspecto** | **EC2 (IaaS)** | **RDS (PaaS)** | **WorkMail (SaaS)** |
+|-------------|-----------------|-----------------|----------------------|
+| **Infraestructura Física** | AWS | AWS | AWS |
+| **Sistema Operativo** | Cliente | AWS | AWS |
+| **Aplicaciones** | Cliente | AWS | AWS |
+| **Datos** | Cliente | Cliente | Cliente |
+| **Gestión de Acceso** | Cliente | Cliente | Cliente |
+| **Controles de Red** | Cliente | Cliente | AWS |
 
 ---
 
-## ⚠️ Common Misconceptions
+## 🛡️ Categorías de Controles de Seguridad
 
-### ❌ **"AWS Handles All Security"**
-**The Myth:** "Since it's cloud, AWS takes care of all security."
+AWS organiza los controles de seguridad en tres categorías que ayudan a aclarar el modelo de responsabilidad compartida:
 
-**The Reality:** AWS secures the infrastructure, but you must secure your applications, data, and configurations.
+### 🏢 **Controles Heredados**
+**Definición:** Controles que el cliente hereda completamente de AWS.
 
-**Real Impact:** Companies have had data breaches because they assumed AWS would protect improperly configured databases.
+**Ejemplos:**
+- **Seguridad física** - Acceso a centros de datos, controles ambientales
+- **Disposición de hardware** - Destrucción segura de dispositivos de almacenamiento
+- **Energía y refrigeración** - Energía ininterrumpible, control de temperatura
+- **Infraestructura de red** - Seguridad de la red troncal
 
-**Example Scenario:**
-```
-❌ Wrong Assumption:
-"I put my database in AWS, so it's automatically secure."
+**Acción del Cliente:** **Ninguna requerida** - AWS maneja completamente
 
-✅ Correct Understanding:
-"AWS secures the database infrastructure. I must:
-- Configure access controls
-- Set up encryption
-- Manage user permissions
-- Monitor access logs"
-```
+### 🤝 **Controles Compartidos**
+**Definición:** Controles donde tanto AWS como el cliente tienen responsabilidades.
 
-### ❌ **"Customer Has No Security Responsibilities in SaaS"**
-**The Myth:** "With SaaS services, I don't need to worry about security."
+**Ejemplos:**
 
-**The Reality:** Even with SaaS, you're responsible for user access, data classification, and compliance.
+#### 🔄 **Gestión de Parches**
+- **Responsabilidad de AWS:** Parchear infraestructura y servicios
+- **Responsabilidad del Cliente:** Parchear SO invitado y aplicaciones
 
-**Example: Amazon WorkSpaces (Virtual Desktop)**
-- **AWS handles:** Desktop infrastructure, patching, host security
-- **You handle:** User access, data on desktops, client device security
+#### 🎓 **Gestión de Configuración**
+- **Responsabilidad de AWS:** Configurar dispositivos de infraestructura
+- **Responsabilidad del Cliente:** Configurar sistemas operativos, bases de datos, aplicaciones
 
-### ❌ **"AWS Will Tell Me If Something Is Insecure"**
-**The Myth:** "AWS monitors my configuration and alerts me to security issues."
+#### 🧠 **Conciencia y Capacitación**
+- **Responsabilidad de AWS:** Capacitar empleados de AWS
+- **Responsabilidad del Cliente:** Capacitar a tus empleados
 
-**The Reality:** AWS provides tools, but you must implement and monitor them.
+### 👤 **Controles Específicos del Cliente**
+**Definición:** Controles que son únicamente responsabilidad del cliente.
 
-**Clarification:**
-- AWS provides security tools (GuardDuty, Config, etc.)
-- You must enable and configure these tools
-- You must respond to alerts and findings
-
-### ❌ **"Shared Responsibility Is the Same for All Services"**
-**The Myth:** "The division of responsibility is consistent across all AWS services."
-
-**The Reality:** Responsibility shifts based on service type (IaaS vs PaaS vs SaaS).
-
-**Example:**
-- **EC2:** You manage OS security
-- **Lambda:** AWS manages runtime security
-- **S3:** Shared responsibility for access controls
+**Ejemplos:**
+- **Seguridad de zona** - Qué zonas/regiones de AWS usar
+- **Protección del tráfico de red** - Diseño de VPC, security groups
+- **Seguridad del sistema operativo** - Acceso de usuarios, parches, endurecimiento
+- **Cifrado del lado del servidor** - Elegir métodos de cifrado y claves
+- **Cifrado de datos del lado del cliente** - Cifrar datos antes de enviar a AWS
 
 ---
 
-## 📝 Real-World Scenarios
+## ⚠️ Conceptos Erróneos Comunes
 
-### 🏥 **Scenario 1: Healthcare Provider**
+### ❌ **"AWS Maneja Toda la Seguridad"**
+**El Mito:** "Como es la nube, AWS se encarga de toda la seguridad."
 
-**Situation:** Hospital deploying patient management system on AWS
+**La Realidad:** AWS asegura la infraestructura, pero tú debes asegurar tus aplicaciones, datos y configuraciones.
 
-**AWS Responsibilities:**
-- 🏢 **Physical security** of data centers storing patient data
-- 🔧 **Infrastructure patching** of underlying systems
-- 🛡️ **Hardware security** and secure disposal
-- 📋 **Compliance certifications** (HIPAA eligible services)
+**Impacto Real:** Las empresas han tenido violaciones de datos porque asumieron que AWS protegería bases de datos mal configuradas.
 
-**Customer Responsibilities:**
-- 🔐 **Data encryption** of patient records
-- 👥 **Access controls** for medical staff
-- 📋 **Audit logging** of data access
-- 🎓 **Staff training** on HIPAA compliance
-- 🔒 **Application security** of patient management software
+**Escenario de Ejemplo:**
+```
+❌ Suposición Incorrecta:
+"Puse mi base de datos en AWS, así que está automáticamente segura."
 
-**Shared Responsibilities:**
-- 📊 **Configuration management** - AWS configures infrastructure, hospital configures applications
-- 🎓 **Training** - AWS trains their staff, hospital trains medical staff
-- 🔄 **Patch management** - AWS patches infrastructure, hospital patches applications
+✅ Entendimiento Correcto:
+"AWS asegura la infraestructura de la base de datos. Yo debo:
+- Configurar controles de acceso
+- Configurar cifrado
+- Gestionar permisos de usuario
+- Monitorear logs de acceso"
+```
 
-### 🏦 **Scenario 2: Financial Services Company**
+### ❌ **"El Cliente No Tiene Responsabilidades de Seguridad en SaaS"**
+**El Mito:** "Con servicios SaaS, no necesito preocuparme por la seguridad."
 
-**Situation:** Bank moving customer portal to AWS
+**La Realidad:** Incluso con SaaS, eres responsable del acceso de usuarios, clasificación de datos y cumplimiento.
 
-**Critical Security Requirements:**
-- PCI DSS compliance for payment processing
-- Customer data protection
-- Fraud detection and prevention
-- Regulatory audit requirements
+**Ejemplo: Amazon WorkSpaces (Escritorio Virtual)**
+- **AWS maneja:** Infraestructura de escritorio, parches, seguridad del host
+- **Tú manejas:** Acceso de usuarios, datos en escritorios, seguridad de dispositivos cliente
 
-**Division of Responsibilities:**
+### ❌ **"AWS Me Dirá Si Algo Es Inseguro"**
+**El Mito:** "AWS monitorea mi configuración y me alerta sobre problemas de seguridad."
 
-**AWS Provides:**
-- 🏢 **PCI-compliant infrastructure**
-- 🔒 **Physical security** of payment processing systems
-- 📋 **Compliance certifications** and audit reports
-- 🛡️ **Network infrastructure** security
+**La Realidad:** AWS proporciona herramientas, pero tú debes implementarlas y monitorearlas.
 
-**Bank Must Implement:**
-- 🔐 **End-to-end encryption** of payment data
-- 👥 **Customer identity verification**
-- 📊 **Transaction monitoring** and fraud detection
-- 🔍 **Access logging** and audit trails
-- 🎓 **Employee security training**
+**Aclaración:**
+- AWS proporciona herramientas de seguridad (GuardDuty, Config, etc.)
+- Tú debes habilitar y configurar estas herramientas
+- Tú debes responder a alertas y hallazgos
 
-### 🛒 **Scenario 3: E-commerce Startup**
+### ❌ **"La Responsabilidad Compartida Es Igual para Todos los Servicios"**
+**El Mito:** "La división de responsabilidad es consistente en todos los servicios de AWS."
 
-**Situation:** Online retailer using multiple AWS services
+**La Realidad:** La responsabilidad cambia basada en el tipo de servicio (IaaS vs PaaS vs SaaS).
 
-**Architecture:**
-- EC2 for web servers
-- RDS for customer database
-- S3 for product images
-- Lambda for order processing
-
-**Service-Specific Responsibilities:**
-
-**EC2 Web Servers:**
-- **AWS:** Hypervisor, physical infrastructure
-- **Customer:** OS patching, web server security, SSL certificates
-
-**RDS Database:**
-- **AWS:** Database engine patches, backup infrastructure
-- **Customer:** Database users, encryption settings, access controls
-
-**S3 Image Storage:**
-- **AWS:** Storage infrastructure, durability
-- **Customer:** Bucket policies, object encryption, access controls
-
-**Lambda Functions:**
-- **AWS:** Runtime environment, infrastructure scaling
-- **Customer:** Function code security, IAM permissions, environment variables
+**Ejemplo:**
+- **EC2:** Tú gestionas la seguridad del SO
+- **Lambda:** AWS gestiona la seguridad del runtime
+- **S3:** Responsabilidad compartida para controles de acceso
 
 ---
 
-## ✅ Best Practices
+## 📝 Escenarios del Mundo Real
 
-### 🎯 **Understanding Your Responsibilities**
+### 🏥 **Escenario 1: Proveedor de Atención Médica**
 
-#### 📋 **Create a Responsibility Matrix**
-Document what AWS handles vs. what you handle for each service:
+**Situación:** Hospital desplegando sistema de gestión de pacientes en AWS
+
+**Responsabilidades de AWS:**
+- 🏢 **Seguridad física** de centros de datos que almacenan datos de pacientes
+- 🔧 **Parches de infraestructura** de sistemas subyacentes
+- 🛡️ **Seguridad de hardware** y disposición segura
+- 📋 **Certificaciones de cumplimiento** (servicios elegibles para HIPAA)
+
+**Responsabilidades del Cliente:**
+- 🔐 **Cifrado de datos** de registros de pacientes
+- 👥 **Controles de acceso** para personal médico
+- 📋 **Registro de auditoría** de acceso a datos
+- 🎓 **Capacitación del personal** en cumplimiento HIPAA
+- 🔒 **Seguridad de aplicación** del software de gestión de pacientes
+
+**Responsabilidades Compartidas:**
+- 📊 **Gestión de configuración** - AWS configura infraestructura, hospital configura aplicaciones
+- 🎓 **Capacitación** - AWS capacita a su personal, hospital capacita al personal médico
+- 🔄 **Gestión de parches** - AWS parchea infraestructura, hospital parchea aplicaciones
+
+### 🏦 **Escenario 2: Empresa de Servicios Financieros**
+
+**Situación:** Banco moviendo portal de clientes a AWS
+
+**Requisitos Críticos de Seguridad:**
+- Cumplimiento PCI DSS para procesamiento de pagos
+- Protección de datos de clientes
+- Detección y prevención de fraudes
+- Requisitos de auditoría regulatoria
+
+**División de Responsabilidades:**
+
+**AWS Proporciona:**
+- 🏢 **Infraestructura compatible con PCI**
+- 🔒 **Seguridad física** de sistemas de procesamiento de pagos
+- 📋 **Certificaciones de cumplimiento** y reportes de auditoría
+- 🛡️ **Seguridad de infraestructura de red**
+
+**El Banco Debe Implementar:**
+- 🔐 **Cifrado de extremo a extremo** de datos de pago
+- 👥 **Verificación de identidad del cliente**
+- 📊 **Monitoreo de transacciones** y detección de fraudes
+- 🔍 **Registro de acceso** y pistas de auditoría
+- 🎓 **Capacitación de seguridad para empleados**
+
+### 🛒 **Escenario 3: Startup de E-commerce**
+
+**Situación:** Minorista en línea usando múltiples servicios de AWS
+
+**Arquitectura:**
+- EC2 para servidores web
+- RDS para base de datos de clientes
+- S3 para imágenes de productos
+- Lambda para procesamiento de órdenes
+
+**Responsabilidades Específicas por Servicio:**
+
+**Servidores Web EC2:**
+- **AWS:** Hipervisor, infraestructura física
+- **Cliente:** Parches del SO, seguridad del servidor web, certificados SSL
+
+**Base de Datos RDS:**
+- **AWS:** Parches del motor de base de datos, infraestructura de respaldos
+- **Cliente:** Usuarios de base de datos, configuraciones de cifrado, controles de acceso
+
+**Almacenamiento de Imágenes S3:**
+- **AWS:** Infraestructura de almacenamiento, durabilidad
+- **Cliente:** Políticas de bucket, cifrado de objetos, controles de acceso
+
+**Funciones Lambda:**
+- **AWS:** Entorno de ejecución, escalado de infraestructura
+- **Cliente:** Seguridad del código de función, permisos IAM, variables de entorno
+
+---
+
+## ✅ Mejores Prácticas
+
+### 🎯 **Entendiendo Tus Responsabilidades**
+
+#### 📋 **Crear una Matriz de Responsabilidades**
+Documenta qué maneja AWS vs. qué manejas tú para cada servicio:
 
 ```
-Service: Amazon RDS
+Servicio: Amazon RDS
 ┌────────────────────┬─────────────┬──────────────┐
-│ Security Aspect    │ AWS         │ Customer     │
+│ Aspecto Seguridad  │ AWS         │ Cliente      │
 ├────────────────────┼─────────────┼──────────────┤
-│ Physical security  │ ✅ Yes      │ ❌ No        │
-│ OS patching        │ ✅ Yes      │ ❌ No        │
-│ Database patching  │ ✅ Yes      │ ❌ No        │
-│ User management    │ ❌ No       │ ✅ Yes       │
-│ Encryption         │ 🤝 Shared   │ 🤝 Shared    │
-│ Backup management  │ 🤝 Shared   │ 🤝 Shared    │
+│ Seguridad física   │ ✅ Sí       │ ❌ No        │
+│ Parches del SO     │ ✅ Sí       │ ❌ No        │
+│ Parches de BD      │ ✅ Sí       │ ❌ No        │
+│ Gestión usuarios   │ ❌ No       │ ✅ Sí        │
+│ Cifrado            │ 🤝 Compartido│ 🤝 Compartido│
+│ Gestión respaldos  │ 🤝 Compartido│ 🤝 Compartido│
 └────────────────────┴─────────────┴──────────────┘
 ```
 
-#### 🔍 **Regular Responsibility Reviews**
-- **Quarterly reviews** of service responsibilities
-- **Update documentation** when adding new services
-- **Train team members** on their specific responsibilities
-- **Audit compliance** with responsibility matrix
+#### 🔍 **Revisiones Regulares de Responsabilidades**
+- **Revisiones trimestrales** de responsabilidades de servicios
+- **Actualizar documentación** al agregar nuevos servicios
+- **Capacitar miembros del equipo** en sus responsabilidades específicas
+- **Auditar cumplimiento** con la matriz de responsabilidades
 
-### 🛡️ **Implementing Customer Responsibilities**
+### 🛡️ **Implementando Responsabilidades del Cliente**
 
-#### 🔐 **Data Protection**
+#### 🔐 **Protección de Datos**
 ```
-✅ DO:
-- Encrypt sensitive data at rest and in transit
-- Classify data based on sensitivity levels
-- Implement proper access controls
-- Regular backup and recovery testing
+✅ HACER:
+- Cifrar datos sensibles en reposo y en tránsito
+- Clasificar datos basado en niveles de sensibilidad
+- Implementar controles de acceso apropiados
+- Pruebas regulares de respaldo y recuperación
 
-❌ DON'T:
-- Assume AWS encrypts everything by default
-- Store sensitive data in plain text
-- Give broad access permissions
-- Skip backup verification
-```
-
-#### 👥 **Identity and Access Management**
-```
-✅ DO:
-- Use IAM roles instead of long-term access keys
-- Implement least privilege access
-- Enable MFA for all users
-- Regular access reviews and cleanup
-
-❌ DON'T:
-- Share credentials between users
-- Use root account for daily operations
-- Grant broad permissions "to be safe"
-- Skip regular permission audits
+❌ NO HACER:
+- Asumir que AWS cifra todo por defecto
+- Almacenar datos sensibles en texto plano
+- Dar permisos de acceso amplios
+- Omitir verificación de respaldos
 ```
 
-#### 🔧 **Configuration Management**
+#### 👥 **Gestión de Identidad y Acceso**
 ```
-✅ DO:
-- Use infrastructure as code (CloudFormation)
-- Implement configuration drift detection
-- Regular security configuration reviews
-- Automate compliance checking
+✅ HACER:
+- Usar roles IAM en lugar de claves de acceso a largo plazo
+- Implementar acceso de menor privilegio
+- Habilitar MFA para todos los usuarios
+- Revisiones regulares de acceso y limpieza
 
-❌ DON'T:
-- Make manual configuration changes
-- Skip configuration documentation
-- Ignore configuration drift alerts
-- Assume default settings are secure
-```
-
-### 🤝 **Leveraging Shared Controls**
-
-#### 📊 **Patch Management Strategy**
-```
-AWS Patches:
-- Infrastructure components
-- Managed service platforms
-- Hypervisors and host OS
-
-Customer Patches:
-- Guest operating systems
-- Applications and middleware
-- Custom software components
-
-Coordination:
-- Monitor AWS service announcements
-- Plan maintenance windows together
-- Test patches in non-production first
+❌ NO HACER:
+- Compartir credenciales entre usuarios
+- Usar cuenta root para operaciones diarias
+- Otorgar permisos amplios "para estar seguro"
+- Omitir auditorías regulares de permisos
 ```
 
-#### 🎓 **Training and Awareness**
+#### 🔧 **Gestión de Configuración**
 ```
-AWS Training:
-- Security training for AWS employees
-- Service-specific security guidance
-- Best practice documentation
+✅ HACER:
+- Usar infraestructura como código (CloudFormation)
+- Implementar detección de deriva de configuración
+- Revisiones regulares de configuración de seguridad
+- Automatizar verificación de cumplimiento
 
-Customer Training:
-- Cloud security fundamentals
-- Service-specific responsibilities
-- Incident response procedures
-- Compliance requirements
-```
-
----
-
-## 🧠 Memory Aids
-
-### 🎯 **Easy Ways to Remember**
-
-#### 🏠 **The House Rule**
-- **AWS = Landlord** (building, utilities, common areas)
-- **You = Tenant** (your stuff, your guests, your cleanliness)
-
-#### 🎂 **The Layer Cake**
-```
-Your Applications     ← You decorate the cake
-Your Data            ← You choose the filling
-AWS Platform         ← AWS bakes the cake
-AWS Infrastructure   ← AWS provides the oven
+❌ NO HACER:
+- Hacer cambios manuales de configuración
+- Omitir documentación de configuración
+- Ignorar alertas de deriva de configuración
+- Asumir que configuraciones por defecto son seguras
 ```
 
-#### 🚗 **The Car Rental Analogy**
-- **Rental Company (AWS):** Maintains car, provides insurance, handles recalls
-- **Driver (You):** Drives safely, locks doors, doesn't leave valuables visible
+### 🤝 **Aprovechando Controles Compartidos**
 
-### 📝 **Quick Reference Cards**
+#### 📊 **Estrategia de Gestión de Parches**
+```
+Parches de AWS:
+- Componentes de infraestructura
+- Plataformas de servicios gestionados
+- Hipervisores y SO host
 
-#### **IaaS Services (Like EC2)**
-```
-AWS: Physical hardware, hypervisor, network infrastructure
-YOU: Operating system, applications, data, access management
+Parches del Cliente:
+- Sistemas operativos invitados
+- Aplicaciones y middleware
+- Componentes de software personalizado
+
+Coordinación:
+- Monitorear anuncios de servicios AWS
+- Planificar ventanas de mantenimiento juntos
+- Probar parches en no-producción primero
 ```
 
-#### **PaaS Services (Like RDS)**
+#### 🎓 **Capacitación y Conciencia**
 ```
-AWS: Platform management, patching, infrastructure
-YOU: Configuration, users, data, access controls
-```
+Capacitación de AWS:
+- Capacitación de seguridad para empleados AWS
+- Guía de seguridad específica por servicio
+- Documentación de mejores prácticas
 
-#### **SaaS Services (Like WorkMail)**
-```
-AWS: Application, platform, infrastructure
-YOU: Users, data, client security, usage policies
+Capacitación del Cliente:
+- Fundamentos de seguridad en la nube
+- Responsabilidades específicas por servicio
+- Procedimientos de respuesta a incidentes
+- Requisitos de cumplimiento
 ```
 
 ---
 
-## 🎯 Practice Questions
+## 🧠 Ayudas de Memoria
 
-### Question 1
-A company is running a web application on Amazon EC2 instances. According to the shared responsibility model, who is responsible for patching the operating system?
+### 🎯 **Formas Fáciles de Recordar**
 
-A) AWS is responsible for all patching
-B) Customer is responsible for OS patching
-C) AWS and customer share OS patching responsibility
-D) Responsibility depends on the instance type
+#### 🏠 **La Regla de la Casa**
+- **AWS = Propietario** (edificio, servicios públicos, áreas comunes)
+- **Tú = Inquilino** (tus cosas, tus invitados, tu limpieza)
+
+#### 🎂 **El Pastel de Capas**
+```
+Tus Aplicaciones     ← Tú decoras el pastel
+Tus Datos           ← Tú eliges el relleno
+Plataforma AWS      ← AWS hornea el pastel
+Infraestructura AWS ← AWS proporciona el horno
+```
+
+#### 🚗 **La Analogía del Alquiler de Autos**
+- **Empresa de Alquiler (AWS):** Mantiene el auto, proporciona seguro, maneja recalls
+- **Conductor (Tú):** Conduce seguro, cierra puertas, no deja objetos de valor visibles
+
+### 📝 **Tarjetas de Referencia Rápida**
+
+#### **Servicios IaaS (Como EC2)**
+```
+AWS: Hardware físico, hipervisor, infraestructura de red
+TÚ: Sistema operativo, aplicaciones, datos, gestión de acceso
+```
+
+#### **Servicios PaaS (Como RDS)**
+```
+AWS: Gestión de plataforma, parches, infraestructura
+TÚ: Configuración, usuarios, datos, controles de acceso
+```
+
+#### **Servicios SaaS (Como WorkMail)**
+```
+AWS: Aplicación, plataforma, infraestructura
+TÚ: Usuarios, datos, seguridad del cliente, políticas de uso
+```
+
+---
+
+## 🎯 Preguntas de Práctica
+
+### Pregunta 1
+Una empresa está ejecutando una aplicación web en instancias Amazon EC2. Según el modelo de responsabilidad compartida, ¿quién es responsable de parchear el sistema operativo?
+
+A) AWS es responsable de todos los parches
+B) El cliente es responsable de parchear el SO
+C) AWS y el cliente comparten la responsabilidad de parchear el SO
+D) La responsabilidad depende del tipo de instancia
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Customer is responsible for OS patching**
+**Respuesta: B) El cliente es responsable de parchear el SO**
 
-**Explanation:** For EC2 instances (IaaS), AWS manages the underlying infrastructure and hypervisor, but customers are responsible for the guest operating system, including patches, updates, and security configurations.
+**Explicación:** Para instancias EC2 (IaaS), AWS gestiona la infraestructura subyacente e hipervisor, pero los clientes son responsables del sistema operativo invitado, incluyendo parches, actualizaciones y configuraciones de seguridad.
 
-**Key Point:** Remember that EC2 is Infrastructure as a Service (IaaS), so the customer has more responsibilities compared to Platform as a Service (PaaS) or Software as a Service (SaaS).
+**Punto Clave:** Recuerda que EC2 es Infraestructura como Servicio (IaaS), por lo que el cliente tiene más responsabilidades comparado con Plataforma como Servicio (PaaS) o Software como Servicio (SaaS).
 </details>
 
-### Question 2
-Which of the following is an example of a "shared control" in the AWS shared responsibility model?
+### Pregunta 2
+¿Cuál de los siguientes es un ejemplo de "control compartido" en el modelo de responsabilidad compartida de AWS?
 
-A) Physical security of data centers
-B) Patch management
-C) Customer data encryption
-D) Identity and access management
+A) Seguridad física de centros de datos
+B) Gestión de parches
+C) Cifrado de datos del cliente
+D) Gestión de identidad y acceso
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Patch management**
+**Respuesta: B) Gestión de parches**
 
-**Explanation:** Patch management is a shared control where AWS is responsible for patching the infrastructure and managed services, while customers are responsible for patching guest operating systems and applications.
+**Explicación:** La gestión de parches es un control compartido donde AWS es responsable de parchear la infraestructura y servicios gestionados, mientras que los clientes son responsables de parchear sistemas operativos invitados y aplicaciones.
 
-**Key Point:** Shared controls require both AWS and the customer to implement their respective parts of the control.
+**Punto Clave:** Los controles compartidos requieren que tanto AWS como el cliente implementen sus respectivas partes del control.
 </details>
 
-### Question 3
-A company is using Amazon RDS for their database. Which security responsibility belongs to the customer?
+### Pregunta 3
+Una empresa está usando Amazon RDS para su base de datos. ¿Cuál responsabilidad de seguridad pertenece al cliente?
 
-A) Database engine patching
-B) Operating system maintenance
-C) Database user account management
-D) Physical hardware security
+A) Parches del motor de base de datos
+B) Mantenimiento del sistema operativo
+C) Gestión de cuentas de usuario de base de datos
+D) Seguridad del hardware físico
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para ver la Respuesta</summary>
 
-**Answer: C) Database user account management**
+**Respuesta: C) Gestión de cuentas de usuario de base de datos**
 
-**Explanation:** With Amazon RDS (a managed service), AWS handles the infrastructure, operating system, and database engine maintenance. However, customers are responsible for managing database users, permissions, and access controls.
+**Explicación:** Con Amazon RDS (un servicio gestionado), AWS maneja la infraestructura, sistema operativo y mantenimiento del motor de base de datos. Sin embargo, los clientes son responsables de gestionar usuarios de base de datos, permisos y controles de acceso.
 
-**Key Point:** Even with managed services, customers retain responsibility for identity and access management within their applications.
+**Punto Clave:** Incluso con servicios gestionados, los clientes retienen la responsabilidad de gestión de identidad y acceso dentro de sus aplicaciones.
 </details>
 
 ---
 
-## ✅ Chapter Checklist
+## ✅ Lista de Verificación del Capítulo
 
-Before proceeding to the next chapter, ensure you can:
+Antes de proceder al siguiente capítulo, asegúrate de poder:
 
-- [ ] Explain the difference between "security OF the cloud" and "security IN the cloud"
-- [ ] Identify AWS vs customer responsibilities for different service types (IaaS, PaaS, SaaS)
-- [ ] Recognize shared controls and understand both parties' roles
-- [ ] Apply the shared responsibility model to real-world scenarios
-- [ ] Avoid common misconceptions about cloud security responsibilities
-
----
-
-## 🗺️ What's Next?
-
-Now that you understand **who** is responsible for **what** in AWS security, let's dive into the most important tool for managing **your** security responsibilities.
-
-**🎯 Next Chapter:** [IAM Fundamentals](./iam-fundamentals.md)
-
-Learn how to implement proper identity and access management - the cornerstone of customer security responsibilities!
+- [ ] Explicar la diferencia entre "seguridad DE la nube" y "seguridad EN la nube"
+- [ ] Identificar responsabilidades de AWS vs cliente para diferentes tipos de servicio (IaaS, PaaS, SaaS)
+- [ ] Reconocer controles compartidos y entender los roles de ambas partes
+- [ ] Aplicar el modelo de responsabilidad compartida a escenarios del mundo real
+- [ ] Evitar conceptos erróneos comunes sobre responsabilidades de seguridad en la nube
 
 ---
 
-**🎉 Excellent foundation!** You now understand the fundamental framework that governs all AWS security. This knowledge will guide every security decision you make in the cloud.
+## 🗺️ ¿Qué Sigue?
+
+Ahora que entiendes **quién** es responsable de **qué** en la seguridad de AWS, profundicemos en la herramienta más importante para gestionar **tus** responsabilidades de seguridad.
+
+**🎯 Siguiente Capítulo:** [Fundamentos de IAM](./iam-fundamentals.md)
+
+¡Aprende cómo implementar gestión adecuada de identidad y acceso - la piedra angular de las responsabilidades de seguridad del cliente!
 
 ---
 
-**← [Back to Domain 2 Overview](./README.md)**
+**🎉 ¡Excelente base!** Ahora entiendes el marco fundamental que gobierna toda la seguridad de AWS. Este conocimiento guiará cada decisión de seguridad que tomes en la nube.
+
+---
+
+**← [Volver al Resumen del Dominio 2](./README.md)**

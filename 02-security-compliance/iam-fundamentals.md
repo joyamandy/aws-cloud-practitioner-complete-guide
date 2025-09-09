@@ -826,84 +826,84 @@ Security Account:
 
 ---
 
-## ✅ Chapter Checklist
+## ✅ Lista de Verificación del Capítulo
 
-Before proceeding, ensure you can:
+Antes de continuar, asegúrate de poder:
 
-- [ ] Explain the difference between users, groups, and roles
-- [ ] Understand when to use each IAM component
-- [ ] Read and understand basic IAM policies
-- [ ] Configure MFA for enhanced security
-- [ ] Apply least privilege principles
-- [ ] Avoid common IAM mistakes
-- [ ] Design IAM structure for real-world scenarios
+- [ ] Explicar la diferencia entre usuarios, grupos y roles
+- [ ] Entender cuándo usar cada componente de IAM
+- [ ] Leer y entender políticas básicas de IAM
+- [ ] Configurar MFA para seguridad mejorada
+- [ ] Aplicar principios de menor privilegio
+- [ ] Evitar errores comunes de IAM
+- [ ] Diseñar estructura de IAM para escenarios del mundo real
 
 ---
 
-## 🎯 Practice Questions
+## 🎯 Preguntas de Práctica
 
-### Question 1
-What is the recommended way to provide AWS access to an application running on EC2?
+### Pregunta 1
+¿Cuál es la forma recomendada de proporcionar acceso a AWS a una aplicación ejecutándose en EC2?
 
-A) Create an IAM user and store credentials in the application
-B) Use the root account credentials
-C) Create an IAM role and attach it to the EC2 instance
-D) Hardcode access keys in the application code
+A) Crear un usuario IAM y almacenar credenciales en la aplicación
+B) Usar las credenciales de la cuenta root
+C) Crear un rol IAM y adjuntarlo a la instancia EC2
+D) Codificar claves de acceso directamente en el código de la aplicación
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: C) Create an IAM role and attach it to the EC2 instance**
+**Respuesta: C) Crear un rol IAM y adjuntarlo a la instancia EC2**
 
-**Explanation:** IAM roles provide temporary, automatically-rotating credentials to EC2 instances without the need to store long-term access keys. This is the most secure approach for applications running on AWS services.
+**Explicación:** Los roles IAM proporcionan credenciales temporales que rotan automáticamente a las instancias EC2 sin necesidad de almacenar claves de acceso a largo plazo. Este es el enfoque más seguro para aplicaciones ejecutándose en servicios de AWS.
 </details>
 
-### Question 2
-Which IAM component would you use to grant the same permissions to multiple users?
+### Pregunta 2
+¿Qué componente de IAM usarías para otorgar los mismos permisos a múltiples usuarios?
 
-A) IAM Users
-B) IAM Groups  
-C) IAM Roles
-D) IAM Policies
+A) Usuarios IAM
+B) Grupos IAM  
+C) Roles IAM
+D) Políticas IAM
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: B) IAM Groups**
+**Respuesta: B) Grupos IAM**
 
-**Explanation:** IAM Groups allow you to assign the same set of permissions to multiple users. When you add users to a group, they inherit all the permissions attached to that group, making permission management much easier.
+**Explicación:** Los Grupos IAM te permiten asignar el mismo conjunto de permisos a múltiples usuarios. Cuando agregas usuarios a un grupo, heredan todos los permisos adjuntos a ese grupo, haciendo la gestión de permisos mucho más fácil.
 </details>
 
-### Question 3
-What happens when an IAM policy has both an explicit Allow and an explicit Deny for the same action?
+### Pregunta 3
+¿Qué sucede cuando una política IAM tiene tanto un Allow explícito como un Deny explícito para la misma acción?
 
-A) Allow takes precedence
-B) Deny takes precedence
-C) The policy becomes invalid
-D) The latest policy takes precedence
+A) Allow toma precedencia
+B) Deny toma precedencia
+C) La política se vuelve inválida
+D) La política más reciente toma precedencia
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: B) Deny takes precedence**
+**Respuesta: B) Deny toma precedencia**
 
-**Explanation:** In AWS IAM, explicit Deny statements always take precedence over Allow statements. This follows the principle that denies are always stronger than allows for security purposes.
+**Explicación:** En AWS IAM, las declaraciones Deny explícitas siempre toman precedencia sobre las declaraciones Allow. Esto sigue el principio de que las denegaciones son siempre más fuertes que los permisos por propósitos de seguridad.
 </details>
 
 ---
 
-## 🗺️ What's Next?
+## 🗺️ ¿Qué Sigue?
 
-Now that you understand how to manage identities and access, let's explore the comprehensive suite of security services AWS provides to protect your infrastructure.
+Ahora que entiendes cómo gestionar identidades y acceso, exploremos la suite integral de servicios de seguridad que AWS proporciona para proteger tu infraestructura.
 
-**🎯 Next Chapter:** [Core Security Services](./security-services.md)
+**🎯 Próximo Capítulo:** [Servicios de Seguridad Principales](./security-services.md)
 
-Discover the powerful security tools that help you implement defense in depth!
-
----
-
-**🎉 Outstanding progress!** You now have a solid foundation in AWS identity and access management - the cornerstone of cloud security.
+¡Descubre las poderosas herramientas de seguridad que te ayudan a implementar defensa en profundidad!
 
 ---
 
-**← [Back to Domain 2 Overview](./README.md)**
+**🎉 ¡Progreso excepcional!** Ahora tienes una base sólida en gestión de identidad y acceso de AWS - la piedra angular de la seguridad en la nube.
+
+---
+
+**← [Volver a la Visión General del Dominio 2](./README.md)**

@@ -515,144 +515,144 @@ Control Tower es como **arquitecto maestro para tu entorno AWS**:
 
 ---
 
-## 🎯 Service Selection Guide
+## 🎯 Guía de Selección de Servicios
 
-### 🤔 **When to Use Which Service**
+### 🤔 **Cuándo Usar Qué Servicio**
 
-#### 🔐 **Data Protection Scenarios**
+#### 🔐 **Escenarios de Protección de Datos**
 
-| **Scenario** | **Use This Service** | **Why** |
+| **Escenario** | **Usar Este Servicio** | **Por Qué** |
 |--------------|-------------------|---------|
-| Encrypt S3 buckets | **KMS** | Managed encryption, easy integration |
-| High-performance encryption | **CloudHSM** | Dedicated hardware, FIPS 140-2 Level 3 |
-| SSL certificates for website | **ACM** | Free certificates, automatic renewal |
-| Encrypt database passwords | **KMS** | Secure key management |
+| Cifrar buckets S3 | **KMS** | Cifrado administrado, integración fácil |
+| Cifrado de alto rendimiento | **CloudHSM** | Hardware dedicado, FIPS 140-2 Nivel 3 |
+| Certificados SSL para sitio web | **ACM** | Certificados gratuitos, renovación automática |
+| Cifrar contraseñas de base de datos | **KMS** | Gestión segura de claves |
 
-#### 🌐 **Network Security Scenarios**
+#### 🌐 **Escenarios de Seguridad de Red**
 
-| **Scenario** | **Use This Service** | **Why** |
+| **Escenario** | **Usar Este Servicio** | **Por Qué** |
 |--------------|-------------------|---------|
-| Control EC2 instance access | **Security Groups** | Instance-level firewall |
-| Subnet-level restrictions | **NACLs** | Additional layer of protection |
-| Protect web application | **WAF** | Application-layer filtering |
-| DDoS protection | **Shield** | Absorbs attack traffic |
+| Controlar acceso de instancia EC2 | **Security Groups** | Firewall a nivel de instancia |
+| Restricciones a nivel de subred | **NACLs** | Capa adicional de protección |
+| Proteger aplicación web | **WAF** | Filtrado a nivel de aplicación |
+| Protección DDoS | **Shield** | Absorbe tráfico de ataque |
 
-#### 🔍 **Monitoring Scenarios**
+#### 🔍 **Escenarios de Monitoreo**
 
-| **Scenario** | **Use This Service** | **Why** |
+| **Escenario** | **Usar Este Servicio** | **Por Qué** |
 |--------------|-------------------|---------|
-| Track who did what | **CloudTrail** | Complete audit trail |
-| Monitor resource configurations | **Config** | Configuration compliance |
-| Detect threats automatically | **GuardDuty** | ML-powered threat detection |
-| Find vulnerable software | **Inspector** | Vulnerability assessment |
-| Discover sensitive data | **Macie** | Data classification and protection |
+| Rastrear quién hizo qué | **CloudTrail** | Rastro de auditoría completo |
+| Monitorear configuraciones de recursos | **Config** | Cumplimiento de configuración |
+| Detectar amenazas automáticamente | **GuardDuty** | Detección de amenazas con ML |
+| Encontrar software vulnerable | **Inspector** | Evaluación de vulnerabilidades |
+| Descubrir datos sensibles | **Macie** | Clasificación y protección de datos |
 
-### 🎯 **Security Architecture Patterns**
+### 🎯 **Patrones de Arquitectura de Seguridad**
 
-#### 🏢 **Small Business Pattern**
+#### 🏢 **Patrón para Pequeñas Empresas**
 ```
-Essential Security Stack:
-├── IAM (users, groups, MFA)
-├── Security Groups (network controls)
-├── CloudTrail (audit logging)
-├── Config (compliance monitoring)
-└── GuardDuty (threat detection)
+Pila de Seguridad Esencial:
+├── IAM (usuarios, grupos, MFA)
+├── Security Groups (controles de red)
+├── CloudTrail (registro de auditoría)
+├── Config (monitoreo de cumplimiento)
+└── GuardDuty (detección de amenazas)
 
-Cost: ~$50-200/month
-Complexity: Low
-Coverage: Basic but solid foundation
+Costo: ~$50-200/mes
+Complejidad: Baja
+Cobertura: Base básica pero sólida
 ```
 
-#### 🏭 **Enterprise Pattern**
+#### 🏭 **Patrón Empresarial**
 ```
-Comprehensive Security Stack:
-├── IAM + Identity Federation
+Pila de Seguridad Integral:
+├── IAM + Federación de Identidad
 ├── Security Groups + NACLs + WAF
 ├── CloudTrail + Config + GuardDuty
 ├── Inspector + Macie + Security Hub
-├── KMS + CloudHSM (if needed)
-├── Shield Advanced (if needed)
-└── Control Tower (multi-account)
+├── KMS + CloudHSM (si es necesario)
+├── Shield Advanced (si es necesario)
+└── Control Tower (multi-cuenta)
 
-Cost: $1,000-10,000+/month
-Complexity: High
-Coverage: Enterprise-grade protection
+Costo: $1,000-10,000+/mes
+Complejidad: Alta
+Cobertura: Protección de grado empresarial
 ```
 
-#### 🏥 **Compliance-Heavy Pattern**
+#### 🏥 **Patrón de Cumplimiento Estricto**
 ```
-Compliance-Focused Stack:
-├── All Enterprise services
-├── Dedicated CloudHSM
-├── Enhanced logging and monitoring
-├── Automated compliance checking
-├── Regular compliance reporting
-└── 24/7 security operations
+Pila Enfocada en Cumplimiento:
+├── Todos los servicios empresariales
+├── CloudHSM dedicado
+├── Registro y monitoreo mejorado
+├── Verificación de cumplimiento automatizada
+├── Reportes de cumplimiento regulares
+└── Operaciones de seguridad 24/7
 
-Cost: $10,000+/month
-Complexity: Very High
-Coverage: Meets strict regulations
+Costo: $10,000+/mes
+Complejidad: Muy Alta
+Cobertura: Cumple regulaciones estrictas
 ```
 
 ---
 
-## 🧠 Memory Aids
+## 🧠 Ayudas de Memoria
 
-### 🎯 **Service Memory Tricks**
+### 🎯 **Trucos de Memoria para Servicios**
 
-#### 🔐 **Data Protection**
-- **KMS** = **K**ey **M**anagement **S**ervice (Keys for encryption)
-- **ACM** = **A**utomated **C**ertificate **M**anagement (SSL certificates)
-- **CloudHSM** = **H**ardware **S**ecurity **M**odule (Dedicated hardware)
+#### 🔐 **Protección de Datos**
+- **KMS** = **K**ey **M**anagement **S**ervice (Claves para cifrado)
+- **ACM** = **A**utomated **C**ertificate **M**anagement (Certificados SSL)
+- **CloudHSM** = **H**ardware **S**ecurity **M**odule (Hardware dedicado)
 
-#### 🌐 **Network Security**
-- **WAF** = **W**eb **A**pplication **F**irewall (Protects web apps)
-- **Shield** = Protection from DDoS (like a shield)
-- **Security Groups** = Instance firewalls (guard each instance)
+#### 🌐 **Seguridad de Red**
+- **WAF** = **W**eb **A**pplication **F**irewall (Protege aplicaciones web)
+- **Shield** = Protección de DDoS (como un escudo)
+- **Security Groups** = Firewalls de instancia (protegen cada instancia)
 
-#### 🔍 **Monitoring & Detection**
-- **CloudTrail** = **Trail** of breadcrumbs (audit logs)
-- **Config** = **Configuration** monitoring
-- **GuardDuty** = **Guard** on **Duty** (threat detection)
-- **Inspector** = **Inspects** for vulnerabilities
-- **Macie** = **M**achine learning for d**a**ta **c**lass**i**fication (**e**ncryption)
-
----
-
-## ✅ Chapter Checklist
-
-Before proceeding, ensure you can:
-
-- [ ] Explain defense in depth strategy
-- [ ] Choose appropriate encryption services (KMS vs CloudHSM)
-- [ ] Understand network security layers (Security Groups, NACLs, WAF)
-- [ ] Identify monitoring and logging requirements
-- [ ] Select threat detection services for different scenarios
-- [ ] Understand compliance and governance tools
-- [ ] Design basic security architecture for different business sizes
+#### 🔍 **Monitoreo y Detección**
+- **CloudTrail** = **Rastro** de migas de pan (registros de auditoría)
+- **Config** = Monitoreo de **configuración**
+- **GuardDuty** = **Guardia** de **servicio** (detección de amenazas)
+- **Inspector** = **Inspecciona** vulnerabilidades
+- **Macie** = **M**achine learning para clasific**a**ción de datos (**c**ifrado)
 
 ---
 
-## 🎯 Practice Questions
+## ✅ Lista de Verificación del Capítulo
 
-### Question 1
-A company wants to encrypt data stored in S3 buckets using their own encryption keys that they fully control. Which AWS service should they use?
+Antes de continuar, asegúrate de poder:
 
-A) AWS KMS with AWS managed keys
-B) AWS KMS with customer managed keys
+- [ ] Explicar la estrategia de defensa en profundidad
+- [ ] Elegir servicios de cifrado apropiados (KMS vs CloudHSM)
+- [ ] Entender capas de seguridad de red (Security Groups, NACLs, WAF)
+- [ ] Identificar requisitos de monitoreo y registro
+- [ ] Seleccionar servicios de detección de amenazas para diferentes escenarios
+- [ ] Entender herramientas de cumplimiento y gobernanza
+- [ ] Diseñar arquitectura de seguridad básica para diferentes tamaños de negocio
+
+---
+
+## 🎯 Preguntas de Práctica
+
+### Pregunta 1
+Una empresa quiere cifrar datos almacenados en buckets S3 usando sus propias claves de cifrado que controlan completamente. ¿Qué servicio de AWS deberían usar?
+
+A) AWS KMS con claves administradas por AWS
+B) AWS KMS con claves administradas por el cliente
 C) AWS CloudHSM
 D) AWS Certificate Manager
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: C) AWS CloudHSM**
+**Respuesta: C) AWS CloudHSM**
 
-**Explanation:** CloudHSM provides dedicated hardware where customers have full control over their encryption keys. While KMS customer managed keys provide significant control, CloudHSM offers the highest level of customer control over encryption keys with dedicated, single-tenant hardware.
+**Explicación:** CloudHSM proporciona hardware dedicado donde los clientes tienen control completo sobre sus claves de cifrado. Aunque las claves administradas por el cliente de KMS proporcionan control significativo, CloudHSM ofrece el nivel más alto de control del cliente sobre claves de cifrado con hardware dedicado de inquilino único.
 </details>
 
-### Question 2
-Which AWS service automatically monitors AWS accounts for malicious activity and unauthorized behavior using machine learning?
+### Pregunta 2
+¿Qué servicio de AWS monitorea automáticamente las cuentas de AWS por actividad maliciosa y comportamiento no autorizado usando aprendizaje automático?
 
 A) AWS Config
 B) AWS CloudTrail
@@ -660,15 +660,15 @@ C) Amazon GuardDuty
 D) Amazon Inspector
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: C) Amazon GuardDuty**
+**Respuesta: C) Amazon GuardDuty**
 
-**Explanation:** GuardDuty uses machine learning, anomaly detection, and integrated threat intelligence to identify threats like malicious IPs, malware, and compromised instances. It continuously monitors VPC Flow Logs, DNS logs, and CloudTrail events.
+**Explicación:** GuardDuty usa aprendizaje automático, detección de anomalías e inteligencia de amenazas integrada para identificar amenazas como IPs maliciosas, malware e instancias comprometidas. Monitorea continuamente registros de flujo VPC, registros DNS y eventos CloudTrail.
 </details>
 
-### Question 3
-A web application needs protection against SQL injection and cross-site scripting attacks. Which AWS service provides this protection?
+### Pregunta 3
+Una aplicación web necesita protección contra ataques de inyección SQL y cross-site scripting. ¿Qué servicio de AWS proporciona esta protección?
 
 A) AWS Shield
 B) AWS WAF
@@ -676,27 +676,27 @@ C) Security Groups
 D) Network ACLs
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: B) AWS WAF**
+**Respuesta: B) AWS WAF**
 
-**Explanation:** AWS WAF (Web Application Firewall) protects web applications from common web exploits like SQL injection and cross-site scripting (XSS). Shield protects against DDoS attacks, while Security Groups and NACLs provide network-level protection.
+**Explicación:** AWS WAF (Web Application Firewall) protege aplicaciones web de exploits web comunes como inyección SQL y cross-site scripting (XSS). Shield protege contra ataques DDoS, mientras que Security Groups y NACLs proporcionan protección a nivel de red.
 </details>
 
 ---
 
-## 🗺️ What's Next?
+## 🗺️ ¿Qué Sigue?
 
-Now that you understand the comprehensive security services AWS provides, let's explore how to meet compliance requirements and implement governance frameworks.
+Ahora que entiendes los servicios de seguridad integrales que AWS proporciona, exploremos cómo cumplir requisitos de cumplimiento e implementar marcos de gobernanza.
 
-**🎯 Next Chapter:** [Compliance & Governance](./compliance.md)
+**🎯 Próximo Capítulo:** [Cumplimiento y Gobernanza](./compliance.md)
 
-Learn how to navigate the complex world of regulatory compliance in the cloud!
-
----
-
-**🎉 Fantastic progress!** You now understand the powerful security tools available in AWS and how to implement defense in depth strategies.
+¡Aprende cómo navegar el mundo complejo del cumplimiento regulatorio en la nube!
 
 ---
 
-**← [Back to Domain 2 Overview](./README.md)**
+**🎉 ¡Progreso fantástico!** Ahora entiendes las poderosas herramientas de seguridad disponibles en AWS y cómo implementar estrategias de defensa en profundidad.
+
+---
+
+**← [Volver a la Visión General del Dominio 2](./README.md)**
