@@ -1,22 +1,22 @@
-# 📊 Analytics Services
+# 📊 Servicios de Analítica
 
-> **Turn Data into Insights | Study Time: ~2 hours**
+> **Convierte Datos en Insights | Tiempo de Estudio: ~2 horas**
 
-Think of analytics services as **different types of data detectives**:
-- **Amazon Athena** is like a **detective with X-ray vision** - sees patterns in data without moving it
-- **Amazon Kinesis** is like a **live news reporter** - captures and analyzes events as they happen
-- **Amazon QuickSight** is like a **master storyteller** - turns complex data into clear visual stories
-- **AWS Glue** is like a **data organizer** - prepares and catalogs data for analysis
-- **Amazon EMR** is like a **powerful research team** - handles massive data processing tasks
+Piensa en los servicios de analítica como **diferentes tipos de detectives de datos**:
+- **Amazon Athena** es como un **detective con visión de rayos X** - ve patrones en los datos sin moverlos
+- **Amazon Kinesis** es como un **reportero de noticias en vivo** - captura y analiza eventos mientras suceden
+- **Amazon QuickSight** es como un **maestro narrador** - convierte datos complejos en historias visuales claras
+- **AWS Glue** es como un **organizador de datos** - prepara y cataloga datos para análisis
+- **Amazon EMR** es como un **equipo de investigación poderoso** - maneja tareas masivas de procesamiento de datos
 
-Let's explore how AWS helps you unlock the value hidden in your data! 🔍
+¡Exploremos cómo AWS te ayuda a desbloquear el valor oculto en tus datos! 🔍
 
 ---
 
-## 📋 Table of Contents
+## 📋 Tabla de Contenidos
 
-- [🎯 Learning Objectives](#-learning-objectives)
-- [💡 Analytics Fundamentals](#-analytics-fundamentals)
+- [🎯 Objetivos de Aprendizaje](#-objetivos-de-aprendizaje)
+- [💡 Fundamentos de Analítica](#-fundamentos-de-analítica)
 - [🔍 Amazon Athena](#-amazon-athena)
 - [📡 Amazon Kinesis](#-amazon-kinesis)
 - [📊 Amazon QuickSight](#-amazon-quicksight)
@@ -24,90 +24,90 @@ Let's explore how AWS helps you unlock the value hidden in your data! 🔍
 - [⚡ Amazon EMR](#-amazon-emr)
 - [🗄️ Amazon Redshift](#-amazon-redshift)
 - [🔎 Amazon OpenSearch](#-amazon-opensearch)
-- [🎮 Real-World Scenarios](#-real-world-scenarios)
-- [📝 Practice Questions](#-practice-questions)
+- [🎮 Escenarios del Mundo Real](#-escenarios-del-mundo-real)
+- [📝 Preguntas de Práctica](#-preguntas-de-práctica)
 
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Objetivos de Aprendizaje
 
-By the end of this chapter, you will be able to:
+Al final de este capítulo, podrás:
 
-✅ **Understand different analytics service types** and their use cases  
-✅ **Identify the right analytics service** for specific scenarios  
-✅ **Recognize real-time vs batch processing** patterns  
-✅ **Understand data visualization capabilities** with QuickSight  
-✅ **Know when to use serverless vs managed** analytics solutions  
+✅ **Entender diferentes tipos de servicios de analítica** y sus casos de uso  
+✅ **Identificar el servicio de analítica correcto** para escenarios específicos  
+✅ **Reconocer patrones de procesamiento en tiempo real vs por lotes**  
+✅ **Entender capacidades de visualización de datos** con QuickSight  
+✅ **Saber cuándo usar soluciones de analítica serverless vs gestionadas**  
 
 ---
 
-## 💡 Analytics Fundamentals
+## 💡 Fundamentos de Analítica
 
-### 🎯 **Analytics Service Categories**
+### 🎯 **Categorías de Servicios de Analítica**
 
-#### **🔍 Query Services**
-- **Amazon Athena** - Serverless SQL queries on S3 data
-- **Amazon Redshift** - Data warehouse for business intelligence
+#### **🔍 Servicios de Consulta**
+- **Amazon Athena** - Consultas SQL serverless en datos de S3
+- **Amazon Redshift** - Data warehouse para inteligencia de negocios
 
-#### **📡 Streaming Analytics**
-- **Amazon Kinesis** - Real-time data streaming and processing
-- **Amazon OpenSearch** - Search and real-time analytics
+#### **📡 Analítica de Streaming**
+- **Amazon Kinesis** - Streaming y procesamiento de datos en tiempo real
+- **Amazon OpenSearch** - Búsqueda y analítica en tiempo real
 
-#### **🔧 Data Processing**
-- **AWS Glue** - ETL (Extract, Transform, Load) service
-- **Amazon EMR** - Big data processing with Hadoop/Spark
+#### **🔧 Procesamiento de Datos**
+- **AWS Glue** - Servicio ETL (Extraer, Transformar, Cargar)
+- **Amazon EMR** - Procesamiento de big data con Hadoop/Spark
 
-#### **📊 Visualization**
-- **Amazon QuickSight** - Business intelligence and dashboards
+#### **📊 Visualización**
+- **Amazon QuickSight** - Inteligencia de negocios y dashboards
 
-### 🎯 **When to Choose What**
+### 🎯 **Cuándo Elegir Qué**
 
-#### **✅ Choose Real-time Analytics When:**
-- **Immediate insights** are critical for business decisions
-- **Fraud detection** or **anomaly detection** is needed
-- **Live dashboards** and **monitoring** are required
-- **Customer experience** depends on instant responses
+#### **✅ Elige Analítica en Tiempo Real Cuando:**
+- **Insights inmediatos** son críticos para decisiones de negocio
+- **Detección de fraude** o **detección de anomalías** es necesaria
+- **Dashboards en vivo** y **monitoreo** son requeridos
+- **Experiencia del cliente** depende de respuestas instantáneas
 
-#### **✅ Choose Batch Analytics When:**
-- **Historical analysis** and **trend identification** is the goal
-- **Complex processing** requiring significant compute time
-- **Cost optimization** is more important than speed
-- **Regulatory reporting** with specific time requirements
+#### **✅ Elige Analítica por Lotes Cuando:**
+- **Análisis histórico** e **identificación de tendencias** es el objetivo
+- **Procesamiento complejo** requiere tiempo significativo de cómputo
+- **Optimización de costos** es más importante que la velocidad
+- **Reportes regulatorios** con requisitos de tiempo específicos
 
 ---
 
 ## 🔍 Amazon Athena
 
-### ⚡ **What is Amazon Athena?**
+### ⚡ **¿Qué es Amazon Athena?**
 
-Think of Athena as **having X-ray vision for your data**:
-- **Query data directly in S3** - No need to move or load data
-- **Standard SQL** - Use familiar SQL commands
-- **Pay per query** - Only pay for queries you run
-- **Serverless** - No infrastructure to manage
+Piensa en Athena como **tener visión de rayos X para tus datos**:
+- **Consultar datos directamente en S3** - No necesitas mover o cargar datos
+- **SQL estándar** - Usa comandos SQL familiares
+- **Pago por consulta** - Solo pagas por las consultas que ejecutas
+- **Serverless** - No hay infraestructura que gestionar
 
-### 🎯 **Athena Key Features**
+### 🎯 **Características Clave de Athena**
 
-#### **💰 Serverless and Cost-Effective**
-- **No servers to provision** - Fully managed service
-- **Pay per TB scanned** - Only pay for data processed
-- **Automatic scaling** - Handles concurrent queries
-- **No upfront costs** - No minimum fees
+#### **💰 Serverless y Costo-Efectivo**
+- **No hay servidores que aprovisionar** - Servicio completamente gestionado
+- **Pago por TB escaneado** - Solo pagas por datos procesados
+- **Escalado automático** - Maneja consultas concurrentes
+- **Sin costos iniciales** - Sin tarifas mínimas
 
-#### **🔧 Easy to Use**
-- **Standard SQL** - ANSI SQL compatible
-- **JDBC/ODBC drivers** - Connect with BI tools
-- **AWS Console interface** - Web-based query editor
-- **API integration** - Programmatic access
+#### **🔧 Fácil de Usar**
+- **SQL estándar** - Compatible con ANSI SQL
+- **Drivers JDBC/ODBC** - Conecta con herramientas de BI
+- **Interfaz de AWS Console** - Editor de consultas basado en web
+- **Integración API** - Acceso programático
 
-### 🎯 **Athena Use Cases**
+### 🎯 **Casos de Uso de Athena**
 
-#### **📊 Ad-hoc Data Analysis**
-**Quick insights without complex setup**
+#### **📊 Análisis de Datos Ad-hoc**
+**Insights rápidos sin configuración compleja**
 
-**Example:**
+**Ejemplo:**
 ```sql
--- Analyze website traffic patterns
+-- Analizar patrones de tráfico del sitio web
 SELECT 
     date_format(request_time, '%Y-%m-%d') as day,
     COUNT(*) as page_views,
@@ -118,425 +118,425 @@ GROUP BY date_format(request_time, '%Y-%m-%d')
 ORDER BY day;
 ```
 
-#### **📈 Business Intelligence**
-- **Sales reporting** - Analyze transaction data
-- **Customer analytics** - Understand user behavior
-- **Cost analysis** - Track spending patterns
-- **Performance metrics** - Monitor KPIs
+#### **📈 Inteligencia de Negocios**
+- **Reportes de ventas** - Analizar datos de transacciones
+- **Analítica de clientes** - Entender comportamiento de usuarios
+- **Análisis de costos** - Rastrear patrones de gasto
+- **Métricas de rendimiento** - Monitorear KPIs
 
-#### **🔍 Log Analysis**
-- **Application logs** - Debug and monitor applications
-- **Security logs** - Analyze access patterns
-- **AWS service logs** - CloudTrail, VPC Flow Logs
-- **Web server logs** - Website performance analysis
+#### **🔍 Análisis de Logs**
+- **Logs de aplicaciones** - Depurar y monitorear aplicaciones
+- **Logs de seguridad** - Analizar patrones de acceso
+- **Logs de servicios AWS** - CloudTrail, VPC Flow Logs
+- **Logs de servidor web** - Análisis de rendimiento del sitio web
 
 ---
 
 ## 📡 Amazon Kinesis
 
-### 🚀 **What is Amazon Kinesis?**
+### 🚀 **¿Qué es Amazon Kinesis?**
 
-Think of Kinesis as **a live news network for your data**:
-- **Real-time data streaming** - Capture data as it happens
-- **Multiple data sources** - IoT, applications, logs
-- **Scale automatically** - Handle any volume of data
-- **Process immediately** - Analyze data in real-time
+Piensa en Kinesis como **una red de noticias en vivo para tus datos**:
+- **Streaming de datos en tiempo real** - Captura datos mientras suceden
+- **Múltiples fuentes de datos** - IoT, aplicaciones, logs
+- **Escalado automático** - Maneja cualquier volumen de datos
+- **Procesamiento inmediato** - Analiza datos en tiempo real
 
-### 🎯 **Kinesis Services**
+### 🎯 **Servicios de Kinesis**
 
 #### **📡 Kinesis Data Streams**
-**Real-time data streaming platform**
+**Plataforma de streaming de datos en tiempo real**
 
-**Key Features:**
-- **Real-time ingestion** - Capture data with sub-second latency
-- **Multiple consumers** - Many applications can read same stream
-- **Retention** - Store data for 1-365 days
-- **Replay capability** - Process historical data
+**Características Clave:**
+- **Ingesta en tiempo real** - Captura datos con latencia de sub-segundo
+- **Múltiples consumidores** - Muchas aplicaciones pueden leer el mismo stream
+- **Retención** - Almacena datos por 1-365 días
+- **Capacidad de replay** - Procesa datos históricos
 
-**Use Cases:**
-- IoT sensor data collection
-- Application log streaming
-- Social media feed processing
-- Financial transaction monitoring
+**Casos de Uso:**
+- Recolección de datos de sensores IoT
+- Streaming de logs de aplicaciones
+- Procesamiento de feeds de redes sociales
+- Monitoreo de transacciones financieras
 
 #### **🔥 Kinesis Data Firehose**
-**Load streaming data into data stores**
+**Carga datos de streaming en almacenes de datos**
 
-**Key Features:**
-- **Fully managed** - No administration required
-- **Near real-time** - Delivery within 60 seconds
-- **Built-in transformations** - Format and compress data
-- **Multiple destinations** - S3, Redshift, OpenSearch, Splunk
+**Características Clave:**
+- **Completamente gestionado** - No requiere administración
+- **Casi tiempo real** - Entrega dentro de 60 segundos
+- **Transformaciones integradas** - Formatea y comprime datos
+- **Múltiples destinos** - S3, Redshift, OpenSearch, Splunk
 
-**Use Cases:**
-- Data lake ingestion
-- Data warehouse loading
-- Log aggregation
-- Analytics preparation
+**Casos de Uso:**
+- Ingesta de data lake
+- Carga de data warehouse
+- Agregación de logs
+- Preparación de analítica
 
 #### **⚡ Kinesis Analytics**
-**Real-time analytics on streaming data**
+**Analítica en tiempo real sobre datos de streaming**
 
-**Key Features:**
-- **SQL on streaming data** - Use familiar SQL syntax
-- **Machine learning** - Built-in ML algorithms
-- **Windowing functions** - Time-based aggregations
-- **Real-time insights** - Process data as it arrives
+**Características Clave:**
+- **SQL sobre datos de streaming** - Usa sintaxis SQL familiar
+- **Machine learning** - Algoritmos ML integrados
+- **Funciones de ventana** - Agregaciones basadas en tiempo
+- **Insights en tiempo real** - Procesa datos mientras llegan
 
-**Use Cases:**
-- Real-time dashboards
-- Fraud detection
-- Live leaderboards
-- Monitoring and alerting
+**Casos de Uso:**
+- Dashboards en tiempo real
+- Detección de fraude
+- Tablas de clasificación en vivo
+- Monitoreo y alertas
 
-### 🎯 **Kinesis Architecture Example**
+### 🎯 **Ejemplo de Arquitectura Kinesis**
 
-#### **IoT Analytics Pipeline**
+#### **Pipeline de Analítica IoT**
 ```
-IoT Sensors → Kinesis Data Streams → Kinesis Analytics → Dashboard
-             ↓
-         Kinesis Firehose → S3 → Athena → QuickSight
+Sensores IoT → Kinesis Data Streams → Kinesis Analytics → Dashboard
+              ↓
+          Kinesis Firehose → S3 → Athena → QuickSight
 ```
 
-**Benefits:**
-- **Real-time monitoring** of IoT devices
-- **Historical analysis** of sensor data
-- **Automated alerting** for anomalies
-- **Cost-effective storage** in S3
+**Beneficios:**
+- **Monitoreo en tiempo real** de dispositivos IoT
+- **Análisis histórico** de datos de sensores
+- **Alertas automatizadas** para anomalías
+- **Almacenamiento costo-efectivo** en S3
 
 ---
 
 ## 📊 Amazon QuickSight
 
-### 📈 **What is Amazon QuickSight?**
+### 📈 **¿Qué es Amazon QuickSight?**
 
-Think of QuickSight as **a master storyteller for your data**:
-- **Interactive dashboards** - Create engaging visualizations
-- **Machine learning insights** - Automated anomaly detection
-- **Serverless** - No infrastructure to manage
-- **Fast performance** - In-memory calculation engine (SPICE)
+Piensa en QuickSight como **un maestro narrador para tus datos**:
+- **Dashboards interactivos** - Crea visualizaciones atractivas
+- **Insights de machine learning** - Detección automática de anomalías
+- **Serverless** - No hay infraestructura que gestionar
+- **Rendimiento rápido** - Motor de cálculo en memoria (SPICE)
 
-### 🎯 **QuickSight Key Features**
+### 🎯 **Características Clave de QuickSight**
 
-#### **📊 Visualization Capabilities**
-- **Charts and graphs** - Bar, line, pie, scatter plots
-- **Maps** - Geospatial visualizations
-- **Pivot tables** - Interactive data exploration
-- **Custom calculations** - Derived metrics and KPIs
+#### **📊 Capacidades de Visualización**
+- **Gráficos y diagramas** - Barras, líneas, pastel, gráficos de dispersión
+- **Mapas** - Visualizaciones geoespaciales
+- **Tablas dinámicas** - Exploración interactiva de datos
+- **Cálculos personalizados** - Métricas derivadas y KPIs
 
-#### **🤖 Machine Learning Features**
-- **Anomaly detection** - Automatically find outliers
-- **Forecasting** - Predict future trends
-- **Natural language queries** - Ask questions in plain English
-- **Smart insights** - ML-powered recommendations
+#### **🤖 Características de Machine Learning**
+- **Detección de anomalías** - Encuentra automáticamente valores atípicos
+- **Pronósticos** - Predice tendencias futuras
+- **Consultas en lenguaje natural** - Haz preguntas en inglés simple
+- **Insights inteligentes** - Recomendaciones impulsadas por ML
 
-#### **🔐 Enterprise Features**
-- **Row-level security** - Control data access by user
-- **Active Directory integration** - Enterprise authentication
-- **Embedded analytics** - Integrate into applications
-- **Pay-per-session pricing** - Cost-effective for large user bases
+#### **🔐 Características Empresariales**
+- **Seguridad a nivel de fila** - Controla acceso a datos por usuario
+- **Integración con Active Directory** - Autenticación empresarial
+- **Analítica embebida** - Integra en aplicaciones
+- **Precios por sesión** - Costo-efectivo para bases de usuarios grandes
 
-### 🎯 **QuickSight Use Cases**
+### 🎯 **Casos de Uso de QuickSight**
 
-#### **📈 Executive Dashboards**
-**High-level business metrics for leadership**
+#### **📈 Dashboards Ejecutivos**
+**Métricas de negocio de alto nivel para liderazgo**
 
-**Common Visualizations:**
-- Revenue trends and forecasts
-- Customer acquisition metrics
-- Operational KPIs
-- Geographic performance maps
+**Visualizaciones Comunes:**
+- Tendencias de ingresos y pronósticos
+- Métricas de adquisición de clientes
+- KPIs operacionales
+- Mapas de rendimiento geográfico
 
-#### **📊 Self-Service Analytics**
-**Enable business users to explore data independently**
+#### **📊 Analítica de Autoservicio**
+**Permite a usuarios de negocio explorar datos independientemente**
 
-**Benefits:**
-- **Reduced IT burden** - Users create their own reports
-- **Faster insights** - No waiting for IT reports
-- **Interactive exploration** - Drill down into details
-- **Mobile access** - View dashboards anywhere
+**Beneficios:**
+- **Carga reducida de TI** - Los usuarios crean sus propios reportes
+- **Insights más rápidos** - No esperar por reportes de TI
+- **Exploración interactiva** - Profundizar en detalles
+- **Acceso móvil** - Ver dashboards en cualquier lugar
 
 ---
 
 ## 🔧 AWS Glue
 
-### 🛠️ **What is AWS Glue?**
+### 🛠️ **¿Qué es AWS Glue?**
 
-Think of Glue as **a data preparation assistant**:
-- **Extract, Transform, Load (ETL)** - Prepare data for analysis
-- **Data catalog** - Automatically discover and catalog data
-- **Serverless** - No infrastructure management
-- **Schema discovery** - Automatically understand data structure
+Piensa en Glue como **un asistente de preparación de datos**:
+- **Extraer, Transformar, Cargar (ETL)** - Prepara datos para análisis
+- **Catálogo de datos** - Descubre y cataloga datos automáticamente
+- **Serverless** - Sin gestión de infraestructura
+- **Descubrimiento de esquemas** - Entiende automáticamente la estructura de datos
 
-### 🎯 **Glue Components**
+### 🎯 **Componentes de Glue**
 
-#### **📚 Glue Data Catalog**
-**Centralized metadata repository**
+#### **📚 Catálogo de Datos de Glue**
+**Repositorio centralizado de metadatos**
 
-**Features:**
-- **Automatic discovery** - Crawlers find and catalog data
-- **Schema evolution** - Track data structure changes
-- **Integration** - Works with Athena, EMR, Redshift
-- **Permissions** - Fine-grained access control
+**Características:**
+- **Descubrimiento automático** - Los crawlers encuentran y catalogan datos
+- **Evolución de esquemas** - Rastrea cambios en estructura de datos
+- **Integración** - Funciona con Athena, EMR, Redshift
+- **Permisos** - Control de acceso granular
 
-#### **🔄 Glue ETL Jobs**
-**Serverless data transformation**
+#### **🔄 Trabajos ETL de Glue**
+**Transformación de datos serverless**
 
-**Capabilities:**
-- **Visual ETL** - Drag-and-drop interface
-- **Code generation** - Auto-generate Python/Scala code
-- **Built-in transformations** - Common data operations
-- **Custom code** - Write your own transformations
+**Capacidades:**
+- **ETL visual** - Interfaz de arrastrar y soltar
+- **Generación de código** - Auto-genera código Python/Scala
+- **Transformaciones integradas** - Operaciones comunes de datos
+- **Código personalizado** - Escribe tus propias transformaciones
 
-### 🎯 **Glue Use Cases**
+### 🎯 **Casos de Uso de Glue**
 
-#### **🏗️ Data Lake Preparation**
-**Prepare raw data for analytics**
+#### **🏗️ Preparación de Data Lake**
+**Prepara datos en bruto para analítica**
 
-**Process:**
-1. **Crawl data sources** - Discover data in S3, databases
-2. **Create data catalog** - Metadata for all datasets
-3. **Transform data** - Clean, format, and enrich
-4. **Store in data lake** - Organized, analysis-ready data
+**Proceso:**
+1. **Rastrear fuentes de datos** - Descubrir datos en S3, bases de datos
+2. **Crear catálogo de datos** - Metadatos para todos los datasets
+3. **Transformar datos** - Limpiar, formatear y enriquecer
+4. **Almacenar en data lake** - Datos organizados, listos para análisis
 
-#### **📊 Data Warehouse Loading**
-**ETL pipeline for Redshift**
+#### **📊 Carga de Data Warehouse**
+**Pipeline ETL para Redshift**
 
-**Workflow:**
+**Flujo de Trabajo:**
 ```
-Source Systems → Glue ETL → S3 → Redshift → QuickSight
-              ↓
-          Data Catalog (Metadata)
+Sistemas Fuente → Glue ETL → S3 → Redshift → QuickSight
+               ↓
+           Catálogo de Datos (Metadatos)
 ```
 
 ---
 
 ## ⚡ Amazon EMR
 
-### 🚀 **What is Amazon EMR?**
+### 🚀 **¿Qué es Amazon EMR?**
 
-Think of EMR as **a powerful research team for big data**:
-- **Elastic MapReduce** - Managed big data framework
-- **Multiple frameworks** - Hadoop, Spark, HBase, Presto
-- **Scalable clusters** - Handle petabytes of data
-- **Cost-effective** - Use Spot Instances for significant savings
+Piensa en EMR como **un equipo de investigación poderoso para big data**:
+- **Elastic MapReduce** - Framework de big data gestionado
+- **Múltiples frameworks** - Hadoop, Spark, HBase, Presto
+- **Clusters escalables** - Maneja petabytes de datos
+- **Costo-efectivo** - Usa Spot Instances para ahorros significativos
 
-### 🎯 **EMR Key Features**
+### 🎯 **Características Clave de EMR**
 
-#### **🔧 Supported Frameworks**
-- **Apache Hadoop** - Distributed storage and processing
-- **Apache Spark** - Fast, in-memory processing
-- **Apache HBase** - NoSQL database for big data
-- **Presto** - Interactive SQL queries
-- **Apache Hive** - Data warehouse software
-- **Apache Pig** - Platform for analyzing large datasets
+#### **🔧 Frameworks Soportados**
+- **Apache Hadoop** - Almacenamiento y procesamiento distribuido
+- **Apache Spark** - Procesamiento rápido en memoria
+- **Apache HBase** - Base de datos NoSQL para big data
+- **Presto** - Consultas SQL interactivas
+- **Apache Hive** - Software de data warehouse
+- **Apache Pig** - Plataforma para analizar grandes datasets
 
-#### **💰 Cost Optimization**
-- **Spot Instances** - Up to 90% cost savings
-- **Auto Scaling** - Adjust cluster size based on workload
-- **Reserved Instances** - Predictable workload discounts
-- **Instance fleets** - Mix of instance types for optimization
+#### **💰 Optimización de Costos**
+- **Spot Instances** - Hasta 90% de ahorro en costos
+- **Auto Scaling** - Ajusta tamaño de cluster basado en carga de trabajo
+- **Reserved Instances** - Descuentos para cargas de trabajo predecibles
+- **Flotas de instancias** - Mezcla de tipos de instancia para optimización
 
-### 🎯 **EMR Use Cases**
+### 🎯 **Casos de Uso de EMR**
 
-#### **📊 Big Data Processing**
-**Process large datasets that don't fit on single machines**
+#### **📊 Procesamiento de Big Data**
+**Procesa grandes datasets que no caben en máquinas individuales**
 
-**Examples:**
-- **Log analysis** - Process terabytes of web logs
-- **Financial modeling** - Risk analysis on large datasets
-- **Scientific research** - Genomics, climate modeling
-- **Machine learning** - Train models on large datasets
+**Ejemplos:**
+- **Análisis de logs** - Procesa terabytes de logs web
+- **Modelado financiero** - Análisis de riesgo en grandes datasets
+- **Investigación científica** - Genómica, modelado climático
+- **Machine learning** - Entrena modelos en grandes datasets
 
-#### **🔄 ETL at Scale**
-**Transform massive amounts of data**
+#### **🔄 ETL a Escala**
+**Transforma cantidades masivas de datos**
 
-**Workflow:**
+**Flujo de Trabajo:**
 ```
-Raw Data (S3) → EMR Cluster → Processed Data (S3/Redshift)
-                    ↓
-               Analytics Tools (Athena, QuickSight)
+Datos en Bruto (S3) → Cluster EMR → Datos Procesados (S3/Redshift)
+                         ↓
+                  Herramientas de Analítica (Athena, QuickSight)
 ```
 
 ---
 
 ## 🗄️ Amazon Redshift
 
-### 🏢 **What is Amazon Redshift?**
+### 🏢 **¿Qué es Amazon Redshift?**
 
-Think of Redshift as **a high-performance data warehouse**:
-- **Columnar storage** - Optimized for analytics queries
-- **Massively parallel processing** - Distribute queries across nodes
-- **Petabyte scale** - Handle very large datasets
-- **Standard SQL** - Use familiar database tools
+Piensa en Redshift como **un data warehouse de alto rendimiento**:
+- **Almacenamiento columnar** - Optimizado para consultas analíticas
+- **Procesamiento masivamente paralelo** - Distribuye consultas entre nodos
+- **Escala de petabytes** - Maneja datasets muy grandes
+- **SQL estándar** - Usa herramientas de base de datos familiares
 
-### 🎯 **Redshift Key Features**
+### 🎯 **Características Clave de Redshift**
 
-#### **⚡ Performance**
-- **Columnar storage** - 10x faster than traditional databases
-- **Result caching** - Cache frequent query results
-- **Materialized views** - Pre-computed query results
-- **Automatic workload management** - Optimize resource allocation
+#### **⚡ Rendimiento**
+- **Almacenamiento columnar** - 10x más rápido que bases de datos tradicionales
+- **Cache de resultados** - Cachea resultados de consultas frecuentes
+- **Vistas materializadas** - Resultados de consultas pre-computados
+- **Gestión automática de carga de trabajo** - Optimiza asignación de recursos
 
-#### **📈 Scalability**
-- **Start small** - Single node clusters for development
-- **Scale out** - Add nodes as data grows
-- **Resize clusters** - Change cluster size without downtime
-- **Concurrency scaling** - Handle burst query loads
+#### **📈 Escalabilidad**
+- **Empezar pequeño** - Clusters de un solo nodo para desarrollo
+- **Escalar hacia afuera** - Agregar nodos mientras los datos crecen
+- **Redimensionar clusters** - Cambiar tamaño de cluster sin tiempo de inactividad
+- **Escalado de concurrencia** - Maneja cargas de consultas en ráfagas
 
-### 🎯 **Redshift Use Cases**
+### 🎯 **Casos de Uso de Redshift**
 
-#### **📊 Business Intelligence**
-**Power enterprise reporting and analytics**
+#### **📊 Inteligencia de Negocios**
+**Impulsa reportes empresariales y analítica**
 
-**Common Scenarios:**
-- **Financial reporting** - Revenue, profit, cost analysis
-- **Sales analytics** - Performance tracking, forecasting
-- **Customer analytics** - Behavior analysis, segmentation
-- **Operational reporting** - KPI dashboards, monitoring
+**Escenarios Comunes:**
+- **Reportes financieros** - Análisis de ingresos, ganancias, costos
+- **Analítica de ventas** - Seguimiento de rendimiento, pronósticos
+- **Analítica de clientes** - Análisis de comportamiento, segmentación
+- **Reportes operacionales** - Dashboards de KPI, monitoreo
 
 #### **📈 Data Warehousing**
-**Central repository for organizational data**
+**Repositorio central para datos organizacionales**
 
-**Architecture:**
+**Arquitectura:**
 ```
-Source Systems → ETL Process → Redshift → BI Tools
-    ↓              ↓              ↓         ↓
-Transactional   Transform    Data Warehouse  Reports
-  Systems        & Load        (OLAP)      Dashboards
+Sistemas Fuente → Proceso ETL → Redshift → Herramientas BI
+      ↓               ↓              ↓            ↓
+ Sistemas        Transformar   Data Warehouse   Reportes
+Transaccionales   y Cargar       (OLAP)       Dashboards
 ```
 
 ---
 
 ## 🔎 Amazon OpenSearch
 
-### 🔍 **What is Amazon OpenSearch?**
+### 🔍 **¿Qué es Amazon OpenSearch?**
 
-Think of OpenSearch as **a search engine for your data**:
-- **Full-text search** - Find information in large text datasets
-- **Real-time analytics** - Analyze streaming data
-- **Log analytics** - Monitor application and system logs
-- **Visualization** - Built-in Kibana dashboards
+Piensa en OpenSearch como **un motor de búsqueda para tus datos**:
+- **Búsqueda de texto completo** - Encuentra información en grandes datasets de texto
+- **Analítica en tiempo real** - Analiza datos de streaming
+- **Analítica de logs** - Monitorea logs de aplicaciones y sistemas
+- **Visualización** - Dashboards Kibana integrados
 
-### 🎯 **OpenSearch Key Features**
+### 🎯 **Características Clave de OpenSearch**
 
-#### **🔍 Search Capabilities**
-- **Full-text search** - Search through documents and logs
-- **Complex queries** - Boolean, wildcard, fuzzy matching
-- **Aggregations** - Statistical analysis of search results
-- **Auto-complete** - Search suggestions and completion
+#### **🔍 Capacidades de Búsqueda**
+- **Búsqueda de texto completo** - Busca a través de documentos y logs
+- **Consultas complejas** - Coincidencias booleanas, comodín, difusas
+- **Agregaciones** - Análisis estadístico de resultados de búsqueda
+- **Auto-completado** - Sugerencias y completado de búsqueda
 
-#### **📊 Analytics Features**
-- **Real-time analytics** - Process streaming data
-- **Time-series analysis** - Analyze data over time
-- **Geospatial queries** - Location-based analytics
-- **Machine learning** - Anomaly detection and forecasting
+#### **📊 Características de Analítica**
+- **Analítica en tiempo real** - Procesa datos de streaming
+- **Análisis de series temporales** - Analiza datos a lo largo del tiempo
+- **Consultas geoespaciales** - Analítica basada en ubicación
+- **Machine learning** - Detección de anomalías y pronósticos
 
-### 🎯 **OpenSearch Use Cases**
+### 🎯 **Casos de Uso de OpenSearch**
 
-#### **📋 Log Analytics**
-**Monitor and analyze application logs**
+#### **📋 Analítica de Logs**
+**Monitorea y analiza logs de aplicaciones**
 
-**Example Architecture:**
+**Arquitectura de Ejemplo:**
 ```
-Applications → Kinesis Firehose → OpenSearch → Kibana Dashboards
-               ↓
-           Real-time Indexing → Search & Analytics
+Aplicaciones → Kinesis Firehose → OpenSearch → Dashboards Kibana
+                ↓
+            Indexación en Tiempo Real → Búsqueda y Analítica
 ```
 
-#### **🔍 Application Search**
-**Add search functionality to applications**
+#### **🔍 Búsqueda de Aplicaciones**
+**Agrega funcionalidad de búsqueda a aplicaciones**
 
-**Use Cases:**
-- **E-commerce** - Product search and recommendations
-- **Content platforms** - Article and document search
-- **Support systems** - Knowledge base search
-- **Enterprise search** - Internal document discovery
+**Casos de Uso:**
+- **E-commerce** - Búsqueda de productos y recomendaciones
+- **Plataformas de contenido** - Búsqueda de artículos y documentos
+- **Sistemas de soporte** - Búsqueda en base de conocimientos
+- **Búsqueda empresarial** - Descubrimiento de documentos internos
 
 ---
 
-## 🎮 Real-World Scenarios
+## 🎮 Escenarios del Mundo Real
 
-### 🏪 **Scenario 1: E-commerce Analytics Platform**
+### 🏪 **Escenario 1: Plataforma de Analítica E-commerce**
 
-**Requirements:**
-- **Real-time monitoring** of sales and user behavior
-- **Historical analysis** for trend identification
-- **Interactive dashboards** for different business teams
-- **Cost-effective** solution that scales with business
+**Requisitos:**
+- **Monitoreo en tiempo real** de ventas y comportamiento de usuarios
+- **Análisis histórico** para identificación de tendencias
+- **Dashboards interactivos** para diferentes equipos de negocio
+- **Solución costo-efectiva** que escale con el negocio
 
-**Analytics Architecture:**
+**Arquitectura de Analítica:**
 ```
-Customer Actions → Kinesis Data Streams → Kinesis Analytics → Real-time Alerts
-                              ↓
-                    Kinesis Firehose → S3 Data Lake
-                                          ↓
-                               Glue ETL → Redshift → QuickSight Dashboards
+Acciones de Cliente → Kinesis Data Streams → Kinesis Analytics → Alertas en Tiempo Real
+                                ↓
+                      Kinesis Firehose → S3 Data Lake
+                                            ↓
+                                 Glue ETL → Redshift → Dashboards QuickSight
+                                     ↓
+                               Athena (Consultas Ad-hoc)
+```
+
+**Beneficios:**
+- **Detección de fraude en tiempo real** con Kinesis Analytics
+- **Análisis de tendencias históricas** con Redshift y QuickSight
+- **Optimización de costos** con almacenamiento de data lake S3
+- **Analítica de autoservicio** para equipos de negocio
+
+### 📱 **Escenario 2: Procesamiento de Datos IoT**
+
+**Situación:**
+- Ciudad inteligente con miles de sensores
+- Necesidad de monitoreo en tiempo real y análisis histórico
+- Múltiples consumidores de datos con diferentes requisitos
+- Restricciones presupuestarias que requieren optimización de costos
+
+**Arquitectura de Solución:**
+```
+Sensores IoT → Kinesis Data Streams → Múltiples Consumidores:
+                       ↓                    ├── Kinesis Analytics (Tiempo Real)
+                       ↓                    ├── Lambda (Triggers/Alertas)
+                       ↓                    └── EMR (Procesamiento por Lotes)
+                       ↓
+               Kinesis Firehose → S3 → Athena (Análisis Ad-hoc)
                                    ↓
-                             Athena (Ad-hoc Queries)
+                             Glue → Catálogo de Datos → QuickSight
 ```
 
-**Benefits:**
-- **Real-time fraud detection** with Kinesis Analytics
-- **Historical trend analysis** with Redshift and QuickSight
-- **Cost optimization** with S3 data lake storage
-- **Self-service analytics** for business teams
+**Resultados:**
+- **Monitoreo en tiempo real** de infraestructura de la ciudad
+- **Mantenimiento predictivo** usando machine learning de EMR
+- **Ahorro de costos** del 60% usando servicios serverless
+- **Escalable** a millones de sensores
 
-### 📱 **Scenario 2: IoT Data Processing**
+### 🏥 **Escenario 3: Analítica de Salud**
 
-**Situation:**
-- Smart city with thousands of sensors
-- Need real-time monitoring and historical analysis
-- Multiple data consumers with different requirements
-- Budget constraints requiring cost optimization
+**Requisitos:**
+- **Cumplimiento HIPAA** para datos de pacientes
+- **Monitoreo en tiempo real** de signos vitales de pacientes
+- **Analítica de investigación** en datos anonimizados
+- **Integración** con sistemas hospitalarios existentes
 
-**Solution Architecture:**
+**Arquitectura Conforme:**
 ```
-IoT Sensors → Kinesis Data Streams → Multiple Consumers:
-                      ↓                    ├── Kinesis Analytics (Real-time)
-                      ↓                    ├── Lambda (Triggers/Alerts)
-                      ↓                    └── EMR (Batch Processing)
-                      ↓
-              Kinesis Firehose → S3 → Athena (Ad-hoc Analysis)
-                                  ↓
-                            Glue → Data Catalog → QuickSight
-```
-
-**Results:**
-- **Real-time monitoring** of city infrastructure
-- **Predictive maintenance** using EMR machine learning
-- **Cost savings** of 60% using serverless services
-- **Scalable** to millions of sensors
-
-### 🏥 **Scenario 3: Healthcare Analytics**
-
-**Requirements:**
-- **HIPAA compliance** for patient data
-- **Real-time monitoring** of patient vitals
-- **Research analytics** on anonymized data
-- **Integration** with existing hospital systems
-
-**Compliant Architecture:**
-```
-Medical Devices → Kinesis (Encrypted) → Lambda (HIPAA Processing)
-                                             ↓
-                                 S3 (Encrypted) → Glue ETL
+Dispositivos Médicos → Kinesis (Cifrado) → Lambda (Procesamiento HIPAA)
+                                               ↓
+                                   S3 (Cifrado) → Glue ETL
                                                       ↓
-                              Redshift (VPC) → QuickSight (Secured)
+                                Redshift (VPC) → QuickSight (Asegurado)
 ```
 
-**Compliance Features:**
-- **End-to-end encryption** for all data
-- **VPC deployment** for network isolation
-- **IAM policies** for fine-grained access control
-- **Audit logging** with CloudTrail
+**Características de Cumplimiento:**
+- **Cifrado de extremo a extremo** para todos los datos
+- **Despliegue VPC** para aislamiento de red
+- **Políticas IAM** para control de acceso granular
+- **Registro de auditoría** con CloudTrail
 
 ---
 
-## 📝 Practice Questions
+## 📝 Preguntas de Práctica
 
-### Question 1
-A company wants to analyze their web server logs stored in S3 using SQL queries without managing any infrastructure. Which service should they use?
+### Pregunta 1
+Una empresa quiere analizar sus logs de servidor web almacenados en S3 usando consultas SQL sin gestionar infraestructura. ¿Qué servicio deberían usar?
 
 **A)** Amazon EMR  
 **B)** Amazon Athena  
@@ -544,18 +544,18 @@ A company wants to analyze their web server logs stored in S3 using SQL queries 
 **D)** AWS Glue  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Amazon Athena**
+**Respuesta: B) Amazon Athena**
 
-**Explanation:** Athena is a serverless query service that allows you to analyze data in S3 using standard SQL without managing any infrastructure. It's perfect for ad-hoc analysis of log files.
+**Explicación:** Athena es un servicio de consultas serverless que te permite analizar datos en S3 usando SQL estándar sin gestionar infraestructura. Es perfecto para análisis ad-hoc de archivos de log.
 
 </details>
 
 ---
 
-### Question 2
-An IoT application needs to process millions of sensor readings in real-time and trigger immediate alerts for anomalies. Which combination of services is most appropriate?
+### Pregunta 2
+Una aplicación IoT necesita procesar millones de lecturas de sensores en tiempo real y activar alertas inmediatas para anomalías. ¿Qué combinación de servicios es más apropiada?
 
 **A)** S3 + Athena + QuickSight  
 **B)** Kinesis Data Streams + Kinesis Analytics + Lambda  
@@ -563,18 +563,18 @@ An IoT application needs to process millions of sensor readings in real-time and
 **D)** Glue + S3 + Athena  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Kinesis Data Streams + Kinesis Analytics + Lambda**
+**Respuesta: B) Kinesis Data Streams + Kinesis Analytics + Lambda**
 
-**Explanation:** This combination provides real-time data ingestion (Kinesis Data Streams), real-time analytics (Kinesis Analytics), and immediate response capabilities (Lambda) for IoT anomaly detection.
+**Explicación:** Esta combinación proporciona ingesta de datos en tiempo real (Kinesis Data Streams), analítica en tiempo real (Kinesis Analytics), y capacidades de respuesta inmediata (Lambda) para detección de anomalías IoT.
 
 </details>
 
 ---
 
-### Question 3
-A business analyst wants to create interactive dashboards with machine learning-powered insights without writing code. Which service is best suited for this requirement?
+### Pregunta 3
+Un analista de negocios quiere crear dashboards interactivos con insights impulsados por machine learning sin escribir código. ¿Qué servicio es más adecuado para este requisito?
 
 **A)** Amazon Athena  
 **B)** Amazon QuickSight  
@@ -582,82 +582,77 @@ A business analyst wants to create interactive dashboards with machine learning-
 **D)** AWS Glue  
 
 <details>
-<summary>🔍 Click for Answer</summary>
+<summary>🔍 Haz clic para ver la Respuesta</summary>
 
-**Answer: B) Amazon QuickSight**
+**Respuesta: B) Amazon QuickSight**
 
-**Explanation:** QuickSight is a business intelligence service that provides interactive dashboards with built-in machine learning features like anomaly detection and forecasting, without requiring code.
+**Explicación:** QuickSight es un servicio de inteligencia de negocios que proporciona dashboards interactivos con características de machine learning integradas como detección de anomalías y pronósticos, sin requerir código.
 
 </details>
 
 ---
 
-## 🧠 Memory Aids
+## 🧠 Ayudas de Memoria
 
-### 🎯 **Analytics Service Selection: "ARKEG"**
-- **A**thena - Ad-hoc SQL queries on S3 data
-- **R**edshift - Data warehouse for business intelligence  
-- **K**inesis - Real-time data streaming and processing
-- **E**MR - Big data processing with Hadoop/Spark
-- **G**lue - ETL and data catalog service
+### 🎯 **Selección de Servicios de Analítica: "ARKEG"**
+- **A**thena - Consultas SQL ad-hoc en datos de S3
+- **R**edshift - Data warehouse para inteligencia de negocios  
+- **K**inesis - Procesamiento de datos de streaming en tiempo real
+- **E**MR - Procesamiento de big data con Hadoop/Spark
+- **G**lue - Servicio ETL para preparación de datos
 
-### 📊 **Real-time vs Batch: "LIVE vs PAST"**
-**Real-time (LIVE):**
-- **L**ive monitoring and alerts
-- **I**mmediate response required
-- **V**ariable/unpredictable data volume
-- **E**vent-driven processing
+### 🔄 **Procesamiento en Tiempo Real vs por Lotes**
 
-**Batch (PAST):**
-- **P**eriodic processing schedules
-- **A**nalysis of historical data
-- **S**table/predictable workloads
-- **T**ime-intensive computations
+| **Requisito** | **Tiempo Real** | **Por Lotes** |
+|---|---|---|
+| **Latencia** | Milisegundos-segundos | Minutos-horas |
+| **Caso de Uso** | Detección de fraude, monitoreo | Reportes, analítica |
+| **Servicio AWS** | Kinesis Analytics | EMR, Glue |
+| **Costo** | Mayor por registro | Menor por registro |
 
-### 🔄 **Data Processing Pipeline: "SCATS"**
-- **S**ource - Where data originates
-- **C**ollect - Gather data (Kinesis)
-- **A**nalyze - Process data (Analytics/EMR)
-- **T**ransform - Prepare data (Glue)
-- **S**tore - Save results (S3/Redshift)
+### 📊 **Guías de Volumen de Datos**
+- **Datasets pequeños** (< 1TB) → Athena
+- **Datasets medianos** (1-100TB) → Redshift
+- **Datasets grandes** (> 100TB) → EMR + S3
+- **Datos de streaming** → Kinesis
 
 ---
 
-## 🎯 Key Takeaways
+## ✅ Puntos Clave
 
-### 🌟 **The Big Picture**
-- **Different analytics needs require different tools** - Real-time vs batch, SQL vs big data
-- **Serverless services reduce operational overhead** - Focus on insights, not infrastructure
-- **Data lakes provide flexibility** - Store all data types cost-effectively
-- **Visualization is key** - QuickSight democratizes data insights
+### 🎯 **Puntos Esenciales para el Examen AWS**
 
-### 🎯 **For the Exam**
-- **Know when to use Athena vs Redshift** - Ad-hoc queries vs data warehouse
-- **Understand Kinesis components** - Streams vs Firehose vs Analytics
-- **Remember QuickSight features** - ML insights, pay-per-session pricing
-- **Recognize real-time scenarios** - IoT, fraud detection, monitoring
+1. **Athena** = Consultas SQL serverless en datos de S3
+2. **Kinesis** = Procesamiento de datos de streaming en tiempo real
+3. **QuickSight** = Inteligencia de negocios y visualización
+4. **Glue** = Servicio ETL serverless
+5. **EMR** = Hadoop/Spark gestionado para big data
+6. **Redshift** = Data warehouse para analítica
+7. **OpenSearch** = Búsqueda y analítica de logs
 
-### 💡 **For Real-World Application**
-- **Start with data sources** - Understand where your data comes from
-- **Consider processing patterns** - Real-time needs vs batch acceptable
-- **Plan for scale** - Design analytics architecture for growth
-- **Enable self-service** - Tools like QuickSight empower business users
+### 📈 **Combinaciones de Servicios**
+- **Data Lake**: S3 + Glue + Athena + QuickSight
+- **Analítica en Tiempo Real**: Kinesis + Lambda + OpenSearch
+- **Data Warehouse**: Glue + Redshift + QuickSight
+- **Procesamiento de Big Data**: EMR + S3 + Athena
 
-### 🚀 **Best Practices**
-- **Use the right tool for the job** - Match service capabilities to requirements
-- **Optimize for cost** - Leverage serverless and pay-per-use models
-- **Design for security** - Encrypt data and control access
-- **Monitor and optimize** - Track usage and performance metrics
+### 💰 **Consejos de Optimización de Costos**
+- Usa **Athena** para consultas infrecuentes
+- Usa **Redshift Spectrum** para cargas de trabajo mixtas
+- Usa **Spot Instances** con EMR
+- Usa **S3 Intelligent Tiering** para data lakes
 
 ---
 
-## 🔗 Navigation
+## 📝 Lista de Verificación del Capítulo
 
-**← Previous:** [Additional Services](./additional-services.md)  
-**→ Next:** [Domain 4: Billing & Support](../04-billing-support/README.md)  
-**↑ Up:** [Domain 3: Cloud Technology & Services](./README.md)  
-**🏠 Home:** [AWS Cloud Practitioner Study Guide](../README.md)
+{{ ... }}
+## 🔗 Navegación
+
+**Anterior:** [💻 Servicios de Cómputo](./compute-services.md)  
+**Siguiente:** [📶 Servicios de Redes](./networking-services.md)  
+**Inicio:** [🏠 Guía AWS Cloud Practitioner](../README.md)
 
 ---
 
-> 💡 **Pro Tip:** Analytics questions often involve choosing between real-time and batch processing. Look for keywords like "immediate," "real-time," or "streaming" to identify real-time scenarios, versus "historical," "reports," or "periodic" for batch scenarios!
+> 💡 **Consejo Pro:** Las preguntas de analítica a menudo involucran elegir entre procesamiento en tiempo real y por lotes. Busca palabras clave como "inmediato," "tiempo real," o "streaming" para identificar escenarios en tiempo real, versus "histórico," "reportes," o "periódico" para escenarios por lotes!
