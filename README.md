@@ -308,7 +308,7 @@ Conoce a Cloudie, un agente de servicios en la nube que te guiará a través de 
 <div align="center">
   <img src="https://d1.awsstatic.com/training-and-certification/icons/training-badges/CloudQuestBadges_CloudPractitioner_150x150.948fb012456bdb88448a8bcc4012eda4c3a65405.png" alt="Cloud Quest Badge" width="200"/>
 </div>
----
+
 
 ### 📚 AWS Cloud Practitioner Essentials
 
