@@ -2,16 +2,16 @@
 
 ![](./00-docs/banner.png)
 
-<div align="center">
-  <img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/twitter_thumb_201604_image.png" alt="AWS Certified Cloud Practitioner Badge" width="200"/>
-</div>
-
 [![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner-orange?style=flat-square&logo=amazon-aws)](https://aws.amazon.com/certification/certified-cloud-practitioner/)
 [![Study Guide](https://img.shields.io/badge/Study-Guide-blue?style=flat-square&logo=book)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide)
 [![Spanish](https://img.shields.io/badge/Language-Spanish-green?style=flat-square&logo=google-translate)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-> ¡Tu recurso integral completo para dominar el examen de certificación AWS Cloud Practitioner!
+> 🎯 **Tu guía definitiva y completa para conquistar la certificación AWS Cloud Practitioner** - Desde conceptos básicos hasta el éxito en el examen, todo lo que necesitas está aquí. ¡Transforma tu carrera en la nube! ☁️✨
+
+<div align="center">
+  <img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/twitter_thumb_201604_image.png" alt="AWS Certified Cloud Practitioner Badge" width="200"/>
+</div>
 
 ## 📋 Tabla de Contenidos
 
@@ -327,7 +327,9 @@ AWS-Cloud-Practitioner-Guide/
 ### 👩‍💻 Rossana Suarez (Roxs)
 
 - **💼 LinkedIn**: [/in/roxsross](https://linkedin.com/in/roxsross)
-- **🐦 Twitter**: [@roxsross](https://twitter.com/roxsross)
+- **🐦 X**: [@roxsross](https://twitter.com/roxsross)
+- **🌐 Web**: [web](https://roxs.295devops.com)
+- **🌐 Blog**: [Blog](https://blog.295devops.com)
 
 ---
 
@@ -335,4 +337,5 @@ AWS-Cloud-Practitioner-Guide/
   <img src="./00-docs/arte.png" alt="AWS Cloud Art" width="600"/>
 </div>
 
+---
 *Última Actualización: Septiembre 2025 | Versión del Examen AWS CLF-C02*
