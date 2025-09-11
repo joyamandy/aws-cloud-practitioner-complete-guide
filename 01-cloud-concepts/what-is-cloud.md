@@ -276,14 +276,14 @@ Entender los fundamentos de la nube es como entender cómo funciona internet en 
 - 🏠 **IoT:** Conectar millones de dispositivos mundialmente
 - 🚗 **Vehículos autónomos:** Procesar cantidades masivas de datos de sensores
 
-**Question:** Why would cloud computing be beneficial for this company?
+**Pregunta:** ¿Por qué sería beneficiosa la computación en la nube para esta compañía?
 
-**💡 Answer:** 
-Cloud elasticity allows them to:
-- Scale up during launch and events
-- Scale down during normal times
-- Pay only for actual usage
-- Avoid buying servers for peak capacity that sit idle most of the time
+**💡 Respuesta:** 
+La elasticidad de la nube les permite:
+- Escalar hacia arriba durante lanzamientos y eventos
+- Escalar hacia abajo durante tiempos normales
+- Pagar solo por el uso real
+- Evitar comprar servidores para capacidad pico que permanecen inactivos la mayor parte del tiempo
 
 ---
 
@@ -415,26 +415,26 @@ C) Escalabilidad es para almacenamiento, elasticidad es para cómputo
 D) Escalabilidad es más barata que elasticidad
 
 <details>
-<summary>💡 Click for Answer</summary>
+<summary>💡 Haz clic para la Respuesta</summary>
 
-**Answer: B) Scalability is manual, elasticity is automatic**
+**Respuesta: B) Escalabilidad es manual, elasticidad es automática**
 
-**Explanation:** Scalability refers to the ability to scale (which can be manual), while elasticity specifically refers to **automatic** scaling based on demand.
+**Explicación:** Escalabilidad se refiere a la capacidad de escalar (que puede ser manual), mientras que elasticidad se refiere específicamente al escalado **automático** basado en la demanda.
 </details>
 
 ---
 
-## 🗺️ What's Next?
+## 🗺️ ¿Qué Sigue?
 
-Now that you understand **what** cloud computing is, let's explore **why** organizations are moving to the cloud.
+Ahora que entiendes **qué** es la computación en la nube, exploremos **por qué** las organizaciones se están moviendo a la nube.
 
-**🎯 Next Chapter:** [Cloud Benefits & Advantages](./cloud-benefits.md)
+**🎯 Próximo Capítulo:** [Beneficios y Ventajas de la Nube](./cloud-benefits.md)
 
-Learn about the famous "6 Advantages of Cloud Computing" and discover why businesses worldwide are embracing the cloud revolution!
+¡Aprende sobre las famosas "6 Ventajas de la Computación en la Nube" y descubre por qué las empresas mundialmente están adoptando la revolución de la nube!
 
 ---
 
-**🎉 Congratulations!** You've built a solid foundation in cloud computing fundamentals. These concepts will support everything else you learn in your AWS journey!
+**🎉 ¡Felicitaciones!** Has construido una base sólida en los fundamentos de la computación en la nube. ¡Estos conceptos apoyarán todo lo demás que aprendas en tu viaje con AWS!
 
 ---
 

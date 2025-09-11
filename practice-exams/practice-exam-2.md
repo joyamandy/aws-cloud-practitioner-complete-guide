@@ -19,15 +19,15 @@
 
 ---
 
-## 🌩️ Domain 1: Cloud Concepts (Questions 1-16)
+## 🌩️ Dominio 1: Conceptos de la Nube (Preguntas 1-16)
 
 ### Pregunta 1
 **Una empresa se está mudando de su centro de datos local a AWS. Quieren asegurar que sus aplicaciones puedan manejar automáticamente cargas variables sin intervención manual. ¿Qué característica de la computación en la nube describe mejor esta capacidad?**
 
-A) Autoservicio bajo demanda
-B) Acceso amplio a la red
-C) Elasticidad rápida
-D) Agrupación de recursos
+- A) Autoservicio bajo demanda
+- B) Acceso amplio a la red
+- C) Elasticidad rápida
+- D) Agrupación de recursos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -40,10 +40,10 @@ D) Agrupación de recursos
 ### Pregunta 2
 **Una empresa startup necesita implementar una aplicación web rápidamente pero tiene capital limitado para inversiones iniciales en infraestructura. ¿Qué ventaja de la computación en la nube es más relevante para su situación?**
 
-A) Mayor velocidad y agilidad
-B) Dejar de gastar dinero ejecutando y manteniendo centros de datos
-C) Intercambiar gastos de capital por gastos operativos
-D) Volverse global en minutos
+- A) Mayor velocidad y agilidad
+- B) Dejar de gastar dinero ejecutando y manteniendo centros de datos
+- C) Intercambiar gastos de capital por gastos operativos
+- D) Volverse global en minutos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -53,1033 +53,1028 @@ D) Volverse global en minutos
 **Explicación**: Para una startup con capital limitado, la capacidad de intercambiar gastos de capital (CAPEX) por gastos operativos (OPEX) es la ventaja más relevante, ya que elimina la necesidad de grandes inversiones iniciales en infraestructura.
 </details>
 
-**Answer: C**
+### Pregunta 3
+**Una organización de salud necesita mantener los datos de pacientes en sus instalaciones debido a requisitos regulatorios, pero quiere usar servicios en la nube para análisis de datos. ¿Qué modelo de implementación deberían considerar?**
 
-**Explanation**: Trading capital expense (large upfront costs) for operational expense (pay-as-you-go) is most relevant for a startup with limited capital, as it eliminates large upfront infrastructure investments.
-</details>
-
-### Question 3
-**A healthcare organization needs to keep patient data on-premises due to regulatory requirements, but wants to use cloud services for data analytics. Which deployment model should they consider?**
-
-A) Public cloud
-B) Private cloud
-C) Hybrid cloud
-D) Community cloud
+- A) Nube pública
+- B) Nube privada
+- C) Nube híbrida
+- D) Nube comunitaria
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: A hybrid cloud deployment allows the organization to keep sensitive patient data on-premises while leveraging cloud services for analytics, combining compliance requirements with cloud benefits.
+**Explicación**: Una implementación de nube híbrida permite a la organización mantener datos sensibles de pacientes en sus instalaciones mientras aprovecha los servicios en la nube para análisis, combinando requisitos de cumplimiento con beneficios de la nube.
 </details>
 
-### Question 4
-**Which scenario best illustrates the "Stop guessing about capacity" advantage of cloud computing?**
+### Pregunta 4
+**¿Cuál escenario ilustra mejor la ventaja de "Dejar de adivinar la capacidad" de la computación en la nube?**
 
-A) A company provisions exactly the right amount of resources based on actual usage patterns
-B) A company buys servers that can handle peak load, resulting in 70% idle capacity most of the time
-C) A company manually adds servers when traffic increases
-D) A company uses the same amount of resources regardless of demand
+- A) Una empresa aprovisiona exactamente la cantidad correcta de recursos basándose en patrones de uso reales
+- B) Una empresa compra servidores que pueden manejar la carga pico, resultando en 70% de capacidad inactiva la mayor parte del tiempo
+- C) Una empresa agrega servidores manualmente cuando el tráfico aumenta
+- D) Una empresa usa la misma cantidad de recursos independientemente de la demanda
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: A**
+**Respuesta: A**
 
-**Explanation**: Cloud computing eliminates the need to guess capacity requirements. Instead of over-provisioning (option B), you can provision based on actual usage and scale automatically.
+**Explicación**: La computación en la nube elimina la necesidad de adivinar los requisitos de capacidad. En lugar de sobre-aprovisionar (opción B), puedes aprovisionar basándote en el uso real y escalar automáticamente.
 </details>
 
-### Question 5
-**An application requires the lowest possible latency for users across multiple continents. Which AWS infrastructure component would be most effective?**
+### Pregunta 5
+**Una aplicación requiere la menor latencia posible para usuarios en múltiples continentes. ¿Qué componente de infraestructura de AWS sería más efectivo?**
 
-A) Multiple AWS Regions
-B) Multiple Availability Zones
-C) Edge Locations
-D) Local Zones
+- A) Múltiples Regiones de AWS
+- B) Múltiples Zonas de Disponibilidad
+- C) Edge Locations
+- D) Local Zones
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: Edge Locations are closest to end users and provide the lowest latency for content delivery through services like CloudFront. They are specifically designed to minimize latency globally.
+**Explicación**: Las Edge Locations están más cerca de los usuarios finales y proporcionan la menor latencia para entrega de contenido a través de servicios como CloudFront. Están específicamente diseñadas para minimizar la latencia globalmente.
 </details>
 
-### Question 6
-**A company wants to use cloud services but maintain complete control over the underlying infrastructure, including the hypervisor. Which service model should they choose?**
+### Pregunta 6
+**Una empresa quiere usar servicios en la nube pero mantener control completo sobre la infraestructura subyacente, incluyendo el hipervisor. ¿Qué modelo de servicio deberían elegir?**
 
-A) Software as a Service (SaaS)
-B) Platform as a Service (PaaS)
-C) Infrastructure as a Service (IaaS)
-D) Function as a Service (FaaS)
+- A) Software como Servicio (SaaS)
+- B) Plataforma como Servicio (PaaS)
+- C) Infraestructura como Servicio (IaaS)
+- D) Función como Servicio (FaaS)
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: IaaS provides the most control over infrastructure, including operating systems and middleware. However, note that even in IaaS, customers don't control the hypervisor - AWS manages that layer.
+**Explicación**: IaaS proporciona el mayor control sobre la infraestructura, incluyendo sistemas operativos y middleware. Sin embargo, nota que incluso en IaaS, los clientes no controlan el hipervisor - AWS gestiona esa capa.
 </details>
 
-### Question 7
-**Which of the following best demonstrates the "Economies of scale" advantage of AWS?**
+### Pregunta 7
+**¿Cuál de las siguientes opciones demuestra mejor la ventaja de "Economías de escala" de AWS?**
 
-A) AWS passes volume-purchasing savings to customers through lower prices
-B) AWS allows you to deploy globally
-C) AWS provides automatic scaling
-D) AWS eliminates upfront costs
+- A) AWS transfiere ahorros de compras por volumen a los clientes a través de precios más bajos
+- B) AWS permite desplegar globalmente
+- C) AWS proporciona escalado automático
+- D) AWS elimina costos iniciales
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: A**
+**Respuesta: A**
 
-**Explanation**: Economies of scale means AWS can achieve lower costs due to their massive purchasing power and operational efficiency, and they pass these savings to customers through lower prices.
+**Explicación**: Las economías de escala significan que AWS puede lograr costos más bajos debido a su poder de compra masivo y eficiencia operacional, y transfieren estos ahorros a los clientes a través de precios más bajos.
 </details>
 
-### Question 8
-**A company is evaluating different approaches for disaster recovery. They want to understand how AWS infrastructure design supports high availability. What is the primary benefit of AWS Availability Zones?**
+### Pregunta 8
+**Una empresa está evaluando diferentes enfoques para recuperación ante desastres. Quieren entender cómo el diseño de infraestructura de AWS soporta alta disponibilidad. ¿Cuál es el beneficio principal de las Zonas de Disponibilidad de AWS?**
 
-A) They provide different pricing models
-B) They are isolated from failures in other Availability Zones
-C) They offer different services
-D) They provide faster internet connections
+- A) Proporcionan diferentes modelos de precios
+- B) Están aisladas de fallas en otras Zonas de Disponibilidad
+- C) Ofrecen diferentes servicios
+- D) Proporcionan conexiones de internet más rápidas
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Availability Zones are designed to be isolated from failures in other AZs within the same Region, providing fault tolerance and high availability for applications deployed across multiple AZs.
+**Explicación**: Las Zonas de Disponibilidad están diseñadas para estar aisladas de fallas en otras AZ dentro de la misma Región, proporcionando tolerancia a fallas y alta disponibilidad para aplicaciones desplegadas en múltiples AZ.
 </details>
 
-### Question 9
-**Which of the following scenarios would benefit MOST from vertical scaling rather than horizontal scaling?**
+### Pregunta 9
+**¿Cuál de los siguientes escenarios se beneficiaría MÁS del escalado vertical en lugar del escalado horizontal?**
 
-A) A web application with unpredictable traffic spikes
-B) A database that requires more memory and CPU for complex queries
-C) A microservices architecture with independent components
-D) A content delivery system serving global users
+- A) Una aplicación web con picos de tráfico impredecibles
+- B) Una base de datos que requiere más memoria y CPU para consultas complejas
+- C) Una arquitectura de microservicios con componentes independientes
+- D) Un sistema de entrega de contenido sirviendo usuarios globales
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Vertical scaling (scaling up) is often better for databases that need more powerful resources (CPU, memory) to handle complex queries, while horizontal scaling works better for distributed applications.
+**Explicación**: El escalado vertical (escalar hacia arriba) es a menudo mejor para bases de datos que necesitan recursos más potentes (CPU, memoria) para manejar consultas complejas, mientras que el escalado horizontal funciona mejor para aplicaciones distribuidas.
 </details>
 
-### Question 10
-**A financial services company needs to ensure their AWS infrastructure meets strict regulatory requirements for data residency. Which AWS infrastructure feature addresses this concern?**
+### Pregunta 10
+**Una empresa de servicios financieros necesita asegurar que su infraestructura de AWS cumpla con requisitos regulatorios estrictos para residencia de datos. ¿Qué característica de infraestructura de AWS aborda esta preocupación?**
 
-A) Edge Locations automatically comply with all regulations
-B) Data in AWS Regions stays within the geographic boundaries unless explicitly moved
-C) AWS automatically replicates data globally for compliance
-D) All AWS services are compliant by default
+- A) Las Edge Locations cumplen automáticamente con todas las regulaciones
+- B) Los datos en las Regiones de AWS permanecen dentro de los límites geográficos a menos que se muevan explícitamente
+- C) AWS replica automáticamente datos globalmente para cumplimiento
+- D) Todos los servicios de AWS son compatibles por defecto
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS ensures that data stored in a Region remains within that Region's geographic boundaries unless the customer explicitly configures it to be moved, helping meet data residency requirements.
+**Explicación**: AWS asegura que los datos almacenados en una Región permanezcan dentro de los límites geográficos de esa Región a menos que el cliente configure explícitamente que se muevan, ayudando a cumplir requisitos de residencia de datos.
 </details>
 
-### Question 11
-**Which of the following is an example of AWS providing "Increased speed and agility"?**
+### Pregunta 11
+**¿Cuál de las siguientes es un ejemplo de AWS proporcionando "Mayor velocidad y agilidad"?**
 
-A) Lower costs compared to on-premises
-B) The ability to provision resources in minutes rather than weeks
-C) Automatic security updates
-D) Global presence
+- A) Costos más bajos comparados con instalaciones locales
+- B) La capacidad de aprovisionar recursos en minutos en lugar de semanas
+- C) Actualizaciones de seguridad automáticas
+- D) Presencia global
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Increased speed and agility refers to the ability to provision and deploy resources quickly (minutes vs. weeks/months for traditional infrastructure), enabling faster innovation and time-to-market.
+**Explicación**: Mayor velocidad y agilidad se refiere a la capacidad de aprovisionar y desplegar recursos rápidamente (minutos vs. semanas/meses para infraestructura tradicional), habilitando innovación más rápida y tiempo al mercado.
 </details>
 
-### Question 12
-**A company has applications that need to communicate with very low latency within the same geographic area. Which AWS infrastructure component is most appropriate?**
+### Pregunta 12
+**Una empresa tiene aplicaciones que necesitan comunicarse con muy baja latencia dentro de la misma área geográfica. ¿Qué componente de infraestructura de AWS es más apropiado?**
 
-A) Multiple Regions
-B) Multiple Availability Zones within the same Region
-C) Edge Locations
-D) CloudFront distribution
+- A) Múltiples Regiones
+- B) Múltiples Zonas de Disponibilidad dentro de la misma Región
+- C) Edge Locations
+- D) Distribución CloudFront
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Multiple Availability Zones within the same Region provide low latency communication (typically single-digit millisecond latency) while still providing fault tolerance.
+**Explicación**: Múltiples Zonas de Disponibilidad dentro de la misma Región proporcionan comunicación de baja latencia (típicamente latencia de milisegundos de un solo dígito) mientras aún proporcionan tolerancia a fallas.
 </details>
 
-### Question 13
-**Which cloud computing characteristic allows customers to access services through standard mechanisms and platforms (mobile phones, tablets, laptops)?**
+### Pregunta 13
+**¿Qué característica de la computación en la nube permite a los clientes acceder a servicios a través de mecanismos estándar y plataformas (teléfonos móviles, tablets, laptops)?**
 
-A) Resource pooling
-B) Measured service
-C) Broad network access
-D) On-demand self-service
+- A) Agrupación de recursos
+- B) Servicio medido
+- C) Acceso amplio a la red
+- D) Autoservicio bajo demanda
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: Broad network access means services are available over the network through standard mechanisms and can be accessed by various client platforms and devices.
+**Explicación**: El acceso amplio a la red significa que los servicios están disponibles a través de la red mediante mecanismos estándar y pueden ser accedidos por varias plataformas cliente y dispositivos.
 </details>
 
-### Question 14
-**A company wants to understand the total cost of ownership (TCO) when migrating to AWS. Which costs are typically reduced when moving from on-premises to cloud? (Select TWO)**
+### Pregunta 14
+**Una empresa quiere entender el costo total de propiedad (TCO) al migrar a AWS. ¿Qué costos típicamente se reducen al moverse de instalaciones locales a la nube? (Selecciona DOS)**
 
-A) Software licensing costs
-B) Data center facility costs
-C) Staff training costs
-D) Hardware maintenance costs
-E) Network bandwidth costs
+- A) Costos de licencias de software
+- B) Costos de instalaciones del centro de datos
+- C) Costos de capacitación del personal
+- D) Costos de mantenimiento de hardware
+- E) Costos de ancho de banda de red
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B, D**
+**Respuesta: B, D**
 
-**Explanation**: Moving to cloud typically reduces data center facility costs (rent, power, cooling) and hardware maintenance costs (AWS manages the infrastructure). Software licensing and staff training may actually increase, and network costs vary.
+**Explicación**: Moverse a la nube típicamente reduce costos de instalaciones del centro de datos (renta, energía, enfriamiento) y costos de mantenimiento de hardware (AWS gestiona la infraestructura). Las licencias de software y capacitación del personal pueden aumentar, y los costos de red varían.
 </details>
 
-### Question 15
-**What is the main difference between AWS Local Zones and AWS Wavelength?**
+### Pregunta 15
+**¿Cuál es la principal diferencia entre AWS Local Zones y AWS Wavelength?**
 
-A) Local Zones are for mobile applications, Wavelength is for web applications
-B) Local Zones bring AWS services closer to users, Wavelength brings services to the edge of telecom networks
-C) Local Zones are free, Wavelength requires payment
-D) There is no difference between them
+- A) Local Zones son para aplicaciones móviles, Wavelength es para aplicaciones web
+- B) Local Zones acercan servicios de AWS a los usuarios, Wavelength lleva servicios al borde de redes de telecomunicaciones
+- C) Local Zones son gratuitas, Wavelength requiere pago
+- D) No hay diferencia entre ellas
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Local Zones bring AWS services closer to end users in specific geographic areas, while Wavelength zones are located at the edge of telecom providers' 5G networks for ultra-low latency applications.
+**Explicación**: Local Zones acercan servicios de AWS a usuarios finales en áreas geográficas específicas, mientras que las zonas Wavelength están ubicadas en el borde de redes 5G de proveedores de telecomunicaciones para aplicaciones de ultra-baja latencia.
 </details>
 
-### Question 16
-**Which of the following best describes the cloud computing model's approach to capacity planning?**
+### Pregunta 16
+**¿Cuál de las siguientes opciones describe mejor el enfoque del modelo de computación en la nube para planificación de capacidad?**
 
-A) Plan for peak capacity and maintain it constantly
-B) Plan for average capacity and accept occasional outages
-C) Start with minimal capacity and scale based on actual demand
-D) Plan for twice the expected peak capacity
+- A) Planificar para capacidad pico y mantenerla constantemente
+- B) Planificar para capacidad promedio y aceptar interrupciones ocasionales
+- C) Comenzar con capacidad mínima y escalar basándose en demanda real
+- D) Planificar para el doble de la capacidad pico esperada
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: Cloud computing allows you to start with minimal capacity and scale up or down based on actual demand, eliminating the need to over-provision or risk under-provisioning.
+**Explicación**: La computación en la nube permite comenzar con capacidad mínima y escalar hacia arriba o abajo basándose en demanda real, eliminando la necesidad de sobre-aprovisionar o arriesgar sub-aprovisionar.
 </details>
 
 ---
 
-## 🔒 Domain 2: Security & Compliance (Questions 17-36)
+## 🔒 Dominio 2: Seguridad y Cumplimiento (Preguntas 17-36)
 
-### Question 17
-**A company's security team wants to ensure that API calls to AWS services are logged and can be audited. The logs should include who made the call, when it was made, and what actions were performed. Which AWS service should they implement?**
+### Pregunta 17
+**El equipo de seguridad de una empresa quiere asegurar que las llamadas API a servicios de AWS sean registradas y puedan ser auditadas. Los registros deben incluir quién hizo la llamada, cuándo se hizo y qué acciones se realizaron. ¿Qué servicio de AWS deberían implementar?**
 
-A) AWS Config
-B) AWS CloudWatch
-C) AWS CloudTrail
-D) AWS X-Ray
+- A) AWS Config
+- B) AWS CloudWatch
+- C) AWS CloudTrail
+- D) AWS X-Ray
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: AWS CloudTrail provides detailed logging of API calls, including the identity of the caller, the time of the call, source IP address, request parameters, and response elements.
+**Explicación**: AWS CloudTrail proporciona registro detallado de llamadas API, incluyendo la identidad del llamador, el tiempo de la llamada, dirección IP de origen, parámetros de solicitud y elementos de respuesta.
 </details>
 
-### Question 18
-**According to the AWS Shared Responsibility Model, who is responsible for patching the operating system of an Amazon EC2 instance?**
+### Pregunta 18
+**Según el Modelo de Responsabilidad Compartida de AWS, ¿quién es responsable de parchear el sistema operativo de una instancia Amazon EC2?**
 
-A) AWS is always responsible
-B) The customer is always responsible
-C) AWS for Windows, customer for Linux
-D) Shared between AWS and customer
+- A) AWS es siempre responsable
+- B) El cliente es siempre responsable
+- C) AWS para Windows, cliente para Linux
+- D) Compartido entre AWS y el cliente
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: For EC2 instances, customers are responsible for patching the guest operating system and any applications running on the instances, regardless of the OS type.
+**Explicación**: Para instancias EC2, los clientes son responsables de parchear el sistema operativo invitado y cualquier aplicación ejecutándose en las instancias, independientemente del tipo de SO.
 </details>
 
-### Question 19
-**A development team needs to provide temporary access to AWS resources for a contractor who will work on a project for 3 months. What is the MOST secure approach?**
+### Pregunta 19
+**Un equipo de desarrollo necesita proporcionar acceso temporal a recursos de AWS para un contratista que trabajará en un proyecto por 3 meses. ¿Cuál es el enfoque MÁS seguro?**
 
-A) Create an IAM user with permanent credentials and delete it after 3 months
-B) Share the root account credentials
-C) Create an IAM role that can be assumed with temporary credentials
-D) Give them access to another employee's account
+- A) Crear un usuario IAM con credenciales permanentes y eliminarlo después de 3 meses
+- B) Compartir las credenciales de la cuenta root
+- C) Crear un rol IAM que pueda ser asumido con credenciales temporales
+- D) Darles acceso a la cuenta de otro empleado
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: IAM roles provide temporary credentials and are the most secure approach for temporary access. They automatically expire and can be easily revoked without affecting permanent credentials.
+**Explicación**: Los roles IAM proporcionan credenciales temporales y son el enfoque más seguro para acceso temporal. Expiran automáticamente y pueden ser revocados fácilmente sin afectar credenciales permanentes.
 </details>
 
-### Question 20
-**A company wants to ensure that their S3 buckets are not accidentally made public. Which AWS service can help them continuously monitor and alert on resource configurations?**
+### Pregunta 20
+**Una empresa quiere asegurar que sus buckets S3 no sean accidentalmente hechos públicos. ¿Qué servicio de AWS puede ayudarles a monitorear continuamente y alertar sobre configuraciones de recursos?**
 
-A) AWS CloudTrail
-B) AWS Config
-C) AWS CloudWatch
-D) AWS Inspector
+- A) AWS CloudTrail
+- B) AWS Config
+- C) AWS CloudWatch
+- D) AWS Inspector
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Config continuously monitors resource configurations and can alert when resources deviate from desired configurations, such as S3 buckets becoming public.
+**Explicación**: AWS Config monitorea continuamente las configuraciones de recursos y puede alertar cuando los recursos se desvían de las configuraciones deseadas, como buckets S3 que se vuelven públicos.
 </details>
 
-### Question 21
-**An organization has multiple AWS accounts and wants to centrally manage security policies across all accounts. Which service should they use?**
+### Pregunta 21
+**Una organización tiene múltiples cuentas de AWS y quiere gestionar centralmente políticas de seguridad en todas las cuentas. ¿Qué servicio deberían usar?**
 
-A) AWS IAM
-B) AWS Organizations with Service Control Policies (SCPs)
-C) AWS Config
-D) AWS CloudFormation
+- A) AWS IAM
+- B) AWS Organizations con Service Control Policies (SCPs)
+- C) AWS Config
+- D) AWS CloudFormation
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Organizations with Service Control Policies (SCPs) allows centralized management of permissions across multiple AWS accounts, providing guardrails for what actions can be performed.
+**Explicación**: AWS Organizations con Service Control Policies (SCPs) permite gestión centralizada de permisos en múltiples cuentas de AWS, proporcionando barreras de protección para qué acciones pueden ser realizadas.
 </details>
 
-### Question 22
-**A web application is experiencing a DDoS attack. Which AWS services can help mitigate this attack? (Select TWO)**
+### Pregunta 22
+**Una aplicación web está experimentando un ataque DDoS. ¿Qué servicios de AWS pueden ayudar a mitigar este ataque? (Selecciona DOS)**
 
-A) AWS WAF
-B) AWS Shield
-C) AWS CloudTrail
-D) AWS Config
-E) AWS X-Ray
+- A) AWS WAF
+- B) AWS Shield
+- C) AWS CloudTrail
+- D) AWS Config
+- E) AWS X-Ray
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: A, B**
+**Respuesta: A, B**
 
-**Explanation**: AWS Shield provides DDoS protection (Standard is automatic, Advanced provides enhanced protection), and AWS WAF can filter malicious web traffic that might be part of a DDoS attack.
+**Explicación**: AWS Shield proporciona protección DDoS (Standard es automático, Advanced proporciona protección mejorada), y AWS WAF puede filtrar tráfico web malicioso que podría ser parte de un ataque DDoS.
 </details>
 
-### Question 23
-**What is the primary purpose of Multi-Factor Authentication (MFA) in AWS?**
+### Pregunta 23
+**¿Cuál es el propósito principal de la Autenticación Multi-Factor (MFA) en AWS?**
 
-A) To encrypt data in transit
-B) To provide an additional layer of security beyond passwords
-C) To monitor user activity
-D) To manage user permissions
+- A) Cifrar datos en tránsito
+- B) Proporcionar una capa adicional de seguridad más allá de las contraseñas
+- C) Monitorear actividad del usuario
+- D) Gestionar permisos de usuario
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: MFA provides an additional layer of security by requiring users to provide two or more verification factors, making it much harder for unauthorized users to gain access even if passwords are compromised.
+**Explicación**: MFA proporciona una capa adicional de seguridad requiriendo que los usuarios proporcionen dos o más factores de verificación, haciendo mucho más difícil para usuarios no autorizados obtener acceso incluso si las contraseñas están comprometidas.
 </details>
 
-### Question 24
-**A company needs to ensure that their AWS infrastructure complies with PCI DSS requirements for handling credit card data. What should they do?**
+### Pregunta 24
+**Una empresa necesita asegurar que su infraestructura de AWS cumpla con requisitos PCI DSS para manejar datos de tarjetas de crédito. ¿Qué deberían hacer?**
 
-A) AWS automatically makes all services PCI DSS compliant
-B) Use only PCI DSS compliant AWS services and implement proper configurations
-C) PCI DSS compliance is not possible on AWS
-D) Only use on-premises infrastructure for PCI DSS compliance
+- A) AWS automáticamente hace todos los servicios compatibles con PCI DSS
+- B) Usar solo servicios de AWS compatibles con PCI DSS e implementar configuraciones apropiadas
+- C) El cumplimiento PCI DSS no es posible en AWS
+- D) Solo usar infraestructura local para cumplimiento PCI DSS
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS offers PCI DSS compliant services, but customers must use these services properly and implement appropriate configurations to achieve and maintain PCI DSS compliance.
+**Explicación**: AWS ofrece servicios compatibles con PCI DSS, pero los clientes deben usar estos servicios apropiadamente e implementar configuraciones apropiadas para lograr y mantener el cumplimiento PCI DSS.
 </details>
 
-### Question 25
-**Which AWS service helps detect unusual API activity and potential security threats using machine learning?**
+### Pregunta 25
+**¿Qué servicio de AWS ayuda a detectar actividad API inusual y amenazas de seguridad potenciales usando aprendizaje automático?**
 
-A) AWS CloudTrail
-B) AWS Config
-C) AWS GuardDuty
-D) AWS Inspector
+- A) AWS CloudTrail
+- B) AWS Config
+- C) AWS GuardDuty
+- D) AWS Inspector
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: AWS GuardDuty uses machine learning and threat intelligence to detect malicious activity and unauthorized behavior, including unusual API activity patterns.
+**Explicación**: AWS GuardDuty usa aprendizaje automático e inteligencia de amenazas para detectar actividad maliciosa y comportamiento no autorizado, incluyendo patrones de actividad API inusuales.
 </details>
 
-### Question 26
-**A company wants to implement single sign-on (SSO) so employees can use their corporate credentials to access AWS services. Which AWS service enables this?**
+### Pregunta 26
+**Una empresa quiere implementar inicio de sesión único (SSO) para que los empleados puedan usar sus credenciales corporativas para acceder a servicios de AWS. ¿Qué servicio de AWS habilita esto?**
 
-A) AWS IAM
-B) AWS SSO (now AWS IAM Identity Center)
-C) AWS Directory Service
-D) AWS Cognito
+- A) AWS IAM
+- B) AWS SSO (ahora AWS IAM Identity Center)
+- C) AWS Directory Service
+- D) AWS Cognito
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS SSO (now called AWS IAM Identity Center) enables single sign-on access to AWS accounts and applications using corporate credentials.
+**Explicación**: AWS SSO (ahora llamado AWS IAM Identity Center) habilita acceso de inicio de sesión único a cuentas y aplicaciones de AWS usando credenciales corporativas.
 </details>
 
-### Question 27
-**What is the difference between Security Groups and Network ACLs in AWS?**
+### Pregunta 27
+**¿Cuál es la diferencia entre Security Groups y Network ACLs en AWS?**
 
-A) Security Groups are for databases, Network ACLs are for web servers
-B) Security Groups operate at the instance level, Network ACLs operate at the subnet level
-C) Security Groups are paid, Network ACLs are free
-D) There is no difference
+- A) Security Groups son para bases de datos, Network ACLs son para servidores web
+- B) Security Groups operan a nivel de instancia, Network ACLs operan a nivel de subred
+- C) Security Groups son pagos, Network ACLs son gratuitos
+- D) No hay diferencia
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Security Groups act as virtual firewalls at the instance level, while Network ACLs operate at the subnet level. Security Groups are stateful, Network ACLs are stateless.
+**Explicación**: Security Groups actúan como firewalls virtuales a nivel de instancia, mientras que Network ACLs operan a nivel de subred. Security Groups son con estado, Network ACLs son sin estado.
 </details>
 
-### Question 28
-**Which of the following is a customer responsibility when using Amazon RDS?**
+### Pregunta 28
+**¿Cuál de las siguientes es una responsabilidad del cliente al usar Amazon RDS?**
 
-A) Patching the database software
-B) Managing database user accounts and permissions
-C) Replacing failed hardware
-D) Managing the underlying operating system
+- A) Parchear el software de base de datos
+- B) Gestionar cuentas de usuario y permisos de base de datos
+- C) Reemplazar hardware fallido
+- D) Gestionar el sistema operativo subyacente
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: With Amazon RDS, AWS manages the infrastructure, OS, and database software patching. Customers are responsible for managing database user accounts, permissions, and database-level configurations.
+**Explicación**: Con Amazon RDS, AWS gestiona la infraestructura, SO y parcheo del software de base de datos. Los clientes son responsables de gestionar cuentas de usuario de base de datos, permisos y configuraciones a nivel de base de datos.
 </details>
 
-### Question 29
-**A company needs to encrypt sensitive data stored in Amazon S3. What encryption options are available? (Select TWO)**
+### Pregunta 29
+**Una empresa necesita cifrar datos sensibles almacenados en Amazon S3. ¿Qué opciones de cifrado están disponibles? (Selecciona DOS)**
 
-A) Server-side encryption managed by AWS (SSE-S3)
-B) Client-side encryption
-C) Network-level encryption only
-D) Database encryption
-E) Application-level encryption only
+- A) Cifrado del lado del servidor gestionado por AWS (SSE-S3)
+- B) Cifrado del lado del cliente
+- C) Solo cifrado a nivel de red
+- D) Cifrado de base de datos
+- E) Solo cifrado a nivel de aplicación
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: A, B**
+**Respuesta: A, B**
 
-**Explanation**: S3 supports both server-side encryption (managed by AWS with SSE-S3, SSE-KMS, or SSE-C) and client-side encryption where data is encrypted before being sent to S3.
+**Explicación**: S3 soporta tanto cifrado del lado del servidor (gestionado por AWS con SSE-S3, SSE-KMS, o SSE-C) como cifrado del lado del cliente donde los datos son cifrados antes de ser enviados a S3.
 </details>
 
-### Question 30
-**What is the primary benefit of using AWS IAM roles instead of IAM users for applications running on EC2 instances?**
+### Pregunta 30
+**¿Cuál es el beneficio principal de usar roles IAM en lugar de usuarios IAM para aplicaciones ejecutándose en instancias EC2?**
 
-A) Roles are cheaper than users
-B) Roles provide better performance
-C) Roles eliminate the need to manage long-term credentials
-D) Roles provide more permissions than users
+- A) Los roles son más baratos que los usuarios
+- B) Los roles proporcionan mejor rendimiento
+- C) Los roles eliminan la necesidad de gestionar credenciales de largo plazo
+- D) Los roles proporcionan más permisos que los usuarios
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: IAM roles provide temporary credentials that are automatically rotated, eliminating the need to store and manage long-term access keys on EC2 instances, which improves security.
+**Explicación**: Los roles IAM proporcionan credenciales temporales que son rotadas automáticamente, eliminando la necesidad de almacenar y gestionar claves de acceso de largo plazo en instancias EC2, lo que mejora la seguridad.
 </details>
 
-### Question 31
-**Which AWS service provides vulnerability assessments for Amazon EC2 instances?**
+### Pregunta 31
+**¿Qué servicio de AWS proporciona evaluaciones de vulnerabilidades para instancias Amazon EC2?**
 
-A) AWS GuardDuty
-B) AWS Inspector
-C) AWS Config
-D) AWS Systems Manager
+- A) AWS GuardDuty
+- B) AWS Inspector
+- C) AWS Config
+- D) AWS Systems Manager
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Inspector is an automated security assessment service that helps identify vulnerabilities and deviations from security best practices in EC2 instances and container images.
+**Explicación**: AWS Inspector es un servicio automatizado de evaluación de seguridad que ayuda a identificar vulnerabilidades y desviaciones de mejores prácticas de seguridad en instancias EC2 e imágenes de contenedor.
 </details>
 
-### Question 32
-**A company wants to ensure that only specific IP addresses can access their S3 bucket. What should they configure?**
+### Pregunta 32
+**Una empresa quiere asegurar que solo direcciones IP específicas puedan acceder a su bucket S3. ¿Qué deberían configurar?**
 
-A) Security Groups
-B) Network ACLs
-C) Bucket policies
-D) IAM user policies
+- A) Security Groups
+- B) Network ACLs
+- C) Políticas de bucket
+- D) Políticas de usuario IAM
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: S3 bucket policies can include conditions that restrict access based on source IP addresses. Security Groups and Network ACLs don't apply to S3 directly.
+**Explicación**: Las políticas de bucket S3 pueden incluir condiciones que restringen el acceso basado en direcciones IP de origen. Security Groups y Network ACLs no se aplican directamente a S3.
 </details>
 
-### Question 33
-**What is AWS Key Management Service (KMS) primarily used for?**
+### Pregunta 33
+**¿Para qué se usa principalmente AWS Key Management Service (KMS)?**
 
-A) Managing IAM users and roles
-B) Creating and controlling encryption keys
-C) Monitoring API calls
-D) Configuring network security
+- A) Gestionar usuarios y roles IAM
+- B) Crear y controlar claves de cifrado
+- C) Monitorear llamadas API
+- D) Configurar seguridad de red
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS KMS is a managed service for creating and controlling encryption keys used to encrypt data across AWS services and applications.
+**Explicación**: AWS KMS es un servicio gestionado para crear y controlar claves de cifrado usadas para cifrar datos a través de servicios y aplicaciones de AWS.
 </details>
 
-### Question 34
-**Which compliance framework is specifically designed for U.S. government agencies and contractors?**
+### Pregunta 34
+**¿Qué marco de cumplimiento está específicamente diseñado para agencias gubernamentales de EE.UU. y contratistas?**
 
-A) HIPAA
-B) SOC 2
-C) FedRAMP
-D) PCI DSS
+- A) HIPAA
+- B) SOC 2
+- C) FedRAMP
+- D) PCI DSS
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: FedRAMP (Federal Risk and Authorization Management Program) is specifically designed for U.S. government agencies and contractors to ensure cloud services meet federal security requirements.
+**Explicación**: FedRAMP (Federal Risk and Authorization Management Program) está específicamente diseñado para agencias gubernamentales de EE.UU. y contratistas para asegurar que los servicios en la nube cumplan requisitos de seguridad federales.
 </details>
 
-### Question 35
-**A company needs to monitor and block malicious web traffic to their applications. Which AWS service should they use?**
+### Pregunta 35
+**Una empresa necesita monitorear y bloquear tráfico web malicioso a sus aplicaciones. ¿Qué servicio de AWS deberían usar?**
 
-A) AWS Shield
-B) AWS WAF
-C) AWS GuardDuty
-D) AWS Inspector
+- A) AWS Shield
+- B) AWS WAF
+- C) AWS GuardDuty
+- D) AWS Inspector
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS WAF (Web Application Firewall) protects web applications from common web exploits and allows you to create rules to block malicious traffic based on various criteria.
+**Explicación**: AWS WAF (Web Application Firewall) protege aplicaciones web de exploits web comunes y permite crear reglas para bloquear tráfico malicioso basado en varios criterios.
 </details>
 
-### Question 36
-**What is the principle of "Defense in Depth" in AWS security?**
+### Pregunta 36
+**¿Cuál es el principio de "Defensa en Profundidad" en seguridad de AWS?**
 
-A) Using only one strong security control
-B) Implementing multiple layers of security controls
-C) Relying only on AWS security features
-D) Focusing only on network security
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Defense in Depth involves implementing multiple layers of security controls throughout your infrastructure, so if one layer fails, other layers continue to provide protection.
-</details>
-
----
-
-## ⚙️ Domain 3: Cloud Technology & Services (Questions 37-58)
-
-### Question 37
-**A company needs to run a batch processing job that can tolerate interruptions and wants to minimize costs. Which EC2 pricing model is most appropriate?**
-
-A) On-Demand Instances
-B) Reserved Instances
-C) Spot Instances
-D) Dedicated Hosts
+- A) Usar solo un control de seguridad fuerte
+- B) Implementar múltiples capas de controles de seguridad
+- C) Depender solo de características de seguridad de AWS
+- D) Enfocarse solo en seguridad de red
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: B**
 
-**Explanation**: Spot Instances are ideal for fault-tolerant batch processing jobs as they offer the lowest cost (up to 90% savings) but can be interrupted when AWS needs the capacity.
-</details>
-
-### Question 38
-**An application needs to store frequently accessed data with the highest performance. Which storage option should be used?**
-
-A) Amazon S3 Standard
-B) Amazon EBS Provisioned IOPS SSD
-C) Amazon S3 Glacier
-D) Amazon EFS
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon EBS Provisioned IOPS SSD provides the highest performance with consistent IOPS delivery for frequently accessed data requiring low latency.
-</details>
-
-### Question 39
-**A microservices application needs a way to decouple components so they can scale independently. Which AWS service pattern is most appropriate?**
-
-A) Direct database connections
-B) Amazon SQS for message queuing
-C) Shared file storage
-D) Synchronized API calls
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon SQS provides message queuing that decouples application components, allowing them to scale independently and communicate asynchronously.
-</details>
-
-### Question 40
-**A company wants to migrate their existing Oracle database to AWS with minimal changes. Which option is most suitable?**
-
-A) Amazon DynamoDB
-B) Amazon RDS for Oracle
-C) Amazon Redshift
-D) Amazon Aurora
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon RDS for Oracle allows migration with minimal changes as it provides a managed Oracle database environment compatible with existing Oracle applications.
-</details>
-
-### Question 41
-**An application needs to process images uploaded by users and generate thumbnails. The processing happens infrequently and unpredictably. Which compute service is most cost-effective?**
-
-A) Amazon EC2 instances running 24/7
-B) AWS Lambda
-C) Amazon ECS containers
-D) AWS Batch
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: AWS Lambda is most cost-effective for infrequent, unpredictable processing as you only pay for execution time and don't need to maintain running instances.
-</details>
-
-### Question 42
-**A company wants to analyze large datasets using SQL queries without managing infrastructure. Which service should they use?**
-
-A) Amazon EC2 with database software
-B) Amazon RDS
-C) Amazon Athena
-D) Amazon DynamoDB
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon Athena is a serverless query service that allows you to analyze data using SQL without managing any infrastructure.
-</details>
-
-### Question 43
-**An e-commerce application experiences traffic spikes during sales events. Which AWS feature automatically adjusts the number of instances based on demand?**
-
-A) Elastic Load Balancing
-B) Auto Scaling
-C) Amazon CloudWatch
-D) AWS Lambda
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Auto Scaling automatically adjusts the number of EC2 instances based on demand, scaling up during traffic spikes and scaling down when demand decreases.
-</details>
-
-### Question 44
-**A global application needs to serve static content with low latency to users worldwide. Which service combination is most appropriate?**
-
-A) Amazon S3 + Amazon CloudFront
-B) Amazon EC2 + Elastic Load Balancing
-C) Amazon RDS + Amazon ElastiCache
-D) AWS Lambda + Amazon API Gateway
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: A**
-
-**Explanation**: Amazon S3 for storing static content combined with CloudFront for global content delivery provides low latency access to users worldwide through edge locations.
-</details>
-
-### Question 45
-**A company needs a NoSQL database that can scale to handle millions of requests per second with single-digit millisecond latency. Which service is most suitable?**
-
-A) Amazon RDS
-B) Amazon Aurora
-C) Amazon DynamoDB
-D) Amazon Redshift
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon DynamoDB is designed for high-scale NoSQL workloads and can handle millions of requests per second with single-digit millisecond latency.
-</details>
-
-### Question 46
-**An application needs to send notifications to mobile devices when certain events occur. Which AWS service is most appropriate?**
-
-A) Amazon SES
-B) Amazon SNS
-C) Amazon SQS
-D) Amazon Connect
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon SNS (Simple Notification Service) is designed for sending notifications to multiple endpoints including mobile devices, email, SMS, and other services.
-</details>
-
-### Question 47
-**A company wants to implement a data lake architecture to store and analyze large amounts of structured and unstructured data. Which storage service is most appropriate?**
-
-A) Amazon EBS
-B) Amazon EFS
-C) Amazon S3
-D) Amazon RDS
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon S3 is ideal for data lakes as it can store virtually unlimited amounts of structured and unstructured data with various storage classes for different access patterns.
-</details>
-
-### Question 48
-**Which AWS service provides a managed Kubernetes environment?**
-
-A) Amazon ECS
-B) Amazon EKS
-C) AWS Fargate
-D) AWS Batch
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon EKS (Elastic Kubernetes Service) provides a managed Kubernetes environment, handling the Kubernetes control plane management.
-</details>
-
-### Question 49
-**A company needs to establish a dedicated network connection between their on-premises data center and AWS. Which service should they use?**
-
-A) VPN Gateway
-B) AWS Direct Connect
-C) Internet Gateway
-D) NAT Gateway
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: AWS Direct Connect provides a dedicated network connection between on-premises and AWS, offering consistent network performance and potentially lower costs.
-</details>
-
-### Question 50
-**An application needs to cache frequently accessed data in memory to improve performance. Which service is most appropriate?**
-
-A) Amazon S3
-B) Amazon EBS
-C) Amazon ElastiCache
-D) Amazon EFS
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon ElastiCache provides in-memory caching using Redis or Memcached, significantly improving application performance for frequently accessed data.
-</details>
-
-### Question 51
-**A company wants to build a serverless web application. Which combination of services would be most appropriate?**
-
-A) EC2 + RDS + ELB
-B) Lambda + API Gateway + DynamoDB
-C) ECS + Aurora + CloudFront
-D) Fargate + RDS + Route 53
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Lambda (serverless compute) + API Gateway (serverless API management) + DynamoDB (serverless database) provides a fully serverless architecture.
-</details>
-
-### Question 52
-**Which service would you use to orchestrate multiple AWS services into a workflow?**
-
-A) AWS Lambda
-B) AWS Step Functions
-C) Amazon SQS
-D) Amazon SNS
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: AWS Step Functions is a serverless workflow service that lets you coordinate multiple AWS services into serverless workflows using visual workflows.
-</details>
-
-### Question 53
-**A company needs to migrate a large amount of data (100TB) to AWS with minimal impact on their internet bandwidth. Which service should they consider?**
-
-A) AWS Direct Connect
-B) AWS DataSync
-C) AWS Snowball
-D) Amazon S3 Transfer Acceleration
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: AWS Snowball is designed for large-scale data migration (petabyte-scale) without impacting internet bandwidth, using physical devices to transfer data.
-</details>
-
-### Question 54
-**Which AWS service provides managed message streaming for real-time data processing?**
-
-A) Amazon SQS
-B) Amazon SNS
-C) Amazon Kinesis
-D) AWS Lambda
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon Kinesis provides managed streaming services for real-time data processing, including Kinesis Data Streams, Kinesis Data Firehose, and Kinesis Analytics.
-</details>
-
-### Question 55
-**A company needs to ensure their EC2 instances can communicate with each other but not with the internet. What should they configure?**
-
-A) A public subnet with internet gateway
-B) A private subnet without internet gateway
-C) A security group that blocks all traffic
-D) A VPC with only one availability zone
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Private subnets without an internet gateway allow instances to communicate with each other within the VPC but prevent direct internet access.
-</details>
-
-### Question 56
-**Which AWS service helps you discover and classify sensitive data in S3 buckets?**
-
-A) AWS Config
-B) Amazon Macie
-C) AWS GuardDuty
-D) AWS Inspector
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon Macie uses machine learning to discover, classify, and protect sensitive data in Amazon S3, helping with data privacy and security compliance.
-</details>
-
-### Question 57
-**A company wants to implement Infrastructure as Code. Which AWS service should they use?**
-
-A) AWS Config
-B) AWS CloudFormation
-C) AWS Systems Manager
-D) AWS CodeDeploy
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: AWS CloudFormation enables Infrastructure as Code by allowing you to define AWS resources using templates and manage them as code.
-</details>
-
-### Question 58
-**Which service provides detailed monitoring metrics and logs for AWS resources and applications?**
-
-A) AWS CloudTrail
-B) AWS Config
-C) Amazon CloudWatch
-D) AWS X-Ray
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon CloudWatch provides monitoring, metrics, logs, and alarms for AWS resources and applications, offering detailed operational insights.
+**Explicación**: Defensa en Profundidad involucra implementar múltiples capas de controles de seguridad a través de tu infraestructura, para que si una capa falla, otras capas continúen proporcionando protección.
 </details>
 
 ---
 
-## 💰 Domain 4: Billing & Support (Questions 59-65)
+## ⚙️ Dominio 3: Tecnología y Servicios en la Nube (Preguntas 37-58)
 
-### Question 59
-**A company has unpredictable workloads but wants to save money on their EC2 costs. They can commit to a certain dollar amount per hour. Which pricing model should they choose?**
+### Pregunta 37
+**Una empresa necesita ejecutar un trabajo de procesamiento por lotes que puede tolerar interrupciones y quiere minimizar costos. ¿Qué modelo de precios de EC2 es más apropiado?**
 
-A) On-Demand Instances
-B) Reserved Instances
-C) Spot Instances
-D) Savings Plans
+- A) Instancias On-Demand
+- B) Instancias Reservadas
+- C) Instancias Spot
+- D) Hosts Dedicados
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: D**
+**Respuesta: C**
 
-**Explanation**: Savings Plans allow you to commit to a specific dollar amount per hour for 1 or 3 years, providing flexibility for changing workloads while still offering significant savings.
+**Explicación**: Las Instancias Spot son ideales para trabajos de procesamiento por lotes tolerantes a fallas ya que ofrecen el menor costo (hasta 90% de ahorro) pero pueden ser interrumpidas cuando AWS necesita la capacidad.
 </details>
 
-### Question 60
-**Which tool provides recommendations for cost optimization based on your actual AWS usage?**
+### Pregunta 38
+**Una aplicación necesita almacenar datos accedidos frecuentemente con el mayor rendimiento. ¿Qué opción de almacenamiento debería usarse?**
 
-A) AWS Pricing Calculator
-B) AWS Trusted Advisor
-C) AWS Cost Explorer
-D) AWS Budgets
+- A) Amazon S3 Standard
+- B) Amazon EBS Provisioned IOPS SSD
+- C) Amazon S3 Glacier
+- D) Amazon EFS
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Trusted Advisor provides cost optimization recommendations based on your actual usage patterns, identifying opportunities to reduce costs.
+**Explicación**: Amazon EBS Provisioned IOPS SSD proporciona el mayor rendimiento con entrega consistente de IOPS para datos accedidos frecuentemente que requieren baja latencia.
 </details>
 
-### Question 61
-**A company wants to receive alerts when their monthly AWS bill exceeds $1000. Which service should they use?**
+### Pregunta 39
+**Una aplicación de microservicios necesita una forma de desacoplar componentes para que puedan escalar independientemente. ¿Qué patrón de servicio de AWS es más apropiado?**
 
-A) AWS Cost Explorer
-B) AWS Budgets
-C) AWS Trusted Advisor
-D) AWS Pricing Calculator
+- A) Conexiones directas a base de datos
+- B) Amazon SQS para colas de mensajes
+- C) Almacenamiento de archivos compartido
+- D) Llamadas API sincronizadas
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Budgets allows you to set custom cost and usage budgets and receive alerts when actual or forecasted usage exceeds your defined thresholds.
+**Explicación**: Amazon SQS proporciona colas de mensajes que desacoplan componentes de aplicación, permitiéndoles escalar independientemente y comunicarse de forma asíncrona.
 </details>
 
-### Question 62
-**Which support plan provides access to AWS Support API for programmatic case management?**
+### Pregunta 40
+**Una empresa quiere migrar su base de datos Oracle existente a AWS con cambios mínimos. ¿Qué opción es más adecuada?**
 
-A) Basic Support
-B) Developer Support
-C) Business Support
-D) All support plans
+- A) Amazon DynamoDB
+- B) Amazon RDS for Oracle
+- C) Amazon Redshift
+- D) Amazon Aurora
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: B**
 
-**Explanation**: The AWS Support API is available starting with Business Support plan, allowing programmatic access to create and manage support cases.
+**Explicación**: Amazon RDS for Oracle permite migración con cambios mínimos ya que proporciona un entorno de base de datos Oracle gestionado compatible con aplicaciones Oracle existentes.
 </details>
 
-### Question 63
-**A startup expects their AWS usage to grow significantly over the next year. They want predictable pricing for their core infrastructure. Which approach is most suitable?**
+### Pregunta 41
+**Una aplicación necesita procesar imágenes subidas por usuarios y generar miniaturas. El procesamiento ocurre de forma infrecuente e impredecible. ¿Qué servicio de cómputo es más costo-efectivo?**
 
-A) Use only Spot Instances
-B) Purchase Reserved Instances for baseline capacity and use On-Demand for growth
-C) Use only On-Demand Instances
-D) Purchase Reserved Instances for projected peak capacity
+- A) Instancias Amazon EC2 ejecutándose 24/7
+- B) AWS Lambda
+- C) Contenedores Amazon ECS
+- D) AWS Batch
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Using Reserved Instances for baseline capacity provides cost savings for predictable usage, while On-Demand instances handle variable growth, balancing cost optimization with flexibility.
+**Explicación**: AWS Lambda es más costo-efectivo para procesamiento infrecuente e impredecible ya que solo pagas por el tiempo de ejecución y no necesitas mantener instancias ejecutándose.
 </details>
 
-### Question 64
-**Which of the following is included in the AWS Free Tier? (Select TWO)**
+### Pregunta 42
+**Una empresa quiere analizar grandes conjuntos de datos usando consultas SQL sin gestionar infraestructura. ¿Qué servicio deberían usar?**
 
-A) 750 hours of Amazon EC2 t2.micro instances per month
-B) 5 GB of Amazon S3 Standard storage
-C) Unlimited data transfer
-D) 25 GB of Amazon DynamoDB storage
-E) Free access to all AWS services
+- A) Amazon EC2 con software de base de datos
+- B) Amazon RDS
+- C) Amazon Athena
+- D) Amazon DynamoDB
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: A, D**
+**Respuesta: C**
 
-**Explanation**: The AWS Free Tier includes 750 hours of t2.micro EC2 instances and 25 GB of DynamoDB storage per month. S3 includes 5 GB, but data transfer and access to all services are not unlimited or free.
+**Explicación**: Amazon Athena es un servicio de consultas sin servidor que permite analizar datos usando SQL sin gestionar ninguna infraestructura.
 </details>
 
-### Question 65
-**A company needs detailed cost and usage data for analysis in their business intelligence tools. Which AWS service provides the most comprehensive billing data?**
+### Pregunta 43
+**Una aplicación de comercio electrónico experimenta picos de tráfico durante eventos de ventas. ¿Qué característica de AWS ajusta automáticamente el número de instancias basándose en la demanda?**
 
-A) AWS Cost Explorer
-B) AWS Budgets
-C) AWS Cost and Usage Reports (CUR)
-D) AWS Billing Dashboard
+- A) Elastic Load Balancing
+- B) Auto Scaling
+- C) Amazon CloudWatch
+- D) AWS Lambda
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: B**
 
-**Explanation**: AWS Cost and Usage Reports (CUR) provide the most comprehensive and detailed billing data that can be exported and analyzed in external business intelligence tools.
+**Explicación**: Auto Scaling ajusta automáticamente el número de instancias EC2 basándose en la demanda, escalando hacia arriba durante picos de tráfico y hacia abajo cuando la demanda disminuye.
+</details>
+
+### Pregunta 44
+**Una aplicación global necesita servir contenido estático con baja latencia a usuarios en todo el mundo. ¿Qué combinación de servicios es más apropiada?**
+
+- A) Amazon S3 + Amazon CloudFront
+- B) Amazon EC2 + Elastic Load Balancing
+- C) Amazon RDS + Amazon ElastiCache
+- D) AWS Lambda + Amazon API Gateway
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: A**
+
+**Explicación**: Amazon S3 para almacenar contenido estático combinado con CloudFront para entrega global de contenido proporciona acceso de baja latencia a usuarios en todo el mundo a través de ubicaciones edge.
+</details>
+
+### Pregunta 45
+**Una empresa necesita una base de datos NoSQL que pueda escalar para manejar millones de solicitudes por segundo con latencia de milisegundos de un solo dígito. ¿Qué servicio es más adecuado?**
+
+- A) Amazon RDS
+- B) Amazon Aurora
+- C) Amazon DynamoDB
+- D) Amazon Redshift
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Amazon DynamoDB está diseñado para cargas de trabajo NoSQL de alta escala y puede manejar millones de solicitudes por segundo con latencia de milisegundos de un solo dígito.
+</details>
+
+### Pregunta 46
+**Una aplicación necesita enviar notificaciones a dispositivos móviles cuando ocurren ciertos eventos. ¿Qué servicio de AWS es más apropiado?**
+
+- A) Amazon SES
+- B) Amazon SNS
+- C) Amazon SQS
+- D) Amazon Connect
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon SNS (Simple Notification Service) está diseñado para enviar notificaciones a múltiples endpoints incluyendo dispositivos móviles, email, SMS y otros servicios.
+</details>
+
+### Pregunta 47
+**Una empresa quiere implementar una arquitectura de lago de datos para almacenar y analizar grandes cantidades de datos estructurados y no estructurados. ¿Qué servicio de almacenamiento es más apropiado?**
+
+- A) Amazon EBS
+- B) Amazon EFS
+- C) Amazon S3
+- D) Amazon RDS
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Amazon S3 es ideal para lagos de datos ya que puede almacenar cantidades virtualmente ilimitadas de datos estructurados y no estructurados con varias clases de almacenamiento para diferentes patrones de acceso.
+</details>
+
+### Pregunta 48
+**¿Qué servicio de AWS proporciona un entorno Kubernetes gestionado?**
+
+- A) Amazon ECS
+- B) Amazon EKS
+- C) AWS Fargate
+- D) AWS Batch
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon EKS (Elastic Kubernetes Service) proporciona un entorno Kubernetes gestionado, manejando la gestión del plano de control de Kubernetes.
+</details>
+
+### Pregunta 49
+**Una empresa necesita establecer una conexión de red dedicada entre su centro de datos local y AWS. ¿Qué servicio deberían usar?**
+
+- A) VPN Gateway
+- B) AWS Direct Connect
+- C) Internet Gateway
+- D) NAT Gateway
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: AWS Direct Connect proporciona una conexión de red dedicada entre instalaciones locales y AWS, ofreciendo rendimiento de red consistente y potencialmente menores costos.
+</details>
+
+### Pregunta 50
+**Una aplicación necesita cachear datos accedidos frecuentemente en memoria para mejorar el rendimiento. ¿Qué servicio es más apropiado?**
+
+- A) Amazon S3
+- B) Amazon EBS
+- C) Amazon ElastiCache
+- D) Amazon EFS
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Amazon ElastiCache proporciona caché en memoria usando Redis o Memcached, mejorando significativamente el rendimiento de aplicaciones para datos accedidos frecuentemente.
+</details>
+
+### Pregunta 51
+**Una empresa quiere construir una aplicación web sin servidor. ¿Qué combinación de servicios sería más apropiada?**
+
+- A) EC2 + RDS + ELB
+- B) Lambda + API Gateway + DynamoDB
+- C) ECS + Aurora + CloudFront
+- D) Fargate + RDS + Route 53
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Lambda (cómputo sin servidor) + API Gateway (gestión de API sin servidor) + DynamoDB (base de datos sin servidor) proporciona una arquitectura completamente sin servidor.
+</details>
+
+### Pregunta 52
+**¿Qué servicio usarías para orquestar múltiples servicios de AWS en un flujo de trabajo?**
+
+- A) AWS Lambda
+- B) AWS Step Functions
+- C) Amazon SQS
+- D) Amazon SNS
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: AWS Step Functions es un servicio de flujo de trabajo sin servidor que permite coordinar múltiples servicios de AWS en flujos de trabajo sin servidor usando flujos de trabajo visuales.
+</details>
+
+### Pregunta 53
+**Una empresa necesita migrar una gran cantidad de datos (100TB) a AWS con impacto mínimo en su ancho de banda de internet. ¿Qué servicio deberían considerar?**
+
+- A) AWS Direct Connect
+- B) AWS DataSync
+- C) AWS Snowball
+- D) Amazon S3 Transfer Acceleration
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: AWS Snowball está diseñado para migración de datos a gran escala (escala de petabytes) sin impactar el ancho de banda de internet, usando dispositivos físicos para transferir datos.
+</details>
+
+### Pregunta 54
+**¿Qué servicio de AWS proporciona streaming de mensajes gestionado para procesamiento de datos en tiempo real?**
+
+- A) Amazon SQS
+- B) Amazon SNS
+- C) Amazon Kinesis
+- D) AWS Lambda
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Amazon Kinesis proporciona servicios de streaming gestionados para procesamiento de datos en tiempo real, incluyendo Kinesis Data Streams, Kinesis Data Firehose y Kinesis Analytics.
+</details>
+
+### Pregunta 55
+**Una empresa necesita asegurar que sus instancias EC2 puedan comunicarse entre sí pero no con internet. ¿Qué deberían configurar?**
+
+- A) Una subred pública con internet gateway
+- B) Una subred privada sin internet gateway
+- C) Un security group que bloquee todo el tráfico
+- D) Una VPC con solo una zona de disponibilidad
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Las subredes privadas sin internet gateway permiten que las instancias se comuniquen entre sí dentro de la VPC pero previenen el acceso directo a internet.
+</details>
+
+### Pregunta 56
+**¿Qué servicio de AWS te ayuda a descubrir y clasificar datos sensibles en buckets S3?**
+
+- A) AWS Config
+- B) Amazon Macie
+- C) AWS GuardDuty
+- D) AWS Inspector
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon Macie usa aprendizaje automático para descubrir, clasificar y proteger datos sensibles en Amazon S3, ayudando con privacidad de datos y cumplimiento de seguridad.
+</details>
+
+### Pregunta 57
+**Una empresa quiere implementar Infraestructura como Código. ¿Qué servicio de AWS deberían usar?**
+
+- A) AWS Config
+- B) AWS CloudFormation
+- C) AWS Systems Manager
+- D) AWS CodeDeploy
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: AWS CloudFormation habilita Infraestructura como Código permitiendo definir recursos de AWS usando plantillas y gestionarlos como código.
+</details>
+
+### Pregunta 58
+**¿Qué servicio proporciona métricas de monitoreo detalladas y logs para recursos y aplicaciones de AWS?**
+
+- A) AWS CloudTrail
+- B) AWS Config
+- C) Amazon CloudWatch
+- D) AWS X-Ray
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Amazon CloudWatch proporciona monitoreo, métricas, logs y alarmas para recursos y aplicaciones de AWS, ofreciendo información operacional detallada.
+</details>
+
+---
+
+## 💰 Dominio 4: Facturación y Soporte (Preguntas 59-65)
+
+### Pregunta 59
+**Una empresa tiene cargas de trabajo impredecibles pero quiere ahorrar dinero en sus costos de EC2. Pueden comprometerse a una cantidad específica de dólares por hora. ¿Qué modelo de precios deberían elegir?**
+
+- A) Instancias On-Demand
+- B) Instancias Reservadas
+- C) Instancias Spot
+- D) Savings Plans
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: D**
+
+**Explicación**: Los Savings Plans permiten comprometerse a una cantidad específica de dólares por hora por 1 o 3 años, proporcionando flexibilidad para cargas de trabajo cambiantes mientras ofrecen ahorros significativos.
+</details>
+
+### Pregunta 60
+**¿Qué herramienta proporciona recomendaciones para optimización de costos basadas en tu uso real de AWS?**
+
+- A) AWS Pricing Calculator
+- B) AWS Trusted Advisor
+- C) AWS Cost Explorer
+- D) AWS Budgets
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: AWS Trusted Advisor proporciona recomendaciones de optimización de costos basadas en tus patrones de uso reales, identificando oportunidades para reducir costos.
+</details>
+
+### Pregunta 61
+**Una empresa quiere recibir alertas cuando su factura mensual de AWS exceda $1000. ¿Qué servicio deberían usar?**
+
+- A) AWS Cost Explorer
+- B) AWS Budgets
+- C) AWS Trusted Advisor
+- D) AWS Pricing Calculator
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: AWS Budgets permite establecer presupuestos personalizados de costo y uso y recibir alertas cuando el uso real o pronosticado excede los umbrales definidos.
+</details>
+
+### Pregunta 62
+**¿Qué plan de soporte proporciona acceso a la API de AWS Support para gestión programática de casos?**
+
+- A) Basic Support
+- B) Developer Support
+- C) Business Support
+- D) Todos los planes de soporte
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: La API de AWS Support está disponible comenzando con el plan Business Support, permitiendo acceso programático para crear y gestionar casos de soporte.
+</details>
+
+### Pregunta 63
+**Una startup espera que su uso de AWS crezca significativamente durante el próximo año. Quieren precios predecibles para su infraestructura central. ¿Qué enfoque es más adecuado?**
+
+- A) Usar solo Instancias Spot
+- B) Comprar Instancias Reservadas para capacidad base y usar On-Demand para crecimiento
+- C) Usar solo Instancias On-Demand
+- D) Comprar Instancias Reservadas para capacidad pico proyectada
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Usar Instancias Reservadas para capacidad base proporciona ahorros de costo para uso predecible, mientras que instancias On-Demand manejan crecimiento variable, balanceando optimización de costos con flexibilidad.
+</details>
+
+### Pregunta 64
+**¿Cuál de las siguientes está incluida en el Nivel Gratuito de AWS? (Selecciona DOS)**
+
+- A) 750 horas de instancias Amazon EC2 t2.micro por mes
+- B) 5 GB de almacenamiento Amazon S3 Standard
+- C) Transferencia de datos ilimitada
+- D) 25 GB de almacenamiento Amazon DynamoDB
+- E) Acceso gratuito a todos los servicios de AWS
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: A, D**
+
+**Explicación**: El Nivel Gratuito de AWS incluye 750 horas de instancias EC2 t2.micro y 25 GB de almacenamiento DynamoDB por mes. S3 incluye 5 GB, pero la transferencia de datos y acceso a todos los servicios no son ilimitados o gratuitos.
+</details>
+
+### Pregunta 65
+**Una empresa necesita datos detallados de costo y uso para análisis en sus herramientas de inteligencia de negocios. ¿Qué servicio de AWS proporciona los datos de facturación más completos?**
+
+- A) AWS Cost Explorer
+- B) AWS Budgets
+- C) AWS Cost and Usage Reports (CUR)
+- D) AWS Billing Dashboard
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: AWS Cost and Usage Reports (CUR) proporcionan los datos de facturación más completos y detallados que pueden ser exportados y analizados en herramientas externas de inteligencia de negocios.
 </details>
 
 ---
@@ -1156,10 +1151,10 @@ Focus additional study on domains where you scored below 75%.
 ### Pregunta 3
 **Una empresa de manufactura quiere mantener sus sistemas de producción críticos en sus propias instalaciones por razones de seguridad, pero usar la nube para desarrollo y pruebas. ¿Qué modelo de implementación describe mejor esta estrategia?**
 
-A) Nube pública
-B) Nube privada
-C) Nube híbrida
-D) Nube comunitaria
+- A) Nube pública
+- B) Nube privada
+- C) Nube híbrida
+- D) Nube comunitaria
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1172,10 +1167,10 @@ D) Nube comunitaria
 ### Pregunta 4
 **¿Cuál de las siguientes opciones describe mejor la diferencia entre escalabilidad horizontal y vertical?**
 
-A) Horizontal es más caro que vertical
-B) Horizontal agrega más instancias, vertical aumenta el poder de instancias existentes
-C) Vertical es solo para bases de datos, horizontal es para aplicaciones web
-D) No hay diferencia, son términos intercambiables
+- A) Horizontal es más caro que vertical
+- B) Horizontal agrega más instancias, vertical aumenta el poder de instancias existentes
+- C) Vertical es solo para bases de datos, horizontal es para aplicaciones web
+- D) No hay diferencia, son términos intercambiables
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1188,10 +1183,10 @@ D) No hay diferencia, son términos intercambiables
 ### Pregunta 5
 **Una empresa global necesita cumplir con regulaciones de residencia de datos que requieren que ciertos datos permanezcan en países específicos. ¿Qué concepto de AWS les ayuda a cumplir con este requisito?**
 
-A) Zonas de Disponibilidad
-B) Regiones
-C) Edge Locations
-D) Local Zones
+- A) Zonas de Disponibilidad
+- B) Regiones
+- C) Edge Locations
+- D) Local Zones
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1208,10 +1203,10 @@ D) Local Zones
 ### Pregunta 6
 **Según el modelo de responsabilidad compartida de AWS, ¿quién es responsable de parchear el sistema operativo invitado en una instancia EC2?**
 
-A) AWS es completamente responsable
-B) El cliente es completamente responsable
-C) La responsabilidad es compartida entre AWS y el cliente
-D) Depende del tipo de instancia
+- A) AWS es completamente responsable
+- B) El cliente es completamente responsable
+- C) La responsabilidad es compartida entre AWS y el cliente
+- D) Depende del tipo de instancia
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1224,10 +1219,10 @@ D) Depende del tipo de instancia
 ### Pregunta 7
 **Una empresa quiere asegurar que solo usuarios autenticados con MFA puedan acceder a recursos críticos de AWS. ¿Qué componente de IAM sería más apropiado para implementar esta restricción?**
 
-A) Usuarios de IAM
-B) Grupos de IAM
-C) Políticas de IAM con condiciones
-D) Roles de IAM
+- A) Usuarios de IAM
+- B) Grupos de IAM
+- C) Políticas de IAM con condiciones
+- D) Roles de IAM
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1240,10 +1235,10 @@ D) Roles de IAM
 ### Pregunta 8
 **¿Cuál es la mejor práctica para gestionar credenciales de acceso para una aplicación que se ejecuta en EC2 y necesita acceder a S3?**
 
-A) Hardcodear las claves de acceso en el código de la aplicación
-B) Almacenar las credenciales en un archivo de configuración en la instancia
-C) Usar roles de IAM asignados a la instancia EC2
-D) Crear un usuario de IAM y compartir las credenciales
+- A) Hardcodear las claves de acceso en el código de la aplicación
+- B) Almacenar las credenciales en un archivo de configuración en la instancia
+- C) Usar roles de IAM asignados a la instancia EC2
+- D) Crear un usuario de IAM y compartir las credenciales
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1256,10 +1251,10 @@ D) Crear un usuario de IAM y compartir las credenciales
 ### Pregunta 9
 **¿Qué servicio de AWS proporciona protección DDoS administrada automáticamente para todos los clientes de AWS sin costo adicional?**
 
-A) AWS WAF
-B) AWS Shield Standard
-C) AWS Shield Advanced
-D) AWS GuardDuty
+- A) AWS WAF
+- B) AWS Shield Standard
+- C) AWS Shield Advanced
+- D) AWS GuardDuty
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1272,10 +1267,10 @@ D) AWS GuardDuty
 ### Pregunta 10
 **Una empresa necesita cifrar datos en tránsito entre su aplicación web y los usuarios finales. ¿Cuál es la mejor práctica para lograr esto?**
 
-A) Usar HTTP en lugar de HTTPS
-B) Implementar certificados SSL/TLS
-C) Cifrar los datos en la base de datos
-D) Usar VPN para todos los usuarios
+- A) Usar HTTP en lugar de HTTPS
+- B) Implementar certificados SSL/TLS
+- C) Cifrar los datos en la base de datos
+- D) Usar VPN para todos los usuarios
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1292,10 +1287,10 @@ D) Usar VPN para todos los usuarios
 ### Pregunta 11
 **Una aplicación experimenta picos de tráfico impredecibles que duran solo unos minutos. ¿Qué servicio de AWS sería más costo-efectivo para manejar estos picos?**
 
-A) Instancias EC2 Reserved
-B) Instancias EC2 On-Demand con Auto Scaling
-C) AWS Lambda
-D) Instancias EC2 Spot
+- A) Instancias EC2 Reserved
+- B) Instancias EC2 On-Demand con Auto Scaling
+- C) AWS Lambda
+- D) Instancias EC2 Spot
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1308,10 +1303,10 @@ D) Instancias EC2 Spot
 ### Pregunta 12
 **Una empresa necesita almacenar archivos de respaldo que se acceden raramente pero deben estar disponibles dentro de 12 horas cuando se necesiten. ¿Qué clase de almacenamiento de S3 sería más apropiada?**
 
-A) S3 Standard
-B) S3 Standard-IA
-C) S3 Glacier Flexible Retrieval
-D) S3 Glacier Deep Archive
+- A) S3 Standard
+- B) S3 Standard-IA
+- C) S3 Glacier Flexible Retrieval
+- D) S3 Glacier Deep Archive
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1324,10 +1319,10 @@ D) S3 Glacier Deep Archive
 ### Pregunta 13
 **¿Cuál es la principal diferencia entre Amazon RDS y Amazon DynamoDB?**
 
-A) RDS es más caro que DynamoDB
-B) RDS es para bases de datos relacionales, DynamoDB es para bases de datos NoSQL
-C) RDS solo funciona con MySQL, DynamoDB con cualquier base de datos
-D) No hay diferencia, son servicios idénticos
+- A) RDS es más caro que DynamoDB
+- B) RDS es para bases de datos relacionales, DynamoDB es para bases de datos NoSQL
+- C) RDS solo funciona con MySQL, DynamoDB con cualquier base de datos
+- D) No hay diferencia, son servicios idénticos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1340,10 +1335,10 @@ D) No hay diferencia, son servicios idénticos
 ### Pregunta 14
 **Una empresa quiere distribuir contenido estático globalmente con baja latencia. ¿Qué servicio de AWS deberían usar?**
 
-A) Amazon S3
-B) Amazon CloudFront
-C) Amazon Route 53
-D) Elastic Load Balancer
+- A) Amazon S3
+- B) Amazon CloudFront
+- C) Amazon Route 53
+- D) Elastic Load Balancer
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1356,10 +1351,10 @@ D) Elastic Load Balancer
 ### Pregunta 15
 **¿Qué servicio permite crear una red privada virtual en AWS?**
 
-A) Amazon Route 53
-B) Amazon VPC
-C) AWS Direct Connect
-D) Amazon CloudFront
+- A) Amazon Route 53
+- B) Amazon VPC
+- C) AWS Direct Connect
+- D) Amazon CloudFront
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1376,10 +1371,10 @@ D) Amazon CloudFront
 ### Pregunta 16
 **Una empresa quiere recibir alertas cuando sus costos mensuales de AWS excedan $1000. ¿Qué herramienta deberían usar?**
 
-A) AWS Cost Explorer
-B) AWS Budgets
-C) AWS Billing Dashboard
-D) AWS Cost and Usage Report
+- A) AWS Cost Explorer
+- B) AWS Budgets
+- C) AWS Billing Dashboard
+- D) AWS Cost and Usage Report
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1392,10 +1387,10 @@ D) AWS Cost and Usage Report
 ### Pregunta 17
 **¿Cuál de las siguientes opciones está incluida en el nivel gratuito de AWS para nuevos clientes?**
 
-A) 750 horas de instancias EC2 t2.micro por mes durante 12 meses
-B) Uso ilimitado de todos los servicios de AWS
-C) Soporte técnico 24/7 gratuito
-D) Instancias EC2 de cualquier tamaño gratis por 6 meses
+- A) 750 horas de instancias EC2 t2.micro por mes durante 12 meses
+- B) Uso ilimitado de todos los servicios de AWS
+- C) Soporte técnico 24/7 gratuito
+- D) Instancias EC2 de cualquier tamaño gratis por 6 meses
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1408,10 +1403,10 @@ D) Instancias EC2 de cualquier tamaño gratis por 6 meses
 ### Pregunta 18
 **Una empresa quiere analizar sus patrones de gasto de AWS de los últimos 6 meses para identificar oportunidades de ahorro. ¿Qué herramienta sería más útil?**
 
-A) AWS Budgets
-B) AWS Cost Explorer
-C) AWS Pricing Calculator
-D) AWS Billing Dashboard
+- A) AWS Budgets
+- B) AWS Cost Explorer
+- C) AWS Pricing Calculator
+- D) AWS Billing Dashboard
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1424,10 +1419,10 @@ D) AWS Billing Dashboard
 ### Pregunta 19
 **¿Qué plan de soporte de AWS incluye acceso a AWS Trusted Advisor con todas las verificaciones?**
 
-A) Basic Support
-B) Developer Support
-C) Business Support
-D) Todos los planes incluyen todas las verificaciones
+- A) Basic Support
+- B) Developer Support
+- C) Business Support
+- D) Todos los planes incluyen todas las verificaciones
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1440,10 +1435,10 @@ D) Todos los planes incluyen todas las verificaciones
 ### Pregunta 20
 **¿Cuál es el beneficio principal de usar Instancias Reservadas en lugar de instancias On-Demand?**
 
-A) Mejor rendimiento
-B) Ahorros significativos de costos
-C) Acceso a tipos de instancia exclusivos
-D) Soporte técnico mejorado
+- A) Mejor rendimiento
+- B) Ahorros significativos de costos
+- C) Acceso a tipos de instancia exclusivos
+- D) Soporte técnico mejorado
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>

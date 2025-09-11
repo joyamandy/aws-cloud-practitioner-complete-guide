@@ -24,10 +24,10 @@
 ### Pregunta 1
 **Una institución financiera está evaluando la adopción de la nube pero tiene preocupaciones sobre la soberanía de datos y el cumplimiento regulatorio. Necesitan asegurar que sus datos nunca salgan de las fronteras de su país. ¿Qué solución de AWS aborda esta preocupación mientras aún proporciona beneficios de la nube?**
 
-A) Usar la infraestructura global de AWS con cifrado de datos
-B) Desplegar aplicaciones solo en Regiones de AWS dentro de su país
-C) Usar AWS Edge Locations para todo el almacenamiento de datos
-D) Implementar recuperación ante desastres multi-región
+- A) Usar la infraestructura global de AWS con cifrado de datos
+- B) Desplegar aplicaciones solo en Regiones de AWS dentro de su país
+- C) Usar AWS Edge Locations para todo el almacenamiento de datos
+- D) Implementar recuperación ante desastres multi-región
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -40,10 +40,10 @@ D) Implementar recuperación ante desastres multi-región
 ### Pregunta 2
 **Una empresa está comparando la economía de la nube con su infraestructura local actual. Sus servidores locales están actualmente utilizados al 15% en promedio, con picos que alcanzan el 40% durante períodos comerciales específicos. ¿Cómo aborda la computación en la nube esta ineficiencia?**
 
-A) La computación en la nube garantiza 100% de utilización del servidor
-B) Los recursos de la nube pueden dimensionarse para la demanda real y escalarse automáticamente
-C) La computación en la nube requiere operación 24/7 como los sistemas locales
-D) Los recursos de la nube no pueden redimensionarse una vez desplegados
+- A) La computación en la nube garantiza 100% de utilización del servidor
+- B) Los recursos de la nube pueden dimensionarse para la demanda real y escalarse automáticamente
+- C) La computación en la nube requiere operación 24/7 como los sistemas locales
+- D) Los recursos de la nube no pueden redimensionarse una vez desplegados
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -56,10 +56,10 @@ D) Los recursos de la nube no pueden redimensionarse una vez desplegados
 ### Pregunta 3
 **Una empresa de videojuegos necesita desplegar servidores globalmente para proporcionar experiencias multijugador de baja latencia. Estiman que necesitan infraestructura en 8 regiones geográficas diferentes. ¿Cuál es la ventaja principal de usar AWS para este requisito comparado con construir su propia infraestructura global?**
 
-A) AWS siempre es más barato que la infraestructura autoconstruida
-B) AWS elimina la necesidad de optimización de red
-C) AWS proporciona presencia global inmediata sin inversión inicial masiva
-D) AWS garantiza latencia cero entre todas las regiones
+- A) AWS siempre es más barato que la infraestructura autoconstruida
+- B) AWS elimina la necesidad de optimización de red
+- C) AWS proporciona presencia global inmediata sin inversión inicial masiva
+- D) AWS garantiza latencia cero entre todas las regiones
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -72,10 +72,10 @@ D) AWS garantiza latencia cero entre todas las regiones
 ### Pregunta 4
 **La aplicación de una startup experimenta un aumento de tráfico de 1000x durante la noche debido a la atención viral en redes sociales. Su infraestructura local no puede manejar esta carga. ¿Cómo sería diferente este escenario si estuvieran usando computación en la nube?**
 
-A) La aplicación aún fallaría debido al pico repentino
-B) Los recursos de la nube podrían escalar automáticamente para manejar el aumento de demanda
-C) Necesitarían agregar servidores manualmente lo que toma semanas
-D) La computación en la nube no puede manejar picos repentinos de tráfico
+- A) La aplicación aún fallaría debido al pico repentino
+- B) Los recursos de la nube podrían escalar automáticamente para manejar el aumento de demanda
+- C) Necesitarían agregar servidores manualmente lo que toma semanas
+- D) La computación en la nube no puede manejar picos repentinos de tráfico
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -88,10 +88,10 @@ D) La computación en la nube no puede manejar picos repentinos de tráfico
 ### Pregunta 5
 **¿Qué escenario demuestra mejor la ventaja "Dejar de gastar dinero ejecutando y manteniendo centros de datos" de la computación en la nube?**
 
-A) Una empresa reduce sus costos de licencias de software en un 50%
-B) Una empresa elimina los costos de instalaciones de centros de datos, facturas de energía y personal de mantenimiento de hardware
-C) Una empresa mejora el rendimiento de su aplicación en un 200%
-D) Una empresa aumenta el tamaño de su equipo de desarrollo
+- A) Una empresa reduce sus costos de licencias de software en un 50%
+- B) Una empresa elimina los costos de instalaciones de centros de datos, facturas de energía y personal de mantenimiento de hardware
+- C) Una empresa mejora el rendimiento de su aplicación en un 200%
+- D) Una empresa aumenta el tamaño de su equipo de desarrollo
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -104,10 +104,10 @@ D) Una empresa aumenta el tamaño de su equipo de desarrollo
 ### Pregunta 6
 **Una organización de investigación procesa grandes conjuntos de datos que requieren recursos de computación especializados durante 2 horas cada mes. El resto del tiempo, los recursos de computación permanecen inactivos. ¿Qué característica de la nube aborda mejor este caso de uso?**
 
-A) Acceso amplio a la red
-B) Agrupación de recursos
-C) Autoservicio bajo demanda
-D) Servicio medido
+- A) Acceso amplio a la red
+- B) Agrupación de recursos
+- C) Autoservicio bajo demanda
+- D) Servicio medido
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -120,10 +120,10 @@ D) Servicio medido
 ### Pregunta 7
 **Una empresa está decidiendo entre Plataforma como Servicio (PaaS) e Infraestructura como Servicio (IaaS) para su aplicación web. Quieren enfocarse en el desarrollo de aplicaciones y no preocuparse por las actualizaciones del sistema operativo. ¿Qué modelo deberían elegir?**
 
-A) IaaS porque es más barato
-B) PaaS porque el proveedor de la nube gestiona el sistema operativo
-C) IaaS porque proporciona más control
-D) Ninguno, deberían usar SaaS
+- A) IaaS porque es más barato
+- B) PaaS porque el proveedor de la nube gestiona el sistema operativo
+- C) IaaS porque proporciona más control
+- D) Ninguno, deberían usar SaaS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -136,10 +136,10 @@ D) Ninguno, deberían usar SaaS
 ### Pregunta 8
 **Una plataforma de e-learning sirve a estudiantes globalmente con contenido de video. Los estudiantes en Asia reportan tiempos de carga lentos para videos alojados en centros de datos de EE.UU. ¿Qué componente de infraestructura de AWS abordaría mejor este problema?**
 
-A) Zonas de Disponibilidad adicionales en EE.UU.
-B) Servidores más potentes en el centro de datos existente de EE.UU.
-C) Entrega de contenido a través de ubicaciones edge de CloudFront cerca de estudiantes asiáticos
-D) Migrar toda la infraestructura a Asia
+- A) Zonas de Disponibilidad adicionales en EE.UU.
+- B) Servidores más potentes en el centro de datos existente de EE.UU.
+- C) Entrega de contenido a través de ubicaciones edge de CloudFront cerca de estudiantes asiáticos
+- D) Migrar toda la infraestructura a Asia
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -152,10 +152,10 @@ D) Migrar toda la infraestructura a Asia
 ### Pregunta 9
 **Una empresa quiere entender la diferencia entre escalado horizontal y vertical para su nivel de base de datos. Su base de datos está actualmente limitada por CPU durante las horas pico. ¿Qué enfoque de escalado sería más apropiado para este escenario específico?**
 
-A) Escalado horizontal agregando más servidores de base de datos
-B) Escalado vertical actualizando a un servidor más potente
-C) Ambos enfoques son igualmente efectivos
-D) Ningún enfoque ayudaría con las limitaciones de CPU
+- A) Escalado horizontal agregando más servidores de base de datos
+- B) Escalado vertical actualizando a un servidor más potente
+- C) Ambos enfoques son igualmente efectivos
+- D) Ningún enfoque ayudaría con las limitaciones de CPU
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -168,10 +168,10 @@ D) Ningún enfoque ayudaría con las limitaciones de CPU
 ### Pregunta 10
 **¿Cuál de los siguientes escenarios demuestra el principio de computación en la nube de "servicio medido" o "pago por uso"?**
 
-A) Una empresa paga una tarifa mensual fija independientemente del uso
-B) Una empresa paga solo por el espacio de almacenamiento y tiempo de cómputo que realmente consume
-C) Una empresa debe comprometerse a un contrato anual mínimo
-D) Una empresa paga basándose en el número de empleados
+- A) Una empresa paga una tarifa mensual fija independientemente del uso
+- B) Una empresa paga solo por el espacio de almacenamiento y tiempo de cómputo que realmente consume
+- C) Una empresa debe comprometerse a un contrato anual mínimo
+- D) Una empresa paga basándose en el número de empleados
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -184,10 +184,10 @@ D) Una empresa paga basándose en el número de empleados
 ### Pregunta 11
 **Un consultor de recuperación ante desastres está explicando los beneficios de las múltiples Zonas de Disponibilidad de AWS dentro de una Región. ¿Cuál es el beneficio empresarial principal de esta arquitectura?**
 
-A) Reduce costos compartiendo recursos
-B) Proporciona tolerancia a fallos - si una AZ falla, las aplicaciones pueden continuar ejecutándose en otra AZ
-C) Mejora el rendimiento distribuyendo la carga
-D) Simplifica la gestión centralizando recursos
+- A) Reduce costos compartiendo recursos
+- B) Proporciona tolerancia a fallos - si una AZ falla, las aplicaciones pueden continuar ejecutándose en otra AZ
+- C) Mejora el rendimiento distribuyendo la carga
+- D) Simplifica la gestión centralizando recursos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -200,10 +200,10 @@ D) Simplifica la gestión centralizando recursos
 ### Pregunta 12
 **Una empresa manufacturera está evaluando el despliegue de nube híbrida. Quieren mantener sus procesos de manufactura sensibles en las instalaciones pero usar servicios de nube para aplicaciones orientadas al cliente. ¿Cuál es el beneficio principal de este enfoque?**
 
-A) Siempre es más barato que nube pura o instalaciones puras
-B) Les permite mantener control sobre procesos sensibles mientras aprovechan los beneficios de la nube para otras cargas de trabajo
-C) Elimina la necesidad de conectividad a internet
-D) Garantiza 100% de tiempo de actividad para todas las aplicaciones
+- A) Siempre es más barato que nube pura o instalaciones puras
+- B) Les permite mantener control sobre procesos sensibles mientras aprovechan los beneficios de la nube para otras cargas de trabajo
+- C) Elimina la necesidad de conectividad a internet
+- D) Garantiza 100% de tiempo de actividad para todas las aplicaciones
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -216,10 +216,10 @@ D) Garantiza 100% de tiempo de actividad para todas las aplicaciones
 ### Pregunta 13
 **¿Cuál es la diferencia clave entre las Regiones de AWS y las Zonas Locales de AWS en términos de sus casos de uso principales?**
 
-A) Las Regiones son para producción, las Zonas Locales son para desarrollo
-B) Las Regiones proporcionan servicios completos de AWS, las Zonas Locales acercan el cómputo a ubicaciones geográficas específicas
-C) Las Zonas Locales son más caras que las Regiones
-D) No hay diferencia en sus capacidades
+- A) Las Regiones son para producción, las Zonas Locales son para desarrollo
+- B) Las Regiones proporcionan servicios completos de AWS, las Zonas Locales acercan el cómputo a ubicaciones geográficas específicas
+- C) Las Zonas Locales son más caras que las Regiones
+- D) No hay diferencia en sus capacidades
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -232,10 +232,10 @@ D) No hay diferencia en sus capacidades
 ### Pregunta 14
 **El CTO de una empresa está tratando de entender cómo la computación en la nube cambia su enfoque de planificación de capacidad. ¿Cuál es el cambio fundamental en la planificación de capacidad al moverse a la nube?**
 
-A) Aún necesitas planificar para la capacidad pico por adelantado
-B) Puedes comenzar con capacidad mínima y escalar basándote en la demanda real
-C) La planificación de capacidad se vuelve más compleja en la nube
-D) La nube elimina la necesidad de cualquier planificación de capacidad
+- A) Aún necesitas planificar para la capacidad pico por adelantado
+- B) Puedes comenzar con capacidad mínima y escalar basándote en la demanda real
+- C) La planificación de capacidad se vuelve más compleja en la nube
+- D) La nube elimina la necesidad de cualquier planificación de capacidad
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -248,10 +248,10 @@ D) La nube elimina la necesidad de cualquier planificación de capacidad
 ### Pregunta 15
 **¿Cuál de los siguientes ilustra mejor el beneficio "Aumentar velocidad y agilidad" de la computación en la nube en un escenario empresarial real?**
 
-A) Una startup puede lanzar una aplicación global en múltiples países en días en lugar de meses
-B) Las aplicaciones automáticamente se ejecutan más rápido en la nube
-C) La computación en la nube proporciona poder de cómputo ilimitado
-D) Las velocidades de red siempre son más rápidas en la nube
+- A) Una startup puede lanzar una aplicación global en múltiples países en días en lugar de meses
+- B) Las aplicaciones automáticamente se ejecutan más rápido en la nube
+- C) La computación en la nube proporciona poder de cómputo ilimitado
+- D) Las velocidades de red siempre son más rápidas en la nube
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -264,10 +264,10 @@ D) Las velocidades de red siempre son más rápidas en la nube
 ### Pregunta 16
 **Una agencia gubernamental está preocupada por los requisitos de residencia de datos. Necesitan asegurar que sus datos permanezcan dentro de límites geográficos específicos. ¿Cómo aborda AWS esta preocupación?**
 
-A) AWS automáticamente replica todos los datos globalmente para redundancia
-B) Los datos del cliente permanecen en la Región donde eligen almacenarlos a menos que lo configuren de otra manera
-C) La residencia de datos no puede controlarse en entornos de nube
-D) Solo ciertos servicios de AWS cumplen con los requisitos de residencia de datos
+- A) AWS automáticamente replica todos los datos globalmente para redundancia
+- B) Los datos del cliente permanecen en la Región donde eligen almacenarlos a menos que lo configuren de otra manera
+- C) La residencia de datos no puede controlarse en entornos de nube
+- D) Solo ciertos servicios de AWS cumplen con los requisitos de residencia de datos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -284,10 +284,10 @@ D) Solo ciertos servicios de AWS cumplen con los requisitos de residencia de dat
 ### Pregunta 17
 **Una auditoría de seguridad de una empresa reveló que varias instancias EC2 han sido lanzadas con grupos de seguridad excesivamente permisivos que permiten acceso SSH desde 0.0.0.0/0. Según el Modelo de Responsabilidad Compartida de AWS, ¿quién es responsable de arreglar este problema de seguridad?**
 
-A) AWS es responsable porque gestionan la infraestructura
-B) El cliente es responsable porque los grupos de seguridad son una configuración del cliente
-C) Es una responsabilidad compartida que requiere acción tanto de AWS como del cliente
-D) La responsabilidad depende del tipo de instancia
+- A) AWS es responsable porque gestionan la infraestructura
+- B) El cliente es responsable porque los grupos de seguridad son una configuración del cliente
+- C) Es una responsabilidad compartida que requiere acción tanto de AWS como del cliente
+- D) La responsabilidad depende del tipo de instancia
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -300,10 +300,10 @@ D) La responsabilidad depende del tipo de instancia
 ### Pregunta 18
 **Una empresa de servicios financieros necesita asegurar que todas las llamadas API a su entorno AWS sean registradas para propósitos de cumplimiento. También necesitan detectar si alguien intenta eliminar estos registros. ¿Qué combinación de servicios deberían implementar?**
 
-A) Solo CloudWatch Logs
-B) CloudTrail para registro + alarmas CloudWatch para monitorear intentos de eliminación de registros
-C) Solo Config para monitoreo de cumplimiento
-D) Solo GuardDuty para detección de amenazas
+- A) Solo CloudWatch Logs
+- B) CloudTrail para registro + alarmas CloudWatch para monitorear intentos de eliminación de registros
+- C) Solo Config para monitoreo de cumplimiento
+- D) Solo GuardDuty para detección de amenazas
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -316,10 +316,10 @@ D) Solo GuardDuty para detección de amenazas
 ### Pregunta 19
 **Un equipo de desarrollo está construyendo una aplicación de microservicios donde diferentes servicios necesitan acceder a diferentes recursos de AWS. ¿Cuál es la forma más segura de gestionar permisos para estos servicios ejecutándose en instancias EC2?**
 
-A) Usar las mismas credenciales de usuario IAM para todos los servicios
-B) Crear roles IAM individuales para cada servicio con permisos de menor privilegio
-C) Usar las credenciales de la cuenta root por simplicidad
-D) Almacenar credenciales en archivos de configuración de aplicación
+- A) Usar las mismas credenciales de usuario IAM para todos los servicios
+- B) Crear roles IAM individuales para cada servicio con permisos de menor privilegio
+- C) Usar las credenciales de la cuenta root por simplicidad
+- D) Almacenar credenciales en archivos de configuración de aplicación
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -332,11 +332,11 @@ D) Almacenar credenciales en archivos de configuración de aplicación
 ### Pregunta 20
 **Una empresa quiere federar sus usuarios de Active Directory existentes a AWS para que los empleados puedan acceder a servicios de AWS usando sus credenciales corporativas. ¿Qué servicios de AWS deberían considerar? (Selecciona DOS)**
 
-A) AWS IAM Identity Center (anteriormente AWS SSO)
-B) AWS Directory Service
-C) AWS Cognito
-D) AWS Organizations
-E) AWS Config
+- A) AWS IAM Identity Center (anteriormente AWS SSO)
+- B) AWS Directory Service
+- C) AWS Cognito
+- D) AWS Organizations
+- E) AWS Config
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -349,10 +349,10 @@ E) AWS Config
 ### Pregunta 21
 **Una empresa de comercio electrónico descubre actividad API inusual en sus registros CloudTrail - alguien está haciendo llamadas API desde un rango de direcciones IP desconocido. ¿Qué servicio de AWS podría haber detectado automáticamente esta actividad sospechosa?**
 
-A) AWS Config
-B) AWS CloudWatch
-C) AWS GuardDuty
-D) AWS Inspector
+- A) AWS Config
+- B) AWS CloudWatch
+- C) AWS GuardDuty
+- D) AWS Inspector
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -365,10 +365,10 @@ D) AWS Inspector
 ### Pregunta 22
 **Una startup está construyendo una aplicación móvil que requiere autenticación de usuario y quiere permitir a los usuarios iniciar sesión con sus cuentas de Google o Facebook. ¿Qué servicio de AWS es más apropiado para este caso de uso?**
 
-A) AWS IAM
-B) AWS Cognito
-C) AWS Directory Service
-D) AWS IAM Identity Center
+- A) AWS IAM
+- B) AWS Cognito
+- C) AWS Directory Service
+- D) AWS IAM Identity Center
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -381,10 +381,10 @@ D) AWS IAM Identity Center
 ### Pregunta 23
 **El equipo de seguridad de una empresa quiere asegurar que los buckets S3 no puedan hacerse públicos accidentalmente. Quieren implementar un control preventivo que bloquee configuraciones de acceso público. ¿Qué deberían implementar?**
 
-A) Políticas de bucket S3
-B) Políticas IAM
-C) Configuraciones de Bloqueo de Acceso Público S3
-D) Registro CloudTrail
+- A) Políticas de bucket S3
+- B) Políticas IAM
+- C) Configuraciones de Bloqueo de Acceso Público S3
+- D) Registro CloudTrail
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -397,10 +397,10 @@ D) Registro CloudTrail
 ### Pregunta 24
 **Una organización de salud necesita asegurar que su infraestructura AWS cumpla con los requisitos HIPAA. ¿Cuál es su responsabilidad principal respecto al cumplimiento HIPAA en AWS?**
 
-A) AWS automáticamente hace que todos los servicios cumplan con HIPAA
-B) La organización debe usar solo servicios elegibles para HIPAA e implementar configuraciones apropiadas
-C) El cumplimiento HIPAA no es posible en la nube
-D) Solo AWS es responsable del cumplimiento HIPAA
+- A) AWS automáticamente hace que todos los servicios cumplan con HIPAA
+- B) La organización debe usar solo servicios elegibles para HIPAA e implementar configuraciones apropiadas
+- C) El cumplimiento HIPAA no es posible en la nube
+- D) Solo AWS es responsable del cumplimiento HIPAA
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -413,10 +413,10 @@ D) Solo AWS es responsable del cumplimiento HIPAA
 ### Pregunta 25
 **Una empresa quiere implementar cifrado para datos almacenados en S3. Necesitan mantener control sobre las claves de cifrado y quieren usar su propia infraestructura de gestión de claves. ¿Qué opción de cifrado S3 deberían elegir?**
 
-A) SSE-S3 (Cifrado del Lado del Servidor con Claves Gestionadas por S3)
-B) SSE-KMS (Cifrado del Lado del Servidor con AWS KMS)
-C) SSE-C (Cifrado del Lado del Servidor con Claves Proporcionadas por el Cliente)
-D) Cifrado del lado del cliente
+- A) SSE-S3 (Cifrado del Lado del Servidor con Claves Gestionadas por S3)
+- B) SSE-KMS (Cifrado del Lado del Servidor con AWS KMS)
+- C) SSE-C (Cifrado del Lado del Servidor con Claves Proporcionadas por el Cliente)
+- D) Cifrado del lado del cliente
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -429,10 +429,10 @@ D) Cifrado del lado del cliente
 ### Pregunta 26
 **Una empresa tiene múltiples cuentas de AWS y quiere implementar políticas de seguridad centralizadas en todas las cuentas. Quieren prevenir que cualquier cuenta lance instancias en ciertas regiones. ¿Qué deberían usar?**
 
-A) Políticas IAM en cada cuenta
-B) AWS Organizations con Políticas de Control de Servicio (SCPs)
-C) Reglas AWS Config en cada cuenta
-D) Grupos de Seguridad en cada cuenta
+- A) Políticas IAM en cada cuenta
+- B) AWS Organizations con Políticas de Control de Servicio (SCPs)
+- C) Reglas AWS Config en cada cuenta
+- D) Grupos de Seguridad en cada cuenta
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -445,11 +445,11 @@ D) Grupos de Seguridad en cada cuenta
 ### Pregunta 27
 **Una aplicación web está experimentando un ataque DDoS dirigido a la capa de aplicación con solicitudes HTTP complejas. ¿Qué servicios de AWS proporcionarían la mejor protección? (Selecciona DOS)**
 
-A) AWS Shield Standard
-B) AWS Shield Advanced
-C) AWS WAF
-D) Amazon GuardDuty
-E) AWS Config
+- A) AWS Shield Standard
+- B) AWS Shield Advanced
+- C) AWS WAF
+- D) Amazon GuardDuty
+- E) AWS Config
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -462,10 +462,10 @@ E) AWS Config
 ### Pregunta 28
 **Un administrador de base de datos quiere asegurar que las conexiones de base de datos estén cifradas en tránsito. Para una base de datos Amazon RDS MySQL, ¿qué deberían verificar?**
 
-A) La base de datos está cifrada en reposo
-B) SSL/TLS está habilitado y forzado para conexiones
-C) La base de datos está en una subred privada
-D) Las copias de seguridad de la base de datos están cifradas
+- A) La base de datos está cifrada en reposo
+- B) SSL/TLS está habilitado y forzado para conexiones
+- C) La base de datos está en una subred privada
+- D) Las copias de seguridad de la base de datos están cifradas
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -478,10 +478,10 @@ D) Las copias de seguridad de la base de datos están cifradas
 ### Pregunta 29
 **Una empresa quiere monitorear cambios en las configuraciones de su infraestructura AWS y recibir alertas cuando los recursos estén configurados fuera de los estándares de cumplimiento. ¿Qué servicio es más apropiado?**
 
-A) AWS CloudTrail
-B) AWS Config
-C) AWS CloudWatch
-D) AWS Systems Manager
+- A) AWS CloudTrail
+- B) AWS Config
+- C) AWS CloudWatch
+- D) AWS Systems Manager
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -494,10 +494,10 @@ D) AWS Systems Manager
 ### Pregunta 30
 **Una aplicación ejecutándose en EC2 necesita acceder a buckets S3. El equipo de seguridad quiere asegurar que no se almacenen credenciales a largo plazo en las instancias EC2. ¿Cuál es el enfoque más seguro?**
 
-A) Almacenar claves de acceso en variables de entorno
-B) Usar roles IAM adjuntos a instancias EC2
-C) Codificar credenciales en la aplicación
-D) Almacenar credenciales en un archivo de configuración
+- A) Almacenar claves de acceso en variables de entorno
+- B) Usar roles IAM adjuntos a instancias EC2
+- C) Codificar credenciales en la aplicación
+- D) Almacenar credenciales en un archivo de configuración
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -510,10 +510,10 @@ D) Almacenar credenciales en un archivo de configuración
 ### Pregunta 31
 **Una empresa quiere detectar y responder a amenazas de seguridad en su entorno AWS automáticamente. Necesitan un servicio que pueda identificar instancias comprometidas y direcciones IP maliciosas. ¿Qué servicio deberían implementar?**
 
-A) AWS CloudTrail
-B) AWS Config
-C) AWS GuardDuty
-D) AWS Inspector
+- A) AWS CloudTrail
+- B) AWS Config
+- C) AWS GuardDuty
+- D) AWS Inspector
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -526,10 +526,10 @@ D) AWS Inspector
 ### Pregunta 32
 **Una institución financiera necesita asegurar que sus datos S3 estén cifrados en reposo y que mantengan control sobre las claves de cifrado. Quieren que AWS maneje el proceso de cifrado pero mantener la gestión de claves bajo su control. ¿Qué opción deberían elegir?**
 
-A) SSE-S3
-B) SSE-KMS con claves gestionadas por el cliente
-C) SSE-C
-D) Sin cifrado
+- A) SSE-S3
+- B) SSE-KMS con claves gestionadas por el cliente
+- C) SSE-C
+- D) Sin cifrado
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -542,10 +542,10 @@ D) Sin cifrado
 ### Pregunta 33
 **¿Cuál es el beneficio de seguridad principal de habilitar AWS CloudTrail en todas las Regiones de AWS?**
 
-A) Mejora el rendimiento de la aplicación
-B) Proporciona un rastro de auditoría integral de todas las actividades API a través de todas las regiones
-C) Reduce costos consolidando registros
-D) Arregla automáticamente problemas de seguridad
+- A) Mejora el rendimiento de la aplicación
+- B) Proporciona un rastro de auditoría integral de todas las actividades API a través de todas las regiones
+- C) Reduce costos consolidando registros
+- D) Arregla automáticamente problemas de seguridad
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -558,10 +558,10 @@ D) Arregla automáticamente problemas de seguridad
 ### Pregunta 34
 **Una empresa necesita asegurar que sus instancias EC2 cumplan con estándares de seguridad y estén libres de vulnerabilidades conocidas. ¿Qué servicio de AWS proporciona evaluaciones de seguridad automatizadas para instancias EC2?**
 
-A) AWS GuardDuty
-B) AWS Inspector
-C) AWS Config
-D) AWS Systems Manager
+- A) AWS GuardDuty
+- B) AWS Inspector
+- C) AWS Config
+- D) AWS Systems Manager
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -574,10 +574,10 @@ D) AWS Systems Manager
 ### Pregunta 35
 **Una empresa multinacional debe cumplir con GDPR para los datos de sus clientes europeos. Quieren asegurar que los datos de clientes europeos sean procesados solo en regiones de la UE. ¿Cómo deberían arquitecturar su infraestructura AWS?**
 
-A) Usar una sola región global para todos los datos
-B) Desplegar infraestructura separada en regiones de la UE para clientes europeos y configurar el procesamiento de datos en consecuencia
-C) Cifrar todos los datos independientemente de la ubicación
-D) Usar CloudFront para servir a todos los clientes desde regiones de la UE
+- A) Usar una sola región global para todos los datos
+- B) Desplegar infraestructura separada en regiones de la UE para clientes europeos y configurar el procesamiento de datos en consecuencia
+- C) Cifrar todos los datos independientemente de la ubicación
+- D) Usar CloudFront para servir a todos los clientes desde regiones de la UE
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -590,10 +590,10 @@ D) Usar CloudFront para servir a todos los clientes desde regiones de la UE
 ### Pregunta 36
 **¿Cuál es la ventaja de seguridad más significativa de usar roles IAM de AWS sobre usuarios IAM para aplicaciones?**
 
-A) Los roles son más baratos que los usuarios
-B) Los roles proporcionan más permisos que los usuarios
-C) Los roles usan credenciales temporales que se rotan automáticamente
-D) Los roles pueden compartirse entre múltiples aplicaciones
+- A) Los roles son más baratos que los usuarios
+- B) Los roles proporcionan más permisos que los usuarios
+- C) Los roles usan credenciales temporales que se rotan automáticamente
+- D) Los roles pueden compartirse entre múltiples aplicaciones
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -610,10 +610,10 @@ D) Los roles pueden compartirse entre múltiples aplicaciones
 ### Pregunta 37
 **Una empresa de medios necesita procesar archivos de video subidos por usuarios. El tiempo de procesamiento varía significativamente (de 30 segundos a 2 horas) y ocurre infrecuentemente. Quieren minimizar costos mientras aseguran que el procesamiento pueda escalar para manejar múltiples subidas simultáneamente. ¿Qué opción de cómputo es más apropiada?**
 
-A) Instancias EC2 On-Demand ejecutándose 24/7
-B) Instancias EC2 Reservadas
-C) AWS Lambda con límites de tiempo extendidos
-D) AWS Batch con instancias Spot
+- A) Instancias EC2 On-Demand ejecutándose 24/7
+- B) Instancias EC2 Reservadas
+- C) AWS Lambda con límites de tiempo extendidos
+- D) AWS Batch con instancias Spot
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -626,10 +626,10 @@ D) AWS Batch con instancias Spot
 ### Pregunta 38
 **Una aplicación IoT necesita almacenar millones de lecturas de sensores por día. Los datos necesitan ser consultables en tiempo real y deberían escalar automáticamente para manejar cargas variables. ¿Qué solución de base de datos es más apropiada?**
 
-A) Amazon RDS con réplicas de lectura
-B) Amazon DynamoDB
-C) Amazon Redshift
-D) Amazon Aurora
+- A) Amazon RDS con réplicas de lectura
+- B) Amazon DynamoDB
+- C) Amazon Redshift
+- D) Amazon Aurora
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -642,10 +642,10 @@ D) Amazon Aurora
 ### Pregunta 39
 **Una empresa quiere construir una API sin servidor que pueda manejar picos repentinos de tráfico sin ninguna gestión de servidor. La API necesita integrarse con múltiples servicios backend y bases de datos. ¿Qué combinación de servicios es más apropiada?**
 
-A) EC2 + Application Load Balancer + RDS
-B) API Gateway + Lambda + DynamoDB
-C) ECS + ALB + Aurora
-D) Elastic Beanstalk + RDS
+- A) EC2 + Application Load Balancer + RDS
+- B) API Gateway + Lambda + DynamoDB
+- C) ECS + ALB + Aurora
+- D) Elastic Beanstalk + RDS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -658,10 +658,10 @@ D) Elastic Beanstalk + RDS
 ### Pregunta 40
 **Una aplicación de comercio financiero requiere latencia extremadamente baja (sub-milisegundo) para operaciones de base de datos. ¿Qué opción de almacenamiento proporcionaría el mejor rendimiento?**
 
-A) Amazon S3
-B) Amazon EFS
-C) Amazon EBS con IOPS Aprovisionados
-D) Almacenamiento de instancia (almacenamiento SSD local)
+- A) Amazon S3
+- B) Amazon EFS
+- C) Amazon EBS con IOPS Aprovisionados
+- D) Almacenamiento de instancia (almacenamiento SSD local)
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -674,10 +674,10 @@ D) Almacenamiento de instancia (almacenamiento SSD local)
 ### Pregunta 41
 **Una empresa necesita migrar 500TB de datos desde su centro de datos local a S3. Su conexión a internet tiene ancho de banda limitado y no pueden permitirse semanas de transferencia de datos afectando sus operaciones comerciales. ¿Cuál es la estrategia de migración más eficiente?**
 
-A) Usar AWS Direct Connect para transferencia más rápida
-B) Usar AWS DataSync sobre internet
-C) Usar dispositivos AWS Snowball Edge
-D) Usar S3 Transfer Acceleration
+- A) Usar AWS Direct Connect para transferencia más rápida
+- B) Usar AWS DataSync sobre internet
+- C) Usar dispositivos AWS Snowball Edge
+- D) Usar S3 Transfer Acceleration
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -690,10 +690,10 @@ D) Usar S3 Transfer Acceleration
 ### Pregunta 42
 **Una arquitectura de microservicios necesita entrega confiable de mensajes entre servicios, con la capacidad de manejar fallas de mensajes y reintentos. Los mensajes deberían procesarse en orden para cada cliente. ¿Qué combinación de servicios es más apropiada?**
 
-A) Amazon SNS para toda la mensajería
-B) Colas Amazon SQS Standard
-C) Colas Amazon SQS FIFO
-D) Amazon Kinesis Data Streams
+- A) Amazon SNS para toda la mensajería
+- B) Colas Amazon SQS Standard
+- C) Colas Amazon SQS FIFO
+- D) Amazon Kinesis Data Streams
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -706,10 +706,10 @@ D) Amazon Kinesis Data Streams
 ### Pregunta 43
 **Una aplicación de comercio electrónico global sirve a clientes en todo el mundo y necesita proporcionar tiempos de respuesta rápidos independientemente de la ubicación del usuario. La aplicación tiene contenido dinámico que debe personalizarse para cada usuario. ¿Qué patrón de arquitectura sería más efectivo?**
 
-A) Despliegue de una sola región con CloudFront
-B) Despliegue multi-región con CloudFront y failover de origen
-C) Una sola región con múltiples Zonas de Disponibilidad
-D) Despliegue multi-región sin CloudFront
+- A) Despliegue de una sola región con CloudFront
+- B) Despliegue multi-región con CloudFront y failover de origen
+- C) Una sola región con múltiples Zonas de Disponibilidad
+- D) Despliegue multi-región sin CloudFront
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -722,10 +722,10 @@ D) Despliegue multi-región sin CloudFront
 ### Pregunta 44
 **Un equipo de analítica de datos necesita ejecutar consultas SQL complejas en grandes conjuntos de datos (petabytes) almacenados en S3. Quieren una solución que no requiera gestionar infraestructura y pueda escalar automáticamente basándose en la complejidad de la consulta. ¿Qué servicio es más adecuado?**
 
-A) Amazon EMR
-B) Amazon Athena
-C) Amazon Redshift
-D) Amazon RDS
+- A) Amazon EMR
+- B) Amazon Athena
+- C) Amazon Redshift
+- D) Amazon RDS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -738,10 +738,10 @@ D) Amazon RDS
 ### Pregunta 45
 **Una empresa de juegos móviles necesita implementar tableros de clasificación en tiempo real que puedan manejar millones de jugadores concurrentes actualizando sus puntuaciones. La solución debe proporcionar clasificaciones en tiempo real y escalar automáticamente. ¿Qué combinación sería la más adecuada?**
 
-A) RDS con réplicas de lectura
-B) DynamoDB con DynamoDB Streams + Lambda
-C) ElastiCache con escalado manual
-D) S3 con CloudFront
+- A) RDS con réplicas de lectura
+- B) DynamoDB con DynamoDB Streams + Lambda
+- C) ElastiCache con escalado manual
+- D) S3 con CloudFront
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -754,10 +754,10 @@ D) S3 con CloudFront
 ### Pregunta 46
 **Una empresa quiere implementar una estrategia de recuperación ante desastres para su aplicación crítica. Necesitan un RTO (Objetivo de Tiempo de Recuperación) de menos de 1 hora y RPO (Objetivo de Punto de Recuperación) de menos de 15 minutos. ¿Qué enfoque cumpliría estos requisitos?**
 
-A) Respaldo y restauración usando S3
-B) Luz piloto con failover automatizado
-C) Standby cálido en otra región
-D) Despliegue multi-sitio activo/activo
+- A) Respaldo y restauración usando S3
+- B) Luz piloto con failover automatizado
+- C) Standby cálido en otra región
+- D) Despliegue multi-sitio activo/activo
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -770,10 +770,10 @@ D) Despliegue multi-sitio activo/activo
 ### Pregunta 47
 **Una empresa necesita implementar un sistema de gestión de contenido donde los usuarios suben archivos de video grandes (hasta 100GB cada uno). El sistema debería proporcionar subidas reanudables y manejar fallas de subida elegantemente. ¿Qué característica de S3 es más apropiada?**
 
-A) S3 Transfer Acceleration
-B) S3 Multipart Upload
-C) S3 Cross-Region Replication
-D) S3 Intelligent Tiering
+- A) S3 Transfer Acceleration
+- B) S3 Multipart Upload
+- C) S3 Cross-Region Replication
+- D) S3 Intelligent Tiering
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -786,10 +786,10 @@ D) S3 Intelligent Tiering
 ### Pregunta 48
 **Un equipo de aprendizaje automático necesita procesar datos de streaming en tiempo real para detectar transacciones fraudulentas. Necesitan analizar datos conforme llegan y disparar alertas inmediatas. ¿Qué combinación de servicios es más apropiada?**
 
-A) S3 + Lambda
-B) Kinesis Data Streams + Kinesis Analytics + Lambda
-C) SQS + EC2
-D) DynamoDB + CloudWatch
+- A) S3 + Lambda
+- B) Kinesis Data Streams + Kinesis Analytics + Lambda
+- C) SQS + EC2
+- D) DynamoDB + CloudWatch
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -802,10 +802,10 @@ D) DynamoDB + CloudWatch
 ### Pregunta 49
 **Una empresa quiere implementar Infraestructura como Código (IaC) para gestionar sus recursos de AWS con control de versiones y capacidades de rollback. ¿Qué servicio sería más apropiado?**
 
-A) AWS Systems Manager
-B) AWS CloudFormation
-C) AWS Config
-D) AWS OpsWorks
+- A) AWS Systems Manager
+- B) AWS CloudFormation
+- C) AWS Config
+- D) AWS OpsWorks
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -818,10 +818,10 @@ D) AWS OpsWorks
 ### Pregunta 50
 **Una aplicación web experimenta patrones de tráfico predecibles con altas cargas durante horas de oficina (8 AM - 6 PM) y bajas cargas durante noches y fines de semana. ¿Qué estrategia de escalado sería más costo-efectiva?**
 
-A) Escalado manual basado en tiempo
-B) Auto Scaling programado con seguimiento de objetivos
-C) Solo Auto Scaling reactivo
-D) Sobre-aprovisionamiento para cargas pico
+- A) Escalado manual basado en tiempo
+- B) Auto Scaling programado con seguimiento de objetivos
+- C) Solo Auto Scaling reactivo
+- D) Sobre-aprovisionamiento para cargas pico
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -834,10 +834,10 @@ D) Sobre-aprovisionamiento para cargas pico
 ### Pregunta 51
 **Una empresa necesita asegurar que su aplicación web de múltiples niveles esté altamente disponible a través de múltiples Zonas de Disponibilidad. Quieren failover automático y verificación de salud. ¿Qué servicio proporciona esta capacidad?**
 
-A) Amazon Route 53
-B) Application Load Balancer
-C) CloudFront
-D) Auto Scaling
+- A) Amazon Route 53
+- B) Application Load Balancer
+- C) CloudFront
+- D) Auto Scaling
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -850,10 +850,10 @@ D) Auto Scaling
 ### Pregunta 52
 **Un equipo de ciencia de datos necesita analizar archivos de log almacenados en S3. El análisis es intensivo en CPU y se ejecuta por varias horas. Quieren usar un servicio gestionado que pueda aprovisionar automáticamente recursos de cómputo y manejar colas de trabajos. ¿Qué servicio es más apropiado?**
 
-A) AWS Lambda
-B) Amazon EMR
-C) AWS Batch
-D) Amazon ECS
+- A) AWS Lambda
+- B) Amazon EMR
+- C) AWS Batch
+- D) Amazon ECS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -866,10 +866,10 @@ D) Amazon ECS
 ### Pregunta 53
 **Una empresa quiere implementar una arquitectura de microservicios donde los servicios puedan descubrirse y comunicarse entre sí automáticamente. Quieren capacidades de service mesh para observabilidad y gestión de tráfico. ¿Qué combinación funcionaría mejor?**
 
-A) ECS + Application Load Balancer
-B) EKS + AWS App Mesh
-C) Lambda + API Gateway
-D) EC2 + Route 53
+- A) ECS + Application Load Balancer
+- B) EKS + AWS App Mesh
+- C) Lambda + API Gateway
+- D) EC2 + Route 53
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -882,10 +882,10 @@ D) EC2 + Route 53
 ### Pregunta 54
 **Una empresa de servicios financieros necesita procesar datos de transacciones en tiempo real y almacenarlos en un almacén de datos para analítica. Necesitan garantías de procesamiento exactamente una vez y la capacidad de reproducir datos si es necesario. ¿Qué arquitectura es más apropiada?**
 
-A) Kinesis Data Streams + Kinesis Data Firehose + Redshift
-B) SQS + Lambda + DynamoDB
-C) SNS + SQS + RDS
-D) S3 + Athena + QuickSight
+- A) Kinesis Data Streams + Kinesis Data Firehose + Redshift
+- B) SQS + Lambda + DynamoDB
+- C) SNS + SQS + RDS
+- D) S3 + Athena + QuickSight
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -898,10 +898,10 @@ D) S3 + Athena + QuickSight
 ### Pregunta 55
 **Una empresa necesita monitorear el rendimiento de aplicaciones, rastrear solicitudes a través de múltiples servicios, e identificar cuellos de botella en su arquitectura distribuida. ¿Qué servicio proporciona información detallada de aplicaciones y rastreo de solicitudes?**
 
-A) CloudWatch Metrics
-B) CloudTrail
-C) AWS X-Ray
-D) Config
+- A) CloudWatch Metrics
+- B) CloudTrail
+- C) AWS X-Ray
+- D) Config
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -914,10 +914,10 @@ D) Config
 ### Pregunta 56
 **Un equipo de desarrollo necesita implementar una aplicación web rápidamente sin gestionar servidores o infraestructura. Quieren escalado automático, equilibrio de carga y gestión de plataforma. ¿Qué servicio es más apropiado para despliegue rápido?**
 
-A) Amazon EC2
-B) AWS Elastic Beanstalk
-C) Amazon ECS
-D) AWS Lambda
+- A) Amazon EC2
+- B) AWS Elastic Beanstalk
+- C) Amazon ECS
+- D) AWS Lambda
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -930,10 +930,10 @@ D) AWS Lambda
 ### Pregunta 57
 **Una empresa quiere implementar una arquitectura híbrida donde sus aplicaciones on-premises puedan acceder sin problemas a los servicios de AWS como si estuvieran en la red local. ¿Qué servicio proporciona esta capacidad?**
 
-A) VPN Gateway
-B) AWS Direct Connect
-C) Internet Gateway
-D) AWS Outposts
+- A) VPN Gateway
+- B) AWS Direct Connect
+- C) Internet Gateway
+- D) AWS Outposts
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -946,10 +946,10 @@ D) AWS Outposts
 ### Pregunta 58
 **Una empresa de streaming de medios necesita transcodificar archivos de video en múltiples formatos y resoluciones. La carga de trabajo es esporádica e intensiva en cómputo. Quieren una solución completamente gestionada que escale automáticamente. ¿Qué servicio es más adecuado?**
 
-A) EC2 con Auto Scaling
-B) AWS Elemental MediaConvert
-C) AWS Lambda
-D) Amazon ECS con Fargate
+- A) EC2 con Auto Scaling
+- B) AWS Elemental MediaConvert
+- C) AWS Lambda
+- D) Amazon ECS con Fargate
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -966,10 +966,10 @@ D) Amazon ECS con Fargate
 ### Pregunta 59
 **Una empresa tiene una carga de trabajo mixta con algunas aplicaciones predecibles de estado estable y algunas cargas de trabajo variables y experimentales. Quieren optimizar costos mientras mantienen flexibilidad. ¿Qué estrategia de precios sería más efectiva?**
 
-A) Usar Instancias Reservadas para todo
-B) Usar Instancias Spot para todo
-C) Usar Instancias Reservadas para cargas de trabajo estables y On-Demand para cargas de trabajo variables
-D) Usar solo Instancias On-Demand
+- A) Usar Instancias Reservadas para todo
+- B) Usar Instancias Spot para todo
+- C) Usar Instancias Reservadas para cargas de trabajo estables y On-Demand para cargas de trabajo variables
+- D) Usar solo Instancias On-Demand
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -982,10 +982,10 @@ D) Usar solo Instancias On-Demand
 ### Pregunta 60
 **Una startup en crecimiento espera que su uso de AWS aumente significativamente pero no está segura de qué tipos de instancia específicos necesitará. Quieren ahorros de costos con flexibilidad para cambiar familias de instancias. ¿Qué opción proporciona el mejor equilibrio?**
 
-A) Instancias Reservadas Estándar
-B) Instancias Reservadas Convertibles
-C) Compute Savings Plans
-D) EC2 Instance Savings Plans
+- A) Instancias Reservadas Estándar
+- B) Instancias Reservadas Convertibles
+- C) Compute Savings Plans
+- D) EC2 Instance Savings Plans
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -998,10 +998,10 @@ D) EC2 Instance Savings Plans
 ### Pregunta 61
 **Una empresa quiere implementar seguimiento detallado de costos a través de múltiples departamentos y proyectos. Necesitan entender patrones de gasto y asignar costos con precisión. ¿Qué deberían implementar primero?**
 
-A) AWS Budgets
-B) Etiquetas de asignación de costos
-C) AWS Cost Explorer
-D) Recomendaciones de Instancias Reservadas
+- A) AWS Budgets
+- B) Etiquetas de asignación de costos
+- C) AWS Cost Explorer
+- D) Recomendaciones de Instancias Reservadas
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1014,10 +1014,10 @@ D) Recomendaciones de Instancias Reservadas
 ### Pregunta 62
 **La factura mensual de AWS de una empresa ha aumentado repentinamente un 200% sin cambios conocidos en su infraestructura. ¿Qué servicio les ayudaría a identificar rápidamente la causa de este aumento?**
 
-A) AWS Trusted Advisor
-B) AWS Cost Explorer con agrupación por servicio y tiempo
-C) AWS Budgets
-D) AWS Pricing Calculator
+- A) AWS Trusted Advisor
+- B) AWS Cost Explorer con agrupación por servicio y tiempo
+- C) AWS Budgets
+- D) AWS Pricing Calculator
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1030,10 +1030,10 @@ D) AWS Pricing Calculator
 ### Pregunta 63
 **Una empresa necesita soporte 24/7 para su aplicación de misión crítica con tiempos de respuesta garantizados de menos de 15 minutos para problemas críticos. ¿Qué plan de soporte cumple este requisito?**
 
-A) Basic Support
-B) Developer Support
-C) Business Support
-D) Enterprise Support
+- A) Basic Support
+- B) Developer Support
+- C) Business Support
+- D) Enterprise Support
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1046,10 +1046,10 @@ D) Enterprise Support
 ### Pregunta 64
 **Una empresa quiere entender sus ahorros potenciales por usar Instancias Reservadas. Necesitan recomendaciones basadas en sus patrones de uso reales. ¿Qué herramienta proporciona este análisis?**
 
-A) AWS Pricing Calculator
-B) Recomendaciones de Instancias Reservadas de AWS Cost Explorer
-C) AWS Trusted Advisor
-D) AWS Budgets
+- A) AWS Pricing Calculator
+- B) Recomendaciones de Instancias Reservadas de AWS Cost Explorer
+- C) AWS Trusted Advisor
+- D) AWS Budgets
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1062,10 +1062,10 @@ D) AWS Budgets
 ### Pregunta 65
 **Una empresa quiere hacer cumplir automáticamente límites de gasto a través de su organización para prevenir sobrecostos. Necesitan la capacidad de restringir automáticamente el lanzamiento de nuevos recursos cuando se excedan los presupuestos. ¿Qué combinación de servicios deberían usar?**
 
-A) AWS Budgets + AWS Organizations Service Control Policies
-B) Cost Explorer + políticas IAM
-C) Trusted Advisor + alarmas CloudWatch
-D) Alertas de facturación + intervención manual
+- A) AWS Budgets + AWS Organizations Service Control Policies
+- B) Cost Explorer + políticas IAM
+- C) Trusted Advisor + alarmas CloudWatch
+- D) Alertas de facturación + intervención manual
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>

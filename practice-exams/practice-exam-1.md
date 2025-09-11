@@ -23,10 +23,10 @@
 ### Pregunta 1
 **¿Cuál de las siguientes opciones describe mejor la computación en la nube?**
 
-A) Un centro de datos físico que posees y operas
-B) Entrega bajo demanda de recursos de TI y aplicaciones a través de internet con precios de pago por uso
-C) Una red privada que conecta múltiples oficinas
-D) Software que funciona solo en computadoras locales
+- A) Un centro de datos físico que posees y operas
+- B) Entrega bajo demanda de recursos de TI y aplicaciones a través de internet con precios de pago por uso
+- C) Una red privada que conecta múltiples oficinas
+- D) Software que funciona solo en computadoras locales
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -39,10 +39,10 @@ D) Software que funciona solo en computadoras locales
 ### Pregunta 2
 **¿Cuál es un beneficio clave de la elasticidad de la computación en la nube?**
 
-A) Proporciona capacidad de almacenamiento ilimitada
-B) Asegura 100% de tiempo de actividad
-C) Permite escalar recursos hacia arriba o abajo según la demanda
-D) Elimina todas las preocupaciones de seguridad
+- A) Proporciona capacidad de almacenamiento ilimitada
+- B) Asegura 100% de tiempo de actividad
+- C) Permite escalar recursos hacia arriba o abajo según la demanda
+- D) Elimina todas las preocupaciones de seguridad
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -55,10 +55,10 @@ D) Elimina todas las preocupaciones de seguridad
 ### Pregunta 3
 **¿Qué modelo de implementación combina infraestructura local con servicios en la nube?**
 
-A) Nube pública
-B) Nube privada
-C) Nube híbrida
-D) Nube comunitaria
+- A) Nube pública
+- B) Nube privada
+- C) Nube híbrida
+- D) Nube comunitaria
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -71,10 +71,10 @@ D) Nube comunitaria
 ### Pregunta 4
 **En el modelo de Infraestructura como Servicio (IaaS), ¿de qué es responsable el cliente?**
 
-A) Servidores físicos y equipos de red
-B) Sistemas operativos, aplicaciones y datos
-C) Instalaciones del centro de datos y energía
-D) Hipervisor y software de virtualización
+- A) Servidores físicos y equipos de red
+- B) Sistemas operativos, aplicaciones y datos
+- C) Instalaciones del centro de datos y energía
+- D) Hipervisor y software de virtualización
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -87,10 +87,10 @@ D) Hipervisor y software de virtualización
 ### Pregunta 5
 **¿Qué es una Zona de Disponibilidad de AWS?**
 
-A) Una Región completa de AWS
-B) Uno o más centros de datos discretos con energía, redes y conectividad redundantes
-C) Un solo centro de datos
-D) Un área geográfica que contiene múltiples Regiones de AWS
+- A) Una Región completa de AWS
+- B) Uno o más centros de datos discretos con energía, redes y conectividad redundantes
+- C) Un solo centro de datos
+- D) Un área geográfica que contiene múltiples Regiones de AWS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -104,10 +104,10 @@ D) Un área geográfica que contiene múltiples Regiones de AWS
 ### Pregunta 6
 **¿Cuál de las siguientes NO es una de las seis ventajas de la computación en la nube según AWS?**
 
-A) Cambiar gastos de capital por gastos operacionales
-B) Beneficiarse de economías de escala masivas
-C) Eliminar toda la sobrecarga operacional
-D) Aumentar la velocidad y agilidad
+- A) Cambiar gastos de capital por gastos operacionales
+- B) Beneficiarse de economías de escala masivas
+- C) Eliminar toda la sobrecarga operacional
+- D) Aumentar la velocidad y agilidad
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -120,10 +120,10 @@ D) Aumentar la velocidad y agilidad
 ### Pregunta 7
 **¿Cuál es la diferencia principal entre escalado horizontal y vertical?**
 
-A) El escalado horizontal agrega más servidores, el escalado vertical aumenta la capacidad del servidor
-B) El escalado horizontal es más barato, el escalado vertical es más caro
-C) El escalado horizontal es automático, el escalado vertical es manual
-D) No hay diferencia entre los dos
+- A) El escalado horizontal agrega más servidores, el escalado vertical aumenta la capacidad del servidor
+- B) El escalado horizontal es más barato, el escalado vertical es más caro
+- C) El escalado horizontal es automático, el escalado vertical es manual
+- D) No hay diferencia entre los dos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -136,10 +136,10 @@ D) No hay diferencia entre los dos
 ### Pregunta 8
 **¿Qué servicio de AWS usarías para distribuir contenido globalmente con baja latencia?**
 
-A) Amazon S3
-B) Amazon CloudFront
-C) Amazon EC2
-D) Amazon RDS
+- A) Amazon S3
+- B) Amazon CloudFront
+- C) Amazon EC2
+- D) Amazon RDS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -152,11 +152,11 @@ D) Amazon RDS
 ### Pregunta 9
 **¿De qué consiste la infraestructura global de AWS? (Selecciona DOS)**
 
-A) Regiones
-B) Solo zonas locales
-C) Zonas de Disponibilidad
-D) Almacenes de datos
-E) Nubes privadas
+- A) Regiones
+- B) Solo zonas locales
+- C) Zonas de Disponibilidad
+- D) Almacenes de datos
+- E) Nubes privadas
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -169,10 +169,10 @@ E) Nubes privadas
 ### Pregunta 10
 **¿Qué característica de la computación en la nube permite a los usuarios acceder a servicios desde cualquier lugar con conexión a internet?**
 
-A) Agrupación de recursos
-B) Acceso amplio a la red
-C) Elasticidad rápida
-D) Servicio medido
+- A) Agrupación de recursos
+- B) Acceso amplio a la red
+- C) Elasticidad rápida
+- D) Servicio medido
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -185,10 +185,10 @@ D) Servicio medido
 ### Pregunta 11
 **¿Cuál es la principal ventaja de usar una nube privada sobre una nube pública?**
 
-A) Menor costo
-B) Mayor control y seguridad
-C) Mejor rendimiento
-D) No requiere mantenimiento
+- A) Menor costo
+- B) Mayor control y seguridad
+- C) Mejor rendimiento
+- D) No requiere mantenimiento
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -201,10 +201,10 @@ D) No requiere mantenimiento
 ### Pregunta 12
 **En Plataforma como Servicio (PaaS), ¿qué gestiona típicamente el proveedor de la nube?**
 
-A) Solo el hardware físico
-B) Hardware, sistema operativo y entorno de ejecución
-C) Solo las aplicaciones y datos
-D) Nada - el cliente gestiona todo
+- A) Solo el hardware físico
+- B) Hardware, sistema operativo y entorno de ejecución
+- C) Solo las aplicaciones y datos
+- D) Nada - el cliente gestiona todo
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -217,10 +217,10 @@ D) Nada - el cliente gestiona todo
 ### Pregunta 13
 **¿Cuál es el beneficio del modelo de precios de pago por uso de AWS?**
 
-A) Pagas una tarifa mensual fija sin importar el uso
-B) Solo pagas por los recursos que realmente usas
-C) Debes pagar por los recursos por adelantado
-D) Todos los servicios son completamente gratuitos
+- A) Pagas una tarifa mensual fija sin importar el uso
+- B) Solo pagas por los recursos que realmente usas
+- C) Debes pagar por los recursos por adelantado
+- D) Todos los servicios son completamente gratuitos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -233,10 +233,10 @@ D) Todos los servicios son completamente gratuitos
 ### Pregunta 14
 **¿Cuál de las siguientes opciones describe mejor "volverse global en minutos" como una ventaja de la computación en la nube?**
 
-A) La capacidad de desplegar aplicaciones mundialmente de forma rápida
-B) La garantía de que las aplicaciones funcionarán en todos los países
-C) Traducción automática de aplicaciones a diferentes idiomas
-D) La capacidad de viajar a cualquier lugar del mundo
+- A) La capacidad de desplegar aplicaciones mundialmente de forma rápida
+- B) La garantía de que las aplicaciones funcionarán en todos los países
+- C) Traducción automática de aplicaciones a diferentes idiomas
+- D) La capacidad de viajar a cualquier lugar del mundo
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -249,10 +249,10 @@ D) La capacidad de viajar a cualquier lugar del mundo
 ### Pregunta 15
 **¿Cuál es la diferencia entre una Región de AWS y una Ubicación de Borde?**
 
-A) Las Regiones son más pequeñas que las Ubicaciones de Borde
-B) Las Ubicaciones de Borde se usan para entrega de contenido, las Regiones alojan toda la gama de servicios de AWS
-C) No hay diferencia
-D) Las Ubicaciones de Borde son más caras que las Regiones
+- A) Las Regiones son más pequeñas que las Ubicaciones de Borde
+- B) Las Ubicaciones de Borde se usan para entrega de contenido, las Regiones alojan toda la gama de servicios de AWS
+- C) No hay diferencia
+- D) Las Ubicaciones de Borde son más caras que las Regiones
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -265,10 +265,10 @@ D) Las Ubicaciones de Borde son más caras que las Regiones
 ### Pregunta 16
 **¿Qué modelo de servicio en la nube proporciona el mayor control del cliente sobre la infraestructura?**
 
-A) Software como Servicio (SaaS)
-B) Plataforma como Servicio (PaaS)
-C) Infraestructura como Servicio (IaaS)
-D) Función como Servicio (FaaS)
+- A) Software como Servicio (SaaS)
+- B) Plataforma como Servicio (PaaS)
+- C) Infraestructura como Servicio (IaaS)
+- D) Función como Servicio (FaaS)
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -285,10 +285,10 @@ D) Función como Servicio (FaaS)
 ### Pregunta 17
 **Según el Modelo de Responsabilidad Compartida de AWS, ¿de qué es responsable AWS?**
 
-A) Seguridad DE la nube
-B) Seguridad EN la nube
-C) Cifrado de datos del cliente
-D) Seguridad a nivel de aplicación
+- A) Seguridad DE la nube
+- B) Seguridad EN la nube
+- C) Cifrado de datos del cliente
+- D) Seguridad a nivel de aplicación
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -301,10 +301,10 @@ D) Seguridad a nivel de aplicación
 ### Pregunta 18
 **¿Qué servicio de AWS es la base de la gestión de identidad y acceso en AWS?**
 
-A) AWS Organizations
-B) AWS IAM (Identity and Access Management)
-C) AWS CloudTrail
-D) AWS Config
+- A) AWS Organizations
+- B) AWS IAM (Identity and Access Management)
+- C) AWS CloudTrail
+- D) AWS Config
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -317,10 +317,10 @@ D) AWS Config
 ### Pregunta 19
 **¿Cuál es la mejor práctica para el usuario root de la cuenta de AWS?**
 
-A) Usarlo para tareas administrativas diarias
-B) Compartir las credenciales con miembros del equipo
-C) Habilitar MFA y usarlo solo para configuración inicial y tareas de facturación
-D) Eliminarlo después de crear otros usuarios
+- A) Usarlo para tareas administrativas diarias
+- B) Compartir las credenciales con miembros del equipo
+- C) Habilitar MFA y usarlo solo para configuración inicial y tareas de facturación
+- D) Eliminarlo después de crear otros usuarios
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -333,10 +333,10 @@ D) Eliminarlo después de crear otros usuarios
 ### Pregunta 20
 **¿Cuál es el principio de menor privilegio en AWS IAM?**
 
-A) Dar a los usuarios permisos máximos por conveniencia
-B) Otorgar solo los permisos mínimos necesarios para realizar las tareas requeridas
-C) Usar solo la cuenta de usuario root
-D) Asignar todos los usuarios al mismo grupo
+- A) Dar a los usuarios permisos máximos por conveniencia
+- B) Otorgar solo los permisos mínimos necesarios para realizar las tareas requeridas
+- C) Usar solo la cuenta de usuario root
+- D) Asignar todos los usuarios al mismo grupo
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -349,10 +349,10 @@ D) Asignar todos los usuarios al mismo grupo
 ### Pregunta 21
 **¿Qué servicio de AWS te ayuda a monitorear y registrar llamadas API hechas a servicios de AWS?**
 
-A) AWS CloudWatch
-B) AWS CloudTrail
-C) AWS Config
-D) AWS Inspector
+- A) AWS CloudWatch
+- B) AWS CloudTrail
+- C) AWS Config
+- D) AWS Inspector
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -365,10 +365,10 @@ D) AWS Inspector
 ### Pregunta 22
 **¿Qué es la Autenticación Multi-Factor (MFA)?**
 
-A) Usar múltiples contraseñas
-B) Una capa adicional de seguridad que requiere algo que sabes y algo que tienes
-C) Una forma de crear múltiples cuentas de usuario
-D) Un método para cifrar datos
+- A) Usar múltiples contraseñas
+- B) Una capa adicional de seguridad que requiere algo que sabes y algo que tienes
+- C) Una forma de crear múltiples cuentas de usuario
+- D) Un método para cifrar datos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -381,10 +381,10 @@ D) Un método para cifrar datos
 ### Pregunta 23
 **¿Cuál de las siguientes es un ejemplo de Federación de Identidad de AWS?**
 
-A) Crear usuarios IAM para cada empleado
-B) Permitir a los usuarios iniciar sesión con sus credenciales corporativas de Active Directory
-C) Usar la cuenta de usuario root
-D) Crear múltiples cuentas de AWS
+- A) Crear usuarios IAM para cada empleado
+- B) Permitir a los usuarios iniciar sesión con sus credenciales corporativas de Active Directory
+- C) Usar la cuenta de usuario root
+- D) Crear múltiples cuentas de AWS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -397,10 +397,10 @@ D) Crear múltiples cuentas de AWS
 ### Pregunta 24
 **¿Cuál es el propósito de los Grupos de Seguridad de AWS?**
 
-A) Organizar usuarios IAM
-B) Actuar como firewalls virtuales para instancias EC2
-C) Cifrar datos en reposo
-D) Gestionar permisos de facturación
+- A) Organizar usuarios IAM
+- B) Actuar como firewalls virtuales para instancias EC2
+- C) Cifrar datos en reposo
+- D) Gestionar permisos de facturación
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -413,739 +413,739 @@ D) Gestionar permisos de facturación
 ### Pregunta 25
 **¿Qué servicio de AWS proporciona protección DDoS?**
 
-A) AWS WAF
-B) AWS Shield
-C) AWS GuardDuty
-D) AWS Inspector
+- A) AWS WAF
+- B) AWS Shield
+- C) AWS GuardDuty
+- D) AWS Inspector
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Shield provides DDoS protection for AWS resources. Shield Standard is free and provides basic protection, while Shield Advanced offers enhanced protection for a fee.
+**Explicación**: AWS Shield proporciona protección DDoS para recursos de AWS. Shield Standard es gratuito y proporciona protección básica, mientras que Shield Advanced ofrece protección mejorada por una tarifa.
 </details>
 
-### Question 26
-**What is the difference between IAM roles and IAM users?**
+### Pregunta 26
+**¿Cuál es la diferencia entre los roles de IAM y los usuarios de IAM?**
 
-A) There is no difference
-B) Roles are for humans, users are for applications
-C) Roles are temporary and can be assumed, users have permanent credentials
-D) Roles are more expensive than users
+- A) No hay diferencia
+- B) Los roles son para humanos, los usuarios son para aplicaciones
+- C) Los roles son temporales y pueden ser asumidos, los usuarios tienen credenciales permanentes
+- D) Los roles son más caros que los usuarios
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: IAM roles provide temporary credentials that can be assumed by users, applications, or services, while IAM users have permanent, long-term credentials. Roles are often used for applications and cross-account access.
+**Explicación**: Los roles de IAM proporcionan credenciales temporales que pueden ser asumidas por usuarios, aplicaciones o servicios, mientras que los usuarios de IAM tienen credenciales permanentes a largo plazo. Los roles se usan a menudo para aplicaciones y acceso entre cuentas.
 </details>
 
-### Question 27
-**Which AWS service helps detect threats and suspicious activity in your AWS environment?**
+### Pregunta 27
+**¿Qué servicio de AWS ayuda a detectar amenazas y actividad sospechosa en tu entorno de AWS?**
 
-A) AWS CloudWatch
-B) AWS GuardDuty
-C) AWS CloudTrail
-D) AWS Config
+- A) AWS CloudWatch
+- B) AWS GuardDuty
+- C) AWS CloudTrail
+- D) AWS Config
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS GuardDuty is a threat detection service that uses machine learning and threat intelligence to identify malicious activity and unauthorized behavior in your AWS environment.
+**Explicación**: AWS GuardDuty es un servicio de detección de amenazas que usa aprendizaje automático e inteligencia de amenazas para identificar actividad maliciosa y comportamiento no autorizado en tu entorno de AWS.
 </details>
 
-### Question 28
-**What does data encryption "in transit" protect?**
+### Pregunta 28
+**¿Qué protege el cifrado de datos "en tránsito"?**
 
-A) Data stored on hard drives
-B) Data while it's being transmitted over networks
-C) Data in databases
-D) Data in backups
+- A) Datos almacenados en discos duros
+- B) Datos mientras se transmiten a través de redes
+- C) Datos en bases de datos
+- D) Datos en respaldos
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Encryption "in transit" protects data while it's being transmitted over networks (like the internet) between different locations or services, preventing interception during transmission.
+**Explicación**: El cifrado "en tránsito" protege los datos mientras se transmiten a través de redes (como internet) entre diferentes ubicaciones o servicios, previniendo la interceptación durante la transmisión.
 </details>
 
-### Question 29
-**Which compliance framework is AWS certified for that's important for healthcare organizations?**
+### Pregunta 29
+**¿Para qué marco de cumplimiento está certificado AWS que es importante para organizaciones de salud?**
 
-A) SOC 2
-B) HIPAA
-C) PCI DSS
-D) ISO 27001
+- A) SOC 2
+- B) HIPAA
+- C) PCI DSS
+- D) ISO 27001
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: HIPAA (Health Insurance Portability and Accountability Act) is crucial for healthcare organizations handling protected health information (PHI). AWS provides HIPAA-eligible services and BAAs (Business Associate Agreements).
+**Explicación**: HIPAA (Ley de Portabilidad y Responsabilidad del Seguro de Salud) es crucial para organizaciones de salud que manejan información de salud protegida (PHI). AWS proporciona servicios elegibles para HIPAA y BAAs (Acuerdos de Socios Comerciales).
 </details>
 
-### Question 30
-**What is the purpose of AWS Organizations?**
+### Pregunta 30
+**¿Cuál es el propósito de AWS Organizations?**
 
-A) To create IAM users
-B) To centrally manage multiple AWS accounts
-C) To monitor application performance
-D) To encrypt data
+- A) Crear usuarios de IAM
+- B) Gestionar centralmente múltiples cuentas de AWS
+- C) Monitorear el rendimiento de aplicaciones
+- D) Cifrar datos
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Organizations allows you to centrally manage multiple AWS accounts, including billing consolidation, account creation, and applying policies across accounts.
+**Explicación**: AWS Organizations te permite gestionar centralmente múltiples cuentas de AWS, incluyendo consolidación de facturación, creación de cuentas y aplicación de políticas entre cuentas.
 </details>
 
-### Question 31
-**Which AWS service helps ensure your resources comply with company policies and industry standards?**
+### Pregunta 31
+**¿Qué servicio de AWS ayuda a asegurar que tus recursos cumplan con las políticas de la empresa y estándares de la industria?**
 
-A) AWS Config
-B) AWS CloudWatch
-C) AWS S3
-D) AWS EC2
+- A) AWS Config
+- B) AWS CloudWatch
+- C) AWS S3
+- D) AWS EC2
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: A**
+**Respuesta: A**
 
-**Explanation**: AWS Config helps assess, audit, and evaluate the configurations of AWS resources against desired configurations and compliance rules.
+**Explicación**: AWS Config ayuda a evaluar, auditar y evaluar las configuraciones de recursos de AWS contra configuraciones deseadas y reglas de cumplimiento.
 </details>
 
-### Question 32
-**What is the customer's responsibility in the Shared Responsibility Model for Amazon S3?**
+### Pregunta 32
+**¿Cuál es la responsabilidad del cliente en el Modelo de Responsabilidad Compartida para Amazon S3?**
 
-A) Physical security of data centers
-B) Managing bucket policies and object ACLs
-C) Maintaining the S3 service infrastructure
-D) Replacing failed hard drives
+- A) Seguridad física de los centros de datos
+- B) Gestionar políticas de bucket y ACLs de objetos
+- C) Mantener la infraestructura del servicio S3
+- D) Reemplazar discos duros fallidos
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: For S3, customers are responsible for managing bucket policies, object access control lists (ACLs), data encryption settings, and the data itself. AWS handles the infrastructure and service maintenance.
+**Explicación**: Para S3, los clientes son responsables de gestionar políticas de bucket, listas de control de acceso de objetos (ACLs), configuraciones de cifrado de datos y los datos mismos. AWS maneja la infraestructura y mantenimiento del servicio.
 </details>
 
-### Question 33
-**Which of the following is NOT a type of IAM identity?**
+### Pregunta 33
+**¿Cuál de las siguientes NO es un tipo de identidad de IAM?**
 
-A) Users
-B) Groups
-C) Roles
-D) Policies
+- A) Usuarios
+- B) Grupos
+- C) Roles
+- D) Políticas
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: D**
+**Respuesta: D**
 
-**Explanation**: Policies are not identities; they are documents that define permissions. IAM identities include Users, Groups, and Roles. Policies are attached to these identities to grant permissions.
+**Explicación**: Las políticas no son identidades; son documentos que definen permisos. Las identidades de IAM incluyen Usuarios, Grupos y Roles. Las políticas se adjuntan a estas identidades para otorgar permisos.
 </details>
 
-### Question 34
-**What is AWS Certificate Manager (ACM) used for?**
+### Pregunta 34
+**¿Para qué se usa AWS Certificate Manager (ACM)?**
 
-A) Creating IAM users
-B) Managing SSL/TLS certificates
-C) Monitoring network traffic
-D) Creating security groups
+- A) Crear usuarios de IAM
+- B) Gestionar certificados SSL/TLS
+- C) Monitorear tráfico de red
+- D) Crear grupos de seguridad
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS Certificate Manager (ACM) provisions, manages, and deploys SSL/TLS certificates for use with AWS services and internal connected resources.
+**Explicación**: AWS Certificate Manager (ACM) aprovisiona, gestiona y despliega certificados SSL/TLS para uso con servicios de AWS y recursos conectados internos.
 </details>
 
-### Question 35
-**Which AWS service provides a web application firewall?**
+### Pregunta 35
+**¿Qué servicio de AWS proporciona un firewall de aplicaciones web?**
 
-A) AWS Shield
-B) AWS WAF
-C) AWS GuardDuty
-D) AWS Inspector
+- A) AWS Shield
+- B) AWS WAF
+- C) AWS GuardDuty
+- D) AWS Inspector
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: AWS WAF (Web Application Firewall) protects web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources.
+**Explicación**: AWS WAF (Web Application Firewall) protege aplicaciones web de exploits web comunes que podrían afectar la disponibilidad de la aplicación, comprometer la seguridad o consumir recursos excesivos.
 </details>
 
-### Question 36
-**What is the benefit of using AWS IAM roles for EC2 instances?**
+### Pregunta 36
+**¿Cuál es el beneficio de usar roles de AWS IAM para instancias EC2?**
 
-A) They provide better performance
-B) They eliminate the need to store long-term credentials on instances
-C) They are free to use
-D) They provide automatic backups
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: IAM roles for EC2 instances eliminate the need to store long-term AWS credentials on instances. Instead, instances receive temporary credentials that are automatically rotated.
-</details>
-
----
-
-## ⚙️ Domain 3: Cloud Technology & Services (Questions 37-58)
-
-### Question 37
-**What is Amazon EC2?**
-
-A) A database service
-B) A virtual server service in the cloud
-C) A content delivery network
-D) A storage service
+- A) Proporcionan mejor rendimiento
+- B) Eliminan la necesidad de almacenar credenciales a largo plazo en las instancias
+- C) Son gratuitos de usar
+- D) Proporcionan respaldos automáticos
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: Amazon EC2 (Elastic Compute Cloud) provides virtual servers (instances) in the cloud, allowing you to run applications and workloads with scalable computing capacity.
-</details>
-
-### Question 38
-**Which EC2 pricing model offers the lowest cost for fault-tolerant, flexible workloads?**
-
-A) On-Demand Instances
-B) Reserved Instances
-C) Spot Instances
-D) Dedicated Hosts
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Spot Instances offer the lowest cost (up to 90% savings) but can be interrupted by AWS when capacity is needed elsewhere, making them suitable for fault-tolerant and flexible workloads.
-</details>
-
-### Question 39
-**What is Amazon S3 primarily used for?**
-
-A) Running virtual servers
-B) Object storage
-C) Relational databases
-D) Content delivery
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon S3 (Simple Storage Service) is primarily an object storage service that allows you to store and retrieve any amount of data from anywhere on the web.
-</details>
-
-### Question 40
-**Which AWS service is best for running containers without managing servers?**
-
-A) Amazon EC2
-B) AWS Lambda
-C) Amazon ECS with Fargate
-D) Amazon RDS
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon ECS (Elastic Container Service) with AWS Fargate allows you to run containers without managing the underlying servers or clusters.
-</details>
-
-### Question 41
-**What is AWS Lambda?**
-
-A) A virtual private cloud service
-B) A serverless compute service that runs code in response to events
-C) A database service
-D) A monitoring service
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you.
-</details>
-
-### Question 42
-**Which storage class would be most cost-effective for archival data that is rarely accessed?**
-
-A) S3 Standard
-B) S3 Standard-IA
-C) S3 Glacier
-D) S3 One Zone-IA
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: S3 Glacier is designed for long-term archival and backup of data that is rarely accessed, offering the lowest storage costs but with longer retrieval times.
-</details>
-
-### Question 43
-**What is Amazon VPC?**
-
-A) A virtual private cloud that lets you launch AWS resources in an isolated virtual network
-B) A content delivery network
-C) A database service
-D) A monitoring service
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: A**
-
-**Explanation**: Amazon VPC (Virtual Private Cloud) allows you to launch AWS resources into a virtual network that you define, providing complete control over your virtual networking environment.
-</details>
-
-### Question 44
-**Which AWS service provides a fully managed relational database?**
-
-A) Amazon DynamoDB
-B) Amazon RDS
-C) Amazon Redshift
-D) Amazon S3
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon RDS (Relational Database Service) provides fully managed relational databases supporting multiple database engines like MySQL, PostgreSQL, Oracle, and SQL Server.
-</details>
-
-### Question 45
-**What is Amazon CloudFront?**
-
-A) A compute service
-B) A content delivery network (CDN)
-C) A database service
-D) A storage service
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon CloudFront is a content delivery network (CDN) that distributes content to users worldwide with low latency by caching content at edge locations.
-</details>
-
-### Question 46
-**Which AWS service is best for NoSQL databases?**
-
-A) Amazon RDS
-B) Amazon DynamoDB
-C) Amazon Redshift
-D) Amazon Aurora
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
-</details>
-
-### Question 47
-**What is the difference between Amazon EBS and instance store?**
-
-A) EBS is temporary, instance store is persistent
-B) EBS is persistent, instance store is temporary
-C) There is no difference
-D) EBS is faster than instance store
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon EBS (Elastic Block Store) provides persistent block storage that persists beyond the life of an instance, while instance store provides temporary storage that is lost when an instance stops or terminates.
-</details>
-
-### Question 48
-**Which AWS service helps you monitor and collect metrics from AWS resources?**
-
-A) AWS CloudTrail
-B) AWS CloudWatch
-C) AWS Config
-D) AWS Inspector
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon CloudWatch monitors AWS resources and applications, collecting and tracking metrics, monitoring log files, and setting alarms.
-</details>
-
-### Question 49
-**What is Amazon Route 53?**
-
-A) A load balancer
-B) A DNS web service
-C) A content delivery network
-D) A virtual private cloud
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon Route 53 is a scalable DNS (Domain Name System) web service that routes end users to internet applications by translating domain names to IP addresses.
-</details>
-
-### Question 50
-**Which AWS service provides elastic load balancing?**
-
-A) Amazon EC2
-B) Elastic Load Balancing (ELB)
-C) Amazon S3
-D) Amazon VPC
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses.
-</details>
-
-### Question 51
-**What is Amazon Aurora?**
-
-A) A NoSQL database
-B) A MySQL and PostgreSQL-compatible relational database
-C) A data warehouse
-D) A caching service
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, offering performance and availability of commercial databases at a fraction of the cost.
-</details>
-
-### Question 52
-**Which service would you use to send emails from your applications?**
-
-A) Amazon SNS
-B) Amazon SQS
-C) Amazon SES
-D) Amazon Connect
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon SES (Simple Email Service) is a cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails.
-</details>
-
-### Question 53
-**What is the purpose of Amazon SNS?**
-
-A) Email service
-B) Message queuing
-C) Publish-subscribe messaging service
-D) File storage
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: C**
-
-**Explanation**: Amazon SNS (Simple Notification Service) is a publish-subscribe messaging service that enables you to decouple microservices, distributed systems, and serverless applications.
-</details>
-
-### Question 54
-**Which AWS service provides a managed Kubernetes service?**
-
-A) Amazon ECS
-B) Amazon EKS
-C) AWS Fargate
-D) AWS Lambda
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon EKS (Elastic Kubernetes Service) is a managed Kubernetes service that makes it easy to run Kubernetes on AWS without needing to install and operate your own Kubernetes control plane.
-</details>
-
-### Question 55
-**What is Amazon Redshift used for?**
-
-A) Object storage
-B) Data warehousing and analytics
-C) Content delivery
-D) Virtual servers
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon Redshift is a fully managed data warehouse service that makes it simple and cost-effective to analyze data using standard SQL and business intelligence tools.
-</details>
-
-### Question 56
-**Which AWS service helps you migrate databases to AWS?**
-
-A) AWS DataSync
-B) AWS Database Migration Service (DMS)
-C) AWS Storage Gateway
-D) AWS Direct Connect
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: AWS Database Migration Service (DMS) helps you migrate databases to AWS quickly and securely, with the source database remaining fully operational during migration.
-</details>
-
-### Question 57
-**What is Amazon ElastiCache used for?**
-
-A) Content delivery
-B) In-memory caching
-C) File storage
-D) Virtual servers
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: B**
-
-**Explanation**: Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud, supporting Redis and Memcached engines.
-</details>
-
-### Question 58
-**Which AWS service provides API management?**
-
-A) Amazon API Gateway
-B) AWS Lambda
-C) Amazon CloudFront
-D) Amazon Route 53
-
-<details>
-<summary>Click to reveal answer</summary>
-
-**Answer: A**
-
-**Explanation**: Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
+**Explicación**: Los roles de IAM para instancias EC2 eliminan la necesidad de almacenar credenciales de AWS a largo plazo en las instancias. En su lugar, las instancias reciben credenciales temporales que se rotan automáticamente.
 </details>
 
 ---
 
-## 💰 Domain 4: Billing & Support (Questions 59-65)
+## ⚙️ Dominio 3: Tecnología y Servicios en la Nube (Preguntas 37-58)
 
-### Question 59
-**What is the AWS Free Tier?**
+### Pregunta 37
+**¿Qué es Amazon EC2?**
 
-A) All AWS services are free forever
-B) A program that offers free usage of certain AWS services for 12 months and some services that are always free
-C) Only available to students
-D) Only includes storage services
+- A) Un servicio de base de datos
+- B) Un servicio de servidores virtuales en la nube
+- C) Una red de entrega de contenido
+- D) Un servicio de almacenamiento
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: The AWS Free Tier provides free usage of certain AWS services for 12 months from account creation, plus some services that offer always-free usage levels, and trials for other services.
+**Explicación**: Amazon EC2 (Elastic Compute Cloud) proporciona servidores virtuales (instancias) en la nube, permitiéndote ejecutar aplicaciones y cargas de trabajo con capacidad de cómputo escalable.
 </details>
 
-### Question 60
-**Which pricing model requires a 1 or 3-year commitment in exchange for significant cost savings?**
+### Pregunta 38
+**¿Qué modelo de precios de EC2 ofrece el menor costo para cargas de trabajo tolerantes a fallos y flexibles?**
 
-A) On-Demand Instances
-B) Spot Instances
-C) Reserved Instances
-D) Dedicated Hosts
+- A) Instancias On-Demand
+- B) Instancias Reservadas
+- C) Instancias Spot
+- D) Hosts Dedicados
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: C**
 
-**Explanation**: Reserved Instances require a 1 or 3-year commitment in exchange for significant cost savings (up to 75%) compared to On-Demand pricing.
+**Explicación**: Las Instancias Spot ofrecen el menor costo (hasta 90% de ahorro) pero pueden ser interrumpidas por AWS cuando se necesita capacidad en otro lugar, haciéndolas adecuadas para cargas de trabajo tolerantes a fallos y flexibles.
 </details>
 
-### Question 61
-**Which AWS tool helps you estimate the cost of running your workload on AWS?**
+### Pregunta 39
+**¿Para qué se usa principalmente Amazon S3?**
 
-A) AWS Cost Explorer
-B) AWS Pricing Calculator
-C) AWS Budgets
-D) AWS Billing Dashboard
+- A) Ejecutar servidores virtuales
+- B) Almacenamiento de objetos
+- C) Bases de datos relacionales
+- D) Entrega de contenido
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: B**
 
-**Explanation**: The AWS Pricing Calculator helps you estimate the cost of running your workload on AWS by allowing you to configure services and see estimated monthly costs.
+**Explicación**: Amazon S3 (Simple Storage Service) es principalmente un servicio de almacenamiento de objetos que te permite almacenar y recuperar cualquier cantidad de datos desde cualquier lugar en la web.
 </details>
 
-### Question 62
-**What is the purpose of AWS Cost Explorer?**
+### Pregunta 40
+**¿Qué servicio de AWS es mejor para ejecutar contenedores sin gestionar servidores?**
 
-A) To estimate future costs
-B) To visualize and analyze your AWS costs and usage over time
-C) To set up billing alerts
-D) To manage Reserved Instances
+- A) Amazon EC2
+- B) AWS Lambda
+- C) Amazon ECS con Fargate
+- D) Amazon RDS
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: C**
 
-**Explanation**: AWS Cost Explorer provides visualizations and analysis of your AWS costs and usage over time, helping you understand spending patterns and identify cost optimization opportunities.
+**Explicación**: Amazon ECS (Elastic Container Service) con AWS Fargate te permite ejecutar contenedores sin gestionar los servidores o clústeres subyacentes.
 </details>
 
-### Question 63
-**Which support plan provides 24/7 access to Cloud Support Engineers via phone and chat?**
+### Pregunta 41
+**¿Qué es AWS Lambda?**
 
-A) Basic Support
-B) Developer Support
-C) Business Support
-D) All support plans
+- A) Un servicio de nube privada virtual
+- B) Un servicio de cómputo sin servidor que ejecuta código en respuesta a eventos
+- C) Un servicio de base de datos
+- D) Un servicio de monitoreo
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: C**
+**Respuesta: B**
 
-**Explanation**: Business Support and Enterprise Support plans provide 24/7 access to Cloud Support Engineers via phone and chat. Basic and Developer support have more limited access methods and hours.
+**Explicación**: AWS Lambda es un servicio de cómputo sin servidor que ejecuta tu código en respuesta a eventos y gestiona automáticamente los recursos de cómputo subyacentes por ti.
 </details>
 
-### Question 64
-**What is included with AWS Basic Support?**
+### Pregunta 42
+**¿Qué clase de almacenamiento sería más rentable para datos de archivo que rara vez se acceden?**
 
-A) 24/7 phone support
-B) Access to AWS documentation, whitepapers, and support forums
-C) Technical account manager
-D) Less than 1-hour response time for critical issues
+- A) S3 Standard
+- B) S3 Standard-IA
+- C) S3 Glacier
+- D) S3 One Zone-IA
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: C**
 
-**Explanation**: AWS Basic Support (free with all accounts) includes access to documentation, whitepapers, support forums, AWS Trusted Advisor (core checks), and AWS Personal Health Dashboard.
+**Explicación**: S3 Glacier está diseñado para archivo a largo plazo y respaldo de datos que rara vez se acceden, ofreciendo los costos de almacenamiento más bajos pero con tiempos de recuperación más largos.
 </details>
 
-### Question 65
-**Which feature helps you track your AWS costs by organizing resources using labels?**
+### Pregunta 43
+**¿Qué es Amazon VPC?**
 
-A) AWS Organizations
-B) Cost allocation tags
-C) AWS Config
-D) AWS CloudTrail
+- A) Una nube privada virtual que te permite lanzar recursos de AWS en una red virtual aislada
+- B) Una red de entrega de contenido
+- C) Un servicio de base de datos
+- D) Un servicio de monitoreo
 
 <details>
-<summary>Click to reveal answer</summary>
+<summary>Haz clic para revelar la respuesta</summary>
 
-**Answer: B**
+**Respuesta: A**
 
-**Explanation**: Cost allocation tags are labels that you can assign to AWS resources to organize and track costs. They appear in cost reports and help you understand spending by project, department, or other business dimensions.
+**Explicación**: Amazon VPC (Virtual Private Cloud) te permite lanzar recursos de AWS en una red virtual que defines, proporcionando control completo sobre tu entorno de redes virtuales.
+</details>
+
+### Pregunta 44
+**¿Qué servicio de AWS proporciona una base de datos relacional completamente administrada?**
+
+- A) Amazon DynamoDB
+- B) Amazon RDS
+- C) Amazon Redshift
+- D) Amazon S3
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon RDS (Relational Database Service) proporciona bases de datos relacionales completamente administradas que soportan múltiples motores de base de datos como MySQL, PostgreSQL, Oracle y SQL Server.
+</details>
+
+### Pregunta 45
+**¿Qué es Amazon CloudFront?**
+
+- A) Un servicio de cómputo
+- B) Una red de entrega de contenido (CDN)
+- C) Un servicio de base de datos
+- D) Un servicio de almacenamiento
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon CloudFront es una red de entrega de contenido (CDN) que distribuye contenido a usuarios mundialmente con baja latencia almacenando contenido en caché en ubicaciones de borde.
+</details>
+
+### Pregunta 46
+**¿Qué servicio de AWS es mejor para bases de datos NoSQL?**
+
+- A) Amazon RDS
+- B) Amazon DynamoDB
+- C) Amazon Redshift
+- D) Amazon Aurora
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon DynamoDB es un servicio de base de datos NoSQL completamente administrado que proporciona rendimiento rápido y predecible con escalabilidad perfecta.
+</details>
+
+### Pregunta 47
+**¿Cuál es la diferencia entre Amazon EBS y el almacén de instancia?**
+
+- A) EBS es temporal, el almacén de instancia es persistente
+- B) EBS es persistente, el almacén de instancia es temporal
+- C) No hay diferencia
+- D) EBS es más rápido que el almacén de instancia
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon EBS (Elastic Block Store) proporciona almacenamiento de bloques persistente que persiste más allá de la vida de una instancia, mientras que el almacén de instancia proporciona almacenamiento temporal que se pierde cuando una instancia se detiene o termina.
+</details>
+
+### Pregunta 48
+**¿Qué servicio de AWS te ayuda a monitorear y recopilar métricas de recursos de AWS?**
+
+- A) AWS CloudTrail
+- B) AWS CloudWatch
+- C) AWS Config
+- D) AWS Inspector
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon CloudWatch monitorea recursos y aplicaciones de AWS, recopilando y rastreando métricas, monitoreando archivos de registro y configurando alarmas.
+</details>
+
+### Pregunta 49
+**¿Qué es Amazon Route 53?**
+
+- A) Un balanceador de carga
+- B) Un servicio web DNS
+- C) Una red de entrega de contenido
+- D) Una nube privada virtual
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon Route 53 es un servicio web DNS (Sistema de Nombres de Dominio) escalable que enruta usuarios finales a aplicaciones de internet traduciendo nombres de dominio a direcciones IP.
+</details>
+
+### Pregunta 50
+**¿Qué servicio de AWS proporciona balanceador de carga elástico?**
+
+- A) Amazon EC2
+- B) Elastic Load Balancing (ELB)
+- C) Amazon S3
+- D) Amazon VPC
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Elastic Load Balancing (ELB) distribuye automáticamente el tráfico de aplicaciones entrante entre múltiples objetivos, como instancias EC2, contenedores y direcciones IP.
+</details>
+
+### Pregunta 51
+**¿Qué es Amazon Aurora?**
+
+- A) Una base de datos NoSQL
+- B) Una base de datos relacional compatible con MySQL y PostgreSQL
+- C) Un almacén de datos
+- D) Un servicio de caché
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon Aurora es una base de datos relacional compatible con MySQL y PostgreSQL construida para la nube, ofreciendo rendimiento y disponibilidad de bases de datos comerciales a una fracción del costo.
+</details>
+
+### Pregunta 52
+**¿Qué servicio usarías para enviar correos electrónicos desde tus aplicaciones?**
+
+- A) Amazon SNS
+- B) Amazon SQS
+- C) Amazon SES
+- D) Amazon Connect
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Amazon SES (Simple Email Service) es un servicio de envío de correos electrónicos basado en la nube diseñado para ayudar a mercadólogos digitales y desarrolladores de aplicaciones a enviar correos de marketing, notificación y transaccionales.
+</details>
+
+### Pregunta 53
+**¿Cuál es el propósito de Amazon SNS?**
+
+- A) Servicio de correo electrónico
+- B) Cola de mensajes
+- C) Servicio de mensajería de publicación-suscripción
+- D) Almacenamiento de archivos
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Amazon SNS (Simple Notification Service) es un servicio de mensajería de publicación-suscripción que te permite desacoplar microservicios, sistemas distribuidos y aplicaciones sin servidor.
+</details>
+
+### Pregunta 54
+**¿Qué servicio de AWS proporciona un servicio administrado de Kubernetes?**
+
+- A) Amazon ECS
+- B) Amazon EKS
+- C) AWS Fargate
+- D) AWS Lambda
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon EKS (Elastic Kubernetes Service) es un servicio administrado de Kubernetes que facilita ejecutar Kubernetes en AWS sin necesidad de instalar y operar tu propio plano de control de Kubernetes.
+</details>
+
+### Pregunta 55
+**¿Para qué se usa Amazon Redshift?**
+
+- A) Almacenamiento de objetos
+- B) Almacenamiento de datos y análisis
+- C) Entrega de contenido
+- D) Servidores virtuales
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon Redshift es un servicio de almacén de datos completamente administrado que hace simple y rentable analizar datos usando SQL estándar y herramientas de inteligencia de negocios.
+</details>
+
+### Pregunta 56
+**¿Qué servicio de AWS te ayuda a migrar bases de datos a AWS?**
+
+- A) AWS DataSync
+- B) AWS Database Migration Service (DMS)
+- C) AWS Storage Gateway
+- D) AWS Direct Connect
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: AWS Database Migration Service (DMS) te ayuda a migrar bases de datos a AWS de forma rápida y segura, manteniendo la base de datos de origen completamente operacional durante la migración.
+</details>
+
+### Pregunta 57
+**¿Para qué se usa Amazon ElastiCache?**
+
+- A) Entrega de contenido
+- B) Caché en memoria
+- C) Almacenamiento de archivos
+- D) Servidores virtuales
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Amazon ElastiCache es un servicio web que facilita desplegar, operar y escalar una caché en memoria en la nube, soportando motores Redis y Memcached.
+</details>
+
+### Pregunta 58
+**¿Qué servicio de AWS proporciona gestión de API?**
+
+- A) Amazon API Gateway
+- B) AWS Lambda
+- C) Amazon CloudFront
+- D) Amazon Route 53
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: A**
+
+**Explicación**: Amazon API Gateway es un servicio completamente administrado que facilita a los desarrolladores crear, publicar, mantener, monitorear y asegurar APIs a cualquier escala.
 </details>
 
 ---
 
-## 📊 Practice Exam 1 - Answer Key
+## 💰 Dominio 4: Facturación y Soporte (Preguntas 59-65)
 
-### Domain 1: Cloud Concepts (16/16)
+### Pregunta 59
+**¿Qué es el Nivel Gratuito de AWS?**
+
+- A) Todos los servicios de AWS son gratuitos para siempre
+- B) Un programa que ofrece uso gratuito de ciertos servicios de AWS por 12 meses y algunos servicios que siempre son gratuitos
+- C) Solo disponible para estudiantes
+- D) Solo incluye servicios de almacenamiento
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: El Nivel Gratuito de AWS proporciona uso gratuito de ciertos servicios de AWS por 12 meses desde la creación de la cuenta, además de algunos servicios que ofrecen niveles de uso siempre gratuitos, y pruebas para otros servicios.
+</details>
+
+### Pregunta 60
+**¿Qué modelo de precios requiere un compromiso de 1 o 3 años a cambio de ahorros significativos de costos?**
+
+- A) Instancias On-Demand
+- B) Instancias Spot
+- C) Instancias Reservadas
+- D) Hosts Dedicados
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Las Instancias Reservadas requieren un compromiso de 1 o 3 años a cambio de ahorros significativos de costos (hasta 75%) comparado con precios On-Demand.
+</details>
+
+### Pregunta 61
+**¿Qué herramienta de AWS te ayuda a estimar el costo de ejecutar tu carga de trabajo en AWS?**
+
+- A) AWS Cost Explorer
+- B) AWS Pricing Calculator
+- C) AWS Budgets
+- D) AWS Billing Dashboard
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: La Calculadora de Precios de AWS te ayuda a estimar el costo de ejecutar tu carga de trabajo en AWS permitiéndote configurar servicios y ver costos mensuales estimados.
+</details>
+
+### Pregunta 62
+**¿Cuál es el propósito de AWS Cost Explorer?**
+
+- A) Estimar costos futuros
+- B) Visualizar y analizar tus costos y uso de AWS a lo largo del tiempo
+- C) Configurar alertas de facturación
+- D) Gestionar Instancias Reservadas
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: AWS Cost Explorer proporciona visualizaciones y análisis de tus costos y uso de AWS a lo largo del tiempo, ayudándote a entender patrones de gasto e identificar oportunidades de optimización de costos.
+</details>
+
+### Pregunta 63
+**¿Qué plan de soporte proporciona acceso 24/7 a Ingenieros de Soporte en la Nube vía teléfono y chat?**
+
+- A) Soporte Básico
+- B) Soporte para Desarrolladores
+- C) Soporte Empresarial
+- D) Todos los planes de soporte
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: C**
+
+**Explicación**: Los planes de Soporte Empresarial y Soporte Enterprise proporcionan acceso 24/7 a Ingenieros de Soporte en la Nube vía teléfono y chat. El soporte Básico y para Desarrolladores tienen métodos de acceso y horarios más limitados.
+</details>
+
+### Pregunta 64
+**¿Qué está incluido con el Soporte Básico de AWS?**
+
+- A) Soporte telefónico 24/7
+- B) Acceso a documentación de AWS, documentos técnicos y foros de soporte
+- C) Gerente de cuenta técnica
+- D) Tiempo de respuesta menor a 1 hora para problemas críticos
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: El Soporte Básico de AWS (gratuito con todas las cuentas) incluye acceso a documentación, documentos técnicos, foros de soporte, AWS Trusted Advisor (verificaciones básicas) y AWS Personal Health Dashboard.
+</details>
+
+### Pregunta 65
+**¿Qué característica te ayuda a rastrear tus costos de AWS organizando recursos usando etiquetas?**
+
+- A) AWS Organizations
+- B) Etiquetas de asignación de costos
+- C) AWS Config
+- D) AWS CloudTrail
+
+<details>
+<summary>Haz clic para revelar la respuesta</summary>
+
+**Respuesta: B**
+
+**Explicación**: Las etiquetas de asignación de costos son etiquetas que puedes asignar a recursos de AWS para organizar y rastrear costos. Aparecen en reportes de costos y te ayudan a entender el gasto por proyecto, departamento u otras dimensiones de negocio.
+</details>
+
+---
+
+## 📊 Examen de Práctica 1 - Clave de Respuestas
+
+### Dominio 1: Conceptos de la Nube (16/16)
 1. B | 2. C | 3. C | 4. B | 5. B | 6. C | 7. A | 8. B | 9. A,C | 10. B | 11. B | 12. B | 13. B | 14. A | 15. B | 16. C
 
-### Domain 2: Security & Compliance (20/20)
+### Dominio 2: Seguridad y Cumplimiento (20/20)
 17. A | 18. B | 19. C | 20. B | 21. B | 22. B | 23. B | 24. B | 25. B | 26. C | 27. B | 28. B | 29. B | 30. B | 31. A | 32. B | 33. D | 34. B | 35. B | 36. B
 
-### Domain 3: Cloud Technology & Services (22/22)
+### Dominio 3: Tecnología y Servicios en la Nube (22/22)
 37. B | 38. C | 39. B | 40. C | 41. B | 42. C | 43. A | 44. B | 45. B | 46. B | 47. B | 48. B | 49. B | 50. B | 51. B | 52. C | 53. C | 54. B | 55. B | 56. B | 57. B | 58. A
 
-### Domain 4: Billing & Support (7/7)
+### Dominio 4: Facturación y Soporte (7/7)
 59. B | 60. C | 61. B | 62. B | 63. C | 64. B | 65. B
 
 ---
 
-## 🎯 Scoring Guide
+## 🎯 Guía de Puntuación
 
-**Calculate your score:**
-- Count correct answers: ___/65
-- Percentage: (Correct answers ÷ 65) × 100 = ___%
-- **Passing Score**: 70% (46/65 correct)
+**Calcula tu puntuación:**
+- Cuenta las respuestas correctas: ___/65
+- Porcentaje: (Respuestas correctas ÷ 65) × 100 = ___%
+- **Puntuación para Aprobar**: 70% (46/65 correctas)
 
-### 📈 Performance Analysis
+### 📈 Análisis de Rendimiento
 
-**90-100% (59-65 correct)**: Excellent! You're well-prepared for the exam.
-**80-89% (52-58 correct)**: Good performance. Review areas where you missed questions.
-**70-79% (46-51 correct)**: Passing level. Focus on weak domains before taking the real exam.
-**Below 70% (<46 correct)**: More study needed. Review the study materials and retake practice exams.
+**90-100% (59-65 correctas)**: ¡Excelente! Estás bien preparado para el examen.
+**80-89% (52-58 correctas)**: Buen rendimiento. Revisa las áreas donde fallaste preguntas.
+**70-79% (46-51 correctas)**: Nivel de aprobación. Enfócate en dominios débiles antes de tomar el examen real.
+**Menos de 70% (<46 correctas)**: Se necesita más estudio. Revisa los materiales de estudio y retoma los exámenes de práctica.
 
-### 🎯 Next Steps
+### 🎯 Próximos Pasos
 
-**If you scored 80%+:**
-- Take [Practice Exam 2](practice-exam-2.md)
-- Review [Quick Reference Guide](../quick-reference/service-cheatsheet.md)
-- Focus on areas where you missed questions
+**Si obtuviste 80%+:**
+- Toma el [Examen de Práctica 2](practice-exam-2.md)
+- Revisa la [Guía de Referencia Rápida](../quick-reference/service-cheatsheet.md)
+- Enfócate en las áreas donde fallaste preguntas
 
-**If you scored 70-79%:**
-- Review domains where you scored poorly
-- Retake relevant chapter quizzes
-- Take this practice exam again in a few days
+**Si obtuviste 70-79%:**
+- Revisa los dominios donde obtuviste puntuación baja
+- Retoma los quizzes de capítulos relevantes
+- Toma este examen de práctica nuevamente en unos días
 
-**If you scored below 70%:**
-- Go back to the study materials
-- Focus on fundamental concepts
-- Take chapter quizzes before attempting another practice exam
-
----
-
-## 📚 Study Resources
-
-- 🏠 [Main Study Guide](../README.md)
-- 🌩️ [Domain 1: Cloud Concepts](../01-cloud-concepts/README.md)
-- 🔒 [Domain 2: Security & Compliance](../02-security-compliance/README.md)
-- ⚙️ [Domain 3: Technology & Services](../03-technology-services/README.md)
-- 💰 [Domain 4: Billing & Support](../04-billing-support/README.md)
-- 📝 [Practice Exam 2](practice-exam-2.md)
-- 🚀 [Quick Reference](../quick-reference/service-cheatsheet.md)
+**Si obtuviste menos de 70%:**
+- Regresa a los materiales de estudio
+- Enfócate en conceptos fundamentales
+- Toma quizzes de capítulos antes de intentar otro examen de práctica
 
 ---
 
-*Good luck with your continued studies! 🌟*
+## 📚 Recursos de Estudio
+
+- 🏠 [Guía de Estudio Principal](../README.md)
+- 🌩️ [Dominio 1: Conceptos de la Nube](../01-cloud-concepts/README.md)
+- 🔒 [Dominio 2: Seguridad y Cumplimiento](../02-security-compliance/README.md)
+- ⚙️ [Dominio 3: Tecnología y Servicios](../03-technology-services/README.md)
+- 💰 [Dominio 4: Facturación y Soporte](../04-billing-support/README.md)
+- 📝 [Examen de Práctica 2](practice-exam-2.md)
+- 🚀 [Referencia Rápida](../quick-reference/service-cheatsheet.md)
+
+---
+
+*¡Buena suerte con tus estudios continuos! 🌟*
 
 ### Pregunta 6
 **¿Cuál de los siguientes es un beneficio del modelo de responsabilidad compartida de AWS?**
 
-A) AWS es responsable de toda la seguridad
-B) El cliente es responsable de toda la seguridad
-C) AWS asegura la infraestructura, el cliente asegura sus datos y aplicaciones
-D) No hay responsabilidades de seguridad para ninguna de las partes
+- A) AWS es responsable de toda la seguridad
+- B) El cliente es responsable de toda la seguridad
+- C) AWS asegura la infraestructura, el cliente asegura sus datos y aplicaciones
+- D) No hay responsabilidades de seguridad para ninguna de las partes
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1158,10 +1158,10 @@ D) No hay responsabilidades de seguridad para ninguna de las partes
 ### Pregunta 7
 **¿Qué servicio de AWS proporciona una red privada virtual en la nube?**
 
-A) Amazon S3
-B) Amazon VPC
-C) Amazon EC2
-D) Amazon RDS
+- A) Amazon S3
+- B) Amazon VPC
+- C) Amazon EC2
+- D) Amazon RDS
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1174,10 +1174,10 @@ D) Amazon RDS
 ### Pregunta 8
 **¿Cuál es la principal ventaja de usar Amazon CloudFront?**
 
-A) Almacenamiento de bases de datos
-B) Procesamiento de cómputo
-C) Entrega de contenido con baja latencia a nivel global
-D) Gestión de identidades
+- A) Almacenamiento de bases de datos
+- B) Procesamiento de cómputo
+- C) Entrega de contenido con baja latencia a nivel global
+- D) Gestión de identidades
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1194,10 +1194,10 @@ D) Gestión de identidades
 ### Pregunta 9
 **¿Cuál es el propósito principal de AWS IAM?**
 
-A) Monitorear el rendimiento de las aplicaciones
-B) Gestionar identidades y controlar el acceso a recursos de AWS
-C) Proporcionar almacenamiento de archivos
-D) Crear redes virtuales
+- A) Monitorear el rendimiento de las aplicaciones
+- B) Gestionar identidades y controlar el acceso a recursos de AWS
+- C) Proporcionar almacenamiento de archivos
+- D) Crear redes virtuales
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1210,10 +1210,10 @@ D) Crear redes virtuales
 ### Pregunta 10
 **¿Qué es una política de IAM?**
 
-A) Un documento que define permisos para usuarios, grupos o roles
-B) Una configuración de red
-C) Un tipo de instancia EC2
-D) Un método de cifrado
+- A) Un documento que define permisos para usuarios, grupos o roles
+- B) Una configuración de red
+- C) Un tipo de instancia EC2
+- D) Un método de cifrado
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1226,10 +1226,10 @@ D) Un método de cifrado
 ### Pregunta 11
 **¿Cuál es la mejor práctica para la cuenta raíz de AWS?**
 
-A) Usarla para todas las tareas administrativas diarias
-B) Compartir las credenciales con el equipo
-C) Habilitar MFA y usarla solo para tareas que requieren acceso de cuenta raíz
-D) Crear múltiples cuentas raíz para diferentes departamentos
+- A) Usarla para todas las tareas administrativas diarias
+- B) Compartir las credenciales con el equipo
+- C) Habilitar MFA y usarla solo para tareas que requieren acceso de cuenta raíz
+- D) Crear múltiples cuentas raíz para diferentes departamentos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1242,10 +1242,10 @@ D) Crear múltiples cuentas raíz para diferentes departamentos
 ### Pregunta 12
 **¿Qué servicio proporciona protección DDoS administrada para aplicaciones AWS?**
 
-A) AWS WAF
-B) AWS Shield
-C) AWS GuardDuty
-D) AWS Inspector
+- A) AWS WAF
+- B) AWS Shield
+- C) AWS GuardDuty
+- D) AWS Inspector
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1262,10 +1262,10 @@ D) AWS Inspector
 ### Pregunta 13
 **¿Cuál es la diferencia principal entre Amazon S3 y Amazon EBS?**
 
-A) S3 es para almacenamiento de bloques, EBS es para almacenamiento de objetos
-B) S3 es para almacenamiento de objetos, EBS es para almacenamiento de bloques
-C) No hay diferencia, son el mismo servicio
-D) S3 es solo para archivos pequeños, EBS es para archivos grandes
+- A) S3 es para almacenamiento de bloques, EBS es para almacenamiento de objetos
+- B) S3 es para almacenamiento de objetos, EBS es para almacenamiento de bloques
+- C) No hay diferencia, son el mismo servicio
+- D) S3 es solo para archivos pequeños, EBS es para archivos grandes
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1278,10 +1278,10 @@ D) S3 es solo para archivos pequeños, EBS es para archivos grandes
 ### Pregunta 14
 **¿Cuándo sería más apropiado usar AWS Lambda en lugar de Amazon EC2?**
 
-A) Para aplicaciones que requieren servidores dedicados
-B) Para funciones de corta duración activadas por eventos
-C) Para bases de datos relacionales
-D) Para almacenamiento de archivos
+- A) Para aplicaciones que requieren servidores dedicados
+- B) Para funciones de corta duración activadas por eventos
+- C) Para bases de datos relacionales
+- D) Para almacenamiento de archivos
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1294,10 +1294,10 @@ D) Para almacenamiento de archivos
 ### Pregunta 15
 **¿Qué servicio de AWS es mejor para una base de datos NoSQL completamente administrada?**
 
-A) Amazon RDS
-B) Amazon DynamoDB
-C) Amazon Redshift
-D) Amazon Aurora
+- A) Amazon RDS
+- B) Amazon DynamoDB
+- C) Amazon Redshift
+- D) Amazon Aurora
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1314,10 +1314,10 @@ D) Amazon Aurora
 ### Pregunta 16
 **¿Cuál es el beneficio principal de las Instancias Reservadas de Amazon EC2?**
 
-A) Mejor rendimiento que las instancias On-Demand
-B) Ahorros significativos de costos a cambio de un compromiso de 1 o 3 años
-C) Acceso a tipos de instancia exclusivos
-D) Escalado automático incluido
+- A) Mejor rendimiento que las instancias On-Demand
+- B) Ahorros significativos de costos a cambio de un compromiso de 1 o 3 años
+- C) Acceso a tipos de instancia exclusivos
+- D) Escalado automático incluido
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1330,10 +1330,10 @@ D) Escalado automático incluido
 ### Pregunta 17
 **¿Qué incluye el nivel gratuito de AWS?**
 
-A) Uso ilimitado de todos los servicios por 12 meses
-B) Uso limitado de servicios seleccionados por 12 meses, más ofertas siempre gratuitas
-C) Solo servicios de almacenamiento gratuitos
-D) Acceso gratuito solo para estudiantes
+- A) Uso ilimitado de todos los servicios por 12 meses
+- B) Uso limitado de servicios seleccionados por 12 meses, más ofertas siempre gratuitas
+- C) Solo servicios de almacenamiento gratuitos
+- D) Acceso gratuito solo para estudiantes
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
@@ -1346,10 +1346,10 @@ D) Acceso gratuito solo para estudiantes
 ### Pregunta 18
 **¿Qué herramienta ayuda a estimar los costos de AWS antes de implementar recursos?**
 
-A) AWS Cost Explorer
-B) AWS Budgets
-C) AWS Pricing Calculator
-D) AWS Billing Dashboard
+- A) AWS Cost Explorer
+- B) AWS Budgets
+- C) AWS Pricing Calculator
+- D) AWS Billing Dashboard
 
 <details>
 <summary>Haz clic para revelar la respuesta</summary>
