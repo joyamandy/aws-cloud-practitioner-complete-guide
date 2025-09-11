@@ -1,4 +1,4 @@
-# 🚀 AWS Certified Cloud Practitioner - Guía de Estudio Completa
+# 🚀 AWS Certified Cloud Practitioner - Guía de Estudio Completa by Roxs
 
 ![](./00-docs/banner.png)
 
