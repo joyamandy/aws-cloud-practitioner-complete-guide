@@ -298,7 +298,58 @@ AWS-Cloud-Practitioner-Guide/
 
 🎯 **[Preparación Final y Horarios de Estudio →](./final-prep/README.md)**
 
+--- 
+### 🎲 [AWS Skill Builder](https://aws.amazon.com/es/training/digital/aws-cloud-quest/)
+
+¡Descubre el juego Cloud Quest!
+
+Conoce a Cloudie, un agente de servicios en la nube que te guiará a través de aventuras en la nube a medida que aprendes sobre los conceptos clave de AWS. Desafíate a resolver retos y desbloquea habilidades en la nube con Cloud Quest. ¡Carga, explora y juega ahora mismo!
+
+<div align="center">
+  <img src="https://d1.awsstatic.com/training-and-certification/icons/training-badges/CloudQuestBadges_CloudPractitioner_150x150.948fb012456bdb88448a8bcc4012eda4c3a65405.png" alt="Cloud Quest Badge" width="200"/>
+</div>
 ---
+
+### 📚 AWS Cloud Practitioner Essentials
+
+¡Comienza tu viaje con el curso oficial de AWS Cloud Practitioner Essentials!
+
+Este curso fundamental te ayudará a construir una base sólida en los conceptos de AWS Cloud:
+
+| **Aspecto** | **Detalles** |
+|-------------|--------------|
+| **Duración** | 6 horas |
+| **Formato** | Online, a tu ritmo |
+| **Costo** | Gratuito |
+| **Idiomas** | Múltiples idiomas disponibles |
+| **Nivel** | Principiante |
+| **Enlace** | [AWS Skill Builder](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7) |
+
+#### 📋 Contenido del Curso
+- Conceptos básicos de la nube de AWS
+- Arquitectura de AWS
+- Seguridad y cumplimiento
+- Precios y soporte
+- Servicios principales de AWS
+- Casos de uso y ejemplos prácticos
+
+#### ✨ Características
+- Videos instructivos
+- Demostraciones interactivas
+- Evaluaciones de conocimiento
+- Recursos descargables
+- Laboratorios prácticos
+- Certificado de finalización
+
+#### 🎯 Resultados de Aprendizaje
+- Comprender los conceptos fundamentales de AWS Cloud
+- Identificar los servicios principales de AWS
+- Describir el modelo de seguridad y cumplimiento
+- Explicar el modelo de precios y facturación
+- Reconocer la infraestructura global de AWS
+
+---
+
 
 ## 📞 Soporte y Comentarios
 
