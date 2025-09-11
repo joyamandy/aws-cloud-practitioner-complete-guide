@@ -1,5 +1,7 @@
 # 📝 Examen de Práctica 1 - AWS Cloud Practitioner
 
+![](../00-docs/examen1.png)
+
 > **Simula la experiencia del examen real con 65 preguntas cubriendo todos los dominios**
 
 ## 📋 Instrucciones del Examen

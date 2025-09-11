@@ -1,5 +1,7 @@
 # 📝 Examen de Práctica 3 - AWS Cloud Practitioner
 
+![](../00-docs/examen3.png)
+
 > **Simulación de examen final con casos límite desafiantes y escenarios del mundo real**
 
 ## 📋 Instrucciones del Examen

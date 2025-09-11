@@ -2,6 +2,10 @@
 
 ![](./00-docs/banner.png)
 
+<div align="center">
+  <img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/twitter_thumb_201604_image.png" alt="AWS Certified Cloud Practitioner Badge" width="200"/>
+</div>
+
 [![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner-orange?style=flat-square&logo=amazon-aws)](https://aws.amazon.com/certification/certified-cloud-practitioner/)
 [![Study Guide](https://img.shields.io/badge/Study-Guide-blue?style=flat-square&logo=book)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide)
 [![Spanish](https://img.shields.io/badge/Language-Spanish-green?style=flat-square&logo=google-translate)](https://github.com/roxsross/aws-cloud-practitioner-complete-guide)
@@ -326,5 +330,9 @@ AWS-Cloud-Practitioner-Guide/
 - **🐦 Twitter**: [@roxsross](https://twitter.com/roxsross)
 
 ---
+
+<div align="center">
+  <img src="./00-docs/arte.png" alt="AWS Cloud Art" width="600"/>
+</div>
 
 *Última Actualización: Septiembre 2025 | Versión del Examen AWS CLF-C02*

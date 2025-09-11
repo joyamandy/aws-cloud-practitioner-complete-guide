@@ -1,5 +1,7 @@
 # 📝 Examen de Práctica 2 - AWS Cloud Practitioner
 
+![](../00-docs/examen2.png)
+
 > **Examen de práctica avanzado con preguntas basadas en escenarios y casos límite**
 
 ## 📋 Instrucciones del Examen
